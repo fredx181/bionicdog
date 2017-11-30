@@ -890,10 +890,10 @@ Installed-Size: 343
 Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso
 Filename: ./Extra/quick-remaster_1.1.3_all.deb
 Size: 158848
-MD5sum: e1642250436ed1f85e818b8ece822e87
-SHA1: 2c801a9fa6ad725c5591505bcffbcae6361758e7
-SHA256: 37bcfd5c192af62ba6268e78d3058a66687bc38d5feb33a97bad9117993eaa8e
-SHA512: ffdd78a07e08d377b4e45873ab1a367a6f2317ddc8e9327866fa4cbdbf3e24d33c30ccd95b0f0cb66f2961ea80c4973f5b685345cb2fe23491292e6d18fa2181
+MD5sum: ddb6426a260416f03c68ab4a3ee55183
+SHA1: cf3eb39621f6b3e6ac68b045761679c398e1194e
+SHA256: 186d528e88809ca029cc7c111d59b9dc4c05e7a316fb046717763ec4a11402b6
+SHA512: b7e312fc1f87a21267c7ad43195bd5feafc4f8108832c2dd6a34cb64c5c17a48bdce8abb28f120af4069f5560fbb3b0b9d5ad8fe18a468dfc303f2f7e6a6848b
 Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
  Included GUI version using yad: quick-remastergui
  Bug fix: gz compression option not working in previous version 1.0.3
