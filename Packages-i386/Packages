@@ -836,6 +836,22 @@ Description: Reliable network manager
  - Updated Help screen
  - added multi-user support (fredx181)
 
+Package: petconvert2deb
+Architecture: i386
+Version: 1.0.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 32
+Depends: libc6
+Filename: ./Extra/petconvert2deb_1.0.0_i386.deb
+Size: 5486
+MD5sum: 46dbc788daf2551eb5f422c6d0f1c8a0
+SHA1: f83326bfdc1d6fe96489943567054580cd655b00
+SHA256: 3d8b4f46e89dfb4b26d401272f9bde53a2e1809205dc10b05894c2765646f98e
+SHA512: 7867f023e4f9182c29ca3e66436bc20d34544a4b49ddf9b194b1dbca37f5ac1cd3a605197df2b6bee867e551691986361122f37d893ceb7e3925d3e8cec097c2
+Description: Convert .pet to .deb
+
 Package: picdrop
 Architecture: i386
 Version: 1.0.0

@@ -911,6 +911,14 @@ usr/local/bin/peasydvdplayer				    peasy-dvd-player
 usr/local/bin/peasyfwmon				    peasyfwmon
 usr/local/bin/peasyglue					    peasyglue
 usr/local/bin/peasywifi					    PeasyWiFi
+usr/local/bin/pet2deb					    petconvert2deb
+usr/local/bin/pet2deb-convert				    petconvert2deb
+usr/local/bin/pet2deb-dir-convert			    petconvert2deb
+usr/local/bin/pet2debdir				    petconvert2deb
+usr/local/bin/pet2sfs					    petconvert2deb
+usr/local/bin/pet2sfs-convert				    petconvert2deb
+usr/local/bin/pet2sfs-dir-convert			    petconvert2deb
+usr/local/bin/pet2sfsdir				    petconvert2deb
 usr/local/bin/pfilesearch				    pfind
 usr/local/bin/pfind					    pfind
 usr/local/bin/picdrop					    picdrop
@@ -5176,6 +5184,7 @@ usr/share/pixmaps/peasydvd.png				    peasy-dvd-player
 usr/share/pixmaps/peasyglue48.png			    peasyglue
 usr/share/pixmaps/peasywifi-24.png			    PeasyWiFi
 usr/share/pixmaps/peasywifi-48.png			    PeasyWiFi
+usr/share/pixmaps/pet.png				    petconvert2deb
 usr/share/pixmaps/picdrop.png				    picdrop
 usr/share/pixmaps/prefs.png				    jwm-setup
 usr/share/pixmaps/re-fresh.png				    quick-remaster
