@@ -1,15 +1,4 @@
-etc/X11/app-defaults/Chooser				    xdm
 etc/X11/app-defaults/Xvidtune				    x11-xserver-utils
-etc/X11/xdm/Xaccess					    xdm
-etc/X11/xdm/Xreset					    xdm
-etc/X11/xdm/Xresources					    xdm
-etc/X11/xdm/Xservers					    xdm
-etc/X11/xdm/Xsession					    xdm
-etc/X11/xdm/Xsetup					    xdm
-etc/X11/xdm/Xstartup					    xdm
-etc/X11/xdm/Xwilling					    xdm
-etc/X11/xdm/xdm-config					    xdm
-etc/X11/xdm/xdm.options					    xdm
 etc/dhcpcd_dropwait_secs				    frisbee
 etc/dhcpcd_state_notify					    ceni,frisbee
 etc/domycommand/cmd_lists/CMD1_combo			    domycommand
@@ -25,11 +14,7 @@ etc/init.d/frisbee					    frisbee
 etc/init.d/rc.network-start				    PeasyWiFi
 etc/init.d/start-pup-volume-monitor			    pup-volume-monitor
 etc/init.d/start-tzupdate				    tzupdate
-etc/init.d/xdm						    xdm
-etc/insserv.conf.d/xdm					    xdm
-etc/logrotate.d/xdm					    xdm
 etc/mpv/encoding-profiles.conf				    mpv
-etc/pam.d/xdm						    xdm
 etc/pavrecord/.pavrecordrc				    pavrecord
 etc/ppp/chatscripts/gprs-connect-chat			    frisbee
 etc/ppp/chatscripts/gprs-disconnect-chat		    frisbee
@@ -373,7 +358,6 @@ usr/bin/tint2conf					    tint2
 usr/bin/usleep						    pburn
 usr/bin/vercmp						    filemnt-pcmanfm,filemnt-rox
 usr/bin/xcmsdb						    x11-xserver-utils
-usr/bin/xdm						    xdm
 usr/bin/xgamma						    x11-xserver-utils
 usr/bin/xhost						    x11-xserver-utils
 usr/bin/xkeystone					    x11-xserver-utils
@@ -446,8 +430,6 @@ usr/lib/X11/mini-icons/network_tray-xpm/wifieth-both.xpm    ceni,frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-in.xpm	    ceni,frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-none.xpm    ceni,frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-out.xpm	    ceni,frisbee
-usr/lib/X11/xdm/chooser					    xdm
-usr/lib/X11/xdm/libXdmGreet.so				    xdm
 usr/lib/apulse/libpulse-mainloop-glib.so		    apulse
 usr/lib/apulse/libpulse-mainloop-glib.so.0		    apulse
 usr/lib/apulse/libpulse-simple.so			    apulse
@@ -922,7 +904,6 @@ usr/local/bin/mount-wizard				    mount-wizard
 usr/local/bin/mountlink					    bionicdogmountscripts
 usr/local/bin/move-in-crypt				    move-in-crypt
 usr/local/bin/mplayer					    gnome-mplayer-1.0.7
-usr/local/bin/ob-desktop				    xd-desktop-manager
 usr/local/bin/obshutdown				    obshutdown
 usr/local/bin/openbox-menu				    jwm-setup
 usr/local/bin/peasyclock				    peasyclock
@@ -944,8 +925,6 @@ usr/local/bin/remasterdog				    remaster-scripts
 usr/local/bin/remasterdog-start				    remaster-scripts
 usr/local/bin/resize-save				    resize-save-file
 usr/local/bin/scrox					    scrox
-usr/local/bin/setbackdrop				    xd-desktop-manager
-usr/local/bin/setwallpaper				    xd-desktop-manager
 usr/local/bin/start-jwm					    jwm-setup
 usr/local/bin/start-ntpdate				    tzupdate
 usr/local/bin/start-openbox				    jwm-setup
@@ -2718,14 +2697,6 @@ usr/local/lib/i386-linux-gnu/perl/5.24.1/XML/Fast.pm	    youtube-viewer
 usr/local/lib/i386-linux-gnu/perl/5.24.1/auto/LWP/UserAgent/Cached/.packlist youtube-viewer
 usr/local/lib/i386-linux-gnu/perl/5.24.1/perllocal.pod	    youtube-viewer
 usr/local/man						    youtube-viewer
-usr/local/obdesktop/01-tint2d.desktop			    xd-desktop-manager
-usr/local/obdesktop/02-roxd.desktop			    xd-desktop-manager
-usr/local/obdesktop/03-cairoroxd.desktop		    xd-desktop-manager
-usr/local/obdesktop/04-pcmand.desktop			    xd-desktop-manager
-usr/local/obdesktop/icons/cairoroxd.png			    xd-desktop-manager
-usr/local/obdesktop/icons/pcmand.png			    xd-desktop-manager
-usr/local/obdesktop/icons/roxd.png			    xd-desktop-manager
-usr/local/obdesktop/icons/tint2d.png			    xd-desktop-manager
 usr/local/pburn/.gtkrc-2.0				    pburn
 usr/local/pburn/box					    pburn
 usr/local/pburn/box_chooser				    pburn
@@ -2926,12 +2897,6 @@ usr/sbin/dhcpcd_dropwait_option				    frisbee
 usr/sbin/get_modem_alternate_device			    frisbee
 usr/sbin/grub4dosconfig					    grub4dosconfig
 usr/sbin/micro-edit					    desktop-editor
-usr/share/X11/xdm/pixmaps/debian-old.xpm		    xdm
-usr/share/X11/xdm/pixmaps/debian.xpm			    xdm
-usr/share/X11/xdm/pixmaps/debianbw-old.xpm		    xdm
-usr/share/X11/xdm/pixmaps/debianbw.xpm			    xdm
-usr/share/X11/xdm/pixmaps/xorg-bw.xpm			    xdm
-usr/share/X11/xdm/pixmaps/xorg.xpm			    xdm
 usr/share/aclocal/yad.m4				    yad
 usr/share/applications/ Text to SVG_PNG Fancy Text and Logo Generator.desktop txt2svg
 usr/share/applications/Animated Gif on Desktop.desktop	    gifondesktop
@@ -3364,11 +3329,6 @@ usr/share/doc/tint2/html/Configure.html			    tint2
 usr/share/doc/tint2/html/FAQ.html			    tint2
 usr/share/doc/x11-xserver-utils/changelog.gz		    x11-xserver-utils
 usr/share/doc/x11-xserver-utils/copyright		    x11-xserver-utils
-usr/share/doc/xdm/NEWS.Debian.gz			    xdm
-usr/share/doc/xdm/README.Debian				    xdm
-usr/share/doc/xdm/TODO.Debian				    xdm
-usr/share/doc/xdm/changelog.Debian.gz			    xdm
-usr/share/doc/xdm/copyright				    xdm
 usr/share/doc/xvidcap/AUTHORS				    xvidcap
 usr/share/doc/xvidcap/COPYING.gz			    xvidcap
 usr/share/doc/xvidcap/ChangeLog.gz			    xvidcap
@@ -4965,7 +4925,6 @@ usr/share/man/man1/showrgb.1.gz				    x11-xserver-utils
 usr/share/man/man1/tint2.1.gz				    tint2
 usr/share/man/man1/tint2conf.1.gz			    tint2
 usr/share/man/man1/xcmsdb.1.gz				    x11-xserver-utils
-usr/share/man/man1/xdm.1.gz				    xdm
 usr/share/man/man1/xgamma.1.gz				    x11-xserver-utils
 usr/share/man/man1/xhost.1.gz				    x11-xserver-utils
 usr/share/man/man1/xmodmap.1.gz				    x11-xserver-utils
@@ -5001,7 +4960,6 @@ usr/share/man/man3/WWW::YoutubeViewer::Subscriptions.3pm    youtube-viewer
 usr/share/man/man3/WWW::YoutubeViewer::Utils.3pm	    youtube-viewer
 usr/share/man/man3/WWW::YoutubeViewer::VideoCategories.3pm  youtube-viewer
 usr/share/man/man3/WWW::YoutubeViewer::Videos.3pm	    youtube-viewer
-usr/share/man/man5/xdm.options.5.gz			    xdm
 usr/share/man/man8/linux-user-chroot.8.gz		    linux-user-chroot
 usr/share/man/pt/man1/roxterm-config.1.gz		    roxterm-common
 usr/share/man/pt/man1/roxterm.1.gz			    roxterm-common

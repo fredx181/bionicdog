@@ -2438,46 +2438,6 @@ SHA512: 774dc2fc7d858ff7113ba0c66e33cf45eab3ecba3e907b6c1594182cdddf03494cd5a765
 Description: transmission-2.31, a bittorrent client:
  Light version of transmission for XenialDog
 
-Package: xd-desktop-manager
-Architecture: all
-Version: 1.0.0
-Maintainer: fredx181 dog@root.nl
-Installed-Size: 142
-Depends: libc6, yad
-Filename: ./Included/xd-desktop-manager_1.0.0_all.deb
-Size: 222330
-MD5sum: e3ada5ed16e852ce0bc6c86990067264
-SHA1: 4a6a9c02af1bea77e3d1f1029fecc91f1126ba09
-SHA256: df47e0a1369c075c1548183ca5eb82259c5ab656ba870a5b268efd84cafa73c4
-SHA512: e623bf867fa96191379e941d9fba5a0c4ac3ad89edf609778e3095c6faa2c5dd59db66dadf65ea5eab05185f1e6a0fa16a3401f40f8b59c18fd328ae3e2f1e7c
-Description: Choose Desktop mode (openbox only)
-
-Package: xdm
-Architecture: i386
-Version: 2:1.1.11-1ubuntu1
-Priority: optional
-Section: x11
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 808
-Provides: x-display-manager
-Depends: libc6 (>= 2.11), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libx11-6, libxau6, libxaw7, libxdmcp6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxmu6, libxpm4, libxrender1, libxt6, debconf (>= 1.2.9) | debconf-2.0, x11-utils | xbase-clients | xmessage, lsb-base (>= 3.2-14), x11-xserver-utils, procps
-Recommends: cpp
-Filename: ./Included/xdm_1.1.11-1ubuntu1_i386_xendog.deb
-Size: 173076
-MD5sum: 89e7c337f997eeb7e8478290b0e30c5b
-SHA1: d2094172418cc494aab50edc9b39de2a61bdaa1e
-SHA256: 3ffe11aa29cbe9ee7e63f3da2119db761e1936dfb475c23d6ebb7d3c9836e1d7
-SHA512: f88322274360bcccf2eb2b087edf102f3c839d3d9206e3efb48726d2272135b13183d902ce855c03e18ffd0b04f8cc358d77fa1aafd3301beac0707614c5e957
-Description: X display manager
- xdm manages a collection of X servers, which may be on the local host or
- remote machines.  It provides services similar to those provided by init,
- getty, and login on character-based terminals: prompting for login name and
- password, authenticating the user, and running a session.  xdm supports XDMCP
- (X Display Manager Control Protocol) and can also be used to run a chooser
- process which presents the user with a menu of possible hosts that offer
- XDMCP display management.
-
 Package: yad-splash
 Architecture: i386
 Version: 1.0.1
