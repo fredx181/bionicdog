@@ -1,0 +1,8 @@
+Packages-i386/cr-index
+Packages-i386/cr-repo
+Packages-i386/gpg
+Packages-i386/.gnupg
+Packages-amd64/cr-index
+Packages-amd64/cr-repo
+Packages-amd64/.gnupg
+
