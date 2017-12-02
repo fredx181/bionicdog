@@ -1,0 +1,287 @@
+#!/bin/bash
+
+# 2016-10-26 fredx181, suggestions from forum member 'The Flying Cat' incorporated e.g. use /tmp as working dir
+# and fix in case only one initrd is located
+# bugfix 2016-11-25 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just installed
+# 2017-11-25, using live-boot now instead of casper 
+
+export LANG=C
+
+if  [ ! -f /mnt/live/tmp/modules ]; then    # for casper-boot
+# should be exact, parse from /proc/cmdline
+   live_dir=$(grep -o "live-media-path=.*" /proc/cmdline |sed 's: .*::' |sed 's:live-media-path=/::')
+   if [[ -z "$live_dir" ]] ; then
+      live_dir="casper/"
+   fi
+
+BASE="/cdrom/$live_dir"
+
+if ! grep -q " persistent" /proc/cmdline; then
+echo "Not booted with 'persistent' parameter, note well:"
+echo "that the changes should be saved after installing the new kernel"
+echo "press ctrl+c to exit this script, or wait a while to continue anyway"
+sleep 6 
+fi
+
+else    # for porteus-boot
+BASE="$(cat /mnt/live/etc/homedrv)"
+if [ -f /mnt/live/tmp/changes-exit ]; then
+CHANGES=$(cat /proc/cmdline | grep -o "changes=.*" |sed 's| .*||' |sed 's|changes=||' | awk 'BEGIN{FS="EXIT:"} {print $2}')
+else
+CHANGES=$(cat /proc/cmdline | grep -o "changes=.*" |sed 's| .*||' |sed 's|changes=||')
+fi
+	if [[ $CHANGES == "" ]]; then
+echo "Not booted with 'changes=' parameter, note well:"
+echo "that the changes should be saved after installing the new kernel"
+echo "press ctrl+c to exit this script, or wait a while to continue anyway"
+sleep 6 
+	fi
+fi
+
+echo "What this script does is:"
+echo "- Upgrade the kernel (linux-image-generic) that's in use (if there is an update available)"
+echo "- Upgrade the initrd and vmlinuz files inside $BASE"
+echo "(and create backup of the older ones to *.bak)"
+echo "Note: this only works when frugally installed, not from read-only media e.g CD"
+echo "Also, this script assumes that the initrd and vmlinuz files are"
+echo "located in the same folder as the main filesystem.squashfs, e.g. in 'casper'" 
+
+read -sp "Press ENTER to continue "
+clear
+echo
+
+if [ ! -w $BASE ]; then
+echo "Sorry, it seems that $BASE is on read-only media, booting from CD maybe?"
+echo "Cannot write here, exiting..."
+sleep 3
+exit
+fi
+
+if [[ !  $(ls $BASE | grep "vmlinuz") ]]; then
+echo "Sorry, vmlinuz not found, it should be in the same location as the main filesystem.squashfs"
+echo "Cannot continue, exiting..."
+sleep 3
+exit
+fi
+
+# remove pinned linux-image registration from /etc/apt/preferences
+# create backup of /etc/apt/preferences
+cp -af /etc/apt/preferences /etc/apt/preferences.bak
+cp -af /var/lib/synaptic/preferences /var/lib/synaptic/preferences.bak
+echo "Remove pinned entries for package linux-image-*"
+sleep 1 
+sed -i "/^.*"linux-image-$(uname -r)"/,/1001/d" /etc/apt/preferences
+sed -i "/^.*"linux-image-extra-$(uname -r)"/,/1001/d" /etc/apt/preferences
+sed -i "/^.*"linux-image-$(uname -r)"/,/1001/d" /var/lib/synaptic/preferences
+sed -i "/^.*"linux-image-extra-$(uname -r)"/,/1001/d" /var/lib/synaptic/preferences
+sed -i "/^.*"linux-image-generic"/,/1001/d" /etc/apt/preferences
+sed -i "/^.*"linux-image-generic"/,/1001/d" /var/lib/synaptic/preferences
+
+echo OK
+rm -f /var/log/dpkg.log
+echo "Update the package lists . . ."
+apt-get update
+
+rm -f /etc/casper.conf 2> /dev/null # no question asked to replace it or not
+DEBIAN_FRONTEND=noninteractive apt-get -yq --assume-yes install live-boot live-boot-initramfs-tools
+# Activate update-initramfs
+cp -a /usr/sbin/update-initramfs /usr/sbin/update-initramfs.bak     # backup
+#cp -a /usr/sbin/update-initramfs-real /usr/sbin/update-initramfs 2> /dev/null
+VERNEWKERNEL=$(ls /lib/modules | grep "generic" | tail -1)
+VERUNAME=$(uname -r)
+LINUX=$(apt-get -s install linux-image-generic | grep -o "linux-image-.*-generic" | grep -v linux-image-extra | head -1)
+LINUXEXTRA=$(apt-get -s install linux-image-generic | grep -o "linux-image-extra-.*-generic" | grep -v linux-image-generic | head -1)
+if [ -z "$LINUX" ]; then
+VERNEWKERNEL=$(ls -t /var/lib/dpkg/info/*.list | head -n 20 | grep linux-image | grep -v "linux-image-extra\|linux-image-generic" | sed -e "s#/var/lib/dpkg/info/##g;s/\.list$//" | sed -e 's/linux-image-//' | head -n 1)
+echo "Newest kernel version ($VERNEWKERNEL) already installed, exiting . . ."
+mv -f /etc/apt/preferences.bak /etc/apt/preferences
+mv -f /var/lib/synaptic/preferences.bak /var/lib/synaptic/preferences
+# restore update-initramfs
+mv -f /usr/sbin/update-initramfs.bak /usr/sbin/update-initramfs
+sleep 3
+read -s -n 1 -p "Press any key to close . . ."
+exit
+fi
+if [[ "$VERNEWKERNEL" != "$VERUNAME" ]]; then
+echo "Reinstalling..."
+apt-get purge $LINUX $LINUXEXTRA -y --assume-yes
+apt-get install $LINUX $LINUXEXTRA -y --assume-yes | tee /tmp/aptout
+else
+apt-get install $LINUX $LINUXEXTRA -y --assume-yes | tee /tmp/aptout
+fi
+ret=`echo $PIPESTATUS`
+  if [ "$ret" -eq 100 ]; then
+echo -e "\e[0;33mNothing has been installed or something unexpected occurred \nWill restore back to previous state now..\033[0m"
+mv -f /etc/apt/preferences.bak /etc/apt/preferences
+mv -f /var/lib/synaptic/preferences.bak /var/lib/synaptic/preferences
+# restore update-initramfs
+mv -f /usr/sbin/update-initramfs.bak /usr/sbin/update-initramfs
+# ln -sf /usr/share/casper/casper-update-initramfs /usr/sbin/update-initramfs
+sleep 3
+read -s -n 1 -p "Press any key to close . . ."
+exit
+  fi
+if grep -q "is already the newest version" /tmp/aptout; then
+echo Latest version already installed, exiting...
+mv -f /etc/apt/preferences.bak /etc/apt/preferences
+mv -f /var/lib/synaptic/preferences.bak /var/lib/synaptic/preferences
+# restore update-initramfs
+mv -f /usr/sbin/update-initramfs.bak /usr/sbin/update-initramfs
+# ln -sf /usr/share/casper/casper-update-initramfs /usr/sbin/update-initramfs
+rm -f /boot/initrd.img-*
+read -s -n 1 -p "Press any key to close . . ."
+exit
+fi
+
+# remove possibly left-over folder init-work from previous run
+#rm -rf "$BASE"/init-work
+rm -rf /tmp/init-work
+
+mkdir -p /tmp/init-work/lb3
+mkdir -p /tmp/init-work/lb3-new
+mkdir -p /tmp/init-work/pb
+
+##### init work in /tmp/init-work/lb3-new/ #####
+# VERNEWKERNEL=$(ls /lib/modules | grep "generic" | tail -1)
+# improved check for just installed kernel version, maybe can be more simple but this works
+# VERNEWKERNEL=$(ls -t /var/lib/dpkg/info/*.list | head -n 20 | grep linux-image | grep -v "linux-image-extra\|linux-image-generic" | sed -e "s#/var/lib/dpkg/info/##g;s/\.list$//" | sed -e 's/linux-image-//' | head -n 1)
+VERNEWKERNEL=$(grep " install " /var/log/dpkg.log | sort -r |  cut -d " " -sf4 | grep -o "^[^:]*" | grep linux-image | grep -v "linux-image-extra\|linux-image-generic" | head -n 1 | sed -e 's/linux-image-//')
+cp -a /boot/initrd.img-$VERNEWKERNEL /tmp/init-work/lb3-new/initrd.img
+if [ $? -ne 0 ]; then # run update-initramfs in case above failed
+CRYPTSETUP=Y update-initramfs -t -c -k $VERNEWKERNEL
+cp -a /boot/initrd.img-$VERNEWKERNEL /tmp/init-work/lb3-new/initrd.img
+fi
+  if [ $? -ne 0 ]; then
+echo "File /boot/initrd.img-$VERNEWKERNEL not found, cannot continue, exiting..."
+rm -rf /tmp/init-work
+mv -f /etc/apt/preferences.bak /etc/apt/preferences
+mv -f /var/lib/synaptic/preferences.bak /var/lib/synaptic/preferences
+# restore update-initramfs
+mv -f /usr/sbin/update-initramfs.bak /usr/sbin/update-initramfs
+# ln -sf /usr/share/casper/casper-update-initramfs /usr/sbin/update-initramfs
+sleep 3
+read -s -n 1 -p "Press any key to close . . ."
+exit
+  fi
+cd /tmp/init-work/lb3-new/
+zcat initrd.img | cpio -i -d
+# restore update-initramfs
+mv -f /usr/sbin/update-initramfs.bak /usr/sbin/update-initramfs
+# ln -sf /usr/share/casper/casper-update-initramfs /usr/sbin/update-initramfs
+
+
+##### init work in /tmp/init-work/lb3/ #####
+    if [ -e "$BASE"/initrd.lz ]; then
+cp -a "$BASE"/initrd.lz /tmp/init-work/lb3/
+cd /tmp/init-work/lb3/
+xz -dc initrd.lz | cpio -i
+# now remove lib/modules/* and initrd
+rm -fr lib/modules/*
+rm -f initrd.lz
+cp -a ../lb3-new/lib/modules/* lib/modules/
+    fi
+
+
+    if [ -e "$BASE"/initrd1.xz ]; then
+##### init work in /tmp/init-work/pb/ #####
+cp -a "$BASE"/initrd1.xz /tmp/init-work/pb/
+cd /tmp/init-work/pb/
+xz -dc initrd1.xz | cpio -i
+# now remove lib/modules/* and initrd
+rm -fr lib/modules/*
+rm -f initrd1.xz
+cp -a ../lb3-new/lib/modules/* lib/modules/
+    fi
+
+rm -rf /tmp/init-work/lb3-new
+rm -f  /etc/apt/preferences.bak /var/lib/synaptic/preferences.bak
+
+##### create initrd files #####
+echo "Creating initrd.lz and initrd1.xz, xz compressed, please wait . . ."
+cd /tmp/init-work/lb3/
+# initrd.lz
+[ -d /tmp/init-work/lb3/lib/modules ] && find . -print | cpio -o -H newc 2>/dev/null | xz -f --extreme --check=crc32 > ../initrd.lz || echo "Not creating new initrd.lz, original wasn't located in $BASE"
+cd /tmp/init-work/pb/
+# initrd1.xz
+[ -d /tmp/init-work/pb/lib/modules ] && find . -print | cpio -o -H newc 2>/dev/null | xz -f --extreme --check=crc32 > ../initrd1.xz || echo "Not creating new initrd1.xz, original wasn't located in $BASE"
+
+# rename original initrd and vmlinuz files, to .bak (create backups just in case)
+[ -e /tmp/init-work/initrd1.xz ] && mv -f "$BASE"/initrd1.xz "$BASE"/initrd1.xz.bak
+[ -e /tmp/init-work/initrd.lz ] && mv -f "$BASE"/initrd.lz "$BASE"/initrd.lz.bak
+[ -e /boot/vmlinuz-$VERNEWKERNEL ] && mv -f "$BASE"/vmlinuz "$BASE"/vmlinuz.bak
+
+# Move new initrd files to $BASE and copy new vmlinuz to $BASE
+[ -e /tmp/init-work/initrd.lz ] && mv -f /tmp/init-work/initrd.lz "$BASE"/initrd.lz || echo "initrd.lz: Not found"
+[ -e /tmp/init-work/initrd1.xz ] && mv -f /tmp/init-work/initrd1.xz "$BASE"/initrd1.xz || echo "initrd1.xz: Not found"
+cp -af /boot/vmlinuz-$VERNEWKERNEL "$BASE"/vmlinuz || echo "/boot/vmlinuz-$VERNEWKERNEL: Not found"
+
+rm -rf /tmp/init-work
+
+# Pin the new versions of linux-image
+echo "Adding new entries (pin) of linux-image in preferences files..."
+VERSION=$(dpkg -s linux-image-$VERNEWKERNEL | grep "Version:" | awk '{ print $2 }')
+VERSIONEXTRA=$(dpkg -s linux-image-extra-$VERNEWKERNEL | grep "Version:" | awk '{ print $2 }')
+echo '
+
+Package: linux-image-generic
+Pin: version 0.0
+Pin-Priority: 1001
+' >> /etc/apt/preferences
+
+echo '
+
+Package: linux-image-'$VERNEWKERNEL'
+Pin: version '$VERSION'
+Pin-Priority: 1001
+' >> /etc/apt/preferences
+echo '
+
+Package: linux-image-extra-'$VERNEWKERNEL'
+Pin: version '$VERSIONEXTRA'
+Pin-Priority: 1001
+' >> /etc/apt/preferences
+
+echo '
+
+Package: linux-image-generic
+Pin: version 0.0
+Pin-Priority: 1001
+' >> /var/lib/synaptic/preferences
+
+echo '
+
+Package: linux-image-'$VERNEWKERNEL'
+Pin: version '$VERSION'
+Pin-Priority: 1001
+' >> /var/lib/synaptic/preferences
+
+echo '
+
+Package: linux-image-extra-'$VERNEWKERNEL'
+Pin: version '$VERSIONEXTRA'
+Pin-Priority: 1001
+' >> /var/lib/synaptic/preferences
+
+echo "Fixing preferences files... (e.g. required to remove first empty line(s) )"
+# no empty lines allowed at the top of preferences files, delete them
+sed -i '/./,$!d' /etc/apt/preferences 
+sed -i '/./,$!d' /var/lib/synaptic/preferences
+# replace multiple empty lines by one
+sed -i '/^$/N;/^\n$/D' /etc/apt/preferences
+sed -i '/^$/N;/^\n$/D' /var/lib/synaptic/preferences
+
+echo "Make sure the changes will be saved (with the upgraded linux-image-generic package)"
+echo "when doing a reboot booting with the new created files in $BASE"
+rm -f /boot/vmlinuz-$VERNEWKERNEL
+rm -f /boot/initrd.img-$VERNEWKERNEL
+rm -f /vmlinuz
+echo "Removed /boot/vmlinuz-$VERNEWKERNEL and /boot/initrd.img-$VERNEWKERNEL"
+echo "these are not in use on a live system"
+echo
+echo "After reboot, when you run 'uname -a' the new kernel version: $VERNEWKERNEL should show."
+echo "If all is fine, you may want to remove the older (not in use) 'linux-image' packages:"
+echo "apt-get purge linux-image-$(uname -r) && apt-get purge linux-image-extra-$(uname -r)"
+echo
+echo Done
+read -s -n 1 -p "Press any key to close . . ."
+

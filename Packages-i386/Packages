@@ -1086,11 +1086,11 @@ Maintainer: fredx181 dog@root.nl
 Installed-Size: 20
 Depends: libc6, dpkg, xterm, findutils, cpio, xz-utils, gzip, gsu | gksu
 Filename: ./Extra/upgrade-kernel_1.0.2_all.deb
-Size: 10352
-MD5sum: 0754b32dc096f45b6562e76fe829bcd4
-SHA1: f284d98392faa8cfaf845aaea335821cc81c8778
-SHA256: 015b6ab07101c8cebc6289bdd07448bcd5d4e8f6903093969440a485b3f4109d
-SHA512: 65367a76eec0e58d5ddba27fd09be329d249d7cd43ed3d0a257a5098997f8831de6451f9be8240f2110d22bc73d01a9f47ceab1f7b2ba3457f25e52c430b80cc
+Size: 10388
+MD5sum: 0a6440aa23b25ba4920a9a79b6f6544d
+SHA1: 9d470f835e3a8687be6f0f189108bb6d02d6240e
+SHA256: 691d7315ffd506c98a3e2a741bcb385e5ad93e6d1d401257895865b7b746ad14
+SHA512: 27dbd8322dc16f9c29b1665e0bbfd693d7320be630e17c998bda5f67afe2962bcbc812eed0972be51d6d72166f54ab6bcab9840861b4b0430f43d5e5531bc0e6
 Description: Warning - This package works only in XenialDog!
  bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
 
