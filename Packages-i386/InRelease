@@ -9,34 +9,35 @@ Codename: bionic
 Architectures: i386
 Components: main
 Description: BionicDog repository
-Date: Sat, 02 Dec 2017 12:00:05 +0000
+Date: Sun, 03 Dec 2017 10:43:47 +0000
 MD5Sum:
- c3b7aaec84da6c461a04244e05745bb4           114778 Packages
- f12ada23876daa7d60aadcd9ee93018c            42172 Packages.gz
- 2feb3ec754278b7ac53fbaaf62e1d205              186 Release
- f12ada23876daa7d60aadcd9ee93018c            42172 Translation-en.gz
+ 052482ef79356c1f134b6bad72d889f1           114121 Packages
+ da0ef133910ceb579eae67de6412dea2            42930 Packages.gz
+ 025c958bce4da30ca6a9f80d19ed0e17              186 Release
+ da0ef133910ceb579eae67de6412dea2            42930 Translation-en.gz
 SHA1:
- a5d12fa10b4cb6280dd477eacda0794c3739531e           114778 Packages
- 506a9bf92e34e1c6087e372766311359b88ee908            42172 Packages.gz
- 7c7acbb3cd3739d052c2cf99d53feace178bc58c              186 Release
- 506a9bf92e34e1c6087e372766311359b88ee908            42172 Translation-en.gz
+ b7d2f2bd0fa595029ffaeb33e7263aabf262c100           114121 Packages
+ 080229fa4963313158a3c38ec868702e32f56c03            42930 Packages.gz
+ 38156bbeb13dba4ac25947c5794fbfba7d7af6b2              186 Release
+ 080229fa4963313158a3c38ec868702e32f56c03            42930 Translation-en.gz
 SHA256:
- cab484390e387299d4c322ba8de9e5b1b3a5a4aacb8356c76e6dda62301d4648           114778 Packages
- 56639dee6f053e6f8dbe86398e786c79ec4112665a0f6300c3fff17cb253ac05            42172 Packages.gz
- f99f346ef4f12e9bcaa096448304e38a677e33d7d95cb9f0556d9113c91052e2              186 Release
- 56639dee6f053e6f8dbe86398e786c79ec4112665a0f6300c3fff17cb253ac05            42172 Translation-en.gz
+ 2ae61c46537dba634cb3ff3b29b74784fc775861068c7969d2ea8b57cc93a493           114121 Packages
+ 54d82acac91c97f3bf00e0173c47ee83c0d88a4f1e905d2c5e6ebbca8ecbf791            42930 Packages.gz
+ ee8d83390db7b3b20e17f5dfeacc170673766aa6e54c0db680905eef4a9dcc4f              186 Release
+ 54d82acac91c97f3bf00e0173c47ee83c0d88a4f1e905d2c5e6ebbca8ecbf791            42930 Translation-en.gz
 SHA512:
- 1b859db4ac5fff13db951e44b705dcc0be53a80d2a37983ddc7dd54fedede75f0cf428b0082999590b145623251bb9dc0dccdce483010c9833728164631eee6b           114778 Packages
- c745c2304e34419a25f8118ff8af9ebca89268f01217699f6e7f58dc4eb972b3ec6c63963a94aaa6da2217de0a51ebc98f8b99939f238346d17b2b9da212fdc7            42172 Packages.gz
- 09c07cb476b7d8a683a8820bbc5ab87ef34eed42eed87bf514ff22728ca5a3c673c18790bfa92610e227942224a02e96dbebee0eb10c7b17bb8beb6aa370b263              186 Release
- c745c2304e34419a25f8118ff8af9ebca89268f01217699f6e7f58dc4eb972b3ec6c63963a94aaa6da2217de0a51ebc98f8b99939f238346d17b2b9da212fdc7            42172 Translation-en.gz
+ f9bfd4af330072c1f554331eed610f7b2a43425abbb4a53f32e5921113eedfd0dd9d4abf4e873ec8bde35c0b00a76b4a509262d7e2e3e06aec9beb3f371600ab           114121 Packages
+ 4307f4483acb66bbc84fc162f6d326cdf21d8a949afed33ae1c48912b8e9badc47dbaa03d04b4348a5db740bceade946ef57e4662f452361e528d2db04f2c56d            42930 Packages.gz
+ afd8c0c0f3620c86d3a4813e89216cfcba6f3100c3ad74c93dd9e1d67ee0ef8218c90a9486d64fcd37bc37c2b8e9d665a21e6a4ceb258cd34a170eb74f19e374              186 Release
+ 4307f4483acb66bbc84fc162f6d326cdf21d8a949afed33ae1c48912b8e9badc47dbaa03d04b4348a5db740bceade946ef57e4662f452361e528d2db04f2c56d            42930 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEcBAEBCAAGBQJaIpYFAAoJEK2HvHp9cwgdnQQH/AzRrZjwqLvrLtd8MXL4lDcJ
-1/demCc3pJBgWzpY9Ul/RCVVsNt8fmy3LpAXex4r0FcyQ0qJb57zZQjIZbPPIrej
-RiRSJSPtidY54TWXbheE+3VNmUXVZ03ewHCfPnCdZuNYJOyMKRcNZyokHXNDJSRX
-cvPpR31aCS4/n+kH25jFQ18OmLb/vG9v6p8hwXIIGmbbSM7bUrc75wHRCudRjxbL
-spaJF+VO724ttCt+NqY7oWHXhYkZMMIb/albeV8qCasUO9UwfU6OUpBk6cSbjy/p
-RT4HwQ0qnekVvsTAV6esjCqoRJXYO1FB28jxBNF4dY+CCZxuACWYNeT6zjn/LRY=
-=4ajs
+iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAloj1XUACgkQrYe8en1z
+CB2fIwgAgKY2CoHwZXPUKKaoiyjOV5Ga06omjR+PM6RZCXbs3uARTeYajKVba7OM
+Wym93Gh/ku1prAaggGDkxTsnneFDys9F7Kxsm25fUnaBkLcRJcyk4falmkuBEGDR
+FjSLr2lIJU1j9EyNa2ULkox/IWYdg0KN4xCSDsmqmnWHM/Qoc2xbASduFbMDqkjC
+yvqP8X9pbO18CFq1Y1k2VqgT4/sgQzqHiNY5q0arlKd49cpPsnP1cON1Ih4nkA/v
+BOQXgwMjGY1ocC+1Qd1cykbFl6bDdK8uu67gGx99erpCpQnl66VA2B7XZXuP5tzW
+Y29GRINMq/jKl68NvWpYjth+fwF2KA==
+=sl8S
 -----END PGP SIGNATURE-----
