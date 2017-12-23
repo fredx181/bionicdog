@@ -2423,6 +2423,37 @@ SHA256: fefd843677d6d300de380e5d572d60dc143a374dd28e0716c12b801ac616545c
 SHA512: d6b18961cf1871b289cfcf8bf33d53fabc44e8cb90f463479d07be3df7e4b68bfc8853ad41961f61ae112b7e7cb08340b53cf4879a910c1412df659907481559
 Description: Static build of the latest FFmpeg binaries
 
+Package: linux-image-extra-4.14.0-13-generic
+Architecture: i386
+Version: 4.14.0-13.15
+Priority: optional
+Section: kernel
+Source: linux
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 113667
+Depends: linux-image-4.14.0-13-generic, crda | wireless-crda
+Filename: ./Extra/linux-image-extra-4.14.0-13-generic_4.14.0-13.15_i386.deb
+Size: 30954084
+MD5sum: c65b16aeba97fc023635ce44e58751dc
+SHA1: 29e95e00f76397e601cf47f0f590ede0075d53ee
+SHA256: 28a8b7fbeecc36fa6ff4d1bc5da6359dff48edaaa3196562aaead0ccb0975632
+SHA512: 77c0d1655680ee53761ae60e2ce1f08bbd42ee2cbb10b79dc6315bc2bbc0edd9ed74db0bbdee9a6e4a8b8c8437c9ec222b14166c3c19be268fce4a748efdc6d4
+Description: Linux kernel extra modules for version 4.14.0 on 32 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 4.14.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: youtube-get
 Architecture: i386
 Version: 0.1.1
@@ -2523,6 +2554,40 @@ SHA256: 857c5acc720cf64fcc8e3f63112bcf5ad9f51ec4638503cbcbe3dec8e1b94fe1
 SHA512: 01d7e372942ab5b514c08d713e68f3817c914c54b2d2997b0e7257d910591567c39a8f084cc83a1bcd42eef0d955b4bb7aec458d30a825a184c9b8d9fda4659c
 Description: Automatically detect timezone
 
+Package: linux-image-4.14.0-13-generic
+Architecture: i386
+Version: 4.14.0-13.15
+Priority: optional
+Section: kernel
+Source: linux
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 48473
+Provides: aufs-dkms, fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules, virtualbox-guest-modules
+Depends: kmod
+Recommends: grub-pc | grub-efi-ia32 | grub | lilo, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-doc-4.14.0 | linux-source-4.14.0, linux-tools, linux-headers-4.14.0-13-generic
+Filename: ./Extra/linux-image-4.14.0-13-generic_4.14.0-13.15_i386.deb
+Size: 18592464
+MD5sum: 8ea6ecf0f989edf38f6d0e84f09baf86
+SHA1: f5518103d3af8b173b184692b9ee4c090c4bd15c
+SHA256: 88a4dcfc32ba25a7fe1515f9161d6f01d82db21216ee703b8e7ad90e16164b27
+SHA512: a05756991722249391c6044fbd6e064e6bd123eb707b77228ae71def4c9bafa8fcb63f8dac572115409788b9f2ff597adeda7741014e931b715a38411a4eb86d
+Description: Linux kernel image for version 4.14.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 4.14.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: peasyfwmon
 Architecture: i386
 Version: 1.0.1
@@ -2556,6 +2621,26 @@ SHA1: 32ca30a527383a83f62b78e5ec4a8144ea8b55b3
 SHA256: cf807f8bc475dc3681ef6c102d43d5700976d70230c83543f306799a3ff32ea4
 SHA512: e1241b757cf98954c0abe1096aecd8fcf80a9194355916fcd292dbcac80a2ac7802404225b7db476c0ddbb0bf1262f602dff68224b6f5da1c5e5b61f09b94506
 Description: Convert video (or portion of video) to Animated GIF
+
+Package: linux-image-generic
+Architecture: i386
+Version: 4.14.0.13.14
+Priority: optional
+Section: kernel
+Source: linux-meta
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 14
+Depends: linux-image-4.14.0-13-generic, linux-image-extra-4.14.0-13-generic, linux-firmware
+Recommends: thermald
+Filename: ./Extra/linux-image-generic_4.14.0.13.14_i386.deb
+Size: 2292
+MD5sum: 740c84f86fab1755f4290e515666e377
+SHA1: 4ca51c2717d465794c13d5bcaad5e7aac7c92e85
+SHA256: 05a3a5e1c758de244f5370d45976965116d05cfbf9c03edd680b97021541cf69
+SHA512: 4edfed6e6c2ef39ad9cb72e7720be3b1192a30de1865e9472c26b9ddaf1f5e673a039a4f9b5ffdd0bd8b5419965a44f913388bc0617435ce95e46b67c19164dd
+Description: Generic Linux kernel image
+ This package will always depend on the latest generic kernel image
+ available.
 
 Package: picdrop
 Architecture: i386
