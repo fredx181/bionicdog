@@ -1816,6 +1816,26 @@ Description: Curses interface to /etc/network/interfaces
  Ceni can manage basic network interface ifupdown configuration stanzas for
  ethernet and wireless devices.
 
+Package: firefox-apulse
+Architecture: amd64
+Version: 58.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 153000
+Depends: libc6, libgtk-3-0
+Replaces: apulse
+Filename: ./Extra/firefox-apulse_58.0_amd64.deb
+Size: 44617932
+MD5sum: b6cfec471c0cdcc6604a770606395453
+SHA1: 9d201af5b2f2a6e9e6ac15822878d7e989728e49
+SHA256: fcd55d355a81f1447b5b3b26f2cefb5287bf6a87e795fd7269032bc0fd648577
+SHA512: 3f5e0a8c0b37736f33216b5f01065f110dfd3b640619a97b262c762160b65980e05b0ea71f15ca0978a7b681a70f7f861d26ce9b069f4ed94d1a3168191cadae
+Description: Firefox from the beta update channel
+ - Included apulse
+ - This to make sound work by running: apulse /opt/firefox/firefox
+ - No change required in about:config
+
 Package: redshiftgui
 Architecture: amd64
 Version: 0.2.2-ddjessie
