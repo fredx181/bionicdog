@@ -1915,6 +1915,26 @@ SHA256: 68c3bb6af223dfde996149435299aefdc3cb5dc8e4883fa140a418cc2a3a9c8f
 SHA512: 2db06ce89e1bfe7269470f3977efe695ecae9c47c8defde113fafde9494658c9c90bd984235ed7e05ab4477d1f48a6922deaacf813606013dc0e8e5e503f144d
 Description: Create GIF from dancing letters
 
+Package: firefox-apulse
+Architecture: i386
+Version: 1:58.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 153000
+Depends: libc6, libgtk-3-0
+Replaces: apulse
+Filename: ./Extra/firefox-apulse_58.0_i386.deb
+Size: 46293716
+MD5sum: 9b6927903980d066b3580f03ea4dfb46
+SHA1: defdda986d02a1580961d0d8e812591d9a651abb
+SHA256: 5793c0f09d0a249ac4b96f1561879352a4172cdd73fe1b713bf5ff5b66567fab
+SHA512: c021e181b20b79425dd053b8a1c997a08eb0afb48f0d74a73360ddb1474ae1ffbc80dabb31ca339b969ecdd8724cecac2332bf274a2a0485b4eb3d4e81d6c381
+Description: Firefox from the beta update channel
+ - Included apulse
+ - This to make sound work by running: apulse /opt/firefox/firefox
+ - No change required in about:config
+
 Package: oxygen-icon-theme-light
 Architecture: all
 Version: 4:4.14.0-1
