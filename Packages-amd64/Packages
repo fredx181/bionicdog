@@ -1058,6 +1058,22 @@ SHA512: ebb3c8c654b2b94c033506992e02e5b3bace52bfc801e820ea61b48ffa886c5f16cf0d77
 Description: Wireless Network manager
  Fixed refreshing network_tray icon, e.g. when plugging the cable in/out and when connecting to wireless
 
+Package: chpupsocket
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 15
+Depends: libc6
+Filename: ./Included/chpupsocket_1.0.0_amd64.deb
+Size: 2718
+MD5sum: 4baa2faed1d530c523b697539aac00f7
+SHA1: 4a9a28ccb1ffab3c7578f98d81f9d6cebeab4411
+SHA256: cd948a895f999f152329e5b147e8228f5fcd7db73b544bc99eb0a55c5c727ba0
+SHA512: 76ea136d762ea623e35ab496abe7e4281e92f4a2cc5a8a8443685c841f5764e1399e38b0bbde9ef7d91b8b4d735f4f0560107769dd88f345b9d508617858e5f0
+Description: chpupsocket
+
 Package: openbox-keybinder
 Architecture: amd64
 Version: 0.0.1
@@ -1162,6 +1178,23 @@ SHA1: 9347b5a137290c90457259e2cc070890252d9a67
 SHA256: afb05c7d4da9f0fd9e641550cd5fcdcab5b8f8a78cd8894c34c058f291138bfe
 SHA512: 4f0f61db2dbdd53794937b8057638fbf1e3e1c7bc048becfd4bde302dbd4dfcb7cf21c9703873e5eac6c95f6720a001a961e114fe3b9d7931a765961bf694711
 Description: Show drive icons on desktop
+
+Package: transmission-2.60
+Architecture: amd64
+Version: 2.60b
+Maintainer: fredx181 <fredx@nomail.nl>
+Installed-Size: 4327
+Depends: libatk1.0-0, libc6, libcairo2, libcurl4, libevent-2.0-5, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libssl1.0.0, libevent-2.0-5
+Conflicts: transmission, transmission-gtk, transmission-qt, transmission-common
+Replaces: transmission, transmission-gtk, transmission-qt, transmission-common
+Filename: ./Included/transmission-2.60_2.60b_amd64.deb
+Size: 731638
+MD5sum: f733fd3204b7a1084b56402d213b7e0b
+SHA1: 7da635ac2a8330ea0dea61310fd6224acec91065
+SHA256: ace4e19eba402cfc991305ef76452f69fa8fe282b359344d8c55095d8d9ba244
+SHA512: d9947886b7468835c2dbd1d0574f8101d5b48283078ae8f1fc3547855622836a8ae8824b60efd77bb19315299086a95b92c8cc256f6eb103929e9936b5b37676
+Description: transmission-2.60-x86_64, a bittorrent client:
+ Light version of transmission for DebianDog
 
 Package: youtube-get
 Architecture: all
@@ -1498,6 +1531,38 @@ Description: Reliable network manager
  - Updated Help screen
  - added multi-user support (fredx181)
 
+Package: cairo-dock-minimal
+Architecture: amd64
+Version: 3.4.1
+Priority: optional
+Section: graphics
+Source: cairo-dock
+Maintainer: fredx181 <fredx181@nomail.nl>
+Installed-Size: 8328
+Depends: libgldi3 (= 3.4.1-0ubuntu1), libido3-0.1-0, libgnome-menu-3-0 (>= 3.2.0.1), libindicator3-7, libical1a (>= 1.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.4.0), libxml2 (>= 2.7.4)
+Suggests: compiz-plugins, gnome-session
+Conflicts: cairo-dock
+Replaces: cairo-dock-data, cairo-dock-plug-ins-integration, cairo-dock-plug-ins-data, cairo-dock-plug-ins, cairo-dock-plug-ins-dbus-interface-python, cairo-dock, cairo-dock-core
+Filename: ./Extra/cairo-dock-minimal_3.4.1_amd64.deb
+Size: 2323946
+MD5sum: 9bc486916f8c88e29db9b5b915884359
+SHA1: cd470dc1d93b20bf6e905b1ab9ef826825c02601
+SHA256: 7b8196f603790c4918680c741efbe34619c43198b0b16766e08031b174e1458c
+SHA512: f69cf97ce1d4db68f28e1044043ca36ae108b186e19a9d8652a9ed8e1978ddab53c74c38a9332e8f4ddf5f424e2b268a92c17f16463d806b389da02b1541015c
+Homepage: http://www.glx-dock.org/
+Description: Light and eye-candy dock to launch your programs (minimal package)
+ Cairo-Dock is a pretty, light and convenient interface to your desktop,
+  able to replace advantageously your system panel!
+ It features multi-docks, taskbar, launchers and a lot of useful applets.
+ Applets can be detached from the dock to act as desktop widgets.
+ Numerous ready-to-use themes are downloadable in 1 click, and can be easily
+  customized at your convenience.
+ It can use hardware acceleration to be very fast and low on CPU.
+ .
+ Some screenshots are available : http://pics.glx-dock.org
+ Development site: https://launchpad.net/cairo-dock
+ .
+
 Package: libcdio-paranoia1
 Architecture: amd64
 Version: 0.83-4.3+b1
@@ -1697,6 +1762,43 @@ Description: Multi-tabbed GTK+/VTE terminal emulator - GTK2 version
  .
  This package provides the GTK+2 version of the binaries. The roxterm-gtk3
  package provides a GTK+3 version.
+
+Package: libgldi3
+Architecture: amd64
+Version: 3.4.1-0ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: graphics
+Source: cairo-dock
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthieu Baerts (matttbe) <matttbe@ubuntu.com>, Julien Lavergne <julien.lavergne@gmail.com>, Fabrice Rey <fabounet@glx-dock.org>
+Installed-Size: 861
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.10.0), libcurl3-gnutls (>= 7.16.2), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.37.3), libglu1-mesa | libglu1, libgtk-3-0 (>= 3.9.12), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.14.4), libwayland-client0 (>= 1.3.92), libx11-6, libxcomposite1 (>= 1:0.3-1), libxinerama1, libxml2 (>= 2.7.4), libxrandr2 (>= 2:1.2.0), libxrender1, libxtst6
+Recommends: cairo-dock-data (>= 3.4.1-0ubuntu1)
+Conflicts: cairo-dock (<= 2.0.8.0)
+Breaks: cairo-dock-core (<< 3.0.0)
+Replaces: cairo-dock (<= 2.0.8.0), cairo-dock-core (<< 3.0.0)
+Filename: ./Extra/libgldi3_3.4.1-0ubuntu1_amd64.deb
+Size: 304732
+MD5sum: bc9e96eaddfc42440f4ffd26b793be88
+SHA1: ed56f9a8f8d0ec0cee3ebdaf7069cf2d2e4d2042
+SHA256: 0d210846657954236055ae4e2578c056bfc303002ea71ff865462fe68b753b0b
+SHA512: 51f3831db5edde24e17ba34f38f1e7c31e7ccb52910e232c3df5b84c7733192f79a94b9253a876e49faa115c9fbfbcc7319dd1fa83105802c50e23f37f7f9abc
+Homepage: http://www.glx-dock.org/
+Description: Light and eye-candy dock to launch your programs (lib package)
+ Cairo-Dock is a pretty, light and convenient interface to your desktop,
+  able to replace advantageously your system panel!
+ It features multi-docks, taskbar, launchers and a lot of useful applets.
+ Applets can be detached from the dock to act as desktop widgets.
+ Numerous ready-to-use themes are downloadable in 1 click, and can be easily
+  customized at your convenience.
+ It can use hardware acceleration to be very fast and low on CPU.
+ .
+ Some screenshots are available : http://pics.glx-dock.org
+ Development site: https://launchpad.net/cairo-dock
+ .
+ This package contains the library created and used by the Cairo-Dock project.
 
 Package: findnrun-doc
 Architecture: all
@@ -1941,6 +2043,22 @@ SHA256: 8298a9d4151ddf46cc23406aa03ff3ad6353c31b8f4309719b59e3870246f58f
 SHA512: 1697cd482081dc47fc149aaa045a220b632597c100033d3eb2fb46a79b8927beef23ebbc6dfb829415978c05b5fc45a5800bca81c90d5ca78a7ad456c14c38ac
 Description: File system type CLI tool from Puppy linux.
 
+Package: redshiftgui
+Architecture: amd64
+Version: 0.2.3-ddjessie
+Priority: optional
+Section: util
+Maintainer: Mao Yu [maoserr@gmail.com]
+Installed-Size: 1100
+Depends: libcurl4, libxcb-randr0
+Filename: ./Extra/redshiftgui_0.2.3-ddjessie_amd64.deb
+Size: 379676
+MD5sum: 623bba120f47e3c0a62bcfb8db115c44
+SHA1: 6eb33e62734ff3ead5725cd5faaba4721b4caa3f
+SHA256: 89edbf72614cc92fc4a3d9bfd3f1669045ef7bbc9c86cfd1d1a6a2e89a3ac9ba
+SHA512: afe76ea8df8b6e65b3f03b2c674515b57de37d04b516f49707f1a94e7bcfaf75e884b8aebb10a34a8cb59f0cb2fda2809c037a416c3f26915d2e0d0fd7eca68e
+Description: Monitor color adjustment tool.
+
 Package: unzipper
 Architecture: all
 Version: 1.5
@@ -1955,6 +2073,35 @@ SHA1: bca84031528d5ad68b715fda8fccf516b76ed0fb
 SHA256: 6bae72423635d11e292cc1296a6691174c080007d8e58709371d444afd6d3128
 SHA512: 44b1f6f88f414450739e28a1a957c8fd694e2fabde18832f1cec03fa2d44b66a85eddbbb4adabe9f612476fe699b074c3b7ba5961ecd226860ce6334b6964081
 Description: Extract gz, tgz, bz2, xz, zip, 7z archives
+
+Package: libical1a
+Architecture: amd64
+Version: 1.0.1-0ubuntu2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libical
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Fathi Boudra <fabo@debian.org>
+Installed-Size: 638
+Depends: tzdata, libc6 (>= 2.14)
+Breaks: libical1
+Replaces: libical1
+Filename: ./Extra/libical1a_1.0.1-0ubuntu2_amd64.deb
+Size: 164854
+MD5sum: 776738f8c9e61a3d82db867e1be171cc
+SHA1: 5cd7c55ea0f3f9e96b16f1bd1bded9577a22ac26
+SHA256: 8828e2d515d17348b7c50f398744e2a87e5f5fccee8f55ef15dd049d2acbc54f
+SHA512: a8953d90650be15f681014bec286ddd1c6619662e7dc6b6a2e1e015a5a7fd9fac6c108c9560ad3a88806c25984ac67e712d5eb69afa50268c59cd328a544dfd1
+Homepage: http://freeassociation.sourceforge.net
+Description: iCalendar library implementation in C (runtime)
+ libical is an open source implementation of the IETF's iCalendar calendaring
+ and scheduling protocols (RFC 2445, 2446, and 2447). It parses iCal components
+ and provides a C API for manipulating the component properties, parameters,
+ and subcomponents.
+ .
+ This package contains the files necessary for running applications that use
+ the libical library.
 
 Package: grub4dosconfig
 Architecture: amd64
