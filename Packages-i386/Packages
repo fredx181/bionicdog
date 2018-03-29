@@ -1829,6 +1829,35 @@ Description:  findnrun 1.10.6 (documentation)
   Files in this add-on package: larger English help (HTML).
   https://github.com/step-/find-n-run/
 
+Package: libical1a
+Architecture: i386
+Version: 1.0.1-0ubuntu2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libical
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Fathi Boudra <fabo@debian.org>
+Installed-Size: 641
+Depends: tzdata, libc6 (>= 2.7)
+Breaks: libical1
+Replaces: libical1
+Filename: ./Extra/libical1a_1.0.1-0ubuntu2_i386.deb
+Size: 176792
+MD5sum: 98fa8d578e458c724a5015659ef73d96
+SHA1: ae011c9a9698213438f756f52407d71912e7a746
+SHA256: 3de33c0d7db106bc60ace1968ea420ad539c596acb089d2f1bb7f1d5092db134
+SHA512: b6856502fa6f0479e1203d515f9780dbfacb5ab5c42291fda2b30ab646db3d3eea14c0aab8f94d7fabcdec5c1b86365a615190f6257ca8a58b56d028806ace41
+Homepage: http://freeassociation.sourceforge.net
+Description: iCalendar library implementation in C (runtime)
+ libical is an open source implementation of the IETF's iCalendar calendaring
+ and scheduling protocols (RFC 2445, 2446, and 2447). It parses iCal components
+ and provides a C API for manipulating the component properties, parameters,
+ and subcomponents.
+ .
+ This package contains the files necessary for running applications that use
+ the libical library.
+
 Package: txt2svg
 Architecture: i386
 Version: 20170601
@@ -1995,6 +2024,43 @@ SHA1: c92373cdab915b3550966b112a808f31a7d094e4
 SHA256: 832ac48820c29263085d7feb2f35db4c1102f9b5f70ddaf500b98c96b057fb5c
 SHA512: c9215fd290b031892da683246b3394fa8f4a401cdea6f14c9073f99cac64f5d3ce8966d81bbd44ce5190ad166d34623e4a209c6a5dcc4f8cdc48f54021d04977
 Description: weX AV and X11 recorder
+
+Package: libgldi3
+Architecture: i386
+Version: 3.4.1-0ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: graphics
+Source: cairo-dock
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthieu Baerts (matttbe) <matttbe@ubuntu.com>, Julien Lavergne <julien.lavergne@gmail.com>, Fabrice Rey <fabounet@glx-dock.org>
+Installed-Size: 993
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.10.0), libcurl3-gnutls (>= 7.16.2), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.37.3), libglu1-mesa | libglu1, libgtk-3-0 (>= 3.9.12), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.14.4), libwayland-client0 (>= 1.3.92), libx11-6, libxcomposite1 (>= 1:0.3-1), libxinerama1, libxml2 (>= 2.7.4), libxrandr2 (>= 2:1.2.0), libxrender1, libxtst6
+Recommends: cairo-dock-data (>= 3.4.1-0ubuntu1)
+Conflicts: cairo-dock (<= 2.0.8.0)
+Breaks: cairo-dock-core (<< 3.0.0)
+Replaces: cairo-dock (<= 2.0.8.0), cairo-dock-core (<< 3.0.0)
+Filename: ./Extra/libgldi3_3.4.1-0ubuntu1_i386.deb
+Size: 331418
+MD5sum: 295638a255324d56af6c33351bdae0c1
+SHA1: 4bb769f328a7398f45eaf94672a24a5e1dad7176
+SHA256: 892bc52c79778824825e86c971e20e80886a70349f6d7fb9305c3dd6815b041c
+SHA512: a576ce6cc31304ca69932573b6008ed61930efc8541b8edfe70bf5ddc68c737904702baa69321157b7685dc787417b91eb61c247d220d8323268ffeb4602aec0
+Homepage: http://www.glx-dock.org/
+Description: Light and eye-candy dock to launch your programs (lib package)
+ Cairo-Dock is a pretty, light and convenient interface to your desktop,
+  able to replace advantageously your system panel!
+ It features multi-docks, taskbar, launchers and a lot of useful applets.
+ Applets can be detached from the dock to act as desktop widgets.
+ Numerous ready-to-use themes are downloadable in 1 click, and can be easily
+  customized at your convenience.
+ It can use hardware acceleration to be very fast and low on CPU.
+ .
+ Some screenshots are available : http://pics.glx-dock.org
+ Development site: https://launchpad.net/cairo-dock
+ .
+ This package contains the library created and used by the Cairo-Dock project.
 
 Package: x11-xserver-utils
 Architecture: i386
@@ -2253,6 +2319,40 @@ SHA1: d72167f4f25c584036006173d3c4d886c9c68f9b
 SHA256: 89e5cafa794e0f82487649cee12ddcf4a4e06740781b462ed74fdbf20d424ff6
 SHA512: a12958cdbc0c5c2983b9d3fbfd6719a9b252c1b03a012d2badccab0d5201cad8ee429d1e169b1018f5ec40b8e2277d8b166f0678e5a936ad41478f1fec1c7e77
 Description: gtkdesklet
+
+Package: cairo-dock-minimal
+Architecture: i386
+Version: 3.4.1
+Priority: optional
+Section: graphics
+Source: cairo-dock
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthieu Baerts (matttbe) <matttbe@ubuntu.com>, Julien Lavergne <julien.lavergne@gmail.com>, Fabrice Rey <fabounet@glx-dock.org>
+Installed-Size: 3528
+Depends: libgldi3 (= 3.4.1-0ubuntu1), libido3-0.1-0, libgnome-menu-3-0 (>= 3.2.0.1), libindicator3-7, libical1a (>= 1.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.4.0), libxml2 (>= 2.7.4)
+Suggests: compiz-plugins, gnome-session
+Conflicts: cairo-dock
+Replaces: cairo-dock-data, cairo-dock-plug-ins-integration, cairo-dock-plug-ins-data, cairo-dock-plug-ins, cairo-dock-plug-ins-dbus-interface-python, cairo-dock, cairo-dock-core
+Filename: ./Extra/cairo-dock-minimal_3.4.1_i386.deb
+Size: 2273338
+MD5sum: 09a10ba6fa268a3f348a7043f9a8b938
+SHA1: b76f8ac4e72ad5711af3dac6adf54286608b9af5
+SHA256: 5f12f93e6c0500987a13852556e18c39aec9ec62cd964a920ee996ce58fecd38
+SHA512: 32e9eb143866fc00ded214a80f0a10d6bbb8380463c493bcb280d6852f908a98fe139c439834f551bc61880946a4a1cfdcb7a608fcfa378a1b6c3e26d8925966
+Homepage: http://www.glx-dock.org/
+Description: Light and eye-candy dock to launch your programs (core package)
+ Cairo-Dock is a pretty, light and convenient interface to your desktop,
+  able to replace advantageously your system panel!
+ It features multi-docks, taskbar, launchers and a lot of useful applets.
+ Applets can be detached from the dock to act as desktop widgets.
+ Numerous ready-to-use themes are downloadable in 1 click, and can be easily
+  customized at your convenience.
+ It can use hardware acceleration to be very fast and low on CPU.
+ .
+ Some screenshots are available : http://pics.glx-dock.org
+ Development site: https://launchpad.net/cairo-dock
+ .
+ This package is the core of Cairo-Dock project.
 
 Package: youtube-get2
 Architecture: i386
