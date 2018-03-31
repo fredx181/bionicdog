@@ -181,6 +181,25 @@ SHA256: a49580fda8a497b1655d5ac6d0df96e1cb66c997db574950f908eae520317989
 SHA512: 6063537f23076a5a13665fae0da17858c27bb384a007f6cb735a44c6bded5112991e789490041359c3f42f5b474c6410ed8a0c832480c4f64372b29876a987d9
 Description: pBurn - Burning gui
 
+Package: dogradio
+Architecture: amd64
+Version: 0.0.8b
+Maintainer: fredx181
+Installed-Size: 3100
+Depends: libc6, gtk2-engines-murrine, yad, sed, conky, gnome-mplayer-1.0.6 | gmplayer | mplayer, file, streamripper
+Filename: ./Included/dogradio_0.0.8b_amd64.deb
+Size: 1864678
+MD5sum: 32a3d15599f51e2afb579d23fdc5e234
+SHA1: 2bdc7c1905caa45a92bbedf12816942ef2524d66
+SHA256: 5054209798660219f5298620a9e51e60130cbf10fdddcd364eceea04063efeeb
+SHA512: dd1b5b4b1c02b610f0a568d82abfa083604ceddfb5d9ab8aa72aa698728c1923178949aa13e8d9b9381755a5688891fab47fb9c9d42b17a5af934b2f8a063552
+Description: Dogradio is a GUI displaying icons for playing radio streams.
+ - Change in v 0.0.5: added option to rip streams (from right-click on tray-icon) 
+ - Using yad for the icons GUI
+ - Easy add/remove radio stream items
+ - Using conky for 'conky ticker', showing metadata
+ (can be enabled/disabled from tray icon menu + other settings)
+
 Package: desktop-editor
 Architecture: all
 Version: 1.0
@@ -619,6 +638,33 @@ SHA1: e25755342f65878514319641ca5bdf7140203dec
 SHA256: c5033ef06e9bc2d752ccb4b54e64bb4eee47b55a7a7150dae90cd2971afb2154
 SHA512: c2613b838775837fb9c43bdb5acb111aa1ca450dd85b3997e95565d165eec91689dd5a12dcc07759a8add2875f96764285ad6ca78eae5d94b0c20899414dcd0c
 Description: Small old(er) version of zenity
+
+Package: yad
+Architecture: amd64
+Version: 1:0.38.2
+Priority: extra
+Section: x11
+Maintainer: fredx181
+Installed-Size: 429
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk2.0-0 (>= 2.24.0), libpango1.0-0 (>= 1.14.0)
+Filename: ./Included/yad_0.38.2_amd64.deb
+Size: 181324
+MD5sum: 9ff1bfa9f35e6806131dd2c2f178446d
+SHA1: 700cc75e2a9078cbd2cb762cd5b1f0a89c0433dd
+SHA256: ec1b1678dc39596ac917245e2fa9f61f2c0b24367c4f6ec04e5959bb1f19f619
+SHA512: 68c573f8cdafc1528688fc51532f6027a6dde9e6a5b7eba9108f98cded7d8807b4a6803eded6610c917f0daf71d5b542f905adc5abcdb2bc949e33a24a992163
+Homepage: http://code.google.com/p/yad/
+Description: Yet Another Dialog - dialogs for shell
+ Yad (yet another dialog) is a fork of Zenity with many improvements, such
+ as custom buttons, additional dialogs, pop-up menu in notification icon
+ and more.
+ .
+ There were two main reasons to make this fork. The first one is to remove
+ dependencies on deprecated libraries, such as libglade and gnome-canvas.
+ And the second one - as for me, Zenity looks like an abandoned project. Its
+ ChangeLog consists of just "bump version to..." and "translation updated" for
+ the long time, but many interesting ideas which are ignored by
+ developers/maintainers were in GNOME Bugzilla.
 
 Package: move-in-crypt
 Architecture: all
