@@ -186,13 +186,13 @@ Architecture: amd64
 Version: 0.0.8b
 Maintainer: fredx181
 Installed-Size: 3100
-Depends: libc6, gtk2-engines-murrine, yad, sed, conky, gnome-mplayer-1.0.6 | gmplayer | mplayer, file, streamripper
+Depends: libc6, gtk2-engines-murrine, yad, sed, conky, gnome-mplayer-1.0.7 | gmplayer | mplayer, file, streamripper
 Filename: ./Included/dogradio_0.0.8b_amd64.deb
-Size: 1864678
-MD5sum: 32a3d15599f51e2afb579d23fdc5e234
-SHA1: 2bdc7c1905caa45a92bbedf12816942ef2524d66
-SHA256: 5054209798660219f5298620a9e51e60130cbf10fdddcd364eceea04063efeeb
-SHA512: dd1b5b4b1c02b610f0a568d82abfa083604ceddfb5d9ab8aa72aa698728c1923178949aa13e8d9b9381755a5688891fab47fb9c9d42b17a5af934b2f8a063552
+Size: 1864726
+MD5sum: 49fa3123feca7e9ab258950d4a0d3c4d
+SHA1: 7b995d4951f9b172abab559a79121c5357ff32ce
+SHA256: b8498262ef5704296dd3bbea207f50721f5786283869b4cee5894e80f4b230b3
+SHA512: 9203a27af8e3c7db6b1855cade39a1e7b846498dcfaad1bdaec18c95a3297fcfba65e2565282030dcc31be9b4286bc6b27a051cf729a8b0d4aedccbc690ec641
 Description: Dogradio is a GUI displaying icons for playing radio streams.
  - Change in v 0.0.5: added option to rip streams (from right-click on tray-icon) 
  - Using yad for the icons GUI
