@@ -5995,7 +5995,11 @@ usr/lib/x86_64-linux-gnu/libva.so.1.3904.0		    libva1
 usr/lib/x86_64-linux-gnu/libvpx.so.1			    libvpx1
 usr/lib/x86_64-linux-gnu/libvpx.so.1.3			    libvpx1
 usr/lib/x86_64-linux-gnu/libvpx.so.1.3.0		    libvpx1
+usr/lib/x86_64-linux-gnu/libvpx.so.4			    libvpx4
+usr/lib/x86_64-linux-gnu/libvpx.so.4.1			    libvpx4
+usr/lib/x86_64-linux-gnu/libvpx.so.4.1.0		    libvpx4
 usr/lib/x86_64-linux-gnu/libx264.so.122			    libx264-122
+usr/lib/x86_64-linux-gnu/libx264.so.148			    libx264-148
 usr/lib/x86_64-linux-gnu/ssl/engines/lib4758cca.so	    libssl0.9.8
 usr/lib/x86_64-linux-gnu/ssl/engines/libaep.so		    libssl0.9.8
 usr/lib/x86_64-linux-gnu/ssl/engines/libatalla.so	    libssl0.9.8
@@ -6006,6 +6010,7 @@ usr/lib/x86_64-linux-gnu/ssl/engines/libgmp.so		    libssl0.9.8
 usr/lib/x86_64-linux-gnu/ssl/engines/libnuron.so	    libssl0.9.8
 usr/lib/x86_64-linux-gnu/ssl/engines/libsureware.so	    libssl0.9.8
 usr/lib/x86_64-linux-gnu/ssl/engines/libubsec.so	    libssl0.9.8
+usr/lib/x86_64-linux-gnu/x264-10bit/libx264.so.148	    libx264-148
 usr/lib64/evince/3/backends/comicsdocument.evince-backend   evince
 usr/lib64/evince/3/backends/djvudocument.evince-backend	    evince
 usr/lib64/evince/3/backends/libcomicsdocument.la	    evince
@@ -9210,9 +9215,15 @@ usr/share/doc/libvpx1/AUTHORS				    libvpx1
 usr/share/doc/libvpx1/README.gz				    libvpx1
 usr/share/doc/libvpx1/changelog.Debian.gz		    libvpx1
 usr/share/doc/libvpx1/copyright				    libvpx1
+usr/share/doc/libvpx4/AUTHORS.gz			    libvpx4
+usr/share/doc/libvpx4/README.gz				    libvpx4
+usr/share/doc/libvpx4/changelog.Debian.gz		    libvpx4
+usr/share/doc/libvpx4/copyright				    libvpx4
 usr/share/doc/libx264-122/changelog.Debian.gz		    libx264-122
 usr/share/doc/libx264-122/changelog.gz			    libx264-122
 usr/share/doc/libx264-122/copyright			    libx264-122
+usr/share/doc/libx264-148/changelog.Debian.gz		    libx264-148
+usr/share/doc/libx264-148/copyright			    libx264-148
 usr/share/doc/linux-image-4.14.0-13-generic/changelog.Debian.gz linux-image-4.14.0-13-generic
 usr/share/doc/linux-image-4.14.0-13-generic/copyright	    linux-image-4.14.0-13-generic
 usr/share/doc/linux-image-extra-4.14.0-13-generic/changelog.Debian.gz linux-image-extra-4.14.0-13-generic

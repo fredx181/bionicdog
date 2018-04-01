@@ -2089,6 +2089,30 @@ SHA256: 8298a9d4151ddf46cc23406aa03ff3ad6353c31b8f4309719b59e3870246f58f
 SHA512: 1697cd482081dc47fc149aaa045a220b632597c100033d3eb2fb46a79b8927beef23ebbc6dfb829415978c05b5fc45a5800bca81c90d5ca78a7ad456c14c38ac
 Description: File system type CLI tool from Puppy linux.
 
+Package: libx264-148
+Architecture: amd64
+Version: 2:0.148.2643+git5c65704-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: x264
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2259
+Depends: libc6 (>= 2.15)
+Filename: ./Extra/libx264-148_0.148.2643+git5c65704-1_amd64.deb
+Size: 605748
+MD5sum: 455b051676f66e49f3f6c3e919cb9a06
+SHA1: 08cfbee86b320f9cf0cb23896ce38b5c2e363f09
+SHA256: 8f8a61ba1aa8fa14ce6ac54a4ebc28a103eda69750255ba38996de489c0775cd
+SHA512: 87dd19b1960afcf586cddce09bc29391f0cc4271161d4c5ffe6ff68eaaa3194dd0740ce0b65cbe1c25a6972acda8a2f025dbd13c29e67880370376a830f6f27c
+Homepage: http://www.videolan.org/developers/x264.html
+Description: x264 video coding library
+ libx264 is an advanced encoding library for creating H.264 (MPEG-4 AVC)
+ video streams.
+ .
+ This package contains the libx264 shared library.
+
 Package: redshiftgui
 Architecture: amd64
 Version: 0.2.3-ddjessie
@@ -2336,6 +2360,31 @@ SHA1: 453f7a2e5da40ebe9bb64b4abb086c3699cbc72c
 SHA256: 9a30e9bf2184e574d4f8fecc9a7ab1304c8dde92017034e7bea90673be406b2c
 SHA512: a9ef6d8374de0d80cc1cabec7310628c2c10b5fd5d91fd3fb70811a8bc510491eaa635a8ebd0fdb35d61b321f7867a9d0f7b3888cb7a3db5312daf84e42cf105
 Description: Peasy Firewall Monitor
+
+Package: libvpx4
+Architecture: amd64
+Version: 1.6.1-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libvpx
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2312
+Depends: libc6 (>= 2.14)
+Filename: ./Extra/libvpx4_1.6.1-3_amd64.deb
+Size: 763246
+MD5sum: 0db9aa90606ffc39aa04b24ef9cc7b15
+SHA1: 732096f05c331bc8a4e6d385dfff7a1a4ed2117c
+SHA256: 1c439cdfa9044105c64ee3c89cb45f0e5efff8c9a044a04c18e231115155f6b9
+SHA512: 8604b0ade5dcfcd11e317e166d4c0503d393c583cdd5d2e699cf139167b61c371e79baa7aebffd745af31902ac00eb3e72fb6bf28fc66b8a27143d3a1221c16c
+Homepage: http://www.webmproject.org
+Description: VP8 and VP9 video codec (shared library)
+ VP8 and VP9 are open video codecs, originally developed by On2 and released
+ as open source by Google Inc. They are the successor of the VP3 codec,
+ on which the Theora codec was based.
+ .
+ This package contains the shared libraries.
 
 Package: libdirectfb-1.2-9
 Architecture: amd64
