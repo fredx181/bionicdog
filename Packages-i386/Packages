@@ -2848,3 +2848,28 @@ SHA256: 7208c8bd31be977ac881129a5dce38ae1196e56c63245c9d213ad316962d22a0
 SHA512: 71f2b003798f1edafcbe7d8fb262d8fe6f4dd2e5505c1dfa0bb6ac70bcda6c4af1862e0ef8126991a99db1b5e088ce90eccc2e73869a91393b236d5cfee3e676
 Description: Picdrop, resize images, by Terry (sunburnt)
 
+Package: libvpx4
+Architecture: i386
+Version: 1.6.1-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libvpx
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2095
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2)
+Filename: ./Extra/libvpx4_1.6.1-3_i386.deb
+Size: 704904
+MD5sum: a75d5f09f6175d7bca6a2fa496f707aa
+SHA1: 798f904dc9977e1a3b4066273a0b3e9164ef3dcb
+SHA256: 73c516a3397740915be9c4b8843ff89c253c710d9d5604cc2fa7ceea0b2f139e
+SHA512: 145eceff5ffc2bba0cb867e19d181bf2c1e8609bd710599f28165aadda363375e0ca25bcbef7ac27a3eac7e24f6be01092576cdc1495c0d51c79f1455dd9c490
+Homepage: http://www.webmproject.org
+Description: VP8 and VP9 video codec (shared library)
+ VP8 and VP9 are open video codecs, originally developed by On2 and released
+ as open source by Google Inc. They are the successor of the VP3 codec,
+ on which the Theora codec was based.
+ .
+ This package contains the shared libraries.
+

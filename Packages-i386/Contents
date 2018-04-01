@@ -5895,6 +5895,9 @@ usr/lib/i386-linux-gnu/libva-x11.so.1			    libva-x11-1
 usr/lib/i386-linux-gnu/libva-x11.so.1.3904.0		    libva-x11-1
 usr/lib/i386-linux-gnu/libva.so.1			    libva1
 usr/lib/i386-linux-gnu/libva.so.1.3904.0		    libva1
+usr/lib/i386-linux-gnu/libvpx.so.4			    libvpx4
+usr/lib/i386-linux-gnu/libvpx.so.4.1			    libvpx4
+usr/lib/i386-linux-gnu/libvpx.so.4.1.0			    libvpx4
 usr/lib/i386-linux-gnu/ssl/engines/lib4758cca.so	    libssl0.9.8
 usr/lib/i386-linux-gnu/ssl/engines/libaep.so		    libssl0.9.8
 usr/lib/i386-linux-gnu/ssl/engines/libatalla.so		    libssl0.9.8
@@ -9006,6 +9009,10 @@ usr/share/doc/libva-x11-1/copyright			    libva-x11-1
 usr/share/doc/libva1/changelog.Debian.gz		    libva1
 usr/share/doc/libva1/changelog.gz			    libva1
 usr/share/doc/libva1/copyright				    libva1
+usr/share/doc/libvpx4/AUTHORS.gz			    libvpx4
+usr/share/doc/libvpx4/README.gz				    libvpx4
+usr/share/doc/libvpx4/changelog.Debian.gz		    libvpx4
+usr/share/doc/libvpx4/copyright				    libvpx4
 usr/share/doc/linux-image-4.14.0-13-generic/changelog.Debian.gz linux-image-4.14.0-13-generic
 usr/share/doc/linux-image-4.14.0-13-generic/copyright	    linux-image-4.14.0-13-generic
 usr/share/doc/linux-image-extra-4.14.0-13-generic/changelog.Debian.gz linux-image-extra-4.14.0-13-generic
