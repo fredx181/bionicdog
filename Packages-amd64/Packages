@@ -1824,13 +1824,13 @@ Depends: libc6 (>= 2.14), libcairo2 (>= 1.10.0), libcurl3-gnutls (>= 7.16.2), li
 Recommends: cairo-dock-data (>= 3.4.1-0ubuntu1)
 Conflicts: cairo-dock (<= 2.0.8.0)
 Breaks: cairo-dock-core (<< 3.0.0)
-Replaces: cairo-dock (<= 2.0.8.0), cairo-dock-core (<< 3.0.0)
+Replaces: cairo-dock (<= 2.0.8.0), cairo-dock-core
 Filename: ./Extra/libgldi3_3.4.1-0ubuntu1_amd64.deb
-Size: 304732
-MD5sum: bc9e96eaddfc42440f4ffd26b793be88
-SHA1: ed56f9a8f8d0ec0cee3ebdaf7069cf2d2e4d2042
-SHA256: 0d210846657954236055ae4e2578c056bfc303002ea71ff865462fe68b753b0b
-SHA512: 51f3831db5edde24e17ba34f38f1e7c31e7ccb52910e232c3df5b84c7733192f79a94b9253a876e49faa115c9fbfbcc7319dd1fa83105802c50e23f37f7f9abc
+Size: 304828
+MD5sum: a34dcc9b853164a6d352242209f3a282
+SHA1: f2acb1f5d1c4d3955545c8e700fd027fc5327811
+SHA256: e61dbd7f74c4e7cd76e93c93d40e784eaad06d58d5c82d5aca508fca81616f9e
+SHA512: 5179bedf655b679e2467388662fcff2884ced137c8e3ffd7e79db4000e8eadf7339b04715542b704b44d7a0a22a18dd2b639bf84adfef2444e67b52de9bf24f5
 Homepage: http://www.glx-dock.org/
 Description: Light and eye-candy dock to launch your programs (lib package)
  Cairo-Dock is a pretty, light and convenient interface to your desktop,
