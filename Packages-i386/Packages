@@ -1383,6 +1383,22 @@ SHA256: ee2043366b5a1c957dd11436e6aecf33d99f85d12eb7a402f6d21dbd4a154a97
 SHA512: 6f196e8f87d4e393dda2cc469e97704e129f5ad34b2341d7aac623ee68ab5991d5cb85c7196fa9d3493e37e879ce812210e5ebab26748aae7d12b054ccd0259c
 Description: Advanced text editor
 
+Package: yradio
+Architecture: i386
+Version: 0.0.5
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.34.0), gnome-mplayer-1.0.7 | gmplayer, xdotool
+Filename: ./Extra/yradio_0.0.5_i386.deb
+Size: 193278
+MD5sum: 1c03e437d58151c8051d55cf4e293778
+SHA1: 0c6c78ff80e3b019dd1daae486aba5266715cc9b
+SHA256: bc421c06f90f5fb7a4bdc6b71e4b7dfe470fd43620ee302b1f2c98b43f873dd0
+SHA512: 61a1d80fca14eda6058a800f76a9f1d7499231b3266e4877c9bd1ff75413ae3042cb603b60269e87fb1c98a8c9c0bd13418f70ead72edf4009dfb5e82b7967d2
+Description: Internet Radio Player
+
 Package: libva1
 Architecture: i386
 Version: 1.7.3-2
