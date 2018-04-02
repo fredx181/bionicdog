@@ -2418,13 +2418,13 @@ Installed-Size: 3528
 Depends: libgldi3 (= 3.4.1-0ubuntu1), libido3-0.1-0, libgnome-menu-3-0 (>= 3.2.0.1), libindicator3-7, libical1a (>= 1.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.4.0), libxml2 (>= 2.7.4)
 Suggests: compiz-plugins, gnome-session
 Conflicts: cairo-dock
-Replaces: cairo-dock-data, cairo-dock-plug-ins-integration, cairo-dock-plug-ins-data, cairo-dock-plug-ins, cairo-dock-plug-ins-dbus-interface-python, cairo-dock, cairo-dock-core
+Replaces: cairo-dock-data, cairo-dock-plug-ins-integration, cairo-dock-plug-ins-data, cairo-dock-plug-ins, cairo-dock-plug-ins-dbus-interface-python, cairo-dock, cairo-dock-core, cairo-dock-rendering-plug-in, cairo-dock-alsamixer-plug-in, cairo-dock-animated-icons-plug-in, cairo-dock-cairo-penguin-plug-in, cairo-dock-clipper-plug-in, cairo-dock-clock-plug-in, cairo-dock-dbus-plug-in, cairo-dock-desklet-rendering-plug-in, cairo-dock-dialog-rendering-plug-in, cairo-dock-gmenu-plug-in, cairo-dock-icon-effect-plug-in, cairo-dock-illusion-plug-in, cairo-dock-stack-plug-in, cairo-dock-switcher-plug-in, cairo-dock-systray-plug-in, cairo-dock-terminal-plug-in, cairo-dock-xfce-integration-plug-in, cairo-dock-showdesktop-plug-in
 Filename: ./Extra/cairo-dock-minimal_3.4.1_i386.deb
-Size: 2273338
-MD5sum: 09a10ba6fa268a3f348a7043f9a8b938
-SHA1: b76f8ac4e72ad5711af3dac6adf54286608b9af5
-SHA256: 5f12f93e6c0500987a13852556e18c39aec9ec62cd964a920ee996ce58fecd38
-SHA512: 32e9eb143866fc00ded214a80f0a10d6bbb8380463c493bcb280d6852f908a98fe139c439834f551bc61880946a4a1cfdcb7a608fcfa378a1b6c3e26d8925966
+Size: 2271822
+MD5sum: 249de5821206d7348c366ece70ff2625
+SHA1: 4ab22ad533de0c0e14d8ad1f2807566025a9e03d
+SHA256: b7a5882ff6ae47bc52665c884d49845c730651aef8afb6c4be5783d1ed9fabfd
+SHA512: 0ef1c8efa72fb59979a0c99c26bd9a5b0d23ed752a0353471abe64aa3349b95c6415e63a94a499c94342e005de0833e70b368f06a2e82781fc16538f5628c07a
 Homepage: http://www.glx-dock.org/
 Description: Light and eye-candy dock to launch your programs (core package)
  Cairo-Dock is a pretty, light and convenient interface to your desktop,

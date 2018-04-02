@@ -9,35 +9,35 @@ Codename: bionic
 Architectures: i386
 Components: main
 Description: BionicDog repository
-Date: Mon, 02 Apr 2018 15:56:52 +0000
+Date: Mon, 02 Apr 2018 17:54:58 +0000
 MD5Sum:
- 4ef95d38cad8d0cff3abbdaaba152b1a           129076 Packages
- f675b45a66305d1b22e8558afaea5525            48032 Packages.gz
- 5581fe3ed0e4d1118dc024b47cec5379              186 Release
- f675b45a66305d1b22e8558afaea5525            48032 Translation-en.gz
+ 0f79eb27ca0f696c971b0ed1a891e0ff           129627 Packages
+ e681063945a271a4e0034e835e74701e            48201 Packages.gz
+ 7dd272d553cd57843f7a0195be1068d1              186 Release
+ e681063945a271a4e0034e835e74701e            48201 Translation-en.gz
 SHA1:
- b9fce65115afbb73dc119c5c9abe22055e47099e           129076 Packages
- 8bdd4d7d577a40e04e0d698ce9bb6303805bc3d3            48032 Packages.gz
- 42fa1944d1908173edb957add7007efa7488b192              186 Release
- 8bdd4d7d577a40e04e0d698ce9bb6303805bc3d3            48032 Translation-en.gz
+ e7eef5ddbafc7892ae9a944262e152f18dd37961           129627 Packages
+ 6a46d2b93271a538c06855d10d34955fa739efdf            48201 Packages.gz
+ 5176075157eaa46909a8437f5ee8c188f9bc7075              186 Release
+ 6a46d2b93271a538c06855d10d34955fa739efdf            48201 Translation-en.gz
 SHA256:
- 6b31101bf3d4e64da10205dcc83290216af4383f79be93bc0a7c7ed7cd687070           129076 Packages
- 402049a8d5e27c29b38de42c88ae6144d4be58d83eecebae67ab715313e2ba35            48032 Packages.gz
- 4fa62f8005852f33b39a374a37e0f175b814c0ad2de16c7d56b9e4c98aa52887              186 Release
- 402049a8d5e27c29b38de42c88ae6144d4be58d83eecebae67ab715313e2ba35            48032 Translation-en.gz
+ f108dec893992ee34c7214c6aa3073b1eb4603daa3600bea26c3402d7f3445fa           129627 Packages
+ 23484aa0b0a845dfe86ff4b4d4a6eaeec5a158a969ca519fe8ab8925947f65a6            48201 Packages.gz
+ 52f91b60b12b6c4f7e5dfd9985bb18e17ef82b863270eeb4a9898f6ee1da0ee3              186 Release
+ 23484aa0b0a845dfe86ff4b4d4a6eaeec5a158a969ca519fe8ab8925947f65a6            48201 Translation-en.gz
 SHA512:
- 7c1faa5f2d8ae5e8d4fab905da417f1d3566b5c373120149372c94157164faf5ebfb3e4843ff6dabf25a7d61e1d5763d7e1bde8199c37e96fec2b6ef5c332e8c           129076 Packages
- 44fcbc73180a7e352e8c73415395163889459490d6b4f6fafc5ba0f90b12c9243d601661a6866051d9555b88298911f0f90ee803777a99a0a1a753769d2357b7            48032 Packages.gz
- 7ca8ae6599715e5301fbf2233074fa61bea2f618ac2566bbff5b7c12be5416346ab10ba40a179b051267247108c2f2f5ebd728df903400c92feffcc03e6957e4              186 Release
- 44fcbc73180a7e352e8c73415395163889459490d6b4f6fafc5ba0f90b12c9243d601661a6866051d9555b88298911f0f90ee803777a99a0a1a753769d2357b7            48032 Translation-en.gz
+ 02f8377d708fb1e730bd6e20de085379f9d74b2aa7aa0bbd335e8c838ad2d375d4d58223e07da2d8e061779e557d4da613681f929fc8844326f356bb6864eeee           129627 Packages
+ 57208e9ea41cd162c4946f2bb87065bf83dfeeb6d17bf4936976ccd0eaa2d9361669d1f31ecfcb276d3b0b121bbb5aa7210be772c2b108de61cbbfa9e77afa4a            48201 Packages.gz
+ d2c8e2fc1be907e2fd92f4b8494f6c5c920ea5a07492035ea5055e63a73c9e5de7798e3e10b6299b5ff7db66e929676c3bde9baac1fc9ee7f2967dcff47e0556              186 Release
+ 57208e9ea41cd162c4946f2bb87065bf83dfeeb6d17bf4936976ccd0eaa2d9361669d1f31ecfcb276d3b0b121bbb5aa7210be772c2b108de61cbbfa9e77afa4a            48201 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlrCUtEACgkQrYe8en1z
-CB3zgQf/fsLieTKJtsdNt3lOtwMEeETUbOSApNA/Dj+w81oCM1esNJWSWMfeFSv+
-OFqmDHY0XqtHDJO/h+JO6cWlwbqMoieA9ZD23Al8ddKjqIwXS/r1+P8xCCH87eg3
-XA7pRziepofLJV3K5nXpQLrjUqgdThqB2DvyAOHhp+Jz1LnPZBL+IZhRvpBlgR+J
-bbH8XmDOi42eakSBcc5V0DiLN9WFThE01jW7Eg9dU4zaNegHXtHC04ZR1Wg+QWvx
-dHt/wcSNEA+EzHSKlCY8TcRmMcCHUB9mBiJHyWqs3HU00LefNMBxNK+MemhqAMqk
-oUyNsJyXjQx9kCtUMqEG8gQUCM+OIQ==
-=v0ZY
+iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlrCboMACgkQrYe8en1z
+CB2UhAgAgOEIPLjjBAx4EOzivzyfCMButndEjODjSH/PHAwcn+lxtfGchocuy2ZN
+ADclXe5V3hyC4dwyfqUxmhI99fUK2hdSiieF1THARZcpAecWgJ/nDU273WalM8PZ
+sYR+LuON54l2jmiA2bFiUQnDQAs+KfR9VnRbgleyAsgsBMlf5txtSvf8zFwBy2g4
+0woxHr9hIVDRrdf/IoR/xWr88PwzqBfAO5/q1xkmLJFFr8SUtXwM8M7dNPpNz+mY
+2DABLRHiBxNeavYSrptquVmOZrXLFGNPGy/4Td+7nxRpZLVMIZsCFWW1mvkJpPtK
+U6L3oxniCSTne6ju+4AiPr3cJm9uMg==
+=Szyr
 -----END PGP SIGNATURE-----
