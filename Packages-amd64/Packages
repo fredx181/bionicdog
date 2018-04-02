@@ -2527,6 +2527,22 @@ SHA256: dc7c25d6928cc4f7d41b698e52a772ab5fd9df765e6a3d729a00beb1ea85d3b5
 SHA512: c0b0fd7ceef3b0a58a2be3b87e66ba3d65526deb8db48b3bf0634b0a3f821f326abeafcd9522347a94df66e9ab05ede08cf0fcee764c409840667271c4b2a169
 Description: Text to SVG/PNG Fancy Text and Logo Generator
 
+Package: yradio
+Architecture: amd64
+Version: 0.0.5
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.34.0), gnome-mplayer-1.0.7 | gmplayer, xdotool
+Filename: ./Extra/yradio_0.0.5_amd64.deb
+Size: 193292
+MD5sum: f77719109ca5a1bd679e637340ad404d
+SHA1: 738dba98509b173b005aea31a2b3ef8e6a3e194d
+SHA256: b267020cdf007cd543510160660c8385a59ad7913656618f1995c72f707c4d0e
+SHA512: 8c70f4756c190cbd39c4d6542b338b7328181d6855bcf68ec1561cd8b02a37b3946b8afac7adfcbb46199feb8b51a5b42f7aebdca4d7cbe29cbcad34ff3ba019
+Description: Internet Radio Player
+
 Package: libva-drm1
 Architecture: amd64
 Version: 1.7.3-2
