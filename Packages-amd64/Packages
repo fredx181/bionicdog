@@ -60,13 +60,13 @@ Installed-Size: 8328
 Depends: libgldi3 (= 3.4.1-0ubuntu1), libido3-0.1-0, libgnome-menu-3-0 (>= 3.2.0.1), libindicator3-7, libical1a (>= 1.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.4.0), libxml2 (>= 2.7.4)
 Suggests: compiz-plugins, gnome-session
 Conflicts: cairo-dock
-Replaces: cairo-dock-data, cairo-dock-plug-ins-integration, cairo-dock-plug-ins-data, cairo-dock-plug-ins, cairo-dock-plug-ins-dbus-interface-python, cairo-dock, cairo-dock-core, cairo-dock-rendering-plug-in, cairo-dock-alsamixer-plug-in
+Replaces: cairo-dock-data, cairo-dock-plug-ins-integration, cairo-dock-plug-ins-data, cairo-dock-plug-ins, cairo-dock-plug-ins-dbus-interface-python, cairo-dock, cairo-dock-core, cairo-dock-rendering-plug-in, cairo-dock-alsamixer-plug-in, cairo-dock-animated-icons-plug-in
 Filename: ./Extra/cairo-dock-minimal_3.4.1_amd64.deb
-Size: 2320788
-MD5sum: 0b7fb9ee1f9cf86607e83c32e035da39
-SHA1: 7fe9a11edfa3bfee3106770183511a9a6354b94c
-SHA256: 6e813c36ae1a8dc8b3a29c0154a91d6210aa660a6be83b2651b587344ce49b63
-SHA512: de505957a44f05ea0d6cc3c4fbd0da661f109813316333ef37589c4d6d7bd1fece50a60e37cf989fa9f1c8039712d1841e98aa0d3c60750c62c08b9a35c9f6ea
+Size: 2320928
+MD5sum: 8853540d04bcdfac319c82719ace61b8
+SHA1: eba4244ba0c5fd1ec7e18acfcdc04c958b24ceda
+SHA256: 178de65fa75bfa600981689538db1f6b9bf906222c4bb3d03c757aa93afa0f06
+SHA512: f3713e8743d558606d189328aabf8e4bdc1cc497d7dfa033315112f8960b54d0e8652184e9b3ca3731dc1d7aeae6f822f61d9b8e382fc0ce619fc2af68cd2c88
 Homepage: http://www.glx-dock.org/
 Description: Light and eye-candy dock to launch your programs (minimal package)
  Cairo-Dock is a pretty, light and convenient interface to your desktop,
