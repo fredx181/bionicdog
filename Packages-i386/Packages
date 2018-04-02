@@ -2124,15 +2124,15 @@ Installed-Size: 993
 Pre-Depends: multiarch-support
 Depends: libc6 (>= 2.7), libcairo2 (>= 1.10.0), libcurl3-gnutls (>= 7.16.2), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.37.3), libglu1-mesa | libglu1, libgtk-3-0 (>= 3.9.12), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.14.4), libwayland-client0 (>= 1.3.92), libx11-6, libxcomposite1 (>= 1:0.3-1), libxinerama1, libxml2 (>= 2.7.4), libxrandr2 (>= 2:1.2.0), libxrender1, libxtst6
 Recommends: cairo-dock-data (>= 3.4.1-0ubuntu1)
-Conflicts: cairo-dock (<= 2.0.8.0), cairo-dock-core
+Conflicts: cairo-dock (<= 2.0.8.0)
 Breaks: cairo-dock-core (<< 3.0.0)
 Replaces: cairo-dock (<= 2.0.8.0), cairo-dock-core
 Filename: ./Extra/libgldi3_3.4.1-0ubuntu1_i386.deb
-Size: 331916
-MD5sum: b36261d90ba3a0f0f767590fe55cf8d6
-SHA1: c2431abf82ce98c613e2b01c7570b2e320b44869
-SHA256: 8aa4926e71cd206f5615cb1d44875a9f33e9a56db46fe8b6fe590e1cab1439f1
-SHA512: 8c02841c429572867ef08fe068880adf2c91ca2b46370a647fa58020eea6092f816f9e68e18046f2241d4e760d9c38e0ed9f8d8c424bd087a8ae8a5767c85df1
+Size: 331428
+MD5sum: feaec23f094c695e4c42751c9147a191
+SHA1: e3302d8f34cce18278ae2730a948ae566dbf693c
+SHA256: 9dd543f310287e42e6c29db81af89e116d7bb8b4df0b4c6dba7faf9208ee5dd3
+SHA512: a30f5e7fa419274a4ec645e6927ede16e1e9aa37ac030312e66be3036391e3af467becb8be4f1016311098f8cc2d2549df20760d8f6f8b86f7c3d5b7cf03cc67
 Homepage: http://www.glx-dock.org/
 Description: Light and eye-candy dock to launch your programs (lib package)
  Cairo-Dock is a pretty, light and convenient interface to your desktop,
