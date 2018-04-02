@@ -60,13 +60,13 @@ Installed-Size: 8328
 Depends: libgldi3 (= 3.4.1-0ubuntu1), libido3-0.1-0, libgnome-menu-3-0 (>= 3.2.0.1), libindicator3-7, libical1a (>= 1.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.4.0), libxml2 (>= 2.7.4)
 Suggests: compiz-plugins, gnome-session
 Conflicts: cairo-dock
-Replaces: cairo-dock-data, cairo-dock-plug-ins-integration, cairo-dock-plug-ins-data, cairo-dock-plug-ins, cairo-dock-plug-ins-dbus-interface-python, cairo-dock, cairo-dock-core, cairo-dock-rendering-plug-in, cairo-dock-alsamixer-plug-in, cairo-dock-animated-icons-plug-in, cairo-dock-cairo-penguin-plug-in, cairo-dock-clipper-plug-in, cairo-dock-clock-plug-in, cairo-dock-dbus-plug-in, cairo-dock-desklet-rendering-plug-in, cairo-dock-dialog-rendering-plug-in, cairo-dock-gmenu-plug-in, cairo-dock-icon-effect-plug-in, cairo-dock-illusion-plug-in, cairo-dock-stack-plug-in, cairo-dock-switcher-plug-in, cairo-dock-systray-plug-in, cairo-dock-terminal-plug-in, cairo-dock-xfce-integration-plug-in
+Replaces: cairo-dock-data, cairo-dock-plug-ins-integration, cairo-dock-plug-ins-data, cairo-dock-plug-ins, cairo-dock-plug-ins-dbus-interface-python, cairo-dock, cairo-dock-core, cairo-dock-rendering-plug-in, cairo-dock-alsamixer-plug-in, cairo-dock-animated-icons-plug-in, cairo-dock-cairo-penguin-plug-in, cairo-dock-clipper-plug-in, cairo-dock-clock-plug-in, cairo-dock-dbus-plug-in, cairo-dock-desklet-rendering-plug-in, cairo-dock-dialog-rendering-plug-in, cairo-dock-gmenu-plug-in, cairo-dock-icon-effect-plug-in, cairo-dock-illusion-plug-in, cairo-dock-stack-plug-in, cairo-dock-switcher-plug-in, cairo-dock-systray-plug-in, cairo-dock-terminal-plug-in, cairo-dock-xfce-integration-plug-in, cairo-dock-showdesktop-plug-in
 Filename: ./Extra/cairo-dock-minimal_3.4.1_amd64.deb
-Size: 2321504
-MD5sum: 4eae138dc98ec472877bd739ba51b1df
-SHA1: 7f3d550a1d9a88622e25b1aecada6d1f7ece17ae
-SHA256: 7f1eb5dff9c28943574ea3d79a0b80fae60a73f74595b016b197e355a3ff4786
-SHA512: bb1de8589d830b669787e636295e6a820e45fbcb606cdcb48cc7eb8bb07e0eb0185106c803a5a5e06c35c6bb5c02d802a17f1e2a0983b38983beddbbcc0e0762
+Size: 2322256
+MD5sum: b8613acc6fcebcf2e1afce2d69cff175
+SHA1: 3b2384d092c803ab22426809b04d37b214f42e3c
+SHA256: 1463a4bde4e0ab3bfa374ba1406c41838ac60e90da50c71f3e19a20b97661174
+SHA512: 73601cfd11532bacebd1c899c52f80fc93b7791e594857f0f7908d24e33f31f239f3006766f12c728a852c6352d6e427ff6f9139a0075910b68d609d0fbd929e
 Homepage: http://www.glx-dock.org/
 Description: Light and eye-candy dock to launch your programs (minimal package)
  Cairo-Dock is a pretty, light and convenient interface to your desktop,
