@@ -1390,13 +1390,13 @@ Priority: optional
 Section: utilities
 Maintainer: fredx181
 Installed-Size: 878
-Depends: yad (>= 1:0.34.0), gnome-mplayer-1.0.7 | gmplayer, xdotool
+Depends: yad (>= 1:0.34.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
 Filename: ./Extra/yradio_0.0.5_i386.deb
-Size: 193278
-MD5sum: 1c03e437d58151c8051d55cf4e293778
-SHA1: 0c6c78ff80e3b019dd1daae486aba5266715cc9b
-SHA256: bc421c06f90f5fb7a4bdc6b71e4b7dfe470fd43620ee302b1f2c98b43f873dd0
-SHA512: 61a1d80fca14eda6058a800f76a9f1d7499231b3266e4877c9bd1ff75413ae3042cb603b60269e87fb1c98a8c9c0bd13418f70ead72edf4009dfb5e82b7967d2
+Size: 193294
+MD5sum: bd3ddfe1f55a3c8ac65ed3d1c506e34f
+SHA1: e664e3cc85b6bd4e16a79fcfdc26845915263eac
+SHA256: 900037de2f197f4a5bbb425e37e7c91924d6c6f1d19be6e1dbeb0b6b5317a782
+SHA512: b9449d48a737b02473833a334bbcc0a27f56d489acccd958990b3b4aa33a0b1cfa1170fb2b7a8fbd218760169e32abbb7c8053d341ef1ff8b7817279d1de4532
 Description: Internet Radio Player
 
 Package: libva1
