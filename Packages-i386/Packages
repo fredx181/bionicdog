@@ -1899,6 +1899,26 @@ Description:  findnrun 1.10.6 (documentation)
   Files in this add-on package: larger English help (HTML).
   https://github.com/step-/find-n-run/
 
+Package: firefox-apulse
+Architecture: i386
+Version: 1:59.0.2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 153000
+Depends: libc6, libgtk-3-0
+Replaces: apulse
+Filename: ./Extra/firefox-apulse_59.0.2_i386.deb
+Size: 46417828
+MD5sum: 96ef632c8c10f1c2db789677635e9f45
+SHA1: de5441686f5e5be70aadd8a067217819b6a8f452
+SHA256: 2f376fc1b171f3465913108136540f582c12c6c22e0035325449eec649537f5d
+SHA512: d3160dd7379886dba0d682893b29d070ae5c238850e75b6837d67c5f5621dbd125d841491cce315394d9b21b46bc457925d3ad58fa26c59b9e9fa8a5d63e56bf
+Description: Firefox from the beta update channel
+ - Included apulse
+ - This to make sound work by running: apulse /opt/firefox/firefox
+ - No change required in about:config
+
 Package: libical1a
 Architecture: i386
 Version: 1.0.1-0ubuntu2
