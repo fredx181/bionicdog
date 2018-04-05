@@ -1,11 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Ubuntu
+Label: BionicDog
+Suite: testing
+Version: 1.0
+Codename: bionic
+Architectures: amd64
+Components: main
+Description: BionicDog repository
+Date: Thu, 05 Apr 2018 21:12:15 +0000
+MD5Sum:
+ aca780bbf8ad51466f79984cc8a75a4f           129037 Packages
+ c4f6afe3a7ae8e45e0a06c69ed638fa3            49374 Packages.gz
+ 22cf4004d68058da7c6f10354a76483e              187 Release
+ 2945f89ace9b1cfd658dc93aa5bea53f            64818 Translation-en
+ c4f6afe3a7ae8e45e0a06c69ed638fa3            49374 Translation-en.gz
+SHA1:
+ f06215acfb331d1d3c33ca65c6aef9b2af509510           129037 Packages
+ 7e54b5a1a57e51026d11d9912f7e8a6f8a56e8ca            49374 Packages.gz
+ a3b3b721c31b612b1692426899398f260cc4e38d              187 Release
+ 84980b31beec81c1314aade96d32c62c58c6a946            64818 Translation-en
+ 7e54b5a1a57e51026d11d9912f7e8a6f8a56e8ca            49374 Translation-en.gz
+SHA256:
+ 77df038a75f27fe0e2dd47dc4e19d0ad28b0838552c891f764d316f1254da605           129037 Packages
+ ae0d2798c352a7ce703ed02deea13391dea29efdeb98c94a6804aed513b86ce6            49374 Packages.gz
+ 0a2bf8574d302cc88c5973fcaeee855175945a3267a0030a74c9da346c547609              187 Release
+ 45c7b2eb3186c23e08b516476f6610afed7e2a0eb0e9e1d1dc803a662f13a68d            64818 Translation-en
+ ae0d2798c352a7ce703ed02deea13391dea29efdeb98c94a6804aed513b86ce6            49374 Translation-en.gz
+SHA512:
+ abe676cc90e0336d2cc1980c579b32a0eb8aa2f1b732cd0cab825312ca459300cc04285853e565fc7ee0110ae7e75835bccb3684dcf16bd18b9f96e2978a5896           129037 Packages
+ a533cd82dcd5824e6a40389ad2ef9add2338228c155c457d5eb09cb36366170a3fe575cad0da0232565bfa018fa55e7a413d63e6ae9d76348064c8f44c3c35d5            49374 Packages.gz
+ 8e93be43610821a66a2cd7eaf5ad4609bf24041be70f1f9b49256f42d277bf655b048e46ba5c88300ab963cec95435a84fb37859d454fd487b3b6c0dd00964e9              187 Release
+ b64d9562b00b1b8db5405b96c28aeb20189a7faac2716f5bf36497a1c578dca1927ce7323d02638fbb81d5889d161ce78e2cbf4af05134a512654875fd42aa9c            64818 Translation-en
+ a533cd82dcd5824e6a40389ad2ef9add2338228c155c457d5eb09cb36366170a3fe575cad0da0232565bfa018fa55e7a413d63e6ae9d76348064c8f44c3c35d5            49374 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlrGiRAACgkQrYe8en1z
-CB01JQf9HeYs9e+j78e32l4W0sD19y0UhdTNR1taoad1bz9zV7sET3cGj1xKwIrT
-jhj4Wg7mlJ9r8A02zZU1cXjeCRfkvfamAZE/iHOYCcq3h73S9coa8MIEZNf126mX
-hnVMWs7aXngjc6URjyD9HVCNX3wBl3GHGW6LxRU/fe1Y2qPvB6oXVNeLo30LObTS
-yqanlzByyE4dU5fYdZt2kCOTREWwyvU/c5yYTb1pZWEMRvtYeRD4Q18bNQqANTjw
-TmbT3wReW3AbJUG2gUS9yb6c7rsAg8dFq7fVqLXqtjyMe+7okWDDiDCHzNmH0Zsm
-36GR8uHnqqNKy5WLYQjslICs/X3LJw==
-=gZPX
+iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlrGkVcACgkQrYe8en1z
+CB1G7gf8C0+j3EkTCoq1/EpBKM7398qPZkU4mDaakST3eklFFPYnaSyGsmQOEEDs
+yDjHHKMJG8BLdm2VNO+MPi/l3DcE5U2yqvU+ioX+sD0HoQtJllxVBV74o4CqFsww
+aGzlsuRRStjjrGm0olL2r4YBHQlG2Joave+qd9akj5tbjtbnqrrtV9puNA559DoM
+nLjRbba0zhJudqAZbJmkFQq8I+y3BMLE0nsnN9LlQAkzTrv78bvSFxVzxYZIfcbk
+mTtJztOTclams5KRbXYPVqAlHuoIWqkZJ8y0JYbilMP8oByZM6tW2ZtZAnv9d9hP
++hGG5SjTkF6CBmyIMtXnPPDuVx3pJQ==
+=WFu+
 -----END PGP SIGNATURE-----
