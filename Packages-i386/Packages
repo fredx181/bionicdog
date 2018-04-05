@@ -1553,6 +1553,22 @@ SHA256: f950e47ba5c18ad2d2de6b87ab736b7ae4ad7ea6b1a1b5dd0588a304b41eb86f
 SHA512: e7c95fdf2447926bb431d171e5e64d7d39db1819e3126e265c4570f68b12fb489e02e36bd9e7801ff5768a17f5c422e8bb5a3fe81a496c5e07e8c34a19b4b9c5
 Description: uextract-converted-pet-to-deb
 
+Package: yradio
+Architecture: i386
+Version: 0.0.5-1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.36.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
+Filename: ./Extra/yradio_0.0.5-1_i386.deb
+Size: 193288
+MD5sum: ccbef8c19d5436ad9b97c32dae06588d
+SHA1: a5dd29d38a422b6c7a3834d239642d49152ae44f
+SHA256: 302494838f9f8c66e2016d312ee1bf828138a9143324f4d23d93ffcbc847f8c8
+SHA512: 0f36d48eb8d8d9d5b0fbbbaf6cb3b0e8f8c1f26b957d9e0e7855d7087ce16002079e27e778b1a02ac23243e859288a6edcbed4176de520aa7a4bb74e075f12ca
+Description: Internet Radio Player
+
 Package: libjpeg62-turbo
 Architecture: i386
 Version: 1:1.3.1-12
