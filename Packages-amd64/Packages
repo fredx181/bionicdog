@@ -2035,6 +2035,22 @@ SHA256: d0a20907fd82bd1239af7c913a8d979e6c414632bf32138af1a04db6bf7d6164
 SHA512: 33b849a68656e5e95d88f109b7fc45c4f6db210bd6766cff4c0bd12059aa14f6ec9de9a459cd6a2ee4a97723ec41e746b9900087896c48b24348abe670fcc5a5
 Description: Monitor color adjustment tool.
 
+Package: yradio
+Architecture: amd64
+Version: 0.0.5-1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.36.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
+Filename: ./Extra/yradio_0.0.5-1_amd64.deb
+Size: 193250
+MD5sum: 810138d340d172b8dd42a67114800017
+SHA1: f32795769e99ce93dd07eea3ba401f53b740e639
+SHA256: a4b14316b84c24d4434b3a675d8eb02cad69669cd38d76da37e22696e99e6aec
+SHA512: de1cfe55af63e52f257269cf463bbdc7813e0dd11de3889506d6a8d87e706fc1f60c8f89baa7d52fcec0dc8f8b68422fa0b22c6efb27a7df9928d7996707008a
+Description: Internet Radio Player
+
 Package: redshiftgui
 Architecture: amd64
 Version: 0.2.1-ddjessie
