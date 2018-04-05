@@ -2130,6 +2130,24 @@ Description: Curses interface to /etc/network/interfaces
  Ceni can manage basic network interface ifupdown configuration stanzas for
  ethernet and wireless devices.
 
+Package: firewall-ng
+Architecture: i386
+Version: 1.0.1
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 163
+Depends: libc6, gtkdialog, iptables
+Conflicts: firewall-puppy, peasyfwmon
+Replaces: firewall-puppy, peasyfwmon
+Filename: ./Extra/firewall-ng_1.0.1_i386.deb
+Size: 18430
+MD5sum: d6f4b1b84fe06bb8922751777d707e71
+SHA1: a3a8aee62997c4e0eadf534666f45ea5d0bbbcd5
+SHA256: c15c7cb679fbe33e7811bd278c5c5a320669e856e823b5adc3aea61278ceb122
+SHA512: a16b9c1d7be86767aa2a6fe530ce59ddb0ed405a49e68853bdb6ace4aaf4f346388aa6a686c84386616cad25b812596d0506887c92124dab43b54800cc78236e
+Description: Firewall-ng by 01micko, based on Alien Bob's Firewall
+
 Package: wex
 Architecture: i386
 Version: 0.8.18

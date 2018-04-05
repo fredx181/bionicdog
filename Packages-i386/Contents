@@ -13,6 +13,7 @@ etc/frisbee/dhcpcd.conf					    frisbee
 etc/frisbee/frisbee.conf				    frisbee
 etc/frisbee/wpa_supplicant.conf				    frisbee
 etc/gconf/gconf.xml.defaults/%gconf-tree.xml		    gnome-mplayer-1.0.7
+etc/init.d/firewall-ng.sh				    firewall-ng
 etc/init.d/firewall.sh					    peasyfwmon
 etc/init.d/frisbee					    frisbee
 etc/init.d/rc.network-start				    PeasyWiFi
@@ -5617,6 +5618,7 @@ root/.mplayer/config					    gmplayer
 root/.notecase/notecase.ini				    notecase-portable
 root/.xsession-jwm					    jwm-setup
 root/Startup/CPUtemp_tray				    cputemp
+root/Startup/exec_fwstatus-autostart			    firewall-ng
 root/Startup/exec_lxinput-autostart			    lxinputsave
 root/Startup/firewall-puppy				    Firewall-Puppy
 root/Startup/network_tray				    ceni
@@ -5644,6 +5646,7 @@ usr/bin/ffconvert					    ffconvert
 usr/bin/ffinfo						    ffconvert
 usr/bin/ffmpeg						    ffmpeg
 usr/bin/findnrun					    findnrun
+usr/bin/firewallstatus					    firewall-ng
 usr/bin/frisbee						    frisbee
 usr/bin/frisbee-gprs-connect				    frisbee
 usr/bin/frisbee-gprs-disconnect				    frisbee
@@ -6236,6 +6239,8 @@ usr/local/bin/firefox-puppy.sh				    firefox-apulse
 usr/local/bin/firefox-root.sh				    firefox-apulse
 usr/local/bin/firewall_install				    Firewall-Puppy
 usr/local/bin/firewall_install.sh			    Firewall-Puppy
+usr/local/bin/firewall_ng				    firewall-ng
+usr/local/bin/firewallstatusrestart			    firewall-ng
 usr/local/bin/fixdepinstall				    fixdepinstall
 usr/local/bin/flashplayerchoice				    flashplayerchoice
 usr/local/bin/gethosts					    debdog-advert-blocker
@@ -8354,6 +8359,8 @@ usr/share/applications/firefox-puppy.desktop		    firefox-apulse
 usr/share/applications/firefox-root.desktop		    firefox-apulse
 usr/share/applications/firefox.desktop			    firefox-portable,firefox-apulse
 usr/share/applications/firewall-puppy.desktop		    Firewall-Puppy
+usr/share/applications/firewall-setup.desktop		    firewall-ng
+usr/share/applications/firewallstatus.desktop		    firewall-ng
 usr/share/applications/fixdepinstall.desktop		    fixdepinstall
 usr/share/applications/flashplayerchoice.desktop	    flashplayerchoice
 usr/share/applications/frisbee.desktop			    frisbee
@@ -11162,6 +11169,10 @@ usr/share/pixmaps/peasywifi-48.png			    PeasyWiFi
 usr/share/pixmaps/pet.png				    petconvert2deb
 usr/share/pixmaps/picdrop.png				    picdrop
 usr/share/pixmaps/prefs.png				    jwm-setup
+usr/share/pixmaps/puppy/firewall.svg			    firewall-ng
+usr/share/pixmaps/puppy/shield_internet.svg		    firewall-ng
+usr/share/pixmaps/puppy/shield_no.svg			    firewall-ng
+usr/share/pixmaps/puppy/shield_yes.svg			    firewall-ng
 usr/share/pixmaps/re-fresh.png				    quick-remaster
 usr/share/pixmaps/restart.png				    jwm-setup
 usr/share/pixmaps/rocket.png				    desktop-editor
