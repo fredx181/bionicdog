@@ -1,11 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Ubuntu
+Label: BionicDog
+Suite: testing
+Version: 1.0
+Codename: bionic
+Architectures: i386
+Components: main
+Description: BionicDog repository
+Date: Thu, 05 Apr 2018 21:14:21 +0000
+MD5Sum:
+ 0863b7bb68cbafd12cb4efd8a0e1f402           130956 Packages
+ efa0e7fb9e19fef7287fb749f85a67ab            48685 Packages.gz
+ c6c8eae27ae5cbd1c8864b1e6aa4e94f              186 Release
+ efa0e7fb9e19fef7287fb749f85a67ab            48685 Translation-en.gz
+SHA1:
+ 3dfff0a950da0c089e4af7324fa5295cc0837d99           130956 Packages
+ 58094e4e70d1b7e4e2fec8ee63743471852661d4            48685 Packages.gz
+ 42600194c1afffbf99887c686dc1f847730eee02              186 Release
+ 58094e4e70d1b7e4e2fec8ee63743471852661d4            48685 Translation-en.gz
+SHA256:
+ 57e9ecfe49d9e0f8b456b16acbcfdbd26db657ce4b9ed84466e025f555a03f6b           130956 Packages
+ a336f4ef0997ccb46cc90b8fd0066e5c305a6d35303f8db329e5f1e4433bf069            48685 Packages.gz
+ 8916da93b60e093b6e325a9ed49df504e55104873963dc8521e6784b045bbddf              186 Release
+ a336f4ef0997ccb46cc90b8fd0066e5c305a6d35303f8db329e5f1e4433bf069            48685 Translation-en.gz
+SHA512:
+ 5734f1d23638d07e6278938d35c1655aa243ec6243cbc3303e77665d31187aa13a0cc2ce5b5b78a1077974e7c97138e1a1aac44baed109c9c7d1a6fe274e6e16           130956 Packages
+ 8e8600456352907f118233e735d1cdfadb4bdd5e5a2049f19b3c01eaf7ad755dd24f5469b5288d678707db2bae348ea14634f51233592a7163767c347741cab4            48685 Packages.gz
+ 768498f6d53ad96dc65717226fd911d8e876f88e018ba66c416c228442b25941d3c3f2caeba4875f99ef3fc13f50a2ef273966eda661fb9d6b8466e30427fa04              186 Release
+ 8e8600456352907f118233e735d1cdfadb4bdd5e5a2049f19b3c01eaf7ad755dd24f5469b5288d678707db2bae348ea14634f51233592a7163767c347741cab4            48685 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlrGiMIACgkQrYe8en1z
-CB2Ofgf/XpIpnirvBi4EGuTishHjN2MOXIQybM6ugi3RW91bsg6iBS5QTEUxQucJ
-VjxLfHQiU+60XA1imnY/78rCKGjw5dN9g8kO8z09n49WQiKy9w1nlYuWmYaQy06j
-vbQYB6ixZ7bl1/fi8Ttvs5nvQOXhldg7awX5OSUnGkN1rFxkpPP/1heqL7t2w4fL
-y6uik1cZ/BwPmENT5H2odv9FqKsEBcGc9WnHjMXfwIOTAVET4XbDOYGntmImq6Az
-zwa3xzpBVZmZ40u+cLxz0o8cgleAwrKaiKyBvahQNGs4hEA67KgGTOBWBQ+slUMO
-DitmmHkkKadJHNlIbdrp40PQzhCQPg==
-=nS8R
+iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlrGkbcACgkQrYe8en1z
+CB2MWAf9ED9/obqCnaqZE5quWw71BQZDB97oUNfGh04fUdeEGx1U3ZQvTguCPNdj
+KevbDkz9TggM1uXpO6XQHLnwKUpji6PDnUSxbSxtmVUdX0UsxwZqkxLDHvk/B6LF
+gYqsyTv0X6z9rIwq6c5OGeLg6262EH9NDLLRtG7YS56zXFMxag+N793953b25J6Q
+B25YxWZuK9gVXbquuXqf+2e1z49Y7G4P2ME+Omf9ZP3xGfK9N+Uo7OYCYVRAnmYn
+ZwX/4ddr7XiRLiSX5ntxFul+GQgjHlC1b5wsUm118P1ucAwcv+C3gSM+3VQxa7+9
+ylTgjIqtwFtyl74hUksyUMYHd5kTIw==
+=vW9m
 -----END PGP SIGNATURE-----
