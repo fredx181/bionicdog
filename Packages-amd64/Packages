@@ -1711,6 +1711,24 @@ SHA256: f2f14a76a23627f789dead6d7688a9271c27bbf6577ac4f0cd2fa3713c0fc392
 SHA512: e4a838cdfc5e5b278229937f11690aad170b89ea4c0105841f24e47db469d1307fb785709a0da763c9bd2e0d5bb83f1a086667131dd1fda7195d6872a6e117bb
 Description: gtkdesklet-converted-pet-to-deb
 
+Package: iupluacontrols-xenialdog64-gtk2
+Architecture: amd64
+Version: 3.24
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 1357
+Depends: iuplua-core-xenialdog64-gtk2
+Filename: ./Extra/iupluacontrols-xenialdog64-gtk2_3.24_amd64.deb
+Size: 416250
+MD5sum: 79e14ed61bcb5409ba134862c40ca444
+SHA1: d10fbefd3c9700d3fe920289b13cc2ce89f7d1dc
+SHA256: 0e33367f9a677d02c0ae35208f5386751f3df09083550fc9106dfc8c22fc7760
+SHA512: c5ce8ae687db5cfb5da9dcc8d9fe06717be53f6c42b3d19fe505f0d84f1ca8342f0605a84bd51d6716fe33bf81c503737666ead0644caae084f655dbfaaaecf6
+Description: The iupluacontrols-xenialdog64-gtk2:
+ The tecgraf-MIT licensed iupluacontrols-xenialdog64-gtk2 program
+ provides additional graphical toolkit widgets for additional
+ functionality such as matrix drawing.
+ iupluacontrols-xenialdog64-gtk2 by tecgraf-pkg-wiak.
+
 Package: upgrade-kernel
 Architecture: all
 Version: 1.0.2
@@ -1963,6 +1981,23 @@ Description: Curses interface to /etc/network/interfaces
  A Curses user interface for configuring network interfaces with ifupdown.
  Ceni can manage basic network interface ifupdown configuration stanzas for
  ethernet and wireless devices.
+
+Package: iuplua-core-xenialdog64-gtk2
+Architecture: amd64
+Version: 3.24
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 1103
+Depends:
+Filename: ./Extra/iuplua-core-xenialdog64-gtk2_3.24_amd64.deb
+Size: 344854
+MD5sum: a65486eb8d4dfb94b5948abbb0edbc2c
+SHA1: e4071494696db8c126a340a69ef6b062c10c00a8
+SHA256: ed3a289997f5e41b14a4daae08ee54fbb2958501bd3bb79c738348132d9d52eb
+SHA512: d9420c0c5ecfc8bc9ce1fb588a482343459c63ad7c10577f420ec1de87624e528373a9d037738acbd1cc42ea5b5d7ccbf21f61f26d707aaa64f27982eec3cda1
+Description: The iuplua-core-xenialdog64-gtk2:
+ The tecgraf-MIT licensed iuplua-core-xenialdog64-gtk2 program provides
+ core graphical toolkit widgets for building Lua GUIs.
+ iuplua-core-xenialdog64-gtk2 by tecgraf-pkg-wiak.
 
 Package: firefox-apulse
 Architecture: amd64
