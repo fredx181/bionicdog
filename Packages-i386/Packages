@@ -2814,6 +2814,30 @@ SHA256: 857c5acc720cf64fcc8e3f63112bcf5ad9f51ec4638503cbcbe3dec8e1b94fe1
 SHA512: 01d7e372942ab5b514c08d713e68f3817c914c54b2d2997b0e7257d910591567c39a8f084cc83a1bcd42eef0d955b4bb7aec458d30a825a184c9b8d9fda4659c
 Description: Automatically detect timezone
 
+Package: PeasyWiFi
+Architecture: i386
+Version: 4.6
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: libc6, gtkdialog, gettext-base, net-tools, wpasupplicant, wireless-tools, x11-utils, ccrypt
+Conflicts: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Replaces: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Filename: ./Extra/peasywifi_4.6_i386.deb
+Size: 18510
+MD5sum: b6692733f2539cd33a0aed1162607c45
+SHA1: 352adf398b36be9bcc4a40060669d5082f7f67d3
+SHA256: 0df57fc8b3748fc0f814c6919243059ae2cdbaeac43fb76851407e1f6efaca45
+SHA512: e5c0ad709540df4ad966baa2b4132f9659357920ce51a45233c199b02d548218d6f6ff535a1ecc76b7f06e85d082b78c2a7509a0d9f2abd23b630b36d6937070
+Description: Reliable network manager
+ -changes in v4.4-0 in peasywifi script by rcrsn51:
+ - added option (Ethernet tab) to bring the interface down
+ - added Names button (to select interface names)
+ - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
+ - Updated Help screen
+ - added multi-user support (fredx181)
+ - changed bcrypt to ccrypt
+
 Package: linux-image-4.14.0-13-generic
 Architecture: i386
 Version: 4.14.0-13.15
