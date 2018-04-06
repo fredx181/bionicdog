@@ -6308,6 +6308,8 @@ usr/local/bin/desktop_drive_icons			    desktop-drive-icons
 usr/local/bin/dogradio					    dogradio
 usr/local/bin/dogradiorip				    dogradio
 usr/local/bin/drive-info				    bionicdogmountscripts
+usr/local/bin/dropbox_gui				    dropboxgui
+usr/local/bin/dropbox_uploader.sh			    dropboxgui
 usr/local/bin/filemnt					    filemnt-pcmanfm
 usr/local/bin/firefox					    firefox-portable,firefox-apulse
 usr/local/bin/firefox-puppy.sh				    firefox-apulse
@@ -6319,6 +6321,8 @@ usr/local/bin/firewallstatusrestart			    firewall-ng
 usr/local/bin/fixdepinstall				    fixdepinstall
 usr/local/bin/flashplayerchoice				    flashplayerchoice
 usr/local/bin/gdialog					    zenity-2.30
+usr/local/bin/gdrive					    googledrivegui2
+usr/local/bin/gdrive_gui2				    googledrivegui2
 usr/local/bin/geany					    geany
 usr/local/bin/gethosts					    debdog-advert-blocker
 usr/local/bin/gifenc					    gifenc
@@ -6326,6 +6330,7 @@ usr/local/bin/gifenc-sel				    gifenc
 usr/local/bin/gifondesktop				    gifondesktop
 usr/local/bin/gifshow					    gifondesktop
 usr/local/bin/gnome-mplayer				    gnome-mplayer-1.0.7
+usr/local/bin/gopoststuff				    gopoststuff
 usr/local/bin/grldr					    bionicdoginstallscripts
 usr/local/bin/gsu					    gsu
 usr/local/bin/gsu-notimeout				    gsu
@@ -6380,6 +6385,8 @@ usr/local/bin/pfind					    pfind
 usr/local/bin/picdrop					    picdrop
 usr/local/bin/picscale					    picdrop
 usr/local/bin/portablesfs				    portablesfs-loadsfs-fuse
+usr/local/bin/postergo					    gopoststuff
+usr/local/bin/postergo-sel				    gopoststuff
 usr/local/bin/ppm2mpeg.sh				    xvidcap
 usr/local/bin/quick-remastergui				    quick-remaster
 usr/local/bin/remaster-xen-cli				    remaster-scripts
@@ -8189,6 +8196,7 @@ usr/local/pfind/pfind					    pfind
 usr/local/pfind/pfindMIMErc				    pfind
 usr/local/pfind/pfindhlp				    pfind
 usr/local/pfind/pfindrc					    pfind
+usr/local/postergo/.gopoststuff.conf			    gopoststuff
 usr/local/share/applications/xvidcap.desktop		    xvidcap
 usr/local/share/dbus-1/services/net.jarre_de_the.Xvidcap.service xvidcap
 usr/local/share/doc/xvidcap/AUTHORS			    xvidcap
@@ -8431,6 +8439,7 @@ usr/local/share/perl/5.26.1/auto/share/dist/WWW-YoutubeViewer/icons/gtk-youtube-
 usr/local/share/perl/5.26.1/auto/share/dist/WWW-YoutubeViewer/icons/spinner.gif youtube-viewer
 usr/local/share/perl/5.26.1/auto/share/dist/WWW-YoutubeViewer/icons/user.png youtube-viewer
 usr/local/share/pixmaps/gtk-close.png			    dogradio
+usr/local/share/pixmaps/gtk-help.png			    googledrivegui2
 usr/local/share/pixmaps/gtk-info.png			    dogradio
 usr/local/share/pixmaps/gtk-media-play.png		    dogradio
 usr/local/share/pixmaps/gtk-new.png			    dogradio
@@ -8542,6 +8551,7 @@ usr/share/applications/debdog-advert-blocker.desktop	    debdog-advert-blocker
 usr/share/applications/desktop_view_edit.desktop	    desktop-editor
 usr/share/applications/domycommand.desktop		    domycommand
 usr/share/applications/domyfile.desktop			    domyfile
+usr/share/applications/dropbox.desktop			    dropboxgui
 usr/share/applications/edit-sfs.desktop			    edit-sfs-pcmanfm,edit-sfs-rox
 usr/share/applications/evince.desktop			    evince
 usr/share/applications/ffconvert.desktop		    ffconvert
@@ -8558,6 +8568,7 @@ usr/share/applications/flashplayerchoice.desktop	    flashplayerchoice
 usr/share/applications/frisbee.desktop			    frisbee
 usr/share/applications/geany.desktop			    geany
 usr/share/applications/gnome-mplayer.desktop		    gnome-mplayer-1.0.7
+usr/share/applications/googledrivegui2.desktop		    googledrivegui2
 usr/share/applications/gtk-youtube-viewer.desktop	    youtube-viewer
 usr/share/applications/keybind.desktop			    openbox-keybinder
 usr/share/applications/menumaker.desktop		    desktop-editor
@@ -8574,6 +8585,8 @@ usr/share/applications/peasymp3.desktop			    peasymp3
 usr/share/applications/peasymp3carousel.desktop		    peasymp3
 usr/share/applications/peasywifi.desktop		    PeasyWiFi
 usr/share/applications/pfind.desktop			    pfind
+usr/share/applications/poster-sel.desktop		    gopoststuff
+usr/share/applications/poster.desktop			    gopoststuff
 usr/share/applications/precord.desktop			    precord
 usr/share/applications/quick-remastergui.desktop	    quick-remaster
 usr/share/applications/redshiftgui.desktop		    redshiftgui
@@ -11416,6 +11429,7 @@ usr/share/pixmaps/disc.png				    mount-wizard
 usr/share/pixmaps/dload.png				    youtube-get2
 usr/share/pixmaps/drive.png				    mount-wizard
 usr/share/pixmaps/drive24.png				    mount-wizard
+usr/share/pixmaps/dropbox.png				    dropboxgui
 usr/share/pixmaps/fd.png				    mount-wizard
 usr/share/pixmaps/ffconvert.png				    ffconvert
 usr/share/pixmaps/firefox-esr.png			    firefox-apulse
@@ -11431,6 +11445,7 @@ usr/share/pixmaps/gifencc.png				    gifenc
 usr/share/pixmaps/gnibbles.png				    grub4dosconfig
 usr/share/pixmaps/go-next.png				    youtube-get2
 usr/share/pixmaps/go-previous.png			    youtube-get2
+usr/share/pixmaps/google-drive-128.png			    googledrivegui2
 usr/share/pixmaps/gtk-go-back.png			    youtube-get2
 usr/share/pixmaps/gtk-go-forward.png			    youtube-get2
 usr/share/pixmaps/gtk-info.png				    youtube-get2
@@ -11457,6 +11472,7 @@ usr/share/pixmaps/peasywifi-24.png			    PeasyWiFi
 usr/share/pixmaps/peasywifi-48.png			    PeasyWiFi
 usr/share/pixmaps/pet.png				    petconvert2deb
 usr/share/pixmaps/picdrop.png				    picdrop
+usr/share/pixmaps/poster.png				    gopoststuff
 usr/share/pixmaps/puppy/firewall.svg			    firewall-ng
 usr/share/pixmaps/puppy/shield_internet.svg		    firewall-ng
 usr/share/pixmaps/puppy/shield_no.svg			    firewall-ng

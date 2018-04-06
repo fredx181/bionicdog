@@ -2204,6 +2204,22 @@ SHA256: 89edbf72614cc92fc4a3d9bfd3f1669045ef7bbc9c86cfd1d1a6a2e89a3ac9ba
 SHA512: afe76ea8df8b6e65b3f03b2c674515b57de37d04b516f49707f1a94e7bcfaf75e884b8aebb10a34a8cb59f0cb2fda2809c037a416c3f26915d2e0d0fd7eca68e
 Description: Monitor color adjustment tool.
 
+Package: dropboxgui
+Architecture: all
+Version: 1.0.7
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 87
+Depends: libc6, gtkdialog, gxmessage
+Filename: ./Extra/dropboxgui_1.0.7_all.deb
+Size: 17312
+MD5sum: cef8ccde96a87e313b2b7660f7694934
+SHA1: 720a62c08f6035ddb00b8b7c475d7d3878ccea1f
+SHA256: a3cf47066a32316a55e2986e8772b46c5fe1979c88547681067af034ac6ade4b
+SHA512: 9232ab844d774a32e984e0c8ca84651c8df99ad707a835eca9f59e7b6f63a0f636afe41d385176f40d3e58c48ed21ac2aacf80defe85f0dd149f55e0c7bbff56
+Description: DropboxGUI, by mikeb
+
 Package: unzipper
 Architecture: all
 Version: 1.5
@@ -2309,6 +2325,24 @@ SHA1: 9571db9f01d6b169ac0785a7513c04d0e7cb320e
 SHA256: 1f6535a33fe16e7efd68e82043c706339a31aaaa21d55cbb921fca963ae84aab
 SHA512: a463ce86ee4341b63b2a0dd76233927862583c47d4106a72befcea23caf1fd85a8ce6aebc98d599683b5c322ff9f9447b84f38a71c299bf76e1f05f00cceff78
 Description: Painting tool
+
+Package: gopoststuff
+Architecture: amd64
+Version: 0.1.1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 136
+Depends: yad, par2
+Conflicts: posterpy
+Replaces: posterpy
+Filename: ./Extra/gopoststuff_0.1.1_amd64.deb
+Size: 1043260
+MD5sum: 3fba5266823da7ed27840691742dcaf4
+SHA1: 0ee1faf42adb391dda1b05b2adc7951fdaba3c3e
+SHA256: 24f2f2a2ac0e1b659ac7f2ca02bb327de49357bc9e8e35ea0136d74bb483e29f
+SHA512: 9c40700f095e50f105bbfc071370268d135e86e7cff7474a7b32bb3502d0cb5c029e3fb89078fb4b55ec6f5030d50f258a436c0d639dd38adf57e9c77d807def
+Description: Usenet Poster
 
 Package: wex
 Architecture: all
@@ -2588,6 +2622,23 @@ SHA512: cf3a830be324f2c30a9d084053698944a8e3195f93ea78ed89159712abf7b84a6f384dfa
 Description: gethosts script from SteveRiley: https://www.kubuntuforums.net/showthread.php?56419-Script-to-automate-building-an-adblocking-hosts-file
   Thanks to jockjunior: http://www.murga-linux.com/puppy/viewtopic.php?p=899122#899122
  .
+
+Package: googledrivegui2
+Architecture: amd64
+Version: 2.1.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 6900
+Depends: gtkdialog, yad
+Replaces: googledrivegui
+Filename: ./Extra/googledrivegui2_2.1.0_amd64.deb
+Size: 1704474
+MD5sum: 4c35117b9a059d2d810e63587743cfdb
+SHA1: 6be641c4cdedcd58480af871749a731358dd06b4
+SHA256: bf7390e0cb31246f79817260808780ac6603747c1d544b1147465f619ffa7d6d
+SHA512: 55234fc33bc0972d67ea90367041acacb3bdb077b7ad96cb6333744ea2c45ec4b1ca575797009ead402f997cd13ee02272fe26edb3c3635fe7f569b711e9615d
+Description: Google-drive Filemanager v2
 
 Package: isotools
 Architecture: all
