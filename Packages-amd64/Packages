@@ -1513,6 +1513,23 @@ Description: The Ultimate Music Player
   * duration calculation is as precise as possible for vbr mp3
     files (with and without xing/info tags)
 
+Package: conkyclock2
+Architecture: all
+Version: 1.0.2
+Maintainer: fredx181 <fredx@nomail.nl>
+Installed-Size: 13900
+Depends: libc6, yad (>= 0.26.0), sed, conky-all, liblua5.1-0, wmctrl, hsetroot
+Recommends: imagemagick
+Filename: ./Extra/conkyclock2_1.0.2_all.deb
+Size: 13053672
+MD5sum: 22c65ca842e57c6d31f0ae37df61d9bb
+SHA1: 72eb0cbd61c154c672bcb712fd7ba40258090e0f
+SHA256: 93d8eb1f3d7416f6066bd251e53de03cbc7cfd3973caadcf44616d99522beb91
+SHA512: bc2ff4c79609d63366ed5eab1cca06c272e630962ba6e4ed4a7a50a24291a2f55f4350655e5a767f273d7e63929623798849120f58f99dca12a7d9818f46faee
+Description: Conky-clock v2 Luxe edition, choose analog clock display on the Desktop
+ Choice from 300 clock images with the appropriate hands
+ Option to display the date on the clock
+
 Package: libssl0.9.8
 Architecture: amd64
 Version: 0.9.8o-7ubuntu3.2.14.04.1
@@ -1631,6 +1648,20 @@ Description: library to read digital audio CDs with error correction
  correction. It does its best to correct errors and jitter that happen
  when reading such discs. As it uses libcdio as a backend, it supports
  the same kind of CDROM drives (and images) as libcdio.
+
+Package: conkyclock
+Architecture: all
+Version: 0.0.3
+Maintainer: fredx181 <fredx@nomail.nl>
+Installed-Size: 2700
+Depends: libc6, yad (>= 0.26.0), sed, conky-all, liblua5.1-0, wmctrl, hsetroot
+Filename: ./Extra/conkyclock_0.0.3_all.deb
+Size: 2682236
+MD5sum: 40ecadb6f0ee0cc72b25514cae9255ae
+SHA1: 37bc214f42edabe2ac5e5847305df3be46d34990
+SHA256: 3f6fc958be359deb5a994fa2178aa6853d278d3d6abde8c8ec3c8a88e4d8e625
+SHA512: 55016bb0283de38eb69a8624a548a5f69c02ed2bb8234bcf842dba545d2ebb466f418e5ed331cbc227272da9dcfdeaea0d297502766d12660f5a5de9957106db
+Description: Conky-clock, choose analog clock display on the Desktop
 
 Package: gifenc
 Architecture: all
