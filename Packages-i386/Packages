@@ -2158,6 +2158,28 @@ Description: Oxygen icon theme
  icon schemes, so it can be used in other desktop environments using this
  specification.
 
+Package: youtube-get2
+Architecture: all
+Version: 0.2.0
+Maintainer: fredx181
+Installed-Size: 938
+Depends: libc6, yad, sed, wget, python, gsu | gksu
+Recommends: locales
+Replaces: youtube-get
+Filename: ./Extra/youtube-get2_0.2.0_all.deb
+Size: 1589348
+MD5sum: 62713261e0142b3afccd90718b9d5946
+SHA1: 0a7de08eafd9a3cbc1c23389b1f81b3f95a1a109
+SHA256: 96ea574f3454bfa6bc324274e697bb2f2945a0eea946d9a24c08cf69aaedec33
+SHA512: 8d63a2e78ea4d28229e2566dbb534612b0fd46a79d6ad3e339216436a2c3c24cac5c36f794c7d4dbcca6b91663200d832222e8565f30350b0996c7530433c7c9
+Description: YouTube Downloader, frontend for youtube-dl
+ A Youtube update broke the search function of previous versions; fixed in this version.
+ - A shell script (bash) with yad as GUI for youtube-dl
+ - Options to enter url(s), playlist, username and to do a search:
+ - Gives choice which quality to download, e.g. 360p or 720p, Audio streams, etc...
+ - Extra addition: m-play script + menu entry for playing YouTube url with mplayer or mpv
+ - Download from Playlist supports channel download also now (version 0.1.8)
+
 Package: ceni
 Architecture: all
 Version: 2.31
