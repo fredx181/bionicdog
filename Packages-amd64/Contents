@@ -5640,6 +5640,7 @@ root/.config/youtube-viewer/gtk-youtube-viewer.conf	    youtube-viewer
 root/.config/youtube-viewer/youtube-viewer.conf		    youtube-viewer
 root/.config/youtube-viewer/youtube_users.txt		    youtube-viewer
 root/.mplayer/config					    gmplayer
+root/Startup/CPUtemp_tray				    cputemp
 root/Startup/exec_fwstatus-autostart			    firewall-ng
 root/Startup/exec_lxinput-autostart			    lxinputsave
 root/Startup/firewall-puppy				    Firewall-Puppy
@@ -6225,6 +6226,8 @@ usr/local/apps/pBurn/AppRun				    pburn
 usr/local/apps/pFind/.DirIcon				    pfind
 usr/local/apps/pFind/AppInfo.xml			    pfind
 usr/local/apps/pFind/AppRun				    pfind
+usr/local/bin/CPUtemp					    cputemp
+usr/local/bin/CPUtemp.hlp				    cputemp
 usr/local/bin/Firefox/app/Throbber-small.gif		    firefox-portable
 usr/local/bin/Firefox/app/application.ini		    firefox-portable
 usr/local/bin/Firefox/app/browser/blocklist.xml		    firefox-portable
@@ -6311,7 +6314,7 @@ usr/local/bin/drive-info				    bionicdogmountscripts
 usr/local/bin/dropbox_gui				    dropboxgui
 usr/local/bin/dropbox_uploader.sh			    dropboxgui
 usr/local/bin/filemnt					    filemnt-pcmanfm
-usr/local/bin/firefox					    firefox-apulse,firefox-portable
+usr/local/bin/firefox					    firefox-portable,firefox-apulse
 usr/local/bin/firefox-puppy.sh				    firefox-apulse
 usr/local/bin/firefox-root.sh				    firefox-apulse
 usr/local/bin/firewall_install				    Firewall-Puppy
@@ -8448,14 +8451,14 @@ usr/local/share/pixmaps/gtk-save.png			    dogradio
 usr/local/share/pixmaps/gtk-stop.png			    dogradio
 usr/local/share/pixmaps/star.png			    dogradio
 usr/local/share/pixmaps/wex/wex_config.png		    wex
-usr/local/share/pixmaps/wex/wex_directory.png		    weav,wex
-usr/local/share/pixmaps/wex/wex_edit.png		    weav,wex
-usr/local/share/pixmaps/wex/wex_help.png		    weav,wex
-usr/local/share/pixmaps/wex/wex_home.png		    weav,wex
+usr/local/share/pixmaps/wex/wex_directory.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_edit.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_help.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_home.png		    wex,weav
 usr/local/share/pixmaps/wex/wex_mixer.png		    wex
 usr/local/share/pixmaps/wex/wex_pause.png		    wex
-usr/local/share/pixmaps/wex/wex_play.png		    weav,wex
-usr/local/share/pixmaps/wex/wex_quit.png		    weav,wex
+usr/local/share/pixmaps/wex/wex_play.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_quit.png		    wex,weav
 usr/local/share/pixmaps/wex/wex_record.png		    wex
 usr/local/share/pixmaps/wex/wex_stop.png		    wex
 usr/local/share/pixmaps/wex/wex_utility00.png		    wex
@@ -8559,7 +8562,7 @@ usr/share/applications/findnrun.desktop			    findnrun
 usr/share/applications/firefox-apulse.desktop		    apulse
 usr/share/applications/firefox-puppy.desktop		    firefox-apulse
 usr/share/applications/firefox-root.desktop		    firefox-apulse
-usr/share/applications/firefox.desktop			    firefox-apulse,firefox-portable
+usr/share/applications/firefox.desktop			    firefox-portable,firefox-apulse
 usr/share/applications/firewall-puppy.desktop		    Firewall-Puppy
 usr/share/applications/firewall-setup.desktop		    firewall-ng
 usr/share/applications/firewallstatus.desktop		    firewall-ng
@@ -11437,6 +11440,7 @@ usr/share/pixmaps/firefox.png				    firefox-apulse
 usr/share/pixmaps/firefox48.png				    firefox-portable
 usr/share/pixmaps/firewall-24.png			    peasyfwmon
 usr/share/pixmaps/firewall-48.png			    peasyfwmon
+usr/share/pixmaps/flame.png				    cputemp
 usr/share/pixmaps/flash.png				    flashplayerchoice
 usr/share/pixmaps/floppy24.png				    mount-wizard
 usr/share/pixmaps/frisbee.png				    frisbee
