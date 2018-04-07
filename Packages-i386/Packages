@@ -1447,6 +1447,21 @@ Description: Conky-clock v2 Luxe edition, choose analog clock display on the Des
  Choice from 300 clock images with the appropriate hands
  Option to display the date on the clock
 
+Package: cputemp
+Architecture: i386
+Version: 3.1-1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lm-sensors, cpufrequtils
+Filename: ./Extra/cputemp_3.1-1_i386.deb
+Size: 6114
+MD5sum: 678c1e6dd2cd0e4ea383f393373e7341
+SHA1: d4b9655ba959010f1ff61f9aad3c286be2cc9394
+SHA256: 9ab39a13d30bb4bffd32c9614f7d1baafa491ca52042a88894acf44daea9f743
+SHA512: 364f03c66480a62517adbca1ed79ac5a00072695f74416b66db03380aa51717334bd3e003e9692d8e325b86cef31ddb128c73f34ab81c54e1311d41ea4e08910
+Description: CPU temperature monitor
+
 Package: peasy-dvd-player
 Architecture: i386
 Version: 1.5
