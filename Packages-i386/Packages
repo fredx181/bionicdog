@@ -1847,6 +1847,21 @@ Description: PNG library - runtime
  This package contains the runtime library files needed to run software
  using libpng.
 
+Package: cputemp
+Architecture: i386
+Version: 3.1-2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lm-sensors, cpufrequtils, pciutils
+Filename: ./Extra/cputemp_3.1-2_i386.deb
+Size: 5586
+MD5sum: 785fadc431d211f281f4b7f37ceca0b3
+SHA1: c0148f318b17b8a1ef9447951a86453a479c8674
+SHA256: 41cb67a17efd333d185ffbe60277f51de88f3f92365233fbf3a9f60c66415676
+SHA512: 364816b4bd9885c35059ec8632d4ab45d5cc4f2bce46c76064a4dc618694e3eb64b849c98ed2a3daa3399cfcf8d74351d0c1d9e7e8184c0fa6872812c3b08069
+Description: CPU temperature monitor
+
 Package: upgrade-kernel
 Architecture: all
 Version: 1.0.2
