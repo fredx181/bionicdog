@@ -2446,6 +2446,21 @@ Description: Asynchronous event notification library
  the libevent library that includes everything in libevent_core and
  libevent_extra.
 
+Package: cputemp
+Architecture: amd64
+Version: 3.1-2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lm-sensors, cpufrequtils, pciutils
+Filename: ./Extra/cputemp_3.1-2_amd64.deb
+Size: 5640
+MD5sum: a61cae5248784340fabac1d8421d3e9b
+SHA1: 0b07e9762f2e76b061d6fbbc16b50c0bc852b191
+SHA256: 10d3b47b7e424026e9d893b9ebda25e0c91030f4ea77133cc80d7fffca6b3692
+SHA512: 3a476630860c7b5ebebed41b7b1f45371c8eac42df20b63e0eaa42b657f2326b7d131327da32131ddd9426ba013b9f8ce93b2814e80639e4f3dc25a2c15bc5f1
+Description: CPU temperature monitor
+
 Package: gmplayer
 Architecture: amd64
 Version: 37957-6.3.0
