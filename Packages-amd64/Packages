@@ -2370,13 +2370,13 @@ Version: 3.1-1
 Priority: optional
 Section: base
 Maintainer: rcrsn51
-Depends: lm-sensors, cpufrequtils
+Depends: lm-sensors, cpufrequtils, pciutils
 Filename: ./Extra/cputemp_3.1-1_amd64.deb
-Size: 6208
-MD5sum: 15383c0fc9b8cd50ed373d3aad052a2f
-SHA1: 94cdaec705a094308c7460c55302d36cdae203f1
-SHA256: e6c121492b34e4c83bc95fb3bc581aaa3a1f3204e8e5265470dacedf4d1ba50c
-SHA512: 25c724985f9a417e8ef28a7b19ed40329464810904a2992962d7b6c34ed1ff2409b39e82a77016459dfa26bbed283f73415a637ec5ceca21a976c9549d5b9c09
+Size: 5630
+MD5sum: bc8045dd0c78bf771d1528b8201ffe26
+SHA1: c4b533a5b853d6819bc48231190f551d8a481c4b
+SHA256: 144c0dd871768d92a16200960d94a090256ff388cb4f31624fdf9a27d8befb39
+SHA512: de0ea2d1ec5d06c6f1a9197f4bae2e5882afc3516ab1cd327f479399f1a2c1ca28e661a49bb2b9bf81d0dbae9e48e9b5a7d3f227bec450c576bbae71e3aa81d1
 Description: CPU temperature monitor
 
 Package: gopoststuff
@@ -2445,21 +2445,6 @@ Description: Asynchronous event notification library
  or "libevent_core + libevent_extra", the libevent source package builds
  the libevent library that includes everything in libevent_core and
  libevent_extra.
-
-Package: cputemp
-Architecture: amd64
-Version: 3.1-2
-Priority: optional
-Section: base
-Maintainer: rcrsn51
-Depends: lm-sensors, cpufrequtils, pciutils
-Filename: ./Extra/cputemp_3.1-2_amd64.deb
-Size: 5640
-MD5sum: a61cae5248784340fabac1d8421d3e9b
-SHA1: 0b07e9762f2e76b061d6fbbc16b50c0bc852b191
-SHA256: 10d3b47b7e424026e9d893b9ebda25e0c91030f4ea77133cc80d7fffca6b3692
-SHA512: 3a476630860c7b5ebebed41b7b1f45371c8eac42df20b63e0eaa42b657f2326b7d131327da32131ddd9426ba013b9f8ce93b2814e80639e4f3dc25a2c15bc5f1
-Description: CPU temperature monitor
 
 Package: gmplayer
 Architecture: amd64
