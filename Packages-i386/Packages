@@ -1453,13 +1453,13 @@ Version: 3.1-1
 Priority: optional
 Section: base
 Maintainer: rcrsn51
-Depends: lm-sensors, cpufrequtils
+Depends: lm-sensors, cpufrequtils, pciutils
 Filename: ./Extra/cputemp_3.1-1_i386.deb
-Size: 6114
-MD5sum: 678c1e6dd2cd0e4ea383f393373e7341
-SHA1: d4b9655ba959010f1ff61f9aad3c286be2cc9394
-SHA256: 9ab39a13d30bb4bffd32c9614f7d1baafa491ca52042a88894acf44daea9f743
-SHA512: 364f03c66480a62517adbca1ed79ac5a00072695f74416b66db03380aa51717334bd3e003e9692d8e325b86cef31ddb128c73f34ab81c54e1311d41ea4e08910
+Size: 5584
+MD5sum: 29c8fa12576c41d36b2de2212eb627af
+SHA1: 7f249e66ab1e89a23e89d8cb3a157e6ae10e9c90
+SHA256: 9c813caa2a2beb7985ca0ed1178e1b91a791175a640981e3e639e57ced2fe8b4
+SHA512: 2a70b5b2fd9f60d8eeaf4a62b478d46280ce88d5536e072c21c3980ade223321f75db9e044d72cce15279120fc8cda2a1bc55253a16801505bb62fe7dae11e24
 Description: CPU temperature monitor
 
 Package: peasy-dvd-player
@@ -1846,21 +1846,6 @@ Description: PNG library - runtime
  .
  This package contains the runtime library files needed to run software
  using libpng.
-
-Package: cputemp
-Architecture: i386
-Version: 3.1-2
-Priority: optional
-Section: base
-Maintainer: rcrsn51
-Depends: lm-sensors, cpufrequtils, pciutils
-Filename: ./Extra/cputemp_3.1-2_i386.deb
-Size: 5586
-MD5sum: 785fadc431d211f281f4b7f37ceca0b3
-SHA1: c0148f318b17b8a1ef9447951a86453a479c8674
-SHA256: 41cb67a17efd333d185ffbe60277f51de88f3f92365233fbf3a9f60c66415676
-SHA512: 364816b4bd9885c35059ec8632d4ab45d5cc4f2bce46c76064a4dc618694e3eb64b849c98ed2a3daa3399cfcf8d74351d0c1d9e7e8184c0fa6872812c3b08069
-Description: CPU temperature monitor
 
 Package: upgrade-kernel
 Architecture: all
