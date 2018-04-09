@@ -8128,9 +8128,6 @@ usr/local/isodata/isolinux/vesamenu.c32			    quick-remaster
 usr/local/lib/X11/mini-icons				    frisbee
 usr/local/lib/X11/pixmaps/edit24.png			    grub4dosconfig
 usr/local/lib/X11/pixmaps/file24.png			    grub4dosconfig
-usr/local/lib/i386-linux-gnu/perl/5.24.1/XML/Fast.pm	    youtube-viewer
-usr/local/lib/i386-linux-gnu/perl/5.24.1/auto/LWP/UserAgent/Cached/.packlist youtube-viewer
-usr/local/lib/i386-linux-gnu/perl/5.24.1/perllocal.pod	    youtube-viewer
 usr/local/lib/libcd.so					    iupluacontrols-xenialdog64-gtk2
 usr/local/lib/libcdlua53.so				    iupluacontrols-xenialdog64-gtk2
 usr/local/lib/libcrypto.so.1				    transmission-2.60
@@ -8408,7 +8405,6 @@ usr/local/share/omf/xvidcap/xvidcap-C.omf		    xvidcap
 usr/local/share/omf/xvidcap/xvidcap-de.omf		    xvidcap
 usr/local/share/omf/xvidcap/xvidcap-es.omf		    xvidcap
 usr/local/share/omf/xvidcap/xvidcap-it.omf		    xvidcap
-usr/local/share/perl/5.20.2/LWP/UserAgent/Cached.pm	    youtube-viewer
 usr/local/share/perl/5.26.1/LWP/UserAgent/Cached.pm	    youtube-viewer
 usr/local/share/perl/5.26.1/Mozilla/CA.pm		    youtube-viewer
 usr/local/share/perl/5.26.1/Mozilla/CA/cacert.pem	    youtube-viewer

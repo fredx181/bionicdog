@@ -3018,27 +3018,6 @@ Description: A Gtk2 application for searching and streaming videos from YouTube.
  WWW-YoutubeViewer - a very easy interface to YouTube.
  Highly recommended: install mpv or vlc mediaplayer and youtube-get2 (includes youtube-dl) to be able to play all videos without exceptions.
 
-Package: youtube-viewer
-Architecture: all
-Version: 3.3.1-stretch
-Priority: optional
-Section: perl
-Maintainer: fredx181
-Installed-Size: 1100
-Depends: perl, libjson-perl, libjson-xs-perl, libdata-dump-perl, libfile-sharedir-perl, libgtk2-perl, libwww-perl, libterm-readline-gnu-perl, mpv | vlc
-Recommends: youtube-get2
-Suggests: gcap, liblwp-protocol-https-perl, libtext-charwidth-perl, libterm-readkey-perl, libterm-ui-perl, wget
-Filename: ./Included/youtube-viewer_3.3.1-bionic_all.deb
-Size: 412148
-MD5sum: 761a2e1d8f4caed1ae064ca57a49cd81
-SHA1: 042776f407afdaccba681f1ce8f35727c1b7ca4e
-SHA256: 8f268ccb2ad8f9449fc2a1c3036c7947b58f9ae49edc6ac3e7a57c5140f38822
-SHA512: 26c0f7bfa866f6cdc84a729ecebe00a68c25974298ee430867c3640ca6ae2a0513b73a1f1006ae12ae2b80d9dd5eec4aa9bd5da8f964e92f8e8f3b43726fa39f
-Homepage: https://github.com/trizen/youtube-viewer
-Description: A Gtk2 application for searching and streaming videos from YouTube.
- WWW-YoutubeViewer - a very easy interface to YouTube.
- Highly recommended: install mpv or vlc mediaplayer and youtube-get2 (includes youtube-dl) to be able to play all videos without exceptions.
-
 Package: zenity-2.30
 Architecture: amd64
 Version: 2.30.0
