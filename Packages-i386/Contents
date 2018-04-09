@@ -8095,9 +8095,6 @@ usr/local/isodata/isolinux/vesamenu.c32			    quick-remaster
 usr/local/lib/X11/mini-icons				    ceni,frisbee
 usr/local/lib/X11/pixmaps/edit24.png			    grub4dosconfig
 usr/local/lib/X11/pixmaps/file24.png			    grub4dosconfig
-usr/local/lib/i386-linux-gnu/perl/5.24.1/XML/Fast.pm	    youtube-viewer
-usr/local/lib/i386-linux-gnu/perl/5.24.1/auto/LWP/UserAgent/Cached/.packlist youtube-viewer
-usr/local/lib/i386-linux-gnu/perl/5.24.1/perllocal.pod	    youtube-viewer
 usr/local/man						    youtube-viewer
 usr/local/pburn/.gtkrc-2.0				    pburn
 usr/local/pburn/box					    pburn
@@ -8220,7 +8217,6 @@ usr/local/share/obshutdown/themes/oxygen/shutdown.png	    obshutdown
 usr/local/share/obshutdown/themes/oxygen/suspend.png	    obshutdown
 usr/local/share/obshutdown/themes/oxygen/switch.png	    obshutdown
 usr/local/share/obshutdown/themes/spacefun-bg.png	    obshutdown
-usr/local/share/perl/5.20.2/LWP/UserAgent/Cached.pm	    youtube-viewer
 usr/local/share/perl/5.26.1/LWP/UserAgent/Cached.pm	    youtube-viewer
 usr/local/share/perl/5.26.1/Mozilla/CA.pm		    youtube-viewer
 usr/local/share/perl/5.26.1/Mozilla/CA/cacert.pem	    youtube-viewer
