@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=YouTube-Get v2
+Comment=YouTube Downloader, frontend for youtube-dl
+Exec=youtube-get2
+Icon=ytt
+Path=
+Terminal=false
+Categories=AudioVideo;Network
+StartupNotify=false

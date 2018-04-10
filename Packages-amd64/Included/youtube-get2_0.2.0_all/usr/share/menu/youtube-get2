@@ -1,0 +1,7 @@
+?package(youtube-get2):\
+	needs="X11"\
+	section="Applications/Network"\
+	title="YouTube-Get v2"\
+	command="youtube-get2"\
+	icon="/usr/share/pixmaps/ytt.png"
+

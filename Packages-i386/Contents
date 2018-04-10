@@ -6212,6 +6212,7 @@ usr/local/bin/Firefox/app/webapprt/omni.ja		    firefox-portable
 usr/local/bin/Firefox/app/webapprt/webapprt.ini		    firefox-portable
 usr/local/bin/Firefox/profile/prefs.js			    firefox-portable
 usr/local/bin/Readme_loadsfs-fuse-writesfs		    portablesfs-loadsfs-fuse
+usr/local/bin/alsamixertray				    alsamixer-tray
 usr/local/bin/apt2sfs					    apt2sfs
 usr/local/bin/apt2sfs-fullinst				    apt2sfs
 usr/local/bin/av-conv					    ffmpeg
@@ -11105,6 +11106,7 @@ usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/icons/spinner.gif youtube-view
 usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/icons/user.png youtube-viewer
 usr/share/pixmaps/MPlayer.png				    gmplayer
 usr/share/pixmaps/UExtract.png				    uextract
+usr/share/pixmaps/alsamixertray.png			    alsamixer-tray
 usr/share/pixmaps/application-x-squashfs2.png		    remaster-scripts
 usr/share/pixmaps/application-x-squashfs3.png		    quick-remaster
 usr/share/pixmaps/apt2sfs.png				    apt2sfs

@@ -1,3 +1,17 @@
+Package: alsamixer-tray
+Architecture: i386
+Version: 1.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/alsamixer-tray_1.0_i386.deb
+Size: 4174
+MD5sum: fb4150c2690abc6f60e914e4bdd50bd7
+SHA1: 4c4ceff9a5fc7b6a8789278d43a7b2c4875a938d
+SHA256: 215e31c7dda0ebf7aed95ff078a4fa0e9689acd5bc104ecd4f1f7ed3ee8fa28b
+SHA512: 573c09f7313b57e0868972c75085004a74bc1d5b0a0a1a0afceee6c6bac4ac53608392a805292d6ef24d4de248106f191020dab98a5bcb92549789d9f9479c6e
+Description: Volume control for system tray
+
 Package: apulse
 Architecture: i386
 Version: 20150727-1
