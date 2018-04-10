@@ -1,3 +1,17 @@
+Package: alsamixer-tray
+Architecture: amd64
+Version: 1.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/alsamixer-tray_1.0_amd64.deb
+Size: 4126
+MD5sum: d054d6afe3330a909379e69eb62bc066
+SHA1: 7eb565f532a2d0cad1835d30364cb53f3eaa88b0
+SHA256: 13e5cbe62ccfd8633c29c0e9a4af33cb0988830fdd7a0b20d1e7c28a7cedeed3
+SHA512: c4dfd6e119b2b4c129c794efb161acfc630585426650882d41eb0357a56e7ae49174d201521865cd672cbb4bc32cfb0f30a578a615aa528f2ff2689182432f43
+Description: Volume control for system tray
+
 Package: apulse
 Architecture: amd64
 Version: 20171016-1
