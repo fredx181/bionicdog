@@ -2382,11 +2382,11 @@ Maintainer: fredx181
 Installed-Size: 878
 Depends: yad (>= 1:0.36.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
 Filename: ./Extra/yradio_0.0.6_i386.deb
-Size: 199318
-MD5sum: 3ccb065198469ea845d206077994a9e5
-SHA1: a60752276d7442b0f1d6a616fb88f19ee3b4aace
-SHA256: 07c8d7339355dcef9c1d25247b7bc86d164d35c31e7a6ed66e202fa05063d3c6
-SHA512: 028122e2fb525b9d7adfdb6d41e930ea12ae4931490ee709bf503eee25a89d24052a922dc4bb90fbb05d1a9b304cf133f22549955588cfbbf35ca03c9dfffca1
+Size: 199298
+MD5sum: 6aa61d67250f2d748ff4457c23b7b696
+SHA1: 7af0d44296d83c90afd6e43e49ac14b25e6dfc64
+SHA256: 497fc32a88f7c22e8bda71eb134fe6013483137f16e8ae3aa07732a74c2ded46
+SHA512: cba66a494ec23bdcf819d2d7354bd70b78b04fe9cace756e797861b872fa9addaf6765cd5f497d20a048253eb3b769896680e80029a19c2035cc5158204f4a0e
 Description: Internet Radio Player
 
 Package: weav
