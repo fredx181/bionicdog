@@ -2158,22 +2158,6 @@ SHA256: 003e836cb5e2d2ece33e186e44c5ed56ebd23c949c33871baa0bd160a78fb9e7
 SHA512: 2ecc11dcd59f9a8dcbf50308ee0d2c649295564c068d7906c84020ff1c46597d6fb13dd6b5edecf708a5ff2db2a16bb0554c0594bbdd2a8e744e2247e7de7bda
 Description: Conky-clock, choose analog clock display on the Desktop
 
-Package: yradio
-Architecture: i386
-Version: 0.0.6
-Priority: optional
-Section: utilities
-Maintainer: fredx181
-Installed-Size: 878
-Depends: yad (>= 1:0.36.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
-Filename: ./Extra/yradio_0.0.6_i386.deb
-Size: 199318
-MD5sum: 3ccb065198469ea845d206077994a9e5
-SHA1: a60752276d7442b0f1d6a616fb88f19ee3b4aace
-SHA256: 07c8d7339355dcef9c1d25247b7bc86d164d35c31e7a6ed66e202fa05063d3c6
-SHA512: 028122e2fb525b9d7adfdb6d41e930ea12ae4931490ee709bf503eee25a89d24052a922dc4bb90fbb05d1a9b304cf133f22549955588cfbbf35ca03c9dfffca1
-Description: Internet Radio Player
-
 Package: libbluray1
 Architecture: amd64
 Version: 1:0.9.3-3
@@ -2426,6 +2410,22 @@ SHA1: 0ee1faf42adb391dda1b05b2adc7951fdaba3c3e
 SHA256: 24f2f2a2ac0e1b659ac7f2ca02bb327de49357bc9e8e35ea0136d74bb483e29f
 SHA512: 9c40700f095e50f105bbfc071370268d135e86e7cff7474a7b32bb3502d0cb5c029e3fb89078fb4b55ec6f5030d50f258a436c0d639dd38adf57e9c77d807def
 Description: Usenet Poster
+
+Package: yradio
+Architecture: amd64
+Version: 0.0.6
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.36.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
+Filename: ./Extra/yradio_0.0.6_amd64.deb
+Size: 199310
+MD5sum: 21447b885bdb1b557dcf31ae7b88f7e2
+SHA1: b0bfe05d0261c32c2c4f1e3896df0c258112ddb8
+SHA256: 8c566863c2406747e5c15bcdbe37d885f9e7bad5b6e352c5dd87c4c9f06ca151
+SHA512: c75749b641266470dab5d2cc6a85a12c1e3be934f198546651b5ef0a9f96c73612c71794f84cb2ef77b59729cb0c1e8a9b4284d3897bf78ba727a703e3136b06
+Description: Internet Radio Player
 
 Package: wex
 Architecture: all
