@@ -1585,6 +1585,24 @@ SHA256: f950e47ba5c18ad2d2de6b87ab736b7ae4ad7ea6b1a1b5dd0588a304b41eb86f
 SHA512: e7c95fdf2447926bb431d171e5e64d7d39db1819e3126e265c4570f68b12fb489e02e36bd9e7801ff5768a17f5c422e8bb5a3fe81a496c5e07e8c34a19b4b9c5
 Description: uextract-converted-pet-to-deb
 
+Package: iupluacontrols-xenialdog32-gtk2
+Architecture: i386
+Version: 3.24
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 1502
+Depends: iuplua-core-xenialdog32-gtk2
+Filename: ./Extra/iupluacontrols-xenialdog32-gtk2_3.24_i386.deb
+Size: 421086
+MD5sum: 8b56dbd6a6099e24b60b99981c1ab532
+SHA1: ba478d6335dd9e8519177a229cc4bbaee6f50793
+SHA256: 87c36dd8191d8d4541be7141db47004420d8cb4d4c4363f9f4b3f59cc8233b3b
+SHA512: 49819224b004fb180b4f495f1171d706fe510a39d2234115045fd6d71c0239b78c9b5b6eabdafdac7b6440392affa8ae0272aeef419ba5bbe13f78ed644e3fc2
+Description: The iupluacontrols-xenialdog32-gtk2:
+ The tecgraf-MIT licensed iupluacontrols-xenialdog64-gtk2 program
+ provides additional graphical toolkit widgets for additional
+ functionality such as matrix drawing.
+ iupluacontrols-xenialdog32-gtk2 by tecgraf-pkg-wiak.
+
 Package: gopoststuff
 Architecture: i386
 Version: 0.1.1
@@ -2932,6 +2950,23 @@ Description: Create iso, edit iso, burn iso or write (hybrid) iso to usb. Change
   Changes in this version 1.0.2
   - Display progress bar for writing ISO to USB
   - Changed entry box for to enter usb drive, to: display a list of available drives to choose from.
+
+Package: iuplua-core-xenialdog32-gtk2
+Architecture: i386
+Version: 3.24
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 1392
+Depends:
+Filename: ./Extra/iuplua-core-xenialdog32-gtk2_3.24_i386.deb
+Size: 352580
+MD5sum: af960e5de1a8e7dbacbef0704363c872
+SHA1: c550354d593268dd8de23a7f337e969bf7c1a6ff
+SHA256: 61bddcce56b4ea09d3acc175f5acd339ae45a39cc74f384067f92fe496db07cc
+SHA512: fb1d438a2eefd98f488956a16558a0887ef93efad57a2c3adc0c80d0431a6041561a87b02e799e5723488e7134046c669424a290372a9cb01922da46086e9eec
+Description: The iuplua-core-xenialdog32-gtk2:
+ The tecgraf-MIT licensed iuplua-core-xenialdog32-gtk2 program provides
+ core graphical toolkit widgets for building Lua GUIs.
+ iuplua-core-xenialdog32-gtk2 by tecgraf-pkg-wiak.
 
 Package: libbluray1
 Architecture: i386
