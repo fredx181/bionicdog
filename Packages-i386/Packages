@@ -2060,6 +2060,22 @@ SHA256: 648b42b4d600bd1b2792dc9e5f39e8b8f62b12bcd6970dc71cf639d38ce5af90
 SHA512: a3560b5d0d7660682ea1fe6283ef9c185a1cfbfa0f9e50dcc8a8728e560571cba0d8da20cf9ac476e2da06659bf307d3210950a94817f7e89cbaf8f27f103586
 Description: Monitor color adjustment tool.
 
+Package: yradio
+Architecture: i386
+Version: 0.0.6-1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.36.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
+Filename: ./Extra/yradio_0.0.6-1_i386.deb
+Size: 199330
+MD5sum: c761eedda534670feca8e75b9aed7eec
+SHA1: 7876da9887e9be30442ca2a44bbaf3caa7937a0d
+SHA256: e8043510d3fe413e80fb0ad18b34954bcfa6c3cf2f1cec8e262071aba77fbdc2
+SHA512: a7e176df46a6446a83e5f3cac09157915940e9ea770f4dc242cd7b12c77c2e34a89d21d2b7124a2fcb1ad61e3b3e9f064ef5eba8815e5a1cb90503d8dfc086a9
+Description: Internet Radio Player
+
 Package: peasymp3
 Architecture: i386
 Version: 4.1
