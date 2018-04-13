@@ -1854,6 +1854,22 @@ Description: Reliable network manager
  - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
  - Updated Help screen
 
+Package: yradio
+Architecture: amd64
+Version: 0.0.6-1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.36.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
+Filename: ./Extra/yradio_0.0.6-1_amd64.deb
+Size: 199322
+MD5sum: 75f872673a9caa3fbb153ea3aaf9a9f4
+SHA1: 1ca5bc062e7aa88960e043be4533e99f11c4c64e
+SHA256: a8d8a1175f20d35f89512481535249ef0a7c2b2f7d7dc19e3828ed57ce822f70
+SHA512: 39fdfe1f61f613742863017ce1bf9dd24c2e447073c427959a61b52f1ddabc5f0d1f8d99b38aa464fc2cf4a1d10ebdb0c39f23173856ef1b1ea887302ce6144a
+Description: Internet Radio Player
+
 Package: roxterm-gtk2
 Architecture: amd64
 Version: 2.9.5-1
