@@ -1836,6 +1836,35 @@ Description: Screen video capture for X
  .
  Video can be saved in MPEG or AVI files format.
 
+Package: snappie
+Architecture: i386
+Version: 1.1
+Priority: optional
+Section: graphics
+Maintainer: rcrsn51
+Depends: netpbm
+Filename: ./Extra/snappie_1.1_i386.deb
+Size: 21162
+MD5sum: d057846c86c346fa6396c46a6773a520
+SHA1: 298c23ab07b6dd953b4260314d10cb9955187aef
+SHA256: 46d334dd3a4d0b960298fc6917c41f67c66cc640fc09b49134e2c344110d87eb
+SHA512: 7098032b45715065e393fb44b47c40d69952e7780057704636262a70dcbcde4d1ab89ea462cd24fe4ed45dc31a930f3e9b12d86a5f3c7e276d16965fc0eb361d
+Description: Screen snapshot
+
+Package: batterup
+Architecture: i386
+Version: 1.3
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/batterup_1.3_i386.deb
+Size: 7464
+MD5sum: 88990e986384054d70ea66fb86cdaba6
+SHA1: 165e2416aac8f20ea607fa7e9ff298cf5bf83f4c
+SHA256: 86a0ba10e48ba0e7d2b98d28f0d7af83392ceff3c22ce0441dd174bb3aa1aa04
+SHA512: 5c3e7696b348626c77f6257e39167bf23f95a41f91a96bea7422be4f3f59ed524c7d16713e81c9ba6e04acbc7cec1d74cffd9ff07a12cc535f380c24d4a902af
+Description: Batterup battery monitor
+
 Package: debdog-advert-blocker
 Architecture: i386
 Version: 1.0.0-1
@@ -1925,6 +1954,21 @@ Description: Video Acceleration (VA) API for Linux -- DRM runtime
  .
  This package provides the libva-drm library.
 
+Package: yassm
+Architecture: all
+Version: 4.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: cifs-utils, smbclient, arp-scan
+Filename: ./Extra/yassm_4.2.deb
+Size: 7474
+MD5sum: 8fd98f411f40fefb950d8e80c5b15a1f
+SHA1: cb6a0cdb3aaebac20ea84f25008b67b66e057a92
+SHA256: 05dd5d9ff18fb31a287a8426e688f2ef5a1b7e56b3a130a515105e93cfc79ea3
+SHA512: 6a17b8b0c52a566d290dcb65c37bf92ad3299d6c9a3b806a70148f26f4207efc3b4b3e1f440dfc3e45259234f34369bfaa4af3c38dad6ed9edb195a45a33f554
+Description: Samba share mounter
+
 Package: tint2
 Architecture: i386
 Version: 0.11+svn20121014-3
@@ -1968,6 +2012,21 @@ SHA256: ac292b32f3e1f246969692b10ea1af713f3a1ab04097b09092caf3d41c9d1cb7
 SHA512: 28c97846c850cb4ad849688ad7066b9c7e6706cf9010d805025210d499834e304c55157d541b86c3e91c84d1caab61518fa1d664f3a57ccc24001b9170d15120
 Description: system-firewall
 
+Package: f3-flash-check
+Architecture: all
+Version: 6.1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: f3
+Filename: ./Extra/f3-flash-check_6.1.deb
+Size: 3650
+MD5sum: 0a2d210dfd74ce223fdba96f788debed
+SHA1: 0f1884769f06ec5f1d0c0a7aeccffd062026e0af
+SHA256: c780c04a5179b1e8ed82029377abe64b50e720cbb02a3395eb21d1efc247304c
+SHA512: 8bd6deb507310cd8ba90e8d2e8d18b0e9468be227a36c0c64d6b99d45db8823b3b1be2aa3dcf5bc0ebf400df890537fb1ad7e97a2b5d73fe370f9eed70e2b893
+Description: Test health of flash media
+
 Package: roxterm-gtk2
 Architecture: i386
 Version: 2.9.5-1
@@ -1993,6 +2052,26 @@ Description: Multi-tabbed GTK+/VTE terminal emulator - GTK2 version
  .
  This package provides the GTK+2 version of the binaries. The roxterm-gtk3
  package provides a GTK+3 version.
+
+Package: madedit
+Architecture: i386
+Version: 0.2.9-1
+Priority: optional
+Section: editors
+Maintainer: Alston Chen <madedit@gmail.com>
+Installed-Size: 5784
+Depends: libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libpango1.0-0 (>= 1.14.8), libstdc++6 (>= 4.1.1-12), libx11-6, libxext6
+Filename: ./Extra/madedit_0.2.9-1_i386.deb
+Size: 2166404
+MD5sum: 17c4f608280907cc2dee8d309c6963e0
+SHA1: 64fdb6ab75e65b5047f0e08cb1ab5128ba292096
+SHA256: 3a591d46e43833b3c70d13421c2f5c4b1761b3487f970f56d6874e40968100d8
+SHA512: 1cbe402421bceb16b5822d74fb00a8e34d18d710048d1723a6027beedc45d672ab26896c48f3a71da3b3510a8b8bf2f522600d87d7c6dbb646a04a665eb23172
+Description: GTK+2 based text/hex editor
+ MadEdit is a cross-platform Text/Hex Editor written in C++ & wxWidgets.
+ MadEdit supports many useful functions, e.g. SyntaxHighlightings,
+ WordWrap, Encodings, Column/Hex Modes.
+ HomePage: http://madedit.sourceforge.net
 
 Package: findnrun-doc
 Architecture: all
@@ -2109,6 +2188,20 @@ SHA1: 7876da9887e9be30442ca2a44bbaf3caa7937a0d
 SHA256: e8043510d3fe413e80fb0ad18b34954bcfa6c3cf2f1cec8e262071aba77fbdc2
 SHA512: a7e176df46a6446a83e5f3cac09157915940e9ea770f4dc242cd7b12c77c2e34a89d21d2b7124a2fcb1ad61e3b3e9f064ef5eba8815e5a1cb90503d8dfc086a9
 Description: Internet Radio Player
+
+Package: sound-card-selector
+Architecture: all
+Version: 1.1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/sound-card-selector_1.1.deb
+Size: 3822
+MD5sum: 6c092fd24c22991fcb7a6f9165944769
+SHA1: 30ccc3494a96dfc0c930cc509baa49971a0d8bcf
+SHA256: d29dae8526f076306921be8be08424a1344b0c8fc5ce67c0b1e25de44e9873d2
+SHA512: 20890349afc8fce22c2cddb410201843365ac2b7082b7472a044c3b9a87c6a934a5c63cc6dc888f015a902f0968a5c6929736e23f401332a2942b955e36fec65
+Description: Select a sound card and set ALSA defaults
 
 Package: peasymp3
 Architecture: i386
@@ -2626,6 +2719,21 @@ Description: Reliable network manager
  - Updated Help screen
  - added multi-user support (fredx181)
 
+Package: peasyxorburn
+Architecture: all
+Version: 1.1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xorriso, growisofs, cdrskin, eject, xterm
+Filename: ./Extra/peasyxorburn_1.1.deb
+Size: 10100
+MD5sum: 92319bd2f7fc91fd352646919fb00e3f
+SHA1: ad325ebf06d5aa30a672363419580f90fbe5b41b
+SHA256: cf09b196f3e5016d43e545704997718e8c9b25fa30df618e2b6a01df01fb531b
+SHA512: 010c8c2ae56f5f33a2a7a5099990fa9df5c1fd01c187f6493bb2792d8059e24863abc871e4a3ec934cf4a7ed12814541c0457600b1666699e970e138671797a6
+Description: Simple burning tool
+
 Package: gtkdesklet
 Architecture: i386
 Version: 1.0.1
@@ -2882,37 +2990,6 @@ SHA256: fefd843677d6d300de380e5d572d60dc143a374dd28e0716c12b801ac616545c
 SHA512: d6b18961cf1871b289cfcf8bf33d53fabc44e8cb90f463479d07be3df7e4b68bfc8853ad41961f61ae112b7e7cb08340b53cf4879a910c1412df659907481559
 Description: Static build of the latest FFmpeg binaries
 
-Package: linux-image-extra-4.14.0-13-generic
-Architecture: i386
-Version: 4.14.0-13.15
-Priority: optional
-Section: kernel
-Source: linux
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 113667
-Depends: linux-image-4.14.0-13-generic, crda | wireless-crda
-Filename: ./Extra/linux-image-extra-4.14.0-13-generic_4.14.0-13.15_i386.deb
-Size: 30954084
-MD5sum: c65b16aeba97fc023635ce44e58751dc
-SHA1: 29e95e00f76397e601cf47f0f590ede0075d53ee
-SHA256: 28a8b7fbeecc36fa6ff4d1bc5da6359dff48edaaa3196562aaead0ccb0975632
-SHA512: 77c0d1655680ee53761ae60e2ce1f08bbd42ee2cbb10b79dc6315bc2bbc0edd9ed74db0bbdee9a6e4a8b8c8437c9ec222b14166c3c19be268fce4a748efdc6d4
-Description: Linux kernel extra modules for version 4.14.0 on 32 bit x86 SMP
- This package contains the Linux kernel extra modules for version 4.14.0 on
- 32 bit x86 SMP.
- .
- Also includes the corresponding System.map file, the modules built by the
- packager, and scripts that try to ensure that the system is not left in an
- unbootable state after an update.
- .
- Supports Generic processors.
- .
- Geared toward desktop and server systems.
- .
- You likely do not want to install this package directly. Instead, install
- the linux-generic meta-package, which will ensure that upgrades work
- correctly, and that supporting packages are also installed.
-
 Package: youtube-get
 Architecture: i386
 Version: 0.1.1
@@ -2950,6 +3027,20 @@ SHA256: 0ff6d9aa73be9cc3924b1ef20444c493d622d09eb5409ff994a46bf11139f82c
 SHA512: f16994a14d928a83221dc331cbe47d45a26307e3c9860a7c71e55f297780288b462e9c75766142286422d2d7cda9301acff9048be9a84684c3c98008d78b8892
 Description: Pulseaudio emulator using alsa
 
+Package: peasyclock
+Architecture: all
+Version: 1.4
+Priority: optional
+Maintainer: rcrsn51
+Depends: tzdata, ntpdate, gsu
+Filename: ./Extra/peasyclock_1.4_all.deb
+Size: 4872
+MD5sum: 09d109c54f1e2ff08a95c37eca605e83
+SHA1: bcc1a3244c05aadf4303414ad85e9fa8fd7907c1
+SHA256: f83254af0b2479ff0710e9356b5f16ac8305c3a34d5c4fce165f5951334f56ad
+SHA512: f34a3313c7e4e2a855a416dcb2605b04094abb801460678e75d053196348df49e4ef6310cd2287a0e1c6e73169915d5b3812c7cd48472910672c04b04c3ddf7d
+Description: Sets system date, time, zone
+
 Package: isotools
 Architecture: all
 Version: 1.0.2
@@ -2983,6 +3074,64 @@ Description: The iuplua-core-xenialdog32-gtk2:
  The tecgraf-MIT licensed iuplua-core-xenialdog32-gtk2 program provides
  core graphical toolkit widgets for building Lua GUIs.
  iuplua-core-xenialdog32-gtk2 by tecgraf-pkg-wiak.
+
+Package: evince
+Architecture: i386
+Version: 1:2.32.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 1200
+Depends: libc6, libgconf2-4, libgnome-keyring0, libgail18
+Filename: ./Extra/evince_2.32.0_i386.deb
+Size: 331434
+MD5sum: f75fd4f4d854e3b3b41bf05858f5422a
+SHA1: 9261409f910679d5cba47be4411e03e0f5477a73
+SHA256: b56ba209da97602884717399eb5b12bd070654268085194d477128b0cd258db9
+SHA512: 8549498c1310f5cb153df378b5498db171b74ae36b86c0e0662cfe3dfd4b77918d6eacef7c43c642db3a46579c0b734e90658c4ac8af77e73f3693c9f5a76d48
+Description: evince-converted-pet-to-deb
+
+Package: deadbeef-static
+Architecture: i386
+Version: 0.7.2-2
+Priority: optional
+Section: sound
+Maintainer: Alexey Yakovenko <waker@users.sf.net>
+Installed-Size: 18487
+Depends: libasound2 (>> 1.0.16), libc6 (>= 2.7-1), libcairo2 (>= 1.2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.12.0), libpango1.0-0 (>= 1.20.3), libx11-6
+Recommends: libpulse0, libdbus-1-3
+Filename: ./Extra/deadbeef-static_0.7.2-2_i386.deb
+Size: 8643574
+MD5sum: 29512c0d7237ab6b803680530c9117da
+SHA1: 6d48557ca317d1a7a407064b8a21f71929a5ce29
+SHA256: 7b3397d83075f6135571c81424e4f94f829f1d7b535caa2bb88da2396d4841a2
+SHA512: bfc0abeefc0cb39716878b46fc444c97090f473c803157ca9909556af52b3aad1d4f7e3282ab0099a6ebddb8706c4db4e58e14c89dd62f00c812e26b7ce4766f
+Homepage: http://deadbeef.sourceforge.net/
+Description: The Ultimate Music Player
+ DeaDBeeF (as in 0xDEADBEEF) is a cross-platform audio player
+ .
+ Features:
+ .
+  * mp3, ogg vorbis, flac, ape, wv, wav
+  * ID3v1, ID3v2.2, ID3v2.3, ID3v2.4, APEv2, xing/info tags support
+  * character set detection for non-unicode ID3 tags - supports cp1251
+    and iso8859-1
+  * unicode tags are fully supported as well (both utf8 and ucs2)
+  * cuesheet support for mp3, ogg, flac, ape
+  * autodetection of utf8/cp1251/iso8859-1 charsets in cuesheets
+  * sid and some popular chiptune formats like nsf
+  * tracker modules like mod, s3m, it, xm, etc
+  * HVSC song length database support for sid
+  * gtk2 interface with custom highly speed/memory optimized widgets
+  * no GNOME or KDE dependencies - just gtk2 and several small libraries
+  * minimize to tray, with scrollwheel volume control
+  * drag and drop, both inside of playlist, and from filemanagers and such
+  * control playback from command line (allows global hotkeys using xbindkeys)
+  * seeking works in all supported formats
+  * plugin support; ships with several standard plugins, such as global hotkeys
+    and last.fm scrobbler; sdk is included
+  * duration calculation is as precise as possible for vbr mp3
+    files (with and without xing/info tags)
 
 Package: libbluray1
 Architecture: i386
@@ -3054,39 +3203,21 @@ Description: Reliable network manager
  - added multi-user support (fredx181)
  - changed bcrypt to ccrypt
 
-Package: linux-image-4.14.0-13-generic
+Package: evince
 Architecture: i386
-Version: 4.14.0-13.15
+Version: 1:2.32.0-1
 Priority: optional
-Section: kernel
-Source: linux
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 48473
-Provides: aufs-dkms, fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules, virtualbox-guest-modules
-Depends: kmod
-Recommends: grub-pc | grub-efi-ia32 | grub | lilo, initramfs-tools | linux-initramfs-tool
-Suggests: fdutils, linux-doc-4.14.0 | linux-source-4.14.0, linux-tools, linux-headers-4.14.0-13-generic
-Filename: ./Extra/linux-image-4.14.0-13-generic_4.14.0-13.15_i386.deb
-Size: 18592464
-MD5sum: 8ea6ecf0f989edf38f6d0e84f09baf86
-SHA1: f5518103d3af8b173b184692b9ee4c090c4bd15c
-SHA256: 88a4dcfc32ba25a7fe1515f9161d6f01d82db21216ee703b8e7ad90e16164b27
-SHA512: a05756991722249391c6044fbd6e064e6bd123eb707b77228ae71def4c9bafa8fcb63f8dac572115409788b9f2ff597adeda7741014e931b715a38411a4eb86d
-Description: Linux kernel image for version 4.14.0 on 32 bit x86 SMP
- This package contains the Linux kernel image for version 4.14.0 on
- 32 bit x86 SMP.
- .
- Also includes the corresponding System.map file, the modules built by the
- packager, and scripts that try to ensure that the system is not left in an
- unbootable state after an update.
- .
- Supports Generic processors.
- .
- Geared toward desktop and server systems.
- .
- You likely do not want to install this package directly. Instead, install
- the linux-generic meta-package, which will ensure that upgrades work
- correctly, and that supporting packages are also installed.
+Section: utilities
+Maintainer: root
+Installed-Size: 1200
+Depends: libc6, libgconf2-4, libgnome-keyring0, libgail18, libpoppler-glib8
+Filename: ./Extra/evince_2.32.0-1_i386.deb
+Size: 332310
+MD5sum: 04f0381f003c6108dd3d2a5e7dd206e5
+SHA1: b22bc1dfde5bebe4dcc2fdc037be01714b5ac532
+SHA256: 7dbda5ed33a12f0435719ffdfd5f1892c108137e0b12d116a49bc62b4cf81ecc
+SHA512: 25f018c07b5c6fd782ae6bea624a66507ce190fd11c1815c089545ec2f9e9f1a1a5842084f831584dd942050bf87bf886038225d05f7ae9696994c9dd453b10c
+Description: evince-converted-pet-to-deb
 
 Package: peasyfwmon
 Architecture: i386
@@ -3122,25 +3253,19 @@ SHA256: cf807f8bc475dc3681ef6c102d43d5700976d70230c83543f306799a3ff32ea4
 SHA512: e1241b757cf98954c0abe1096aecd8fcf80a9194355916fcd292dbcac80a2ac7802404225b7db476c0ddbb0bf1262f602dff68224b6f5da1c5e5b61f09b94506
 Description: Convert video (or portion of video) to Animated GIF
 
-Package: linux-image-generic
-Architecture: i386
-Version: 4.14.0.13.14
+Package: peasymount
+Architecture: all
+Version: 1.4-1
 Priority: optional
-Section: kernel
-Source: linux-meta
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 14
-Depends: linux-image-4.14.0-13-generic, linux-image-extra-4.14.0-13-generic, linux-firmware
-Recommends: thermald
-Filename: ./Extra/linux-image-generic_4.14.0.13.14_i386.deb
-Size: 2292
-MD5sum: 740c84f86fab1755f4290e515666e377
-SHA1: 4ca51c2717d465794c13d5bcaad5e7aac7c92e85
-SHA256: 05a3a5e1c758de244f5370d45976965116d05cfbf9c03edd680b97021541cf69
-SHA512: 4edfed6e6c2ef39ad9cb72e7720be3b1192a30de1865e9472c26b9ddaf1f5e673a039a4f9b5ffdd0bd8b5419965a44f913388bc0617435ce95e46b67c19164dd
-Description: Generic Linux kernel image
- This package will always depend on the latest generic kernel image
- available.
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/peasymount_1.4-1.deb
+Size: 3964
+MD5sum: 4f6d5fb547df6da0297730402e5561e7
+SHA1: a740186283d8b642d695c17169076a6b31da06a5
+SHA256: f2a97c9b1dbf2e2047e8d6f27b7aec5abbc054275f0788414e4ec3c82409dc5d
+SHA512: 97cdfc2a7130206091fff99fa1772b757347579dec45226d0703ef54aa219a776a8ee9a32599cb879b57ad0e7585f349787b09c5e1a7f7d78e35dfcbb7691ea8
+Description: Mounts ISO/SFS files
 
 Package: picdrop
 Architecture: i386
@@ -3157,6 +3282,21 @@ SHA1: b4f7961128bd66b668a6f5a56f162df92a12722d
 SHA256: 7208c8bd31be977ac881129a5dce38ae1196e56c63245c9d213ad316962d22a0
 SHA512: 71f2b003798f1edafcbe7d8fb262d8fe6f4dd2e5505c1dfa0bb6ac70bcda6c4af1862e0ef8126991a99db1b5e088ce90eccc2e73869a91393b236d5cfee3e676
 Description: Picdrop, resize images, by Terry (sunburnt)
+
+Package: filefinder
+Architecture: all
+Version: 2.4
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gtkdialog
+Filename: ./Extra/filefinder_2.4.deb
+Size: 7588
+MD5sum: e5628697a9b05b84cbc6395dc28d4863
+SHA1: 733530220924adcf5af587cba27a1e8934451bde
+SHA256: f71585244c1b9267dd88897bbbdca168387a94daa724503a72fd965bb262f274
+SHA512: ba97f2424069de4b1e24ccc1092895e801e6f882e20385ee7eb56e563bdd860dde606d2fb87311dd32b3032cff52eedc0009374dffb38290639ee2d9fb2688b2
+Description: File searching tool
 
 Package: libvpx4
 Architecture: i386
@@ -3182,4 +3322,20 @@ Description: VP8 and VP9 video codec (shared library)
  on which the Theora codec was based.
  .
  This package contains the shared libraries.
+
+Package: peasyscale
+Architecture: i386
+Version: 2.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 48
+Depends: libc6, gtkdialog, libgtk2.0-0, libpango1.0-0, libcairo2, libglib2.0-0
+Filename: ./Extra/peasyscale_2.0_i386.deb
+Size: 10950
+MD5sum: 4578a798c7980c3dce101ef8f68eb620
+SHA1: 12a293775a46c59d40ef302cf45804389545ecb6
+SHA256: 1a9456b8003a92201b00ce0bf804aeb66a43b690fba1137b792683b3b41f1da4
+SHA512: 08bf42ac7e786aa9c6e94f0daf9ad59eef2d09fa8ce955ad7ea3f962953a6e85f3160c021b3e43de4dfc3d94426529a3270529961dba07a55307adfc4e53da43
+Description: peasyscale from rcrsn51 for Puppy linux
 
