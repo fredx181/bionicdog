@@ -1865,6 +1865,30 @@ SHA256: 86a0ba10e48ba0e7d2b98d28f0d7af83392ceff3c22ce0441dd174bb3aa1aa04
 SHA512: 5c3e7696b348626c77f6257e39167bf23f95a41f91a96bea7422be4f3f59ed524c7d16713e81c9ba6e04acbc7cec1d74cffd9ff07a12cc535f380c24d4a902af
 Description: Batterup battery monitor
 
+Package: emelfm2
+Architecture: i386
+Version: 0.9.1-1~trusty~ppa1
+Priority: optional
+Section: x11
+Maintainer: Liviu Andronic <landronimirc@gmail.com>
+Original-Maintainer: Ralf Meyer <ranfyy@gmail.com>
+Installed-Size: 2478
+Depends: libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.24.0), libgtkspell0 (>= 2.0.15), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libmagic1
+Recommends: libbz2-1.0 | liblzo2-2, grep (>= 2.5.3), sed (>= 4.1.5), udisks, policykit-1
+Suggests: tracker-utils
+Filename: ./Extra/emelfm2_0.9.1-1~trusty~ppa1_i386.deb
+Size: 769780
+MD5sum: 7fad925a6f8d514d8c3fa129645b5119
+SHA1: c6130652419de924d5cec7ab4c0d75d0062fed2e
+SHA256: 726447683a593af31783ff818eba90556321be8f0c65380b65774d37bd3288df
+SHA512: 295997d0288ad2168799b43ee4d998fa40f7c928c66715fcd4d8d004943964de2655485eb59c9e8977049d61f79dc26502ee03362d17bd0f90e7abeb9a9ff737
+Homepage: http://emelfm2.net
+Description: file manager for X/gtk
+ emelFM2 is a file manager that implements the popular two-pane
+ design. It features a simple GTK+2 interface, a flexible file
+ typing scheme, and a built-in command line for executing commands
+ without opening an xterm.
+
 Package: debdog-advert-blocker
 Architecture: i386
 Version: 1.0.0-1
