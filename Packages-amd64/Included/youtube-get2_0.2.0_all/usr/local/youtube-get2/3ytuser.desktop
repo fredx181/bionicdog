@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Download from YouTube user
-Exec=youtube-get2 user
-Icon=/usr/local/youtube-get2/icons/yt-user.png
-Comment=Download from a list of uploaded videos from specified YouTube user
-

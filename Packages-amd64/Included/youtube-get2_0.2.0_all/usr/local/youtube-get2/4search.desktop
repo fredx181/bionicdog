@@ -1,8 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Name=Download from YouTube Search  
-Icon=/usr/local/youtube-get2/icons/yt-search.png
-Exec=youtube-get2 search
-Type=Application
-Comment=Search for YouTube videos to download 
-

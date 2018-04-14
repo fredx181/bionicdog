@@ -1,7 +1,0 @@
-?package(youtube-get):\
-	needs="X11"\
-	section="Applications/Video"\
-	title="Play with mplayer"\
-	command="m-play"\
-	icon="/usr/share/pixmaps/mplayer.png"
-

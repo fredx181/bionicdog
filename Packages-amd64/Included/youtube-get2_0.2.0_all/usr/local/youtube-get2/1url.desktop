@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Download from URL
-Comment=Enter multiple youtube urls \n (http://...)
-Exec=youtube-get2 url
-Icon=/usr/local/youtube-get2/icons/yt-url.png
-

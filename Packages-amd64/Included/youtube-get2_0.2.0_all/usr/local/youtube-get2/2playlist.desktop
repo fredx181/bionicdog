@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Exec=youtube-get2 playlist
-Icon=/usr/local/youtube-get2/icons/yt-playlist.png
-Type=Application
-Name=Download from Playlist URL
-Comment=Download from YouTube Playlist, \n (including 'playlist?list='  or  'list=' in url)
-
