@@ -520,6 +520,22 @@ Description: library for GIF images (library)
  .
  This package contains the library.
 
+Package: sfsload
+Architecture: all
+Version: 1.0.4
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 47
+Depends: libc6, yad, gsu | gksu, aufs-tools, lsof
+Filename: ./Included/sfsload_1.0.4_all.deb
+Size: 6688
+MD5sum: 2cffe9b58fe54d9fd135b465c4ef2deb
+SHA1: 3370cc2ecd7fd147b8b2b6c8f5855482e7571d8a
+SHA256: 6c92c34e6ece05dc61b8fbd48cb5ecf8fb16769bfab7c7577228c3450f2f469a
+SHA512: 551ff5c8b8abbb23fad0167774e12580e574019808c6a8380ce96aa91be5ab23537a38587ce6e42320b52c74f015170b78af0dc587fa39d022e191a496cbf660
+Description: Load a *.squashfs or *.sfs module.
+ Changes compared to included scripts in DebianDog-2015-09-02 iso: loadmodule and loadsfs
+ In case unloading failed at first, find out (by 'aubusy', from aufs-tools) which process is keeping it from unloading and kill it, then try again.
+
 Package: pavrecord
 Architecture: all
 Version: 9.0.5
