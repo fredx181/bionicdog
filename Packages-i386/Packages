@@ -835,6 +835,21 @@ SHA256: 3e39bd20e651c2bb8d0f4d26d5ce7e3cdcd1809604551f4d94dccfb57e63cc31
 SHA512: cb2c19a856e898c2d84cbb0ff4afc80d8b0b0e360c40256b6a5308e489243733653b9f1e012a0a53969dd444ba70b0a7d534602aef2b1a54ac88418f9f37b7c2
 Description: graphical yad message utility.
 
+Package: bionicdoginstallscripts
+Architecture: i386
+Version: 1.1.0
+Maintainer: root
+Installed-Size: 863
+Depends: libc6, bionicdogmountscripts, gtkdialog, yad
+Filename: ./Included/bionicdoginstallscripts_1.1.0_i386.deb
+Size: 429690
+MD5sum: a004d65f9fa60b5f613c72a5931fe288
+SHA1: 0f94a7b9cabb8d0feb0130504650221c59ce70da
+SHA256: af46ead1dad211bdd47ff35bd746b03dfb7665bb7b8a0dc19561a1d5510e51e3
+SHA512: 3d28d5574efe18e030b954890c9d4e3f49b6d8c6a7c403893dac4077c6ca42149c85e2f235e8861ade6826ac11ed72018c39f70dd4bc79fe3523a69b4a520c8f
+Description: Special BionicDog frugal and full install scripts taken from DebianDog.
+ Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
+
 Package: precord
 Architecture: i386
 Version: 9.0.3
