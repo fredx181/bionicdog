@@ -39,6 +39,7 @@ etc/skel/.config/rox.sourceforge.net/OpenWith/edit-sfs	    edit-sfs-pcmanfm,edit
 etc/skel/.config/xfe/scripts/edit-sfs			    edit-sfs-pcmanfm
 etc/skel/Startup/exec_lxinput-autostart			    lxinputsave
 etc/skel/Startup/firewall-puppy				    Firewall-Puppy
+etc/skel/Startup/network_tray.sh			    frisbee
 etc/skel/Startup/peasyfwmon_tray			    peasyfwmon
 etc/skel/Startup/peasywifi_tray				    PeasyWiFi
 etc/sudoers.d/peasywifi					    PeasyWiFi
@@ -75,6 +76,7 @@ home/puppy/.config/rox.sourceforge.net/OpenWith/edit-sfs    edit-sfs-pcmanfm,edi
 home/puppy/.config/xfe/scripts/edit-sfs			    edit-sfs-pcmanfm,edit-sfs-rox
 home/puppy/Startup/exec_lxinput-autostart		    lxinputsave
 home/puppy/Startup/firewall-puppy			    Firewall-Puppy
+home/puppy/Startup/network_tray.sh			    frisbee
 home/puppy/Startup/peasyfwmon_tray			    peasyfwmon
 home/puppy/Startup/peasywifi_tray			    PeasyWiFi
 lib/dhcpcd/dhcpcd-hooks					    frisbee
@@ -497,6 +499,7 @@ root/Startup/batterup_start				    batterup
 root/Startup/exec_fwstatus-autostart			    firewall-ng
 root/Startup/exec_lxinput-autostart			    lxinputsave
 root/Startup/firewall-puppy				    Firewall-Puppy
+root/Startup/network_tray.sh				    frisbee
 root/Startup/peasyfwmon_tray				    peasyfwmon
 root/Startup/peasywifi_tray				    PeasyWiFi
 sbin/losetup						    mount
@@ -1201,7 +1204,7 @@ usr/local/bin/dropbox_uploader.sh			    dropboxgui
 usr/local/bin/f3_flash_check				    f3-flash-check
 usr/local/bin/filefinder				    filefinder
 usr/local/bin/filemnt					    filemnt-pcmanfm
-usr/local/bin/firefox					    firefox-apulse,firefox-portable
+usr/local/bin/firefox					    firefox-portable,firefox-apulse
 usr/local/bin/firefox-puppy.sh				    firefox-apulse
 usr/local/bin/firefox-root.sh				    firefox-apulse
 usr/local/bin/firewall_install				    Firewall-Puppy
@@ -3351,14 +3354,14 @@ usr/local/share/pixmaps/gtk-save.png			    dogradio
 usr/local/share/pixmaps/gtk-stop.png			    dogradio
 usr/local/share/pixmaps/star.png			    dogradio
 usr/local/share/pixmaps/wex/wex_config.png		    wex
-usr/local/share/pixmaps/wex/wex_directory.png		    weav,wex
-usr/local/share/pixmaps/wex/wex_edit.png		    weav,wex
-usr/local/share/pixmaps/wex/wex_help.png		    weav,wex
-usr/local/share/pixmaps/wex/wex_home.png		    weav,wex
+usr/local/share/pixmaps/wex/wex_directory.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_edit.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_help.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_home.png		    wex,weav
 usr/local/share/pixmaps/wex/wex_mixer.png		    wex
 usr/local/share/pixmaps/wex/wex_pause.png		    wex
-usr/local/share/pixmaps/wex/wex_play.png		    weav,wex
-usr/local/share/pixmaps/wex/wex_quit.png		    weav,wex
+usr/local/share/pixmaps/wex/wex_play.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_quit.png		    wex,weav
 usr/local/share/pixmaps/wex/wex_record.png		    wex
 usr/local/share/pixmaps/wex/wex_stop.png		    wex
 usr/local/share/pixmaps/wex/wex_utility00.png		    wex
@@ -3470,7 +3473,7 @@ usr/share/applications/findnrun.desktop			    findnrun
 usr/share/applications/firefox-apulse.desktop		    apulse
 usr/share/applications/firefox-puppy.desktop		    firefox-apulse
 usr/share/applications/firefox-root.desktop		    firefox-apulse
-usr/share/applications/firefox.desktop			    firefox-apulse,firefox-portable
+usr/share/applications/firefox.desktop			    firefox-portable,firefox-apulse
 usr/share/applications/firewall-puppy.desktop		    Firewall-Puppy
 usr/share/applications/firewall-setup.desktop		    firewall-ng
 usr/share/applications/firewallstatus.desktop		    firewall-ng
