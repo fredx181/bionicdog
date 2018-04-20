@@ -622,6 +622,31 @@ SHA512: 49ba4615edcb613204f3853f1346f8099d1fb52a216a1876a3624a0b32e33699832d4270
 Description: Special BionicDog frugal and full install scripts taken from DebianDog.
  Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
 
+Package: portablesfs-loadsfs-fuse
+Architecture: all
+Version: 1.0.9
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 87
+Depends: libc6, yad, unionfs-fuse, gsu | gksu, linux-user-chroot, squashfuse, aufs-tools, lsof
+Filename: ./Included/portablesfs-loadsfs-fuse_1.0.9_all.deb
+Size: 9176
+MD5sum: a57cccbce643d70f8d5bf95d173a7763
+SHA1: 11f9e5d1bf4c0f43b359ccb39b2c4aedc5d31f98
+SHA256: bbe079df28630cda122d66aa42e30255622008dc98139dfe3ad1fe76705c63a9
+SHA512: e7662d63bca5d2860217fb0f784a0bd3a18c01386228098357891de96dc4a9fb297af1ea0286be7bf7aef208e7ce3e1608cfb79c2c2701d9004a6712ba64035b
+Description: Load a *.squashfs or *.sfs module.
+ Changes in v 1.0.3:
+ When logged in as unprivileged user, no password is required to run portable sfs script with 'Chroot Mode'
+ Same for activating a .squashfs module with loadsfs-fuse.
+ - portablesfs creates a portable script to activate *.squashfs or *.sfs module
+ (changed in v 1.0.2: added (optional) choice to enter a command that will be executed directly when running created portable script, instead of showing 'Applications' menu)  
+ - loadsfs-fuse activates a provided *.squashfs or *.sfs module from the commandline or:
+ by drag and drop (can be used on a full install).
+ - loadsfs-fuse-writesfs: basically the same as loadsfs-fuse but it leaves no traces in / (rootfs), instead it writes the config files (or any other) that a program creates to: /root/<name_of_module> directory  
+ Changes in v 1.0.5:
+ - kill processes which are keeping from proper unmounting (might be needed in some cases for SFS-load mode)
+ version 1.0.8: second argument for loadsfs-fuse now supported, e.g. loadsfs-fuse /path/modules.squashfs <app-name>
+
 Package: ffconvert
 Architecture: all
 Version: 1.4.2.0
