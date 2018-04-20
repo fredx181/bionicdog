@@ -307,6 +307,21 @@ Description: graphical frontend to sudo - this version is fix for Jessie and SID
   More information available here:
   http://www.murga-linux.com/puppy/viewtopic.php?p=829680#829680
 
+Package: bionicdoginstallscripts
+Architecture: i386
+Version: 1.1.2
+Maintainer: root
+Installed-Size: 863
+Depends: libc6, bionicdogmountscripts, gtkdialog, yad
+Filename: ./Included/bionicdoginstallscripts_1.1.2_i386.deb
+Size: 429654
+MD5sum: fd3358452a9de87b41b3487f1d65fb37
+SHA1: c58d592ac6ee5d7a939478b58977e2bc74f32a60
+SHA256: cbb40b0256faaa144cb74c2518ef5836672c9564dd92297581dcedc88e44e1dc
+SHA512: 5aa89bdd1a7c62438dc87eb729ada5ffcca2936411a82ad4e9ce5a6af6ff5e15ff6df7e6bf5d4b3de12a92887bfc8b53e5d6d7e317e7d4f8123f42d0be3fa0c8
+Description: Special BionicDog frugal and full install scripts taken from DebianDog.
+ Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
+
 Package: pavrecord
 Architecture: i386
 Version: 9.0.5
@@ -462,21 +477,6 @@ Description: Jwm custom setup for Xendog, includes:
  - openbox-menu, pipe-menu setup for JWM (NOTE: menu-cached is not used) to display entries in *.desktop files
  - jwm-obmenu script for the Jwm window manager. It provides
  a dynamic menu listing of installed applications.
-
-Package: bionicdoginstallscripts
-Architecture: i386
-Version: 1.1.1
-Maintainer: root
-Installed-Size: 863
-Depends: libc6, bionicdogmountscripts, gtkdialog, yad
-Filename: ./Included/bionicdoginstallscripts_1.1.1_i386.deb
-Size: 429730
-MD5sum: d91b500a9888eb94ba1a36c2b0af95db
-SHA1: ce1e6967baf1922b3391f967bb6d2881df73921b
-SHA256: 618b711bb23fc67fc415709997eeb87289cd6f5db7974ca544abe93229fe2d12
-SHA512: b85d651254a4bd1eaba584e333f9d543e9464701637b1eab04b3b724362ac7825824832400686793305554d090939564a97af44b550027cd5f812c18dca6a6ab
-Description: Special BionicDog frugal and full install scripts taken from DebianDog.
- Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
 
 Package: obshutdown
 Architecture: i386
@@ -875,21 +875,6 @@ SHA256: 3e39bd20e651c2bb8d0f4d26d5ce7e3cdcd1809604551f4d94dccfb57e63cc31
 SHA512: cb2c19a856e898c2d84cbb0ff4afc80d8b0b0e360c40256b6a5308e489243733653b9f1e012a0a53969dd444ba70b0a7d534602aef2b1a54ac88418f9f37b7c2
 Description: graphical yad message utility.
 
-Package: bionicdoginstallscripts
-Architecture: i386
-Version: 1.1.0
-Maintainer: root
-Installed-Size: 863
-Depends: libc6, bionicdogmountscripts, gtkdialog, yad
-Filename: ./Included/bionicdoginstallscripts_1.1.0_i386.deb
-Size: 429620
-MD5sum: f59bcaa095d732792a3a2f545d6036e5
-SHA1: 8a6594930013459c85f078b8762d925b2a993784
-SHA256: 4921ce2f96aa954bd818763c8d1aa5a558db4d511a031aba7cd51b1141f519a6
-SHA512: c35c153a1857f0617dc7b51648045d7a06b1f764a44428f1c41fabd5fdce59484f69537f3a115f9d9fc40495077bcb7f16b0cff33c11005f49ba92044da53a64
-Description: Special BionicDog frugal and full install scripts taken from DebianDog.
- Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
-
 Package: precord
 Architecture: i386
 Version: 9.0.3
@@ -1011,21 +996,6 @@ SHA256: f6c18eb46f9270c3cf14b70b4123d0e3fe0705f424beb2fc1988fda4c4075f03
 SHA512: 3ff518c0732163b216b5bd36788c8eb69ae1fbe802787c6a07ea3168d40e4782dc8c6ca20c58d707f8df897d4e3d4896dc1294309008ddfbfa5a9af434de1df5
 Description: The makedebpackage (re)builds a debian package 
  makedebpackage by MakeDEBPackage-GUI.
-
-Package: bionicdoginstallscripts
-Architecture: all
-Version: 1.0.9
-Maintainer: root
-Installed-Size: 863
-Depends: libc6, bionicdogmountscripts, gtkdialog
-Filename: ./Included/bionicdoginstallscripts_1.0.9_all.deb
-Size: 428628
-MD5sum: 545a0b20e8fddbe3a770c4186ab7341f
-SHA1: 33c90f0f8f6dce7a6ead1429dd70ddbeccbd14e9
-SHA256: a588f9b94b45c55a3fa2a8eb4ad74ac92dda4f7bf10560aa0c4a0e451b7531ba
-SHA512: fb8b942d178e3494538f4fb0738deb00079ee11e6c9e36a701e03d725d152e5cd6acaf155cd1706537cdc5c2e7ce2975fa4fa9f0347892d5e4dc46a3fa96761e
-Description: Special BionicDog frugal and full install scripts taken from DebianDog.
- Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
 
 Package: yad
 Architecture: i386
