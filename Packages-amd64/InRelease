@@ -9,39 +9,39 @@ Codename: bionic
 Architectures: amd64
 Components: main
 Description: BionicDog repository
-Date: Fri, 20 Apr 2018 10:18:09 +0000
+Date: Fri, 20 Apr 2018 17:52:33 +0000
 MD5Sum:
- 3d9fce9e15eb31b60615d5895c541719           147799 Packages
- 2c47061ba6326ab7992e410903d140d2            56315 Packages.gz
- f8ae284935ecf1d13d5dc235a74c94eb              187 Release
+ 350e4fa3490ff543001be8a5277efb5f           147112 Packages
+ 502cd58213d92e4d018b9de60c07f03f            56124 Packages.gz
+ 76f54817d1ae90297eedcaa33c8210e6              187 Release
  2945f89ace9b1cfd658dc93aa5bea53f            64818 Translation-en
- 2c47061ba6326ab7992e410903d140d2            56315 Translation-en.gz
+ 502cd58213d92e4d018b9de60c07f03f            56124 Translation-en.gz
 SHA1:
- 5335f2d79b20f9c61b4e248af6c60b9a0c5ad63f           147799 Packages
- 1e9ccbc88908b77f20631bfaf8f4b8c0bcbafeee            56315 Packages.gz
- c2a1afa3e51c6edde19c559133b6843defe2e800              187 Release
+ fb672c8c190c60240a51ab0258cf34651569280a           147112 Packages
+ 4d1a46c36181e83dde3e6f07961b27b08e512064            56124 Packages.gz
+ 4e979f8bb895c083f28634d8539fa83e772fb759              187 Release
  84980b31beec81c1314aade96d32c62c58c6a946            64818 Translation-en
- 1e9ccbc88908b77f20631bfaf8f4b8c0bcbafeee            56315 Translation-en.gz
+ 4d1a46c36181e83dde3e6f07961b27b08e512064            56124 Translation-en.gz
 SHA256:
- 63adf55d24fe2481a81a1645bd19fc5067b72e062a27f8172e617e7af3aeeca7           147799 Packages
- 4a8a1326ba2bf71769df7358aa6337299abb841404212108a7f0ef389d0f6723            56315 Packages.gz
- 99d7a95c715643eb36d35e899e17f297f659cb3ae976ee9f626cca00238e252e              187 Release
+ 26449fe4a62becee6fdb3864da9edf87efcb82045fdeb5871d2e1496868a68f4           147112 Packages
+ 9482b4d1b418153515f021e70f7a0909a1896c8641fa4c54e79f6d6c268de8a0            56124 Packages.gz
+ 21e2c299b1907c2499714063cf753b94ebdba2f5ccd6b56395a9fbbdc77763cf              187 Release
  45c7b2eb3186c23e08b516476f6610afed7e2a0eb0e9e1d1dc803a662f13a68d            64818 Translation-en
- 4a8a1326ba2bf71769df7358aa6337299abb841404212108a7f0ef389d0f6723            56315 Translation-en.gz
+ 9482b4d1b418153515f021e70f7a0909a1896c8641fa4c54e79f6d6c268de8a0            56124 Translation-en.gz
 SHA512:
- 5884772b46b99500d494fb7928bb644a888789f24a35dd40c483ae54d395af88b67d5f4b3276a58fe23fc7f8055a1c036dbf2449917b0db0f995ec710417030f           147799 Packages
- ba4d2584d18b8fb60b6a0adae98a15404817cfb559d7cd6f4c7d8ba2e9fa549320d18319b2edca3ed10386aab4cc6bf3e096164cc16edeea074831fe4c2d0b9a            56315 Packages.gz
- 09bb15f44246a4c923ee3261429a9b4f32256927dff2b2f60a7094ae02a149fe453a973d8aa650820c5ad361e9cb3f9d58f75659432569ce9639cee4b8249b13              187 Release
+ 133550e669341c76290b1d8339eff2b56f6ddf91239b1284bbc40476f41bf88551897a8a25edb260f34adec6e00e91fc109bf7cef2f929dc28412045657f9f1f           147112 Packages
+ da419873d7c602a9b7c9e6ebc9117f4db9127fcd0a24a026cf384322c78fc777b77a05059ad6d218a152b7b8a4a88559332f447475efa0cb055008f94c3d851c            56124 Packages.gz
+ b07e3f17c034835b908fcf83c77c0c6f3b2f4d397118138ec3da8f1785602a311e38206a1db05635e10b493138d3efcafac8b88886f773cd3b8baa0adbb49a3c              187 Release
  b64d9562b00b1b8db5405b96c28aeb20189a7faac2716f5bf36497a1c578dca1927ce7323d02638fbb81d5889d161ce78e2cbf4af05134a512654875fd42aa9c            64818 Translation-en
- ba4d2584d18b8fb60b6a0adae98a15404817cfb559d7cd6f4c7d8ba2e9fa549320d18319b2edca3ed10386aab4cc6bf3e096164cc16edeea074831fe4c2d0b9a            56315 Translation-en.gz
+ da419873d7c602a9b7c9e6ebc9117f4db9127fcd0a24a026cf384322c78fc777b77a05059ad6d218a152b7b8a4a88559332f447475efa0cb055008f94c3d851c            56124 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlrZvmIACgkQrYe8en1z
-CB3vuQf/UPSEtzVgcrKYmjljX1xzvswOTL5nxOPyiNbaLppIeBvkTe2pLlbGGr/2
-VvwvUpCl3HNVflS+gy9+AJgHdf/U9PqoPQpH7EwNcSR00D+rJoKQP2/ygmeqTOg0
-XIrx/ntmArF6gZwemSSUPU21JCZhhhOznYMc8ZiOQiL7IhIhwF5goIkfcDdoM+Hr
-ywZ3b2bbwKzsqML5lMSHbh2q4pErywelLrbMdWnjLBPz/r+zzKpEZhJ4iEE13fwd
-91V1AZz88xrpJk6geORTYuUjf7awqm/Qm+LJdaCPfH2m+h39djv9szRwaeNRIR3n
-Cqvi5SiCpSw/3/cCNNqSDCavV1uebQ==
-=hQqj
+iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlraKOMACgkQrYe8en1z
+CB3xrwf6A/VI981EG27/vMG41j+/I048RbZByzXs6+6HR6X9tDMuJ+RSbVyDnXSO
+/C+39lUwWutBGCsEVJ3W3VG7EDK/iTneJbWXmHY0k2du51JIZdAuVI9CW7AzFutx
+nKUbTQtys9gIHeo9ca0RW9StuTCoHNUgyq7NrEKCJV1JV0kSm2Ah3C0N8G4UyHiR
+6ucVDnESqqLF5M4qPaxmn7NjfA3n5leu0a14IXIerqVuD8NpvidLNsBqI+ANSZhB
+RfE8irXMz3HWnA5ZhsPCiqddnG+U04wROIePJE+t/7KgZvhQ5oVAr8X2fDvm3y3K
+Ay077R62PAwM8sBImXnecNraI4kwJg==
+=AlZY
 -----END PGP SIGNATURE-----

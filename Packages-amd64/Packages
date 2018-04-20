@@ -278,6 +278,21 @@ Description: Tools for mounting and manipulating filesystems
  This package provides the mount(8), umount(8), swapon(8),
  swapoff(8), and losetup(8) commands.
 
+Package: bionicdoginstallscripts
+Architecture: amd64
+Version: 1.1.2
+Maintainer: root
+Installed-Size: 863
+Depends: libc6, bionicdogmountscripts, gtkdialog
+Filename: ./Included/bionicdoginstallscripts_1.1.2_amd64.deb
+Size: 435276
+MD5sum: c6892df7e984849878c7838e4ac1d6f7
+SHA1: 3b30a93370353003e4bd83ecf3ba1cfc8a98e3b8
+SHA256: de7bd88e2a0c65fb23ac4d6e2bc29249685e4c698d383f3c72449ef3a786184d
+SHA512: 7f6d231c535428d82fd5a052bb363cf5814993af7a51b73f3617980c897568a188b5ba320f38d03a0c426127c994448b94fd85b6e1011dc82ef62ca176caa09e
+Description: Special BionicDog frugal and full install scripts taken from DebianDog.
+ Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
+
 Package: makedebpackage
 Architecture: all
 Version: 0.0.3
@@ -607,21 +622,6 @@ SHA256: bb21134d1567b1178059d341dcc1935ded58280d3694ca139864201901654696
 SHA512: 8859bdd1014daeef60f67c0513327a8560219fd4383d8ed5ec98c667ddb6e9cc70677f6027e98667141218ac2179d32569142130b27d2972f59cf94c08c96652
 Description: Search
 
-Package: bionicdoginstallscripts
-Architecture: amd64
-Version: 1.1.1
-Maintainer: root
-Installed-Size: 863
-Depends: libc6, bionicdogmountscripts, gtkdialog
-Filename: ./Included/bionicdoginstallscripts_1.1.1_amd64.deb
-Size: 435310
-MD5sum: 60b64a3a199fe8c9fe0945fc84dd323b
-SHA1: 62906a21bbf42c72e890817c8df0cc1ed8d3f886
-SHA256: b9e2b8658dbb46bae8008ca9e98ec1b53829ffbcf0591c3671aa25978f4081e1
-SHA512: 49ba4615edcb613204f3853f1346f8099d1fb52a216a1876a3624a0b32e33699832d42702878e008afff961c7b035222d5e50c648da09305aaadff6868f49d8b
-Description: Special BionicDog frugal and full install scripts taken from DebianDog.
- Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
-
 Package: portablesfs-loadsfs-fuse
 Architecture: all
 Version: 1.0.9
@@ -909,21 +909,6 @@ Description: Multiple-image Network Graphics library
  It uses the zlib compression library, and optionally the JPEG library by the
  Independent JPEG Group (IJG) and/or lcms (little cms), a color-management
  library by Marti Maria Saguar.
-
-Package: bionicdoginstallscripts
-Architecture: amd64
-Version: 1.1.0
-Maintainer: root
-Installed-Size: 863
-Depends: libc6, bionicdogmountscripts, gtkdialog
-Filename: ./Included/bionicdoginstallscripts_1.1.0_amd64.deb
-Size: 435380
-MD5sum: b6891505a13b5005f5cfa234c26b978f
-SHA1: 7a7ed2b4c69fe4f48711c20f00a9083d4622dfa3
-SHA256: c87167f6b6c3768a49dcca5c83f2625c5806d3e4b03471787faa2690189a56de
-SHA512: 54d84312b5e3b67e981485b7bbe9c99b10f8fbc6a5c07422ac2fe5c0715ef267d548640d06833debaeb406c7333ad320a95cfe9f80872754c0d2ba3549ff52e5
-Description: Special BionicDog frugal and full install scripts taken from DebianDog.
- Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
 
 Package: liblcms1
 Architecture: amd64
