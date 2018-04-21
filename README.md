@@ -1,4 +1,4 @@
-# BionicDog development  
+# BionicDog      
 
-Preview ISO releases here:
-https://github.com/fredx181/bionicdog/releases/tag/v1.0
+ISO releases and Info here:    
+https://debiandog.github.io/doglinux/zz06-zbionicdog.html  
