@@ -1707,6 +1707,21 @@ SHA512: 27dbd8322dc16f9c29b1665e0bbfd693d7320be630e17c998bda5f67afe2962bcbc812ee
 Description: Warning - This package works only in XenialDog!
  bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
 
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.3
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 20
+Depends: libc6, dpkg, xterm, findutils, cpio, xz-utils, gzip, gsu | gksu
+Filename: ./Extra/upgrade-kernel_1.0.3_all.deb
+Size: 10384
+MD5sum: 820e48aa017a6c9344c9eb5566d547c9
+SHA1: c2c4bbd08d85574aec7127609bbe1f2b7c075bcd
+SHA256: 7ff48561038492d021935dce58557f85abed6f3c58d5e1887e932107ad9521db
+SHA512: 257c2f9ec18f1bfdd2e56537d727b777a62f47337dea6a89de7f08aec739f673af55071f0fc24f87933ddcf4c4b37d03bdd735c4a45e267b297cc12cd55a22de
+Description: Warning - This package works only in BionicDog!
+ bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
+
 Package: weav
 Architecture: i386
 Version: 9.1.1

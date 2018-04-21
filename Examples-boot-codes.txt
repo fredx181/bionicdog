@@ -1,0 +1,68 @@
+
+BionicDog is very small Ubuntu Live CD
+It is made to be small and look like Puppy linux with similar tools and options,
+without changing anything in Ubuntu structure.
+
+==========================================================================================
+
+Boot code examples (grub(4dos) after extracting /casper folder from the iso on top of sda1:
+
+==========================================================================================
+
+- BionicDog 'boot style Porteus' :
+
+Ubuntu Live CD using porteus boot method (very similar to Puppy linux boot and save options).
+
+It is not the exact Porteus boot method since it uses .squashfs modules extention instead .xzm
+and /casper instead /porteus folder, but the save file options are the same as in Porteus.
+You can skip from=/ in the kernel boot line but it is better to keep it this way.
+For example if folder /casper is inside folder /bionic you need to use from=/bionic/
+
+This will create automatically /casper/changes folder for changes: 
+
+Code:
+title BionicDog (sda1) 
+root (hd0,0) 
+kernel /casper/vmlinuz noauto from=/ changes=/casper/
+initrd /casper/initrd1.xz
+
+
+This need to be created "changes.dat" (or whatever custom name) savefile first for saving changes: 
+
+Code:
+title BionicDog (sda1) 
+root (hd0,0) 
+kernel /casper/vmlinuz noauto from=/ changes=/casper/changes.dat 
+initrd /casper/initrd1.xz
+
+
+This way of saving changes is equivalent of "pupmode=13" in puppy , saving changes only at shutdown: 
+
+Code:
+title BionicDog save on exit (sda1) 
+root (hd0,0) 
+kernel /casper/vmlinuz noauto from=/ changes=EXIT:/casper/changes.dat 
+initrd /casper/initrd1.xz
+
+
+Note for last example: there will be prompt for save or not to save. Also for prompt to create savefile first time boot. 
+
+Like the previous one saving changes only at shutdown but in folder changes:
+
+Code:
+title BionicDog save on exit (sda1) 
+root (hd0,0)
+kernel /casper/vmlinuz noauto from=/ changes=EXIT:/casper/
+initrd /casper/initrd1.xz
+
+Recommended to put the casper folder in a folder with unique name, e.g. Bionic_Dog, then use this:
+
+Code:
+title BionicDog in folder Bionic_Dog, save on exit (sda1) 
+root (hd0,0)
+kernel /Bionic_Dog/casper/vmlinuz noauto from=/Bionic_Dog changes=EXIT:/Bionic_Dog/casper/
+initrd /Bionic_Dog/casper/initrd1.xz
+
+Porteus-boot code does not need anything special added for encrypted save file.
+
+=====================================================================================
