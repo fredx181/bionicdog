@@ -6,28 +6,28 @@ Codename: bionic
 Architectures: amd64
 Components: main
 Description: BionicDog repository
-Date: Mon, 23 Apr 2018 20:27:17 +0000
+Date: Mon, 23 Apr 2018 21:23:50 +0000
 MD5Sum:
  c7c98adaee3a9857cc2a51b2d72be03e           149894 Packages
- b04a6ab597c9f6ff85e4c0c6a1323b8b            56884 Packages.gz
- 2e7959e4c46a394aa048f79dce1b7b3f              187 Release
+ 75a1fa2bda35d42fa5b55f307bd50cfb            56884 Packages.gz
+ 33440aa56208e1243e29b5821642e5d9              187 Release
  2945f89ace9b1cfd658dc93aa5bea53f            64818 Translation-en
- b04a6ab597c9f6ff85e4c0c6a1323b8b            56884 Translation-en.gz
+ 75a1fa2bda35d42fa5b55f307bd50cfb            56884 Translation-en.gz
 SHA1:
  16611fbbab6d1b9c1fffe56b8a1d8e2ec4148be2           149894 Packages
- 25164534210a49f003bf6b425439821e3e21c49f            56884 Packages.gz
- 64e82e9c668ce76744c43feedd1e500913959a52              187 Release
+ f38806f3a587c4de7b5a588e56bdbeb55e8ca238            56884 Packages.gz
+ 53c93f6452fa64b7484e374a5d9fb327a7991240              187 Release
  84980b31beec81c1314aade96d32c62c58c6a946            64818 Translation-en
- 25164534210a49f003bf6b425439821e3e21c49f            56884 Translation-en.gz
+ f38806f3a587c4de7b5a588e56bdbeb55e8ca238            56884 Translation-en.gz
 SHA256:
  6228ea4196cca399e9956fa6737df97ad433322f51922cc2f596dc1428084701           149894 Packages
- b645c65ed4815d247ca6f16d6ab3e59b0c030cb709cd879516d8ca3f4a57dba9            56884 Packages.gz
- 41802c860f413159354b82246e962d59da67ba998c320bde4a30ba53b30c59c3              187 Release
+ 1e17783674651b055128c5e8a078fde6e46e5121bb90cb288d70dc3fda8b999b            56884 Packages.gz
+ 6675254a0e919a5e1c1dcf4acdf37958ae27b4b8c86959108c695f98d15406e7              187 Release
  45c7b2eb3186c23e08b516476f6610afed7e2a0eb0e9e1d1dc803a662f13a68d            64818 Translation-en
- b645c65ed4815d247ca6f16d6ab3e59b0c030cb709cd879516d8ca3f4a57dba9            56884 Translation-en.gz
+ 1e17783674651b055128c5e8a078fde6e46e5121bb90cb288d70dc3fda8b999b            56884 Translation-en.gz
 SHA512:
  7353e4692f66789fe93f92bf42d9873cbeb9d76adab7a31b46dee687a80cb04a575d017dd7d50c29bc56830bdcb7560be86a1dff89623d1b864c7e4c37313ee3           149894 Packages
- 7b584878fd4dbd0fc840408ada89307ee54f52f5fe7a13195d6fddaa1b9a76c12e343da314f1789a4860b0c88628ab6ca3d3671b64d693d5a86d50765c9310c2            56884 Packages.gz
- 55a5b2432becc0b533afc8ab3e307359951db238fc50aadf6831930e4c23e9d4ca3ffe2cf96614330b9b3bd243818dd17e78fced9c50e0cf81f3636a83fcdc47              187 Release
+ 8d5d37b1eedff2e6916f298bd87615bc8dcf2d2efa55d486c83bcbbd1c1d340092d02e9edf26922998bb35d13c28091e4f4b12835b38fe99944b8ceb4c6d8973            56884 Packages.gz
+ ecb3c4c95853dae1177d446eb1c7433a0057ba3f30c5d2838f41a22acc8b7bc639b214c3ad3cc489a7044ae36d9c6855ef3cfbef7ad4c2d329408e289cc4ff32              187 Release
  b64d9562b00b1b8db5405b96c28aeb20189a7faac2716f5bf36497a1c578dca1927ce7323d02638fbb81d5889d161ce78e2cbf4af05134a512654875fd42aa9c            64818 Translation-en
- 7b584878fd4dbd0fc840408ada89307ee54f52f5fe7a13195d6fddaa1b9a76c12e343da314f1789a4860b0c88628ab6ca3d3671b64d693d5a86d50765c9310c2            56884 Translation-en.gz
+ 8d5d37b1eedff2e6916f298bd87615bc8dcf2d2efa55d486c83bcbbd1c1d340092d02e9edf26922998bb35d13c28091e4f4b12835b38fe99944b8ceb4c6d8973            56884 Translation-en.gz
