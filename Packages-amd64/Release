@@ -6,28 +6,28 @@ Codename: bionic
 Architectures: amd64
 Components: main
 Description: BionicDog repository
-Date: Tue, 24 Apr 2018 12:19:51 +0000
+Date: Tue, 24 Apr 2018 20:53:23 +0000
 MD5Sum:
- 3b01367197d6366f8c3d64257e529a45           150727 Packages
- a2640510613933b0f56be9bff9bf3d21            57061 Packages.gz
- d8bbc9ede36016fe0768156073abd0d7              187 Release
+ 30e381b8f5f1d4ec3c7c65e8318ba67d           151560 Packages
+ c3f8f0609d2fde513ca748dd13de5d20            57265 Packages.gz
+ e21f92b929843e0e18a22f34a9f97562              187 Release
  2945f89ace9b1cfd658dc93aa5bea53f            64818 Translation-en
- a2640510613933b0f56be9bff9bf3d21            57061 Translation-en.gz
+ c3f8f0609d2fde513ca748dd13de5d20            57265 Translation-en.gz
 SHA1:
- 7608c1eeca6ac102bbac78adeada2d1acb3e36a1           150727 Packages
- f1210a000e976b524a072ff854dc8a0b51545628            57061 Packages.gz
- 1217ae267f3af39c1eb0908764e52fd3e2b59e55              187 Release
+ 15ec8b0eba11b0af3b618b165a7fcddccd578897           151560 Packages
+ 024d9165d11d685ea1462c20e7a76396cc832047            57265 Packages.gz
+ 50ccb94a06916bfe0c574f6fb60c89ed72539a43              187 Release
  84980b31beec81c1314aade96d32c62c58c6a946            64818 Translation-en
- f1210a000e976b524a072ff854dc8a0b51545628            57061 Translation-en.gz
+ 024d9165d11d685ea1462c20e7a76396cc832047            57265 Translation-en.gz
 SHA256:
- 7ec7c138db32327d4562ea6d55760c975d5b9b6ea85fb43aed8f07abb13653b1           150727 Packages
- b283999dcfeb4bbbff0a6c2958807965f9a65fb38451f31aa9b78a1da0663b5f            57061 Packages.gz
- 443af343fbd251a5ff5632880d127b79aa9b50926364a7e8c4e2d1069110a6ac              187 Release
+ 880d4de9905f073da8046082ba50162e9c57d829f326f88f323f0ce79cce237d           151560 Packages
+ 336b047ef441e8611a4fa2df9cde1c2389beaa02c0fa8904acd3a6ead08dc913            57265 Packages.gz
+ d34c4f0ee51395ecf2aa1a9d09ebfd236cdbd7e30be581c6a2185677a1df7253              187 Release
  45c7b2eb3186c23e08b516476f6610afed7e2a0eb0e9e1d1dc803a662f13a68d            64818 Translation-en
- b283999dcfeb4bbbff0a6c2958807965f9a65fb38451f31aa9b78a1da0663b5f            57061 Translation-en.gz
+ 336b047ef441e8611a4fa2df9cde1c2389beaa02c0fa8904acd3a6ead08dc913            57265 Translation-en.gz
 SHA512:
- 2f250bb6e64a853cfdb6c6d33afdeebca65aa56b32b7edf2664542847570aaa802a1495c435a8a5cbe1ad33868dc287a3824412a43fb6360fb877c5a03f27efd           150727 Packages
- d57ee667f7d968db3930f4768a0e47f6fe2efb537b3b807be4e19d5d39e18601aebb58c7c16fcf0e56890cc42baa3a61fd06628bbae3244d220346e1807a86fc            57061 Packages.gz
- 3f773cc274164a479da5e6accb70528b2aa0d41e7fc4be838131f774e85b8aa011b94abf51bc0d5beeae168d75dcd105617d163a55533581ab25b69d40839875              187 Release
+ 7b0c335ef56fc80be375883f159fe31bdcf53b547ec502b20489058aa13a57d5c295dfd7ed96be66b0eeb06d2b61a2620a60c3a5a1895d6415abebdc0467f7af           151560 Packages
+ dc09ab69fc8059d09cb61bc4f8e46f5a18ffc7011dfdf72e478651a29ad041c02f4f94a2c43ad1649ee76540640d546bc53e254240dd3c95665df4b2d6cdeeb9            57265 Packages.gz
+ ce551a73c53075025db10fecbb8cbb4b0943a922b30cdc2dbb2221b53131a0bd20999b47f4d96c4aa54f4989350c713e1ae772c1a045dc3c69eb791490d17553              187 Release
  b64d9562b00b1b8db5405b96c28aeb20189a7faac2716f5bf36497a1c578dca1927ce7323d02638fbb81d5889d161ce78e2cbf4af05134a512654875fd42aa9c            64818 Translation-en
- d57ee667f7d968db3930f4768a0e47f6fe2efb537b3b807be4e19d5d39e18601aebb58c7c16fcf0e56890cc42baa3a61fd06628bbae3244d220346e1807a86fc            57061 Translation-en.gz
+ dc09ab69fc8059d09cb61bc4f8e46f5a18ffc7011dfdf72e478651a29ad041c02f4f94a2c43ad1649ee76540640d546bc53e254240dd3c95665df4b2d6cdeeb9            57265 Translation-en.gz

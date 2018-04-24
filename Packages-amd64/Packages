@@ -2405,6 +2405,21 @@ SHA512: 2db6501c80d985a9d8be7ce35a6b086820b43674bf3cf0fb05f2bdb8ae11c29d645fd7f8
 Description: Warning - This package works only in BionicDog!
  bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
 
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.6
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 20
+Depends: libc6, dpkg, xterm, findutils, cpio, xz-utils, gzip, gsu | gksu
+Filename: ./Extra/upgrade-kernel_1.0.6_all.deb
+Size: 10450
+MD5sum: c65df9775f6032263e30096fadb86ea1
+SHA1: 2e4be053786b234bf59c6d28e936180f8b52359c
+SHA256: 9e6b77530217f004da0ab1baa78351b9d5a585c4a91318e4f1f40d0478b44b0d
+SHA512: 6c1be5e622e3cc23cd3b3e740a70885758aeded900ca9ea6726b2efd18dcfdd99b6175f391474aba53fa378d938fb6694ee18f62fb279274b7358479929b29c4
+Description: Warning - This package works only in BionicDog!
+ bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
+
 Package: libbluray1
 Architecture: amd64
 Version: 1:0.9.3-3
