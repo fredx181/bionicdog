@@ -1710,6 +1710,23 @@ SHA256: 1064c35efc9a5e0fa9cfea8b63a88f76832ba7bbf70f3b3a536f22bd12581f6f
 SHA512: bb02283cb90b93bd07b62fdfd281baf5cbc168e87684d8492248b8abd8b87ecfb2c26860f68fd0e1f26499d0a581427b314ded0b94228a4c1039ecd0614b8fcd
 Description: graphical yad message utility.
 
+Package: wex
+Architecture: all
+Version: 0.8.18-1
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 168
+Depends: libc6, gtkdialog, ffmpeg, weav, scrox
+Replaces: weav
+Filename: ./Extra/wex_0.8.18-1_all.deb
+Size: 32268
+MD5sum: 46d927a200d147c252253b870f59c77b
+SHA1: 6fa3f617c83e33c8594badd8e5f9369f1f3f4e7c
+SHA256: a81c77f5417dc25cbd06a75fc7326de72d103476744335bb7ec22708cb9b6019
+SHA512: 467c17ef40115c7e47a3246d6cc075851a4603903dc017f00b3a0fef9e2027bd60c4a2e261973f131ae9b9687cd9f9ba2a0ac07ba27ab51bd14f8f4ee81bbf8d
+Description:
+ weX is a media recorder for audio, screencast, or webcam
+ weX is by mcewanw.
+
 Package: PeasyWiFi
 Architecture: amd64
 Version: 4.5-1

@@ -59,6 +59,7 @@ etc/wex/plugins/vcodec_x264.plug			    wex
 etc/wex/plugins/vcontainer_user1.plug			    wex
 etc/wex/plugins/video_in.plug				    wex
 etc/wex/user_utilities					    wex
+etc/wex/wexrc						    wex
 etc/xdg/pup-volume-monitor/main.conf			    pup-volume-monitor
 etc/xdg/rox.sourceforge.net/MIME-types/application_pdf	    evince
 etc/xdg/rox.sourceforge.net/MIME-types/application_postscript evince
