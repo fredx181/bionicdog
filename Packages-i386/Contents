@@ -68,6 +68,7 @@ etc/wex/plugins/vcodec_x264.plug			    wex
 etc/wex/plugins/vcontainer_user1.plug			    wex
 etc/wex/plugins/video_in.plug				    wex
 etc/wex/user_utilities					    wex
+etc/wex/wexrc						    wex
 etc/xdg/menus/dog-applications.menu			    jwm-setup
 etc/xdg/pup-volume-monitor/main.conf			    pup-volume-monitor
 etc/xdg/tint2/tint2rc					    tint2

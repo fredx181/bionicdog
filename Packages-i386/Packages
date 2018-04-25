@@ -1659,6 +1659,23 @@ Description: The iupluacontrols-xenialdog32-gtk2:
  functionality such as matrix drawing.
  iupluacontrols-xenialdog32-gtk2 by tecgraf-pkg-wiak.
 
+Package: wex
+Architecture: all
+Version: 0.8.18-1
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 168
+Depends: libc6, gtkdialog, ffmpeg, weav, scrox
+Replaces: weav
+Filename: ./Extra/wex_0.8.18-1_all.deb
+Size: 32268
+MD5sum: 46d927a200d147c252253b870f59c77b
+SHA1: 6fa3f617c83e33c8594badd8e5f9369f1f3f4e7c
+SHA256: a81c77f5417dc25cbd06a75fc7326de72d103476744335bb7ec22708cb9b6019
+SHA512: 467c17ef40115c7e47a3246d6cc075851a4603903dc017f00b3a0fef9e2027bd60c4a2e261973f131ae9b9687cd9f9ba2a0ac07ba27ab51bd14f8f4ee81bbf8d
+Description:
+ weX is a media recorder for audio, screencast, or webcam
+ weX is by mcewanw.
+
 Package: gopoststuff
 Architecture: i386
 Version: 0.1.1
