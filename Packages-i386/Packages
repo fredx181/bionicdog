@@ -2314,6 +2314,22 @@ SHA256: d29dae8526f076306921be8be08424a1344b0c8fc5ce67c0b1e25de44e9873d2
 SHA512: 20890349afc8fce22c2cddb410201843365ac2b7082b7472a044c3b9a87c6a934a5c63cc6dc888f015a902f0968a5c6929736e23f401332a2942b955e36fec65
 Description: Select a sound card and set ALSA defaults
 
+Package: mm-view
+Architecture: all
+Version: 0.0.1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 73
+Depends: gtkdialog, leafpad
+Filename: ./Extra/mm-view_0.0.1_all.deb
+Size: 17276
+MD5sum: 13abb9f1420c0fb66763156c11376288
+SHA1: b03d913e6dfa73811390223ead6a597443e710ab
+SHA256: f311578fe0f5627b9f1361a27c67633ffbdd3593fa8c4721eda4295e953c1322
+SHA512: 59de680c291710c6de319f16561e28df584f200109a6a207e7dea9339d95834c94bcd704b7bf32f888deeddd29ca3ef4283ec02f924bed5234cb44ab77d541b4
+Description: Universal File Viewer by Mochimoppel
+
 Package: peasymp3
 Architecture: i386
 Version: 4.1
