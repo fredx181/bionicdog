@@ -1750,6 +1750,22 @@ Description: Reliable network manager
  - Updated Help screen
  - added multi-user support (fredx181)
 
+Package: tzupdate
+Architecture: all
+Version: 1.1.1
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 47
+Depends: libc6, python-requests, ntpdate, gtkdialog
+Filename: ./Extra/tzupdate_1.1.1_all.deb
+Size: 10456
+MD5sum: a5f5904bee68db5f0683b07bb9cfc51a
+SHA1: 084246cf11a8b66ad1bac751097b6aaee07e3775
+SHA256: b9d2244119fdf1ed03e77653b23dd9c5dc047e86603f2ee604d4b75e7035aef8
+SHA512: 6c15bb92ef2a732cdf0b8cf438b95216b75b5ed020ac10a61f00da4da8d8402308d91766f497b459a95bd2dc7c061802df56a37bd5b21fc9ab87b0b3219044cd
+Description: Automatically detect timezone
+
 Package: cairo-dock-minimal
 Architecture: amd64
 Version: 3.4.1
