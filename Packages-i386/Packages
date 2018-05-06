@@ -1555,6 +1555,27 @@ Description: YouTube Downloader, frontend for youtube-dl
  - Extra addition: m-play script + menu entry for playing YouTube url with mplayer or mpv
  - Download from Playlist supports channel download also now (version 0.1.8)
 
+Package: mpv
+Architecture: i386
+Version: 1:0.27.1-ddstretch
+Priority: optional
+Section: misc
+Maintainer: fredx181
+Installed-Size: 21000
+Depends: libasound2, libbluray1, libc6, libcaca0, libdrm2, libegl1-mesa, libfontconfig1, libfreetype6, libfribidi0, libgbm1, libgl1-mesa-glx, libgnutls30, libharfbuzz0b, libjack0 | libjack-jackd2-0, libjpeg62-turbo, liblcms2-2, liblua5.2-0, libpulse0, libroar-compat2, librubberband2, libuchardet0, libva1, libva-drm1, libva-x11-1, libvdpau1, libx11-6, libxcb1, libxcb-shape0, libxcb-xfixes0, libxext6, libxinerama1, libxrandr2, libxss1, libxv1
+Filename: ./Extra/mpv_0.27.1-ddstretch_i386.deb
+Size: 7298972
+MD5sum: 0e7b3182e22a55e7dc3319b4fc347899
+SHA1: b27c5d4f4b8a4a35faef5ce9cc4861bfb07e9386
+SHA256: 40c6cdc0d3c162ae3c400d5721317c377ce34bd5f6c2217a867bf4c9d074ae28
+SHA512: 01390c4e0e56e3e7b3108cf366a8a21223e30c63c419c79f3b1202a9954466cf8ff43116d35368c5616613185b8e348367fdda326ab20fdad5df1ac81951fdf4
+Homepage: https://github.com/mpv-player/mpv-build
+Description: mplayer/mplayer2 based video player, minimal build
+ MPV is a versatile CLI movie player, based on mplayer and mplayer2.
+ .
+ This package is not part of Debian. It was created by mpv-build scripts with
+ statically linked ffmpeg (not libav) and libass from upstream.
+
 Package: peasyclock
 Architecture: all
 Version: 1.2
