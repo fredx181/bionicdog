@@ -1610,6 +1610,27 @@ SHA256: 30fc71ec2e564dc0bae04684d07af383a21ec45b573a49fcdb88887b85536427
 SHA512: 1e4aaa13bd1981fbd0ecc64e59a66f8c8880bd00cbcf3c1dab6f653ca8ddaa385d84ed42054a74d1f80a8da6a4d140b359ee95dfc996182cd5c62d5736454061
 Description: Pulseaudio emulator using alsa
 
+Package: mpv
+Architecture: amd64
+Version: 1:0.27.1-ddstretch
+Priority: optional
+Section: misc
+Maintainer: fredx181
+Installed-Size: 21000
+Depends: libasound2, libbluray1, libc6, libcaca0, libdrm2, libegl1-mesa, libfontconfig1, libfreetype6, libfribidi0, libgbm1, libgl1-mesa-glx, libgnutls30, libharfbuzz0b, libjack0 | libjack-jackd2-0, libjpeg62-turbo, liblcms2-2, liblua5.2-0, libpulse0, librubberband2, libuchardet0, libva1, libva-drm1, libva-x11-1, libvdpau1, libx11-6, libxcb1, libxcb-shape0, libxcb-xfixes0, libxext6, libxinerama1, libxrandr2, libxss1, libxv1, zlib1g
+Filename: ./Extra/mpv_0.27.1-ddstretch_amd64.deb
+Size: 7121824
+MD5sum: a361debd644a7bc1dda96d40762fb563
+SHA1: 60a9271dc03059bb32287f5068e540124ca7f8bb
+SHA256: bdef2774478daad997e3ea4eba5eb35eb023f136858480b9679de5c0c4aeb311
+SHA512: 338be5e4069e8fd25e790b798eb4f40d5bcf0279725cd83266b00151bac81fa10efd5e894be5bae03c8330b16ba7a8ce03f21ee9cdf09fa1b4cef2ec49381753
+Homepage: https://github.com/mpv-player/mpv-build
+Description: mplayer/mplayer2 based video player, minimal build
+ MPV is a versatile CLI movie player, based on mplayer and mplayer2.
+ .
+ This package is not part of Debian. It was created by mpv-build scripts with
+ statically linked ffmpeg (not libav) and libass from upstream.
+
 Package: deadbeef-static
 Architecture: amd64
 Version: 0.7.2-2
