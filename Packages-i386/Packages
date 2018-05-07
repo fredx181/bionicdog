@@ -2043,6 +2043,24 @@ SHA256: 6eab86e4e5759fe71089556503ea6425168f24fdaf589f3d4c903101d1ab49a4
 SHA512: 016d9382fbc3009dfd5168174cefe789f8e39a8a827c9646d84f235ea9fb0de340953ed00d884ce6f911034a0eda7140e3dca747fd4925392961e061ad8e6c12
 Description: Screen snapshot
 
+Package: gmplayer
+Architecture: i386
+Version: 37926-6.3.1
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 1700
+Depends: libsndio6.1, libbluray1, libdvdread4, libcdio-cdda1, libcdio13, libcdio-paranoia1, libfribidi0, libass5, libenca0, libmad0, libvorbisenc2, libvorbis0a, libogg0, libgsm1, libtheora0, liba52-0.7.4, libmpeg2-4, libdca0, libopus0, libbs2b0, libopencore-amrnb0, libopencore-amrwb0, libxvidcore4, libvpx4, libdvdnav4, libdirectfb-1.2-9, libvdpau1, libesd0, libaudio2, libjack0 | libjack-jackd2-0, libopenal1, libdvdcss
+Conflicts: gnome-mplayer-1.0.7, mplayer
+Replaces: gnome-mplayer-1.0.7, mplayer
+Filename: ./Extra/gmplayer_37926-6.3.1_i386.deb
+Size: 6241668
+MD5sum: 438a92ff9e0da81116ee8855b6906284
+SHA1: d1a7b7247ea2869fbfe91205aaf9496297984b07
+SHA256: e57b482c7749aeb17177a0aec7997255a5ed25f10661e294b5b15207375630df
+SHA512: 32276b3d87b452107adadbbbc2c1c1be8c4ac45b1725871ff797824db9d6cf20e74576188d4f81ff7ff00514778ca46efb97064a3952715addacd3b95ea06349
+Description: Mplayer SVN-r37926, mediaplayer
+
 Package: upgrade-kernel
 Architecture: all
 Version: 1.0.2
