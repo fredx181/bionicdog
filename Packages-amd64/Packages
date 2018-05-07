@@ -3177,6 +3177,23 @@ SHA256: dc7c25d6928cc4f7d41b698e52a772ab5fd9df765e6a3d729a00beb1ea85d3b5
 SHA512: c0b0fd7ceef3b0a58a2be3b87e66ba3d65526deb8db48b3bf0634b0a3f821f326abeafcd9522347a94df66e9ab05ede08cf0fcee764c409840667271c4b2a169
 Description: Text to SVG/PNG Fancy Text and Logo Generator
 
+Package: gmplayer
+Architecture: amd64
+Version: 37957-6.3.1
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 2000
+Depends: liba52-0.7.4, libaa1, libasound2, libass5, libatk1.0-0, libaudio2, libbluray1, libbs2b0, libc6, libcaca0, libcairo2, libcdio-cdda1, libcdio-paranoia1, libcdio13, libcrystalhd3, libdca0, libdirectfb-1.2-9, libdv4, libdvdnav4, libdvdread4, libenca0, libesd0, libfaac0, libfaad2, libfontconfig1, libfreetype6, libfribidi0, libgdk-pixbuf2.0-0, libgif7, libgl1-mesa-glx, libglib2.0-0, libgnutls30, libgsm1, libgtk2.0-0, libjack0 | libjack-jackd2-0, libjpeg62-turbo, liblirc-client0, liblzo2-2, libmad0, libmp3lame0, libmpeg2-4, libmpg123-0, libncurses5, libogg0, libopenal1, libopencore-amrnb0, libopencore-amrwb0, libopus0, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpng16-16, libpulse0, libroar-compat2, librtmp1, libsdl1.2debian, libspeex1, libtheora0, libtinfo5, libvdpau1, libvorbisidec1, libvpx4, libx11-6, libx264-148, libxext6, libxinerama1, libxss1, libxt6, libxv1, libxvidcore4, libxxf86dga1, libxxf86vm1, libdvdcss
+Conflicts: gnome-mplayer-1.0.6, mplayer
+Filename: ./Extra/gmplayer_37957-6.3.1_amd64.deb
+Size: 6893456
+MD5sum: e18c1eb386ec31388072600762f1c915
+SHA1: dd8419d1e104b9ce67edab31ed1b18415d7f6f93
+SHA256: 1d568c27f4f78c242e66be9ebb2d7ecc16d6294d808a1c9d41ee319a304c1979
+SHA512: f15e0971387e53b7c349497ec34ec228e80587ed175a9800a492d60d9214dce0a8e4d430c962547a1f0fe284696eb4f8b76709191f454d4640e7641ee73d158e
+Description: Mplayer SVN-r37957, mediaplayer
+
 Package: unzipper
 Architecture: all
 Version: 1.5-1
