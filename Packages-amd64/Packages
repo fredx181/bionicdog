@@ -2374,6 +2374,21 @@ Description: Firefox from the beta update channel
  - This to make sound work by running: apulse /opt/firefox/firefox
  - No change required in about:config
 
+Package: peasy-dvd-player
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xterm, eject, gmplayer | gnome-mplayer-1.0.7, libdvdcss
+Filename: ./Extra/peasy-dvd-player_1.6_all.deb
+Size: 5872
+MD5sum: 7a0079c1c94286bc74fe17d305ebf196
+SHA1: cf605e356703f3eb9da9433e5acc8fc474fcba37
+SHA256: 7d517b48207661c020e07ffad449ed48f5b2ca4b8f61059b30561f93622ea7fb
+SHA512: def0c69707b4a6a01f957da2ba931e21139c0ea596c60f7c40c509f986fd04ddb93ad545af4993f2cb558f2f5748cebf5b9ff3da7e3b4288c23c93812bf89cd8
+Description: DVD movie player
+
 Package: redshiftgui
 Architecture: amd64
 Version: 0.2.2-ddjessie
@@ -2853,6 +2868,23 @@ Description: Asynchronous event notification library
  or "libevent_core + libevent_extra", the libevent source package builds
  the libevent library that includes everything in libevent_core and
  libevent_extra.
+
+Package: gmplayer
+Architecture: amd64
+Version: 37957-6.3.2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 2000
+Depends: liba52-0.7.4, libaa1, libasound2, libass5, libatk1.0-0, libaudio2, libbluray1, libbs2b0, libc6, libcaca0, libcairo2, libcdio-cdda1, libcdio-paranoia1, libcdio13, libcrystalhd3, libdca0, libdirectfb-1.2-9, libdv4, libdvdnav4, libdvdread4, libenca0, libesd0, libfaac0, libfaad2, libfontconfig1, libfreetype6, libfribidi0, libgdk-pixbuf2.0-0, libgif7, libgl1-mesa-glx, libglib2.0-0, libgnutls30, libgsm1, libgtk2.0-0, libjack0 | libjack-jackd2-0, libjpeg62-turbo, liblirc-client0, liblzo2-2, libmad0, libmp3lame0, libmpeg2-4, libmpg123-0, libncurses5, libogg0, libopenal1, libopencore-amrnb0, libopencore-amrwb0, libopus0, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpng16-16, libpulse0, libroar-compat2, librtmp1, libsdl1.2debian, libspeex1, libtheora0, libtinfo5, libvdpau1, libvorbisidec1, libvpx4, libx11-6, libx264-148, libxext6, libxinerama1, libxss1, libxt6, libxv1, libxvidcore4, libxxf86dga1, libxxf86vm1, libdvdcss
+Conflicts: gnome-mplayer-1.0.7, mplayer
+Filename: ./Extra/gmplayer_37957-6.3.2_amd64.deb
+Size: 6889452
+MD5sum: c0f30b9883be7486c8060a47a04f1692
+SHA1: 605a5f332b3a5a5eea85489e08fe3310c2e2a141
+SHA256: 629d9bd7eb287d6bf312ae48e8c44c5dcd8ddeb96404a8f83bc56015abf51f11
+SHA512: 017903940820798c96280984c7d21e49d7e224e9946b6524414902e20e796b46435e986e5fb57c90ca1e857d7a939e314f2c7938b710633c1a2e88b4e9c204f8
+Description: Mplayer SVN-r37957, mediaplayer
 
 Package: gmplayer
 Architecture: amd64
