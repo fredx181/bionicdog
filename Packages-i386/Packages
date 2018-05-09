@@ -2555,6 +2555,21 @@ Description: Curses interface to /etc/network/interfaces
  Ceni can manage basic network interface ifupdown configuration stanzas for
  ethernet and wireless devices.
 
+Package: peasy-dvd-player
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xterm, eject, gmplayer | gnome-mplayer-1.0.7, libdvdcss
+Filename: ./Extra/peasy-dvd-player_1.6_all.deb
+Size: 5872
+MD5sum: 7a0079c1c94286bc74fe17d305ebf196
+SHA1: cf605e356703f3eb9da9433e5acc8fc474fcba37
+SHA256: 7d517b48207661c020e07ffad449ed48f5b2ca4b8f61059b30561f93622ea7fb
+SHA512: def0c69707b4a6a01f957da2ba931e21139c0ea596c60f7c40c509f986fd04ddb93ad545af4993f2cb558f2f5748cebf5b9ff3da7e3b4288c23c93812bf89cd8
+Description: DVD movie player
+
 Package: firewall-ng
 Architecture: i386
 Version: 1.0.1
