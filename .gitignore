@@ -4,4 +4,5 @@ Packages-i386/cr-repo
 Packages-amd64/cr-index
 Packages-amd64/cr-repo
 Packages-amd64/.gnupg
+NoRepo/cr-index
 
