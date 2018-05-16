@@ -3509,6 +3509,30 @@ SHA256: f71585244c1b9267dd88897bbbdca168387a94daa724503a72fd965bb262f274
 SHA512: ba97f2424069de4b1e24ccc1092895e801e6f882e20385ee7eb56e563bdd860dde606d2fb87311dd32b3032cff52eedc0009374dffb38290639ee2d9fb2688b2
 Description: File searching tool
 
+Package: PeasyWiFi
+Architecture: amd64
+Version: 4.6-1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: libc6, gtkdialog, gettext-base, net-tools, wpasupplicant, wireless-tools, x11-utils, ccrypt
+Conflicts: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Replaces: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Filename: ./Extra/peasywifi_4.6-1_amd64.deb
+Size: 19010
+MD5sum: be7af9f92ee586310689c587e99ad6c1
+SHA1: 04bad2293c183bb78a8719be088ce1409228448f
+SHA256: 4ccf7e2afedd759e45ef5d62bca9cb996fd7a9d2e667c16f790872bdea0a0afd
+SHA512: a74ce40bca95f5c7e46baf070e1d7d9dcf88b6f0dcdd1159f7844ce0c67e61d4efb905bfb363b1e1d2b5ed1063d5980367d3c61cc457fc9d207bad2ed9b80d87
+Description: Reliable network manager
+ -changes in v4.4-0 in peasywifi script by rcrsn51:
+ - added option (Ethernet tab) to bring the interface down
+ - added Names button (to select interface names)
+ - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
+ - Updated Help screen
+ - added multi-user support (fredx181)
+ - changed bcrypt to ccrypt
+
 Package: madedit
 Architecture: amd64
 Version: 0.2.9-1
