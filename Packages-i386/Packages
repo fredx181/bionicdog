@@ -1793,6 +1793,22 @@ SHA256: b9d2244119fdf1ed03e77653b23dd9c5dc047e86603f2ee604d4b75e7035aef8
 SHA512: 6c15bb92ef2a732cdf0b8cf438b95216b75b5ed020ac10a61f00da4da8d8402308d91766f497b459a95bd2dc7c061802df56a37bd5b21fc9ab87b0b3219044cd
 Description: Automatically detect timezone
 
+Package: inxi-gui
+Architecture: all
+Version: 0.0.1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 569
+Depends: yad, perl, pciutils, usbutils, parted, dmidecode, mesa-utils
+Filename: ./Extra/inxi-gui_0.0.1_all.deb
+Size: 127816
+MD5sum: d1d92d19c6982fb5cd71a7fbe03afa26
+SHA1: 6a5b64b9f323b8abd80e268f7be6d6ac64eb21cc
+SHA256: 6397c1d45dc9e14856c09cd92a02c61280025418f946e2f7d78561b10c47749e
+SHA512: b43e6dc03310eb11f46e38678c4288a2568949377c3c3a6a61b6d62bf962cc41f52ee7a973f641b73beab1d14767b2634c1617195c36a11e812f2ec40d25338c
+Description: System Info, taken from antiX, original by Misko_2083, modified for DebianDog, Stretch-live
+
 Package: gifondesktop
 Architecture: i386
 Version: 1.0.0
