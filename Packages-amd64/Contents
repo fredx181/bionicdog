@@ -1241,6 +1241,8 @@ usr/local/bin/install-dir-debs-and-dependencies		    fixdepinstall
 usr/local/bin/instdeb					    fixdepinstall
 usr/local/bin/instdeb-cli				    fixdepinstall
 usr/local/bin/instdeb-gui				    fixdepinstall
+usr/local/bin/inxi					    inxi-gui
+usr/local/bin/inxi-gui					    inxi-gui
 usr/local/bin/ipinfo					    PeasyWiFi
 usr/local/bin/isotools					    isotools
 usr/local/bin/keybind					    openbox-keybinder
@@ -3443,6 +3445,7 @@ usr/share/applications/Make ISO from frugal install.desktop quick-remaster
 usr/share/applications/MakeScreenshot.desktop		    scrotdlg
 usr/share/applications/Play_with_mplayer.desktop	    youtube-get2,youtube-get
 usr/share/applications/SFS-Load-GUI.desktop		    sfsload
+usr/share/applications/System Info.desktop		    inxi-gui
 usr/share/applications/UExtract.desktop			    uextract
 usr/share/applications/YRadio.desktop			    yradio
 usr/share/applications/YouTube-Get.desktop		    youtube-get
@@ -6423,6 +6426,7 @@ usr/share/pixmaps/ceni-16.xpm				    ceni
 usr/share/pixmaps/ceni.xpm				    ceni
 usr/share/pixmaps/clock_face33.png			    conkyclock2
 usr/share/pixmaps/clock_face45.png			    conkyclock
+usr/share/pixmaps/computer.png				    inxi-gui
 usr/share/pixmaps/debdog-advert-blocker.png		    debdog-advert-blocker
 usr/share/pixmaps/disc.png				    mount-wizard
 usr/share/pixmaps/dload.png				    youtube-get2
