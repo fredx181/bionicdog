@@ -408,6 +408,12 @@ opt/firefox/updater.ini					    firefox-apulse
 opt/firefox/updates.xml					    firefox-apulse
 opt/firefox/updates/backup-update.log			    firefox-apulse
 opt/firefox/updates/last-update.log			    firefox-apulse
+opt/stream2chromecast/LICENSE				    stream2chromecast
+opt/stream2chromecast/README.md				    stream2chromecast
+opt/stream2chromecast/cc_device_finder.py		    stream2chromecast
+opt/stream2chromecast/cc_media_controller.py		    stream2chromecast
+opt/stream2chromecast/cc_message.py			    stream2chromecast
+opt/stream2chromecast/stream2chromecast.py		    stream2chromecast
 opt/tmp/Create Savefile.desktop				    porteusbootscripts
 opt/tmp/initchanges.sh					    porteusbootscripts
 opt/tmp/makepfile.sh					    porteusbootscripts
@@ -577,6 +583,7 @@ usr/bin/roxterm-config					    roxterm-gtk2
 usr/bin/sessreg						    x11-xserver-utils
 usr/bin/showrgb						    x11-xserver-utils
 usr/bin/squashfuse					    squashfuse
+usr/bin/stream2chromecast				    stream2chromecast
 usr/bin/usleep						    pburn
 usr/bin/vercmp						    filemnt-pcmanfm
 usr/bin/xcmsdb						    x11-xserver-utils
@@ -1187,6 +1194,7 @@ usr/local/bin/beep.wav					    batterup
 usr/local/bin/bionicdog-full-install			    bionicdoginstallscripts
 usr/local/bin/bionicdog-install				    bionicdoginstallscripts
 usr/local/bin/camphonetab				    camphonetab
+usr/local/bin/cast2chrome				    cast2chrome
 usr/local/bin/chpupsocket				    chpupsocket
 usr/local/bin/clear-changes				    quick-remaster
 usr/local/bin/clear-changes-start			    quick-remaster
@@ -3460,6 +3468,7 @@ usr/share/applications/bionicdog-full-install.desktop	    bionicdoginstallscript
 usr/share/applications/cairo-dock-cairo.desktop		    cairo-dock-minimal
 usr/share/applications/cairo-dock.desktop		    cairo-dock-minimal
 usr/share/applications/camphonetab.desktop		    camphonetab
+usr/share/applications/cast2chrome.desktop		    cast2chrome
 usr/share/applications/ceni.desktop			    ceni
 usr/share/applications/clear-changes.desktop		    quick-remaster
 usr/share/applications/conv-sfs.desktop			    edit-sfs-pcmanfm,edit-sfs-rox
@@ -4284,6 +4293,8 @@ usr/share/doc/roxterm/uk/guide.html			    roxterm-common
 usr/share/doc/roxterm/uk/index.html			    roxterm-common
 usr/share/doc/roxterm/uk/installation.html		    roxterm-common
 usr/share/doc/roxterm/uk/news.html			    roxterm-common
+usr/share/doc/stream2chromecast/changelog.Debian.gz	    stream2chromecast
+usr/share/doc/stream2chromecast/copyright		    stream2chromecast
 usr/share/doc/x11-xserver-utils/changelog.gz		    x11-xserver-utils
 usr/share/doc/x11-xserver-utils/copyright		    x11-xserver-utils
 usr/share/enscript/hl/bacon.st				    bacon

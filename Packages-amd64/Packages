@@ -1673,6 +1673,32 @@ Description: The Ultimate Music Player
   * duration calculation is as precise as possible for vbr mp3
     files (with and without xing/info tags)
 
+Package: stream2chromecast
+Architecture: all
+Version: 0+git20180507-0~webupd8~0
+Priority: extra
+Section: net
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Installed-Size: 110
+Depends: python, ffmpeg | libav-tools
+Filename: ./Extra/stream2chromecast_0%252Bgit20180507-0_webupd8_0_all.deb
+Size: 26676
+MD5sum: 15157ab1030f642c551f0d96f4dd39a9
+SHA1: c3523de66ea3e7d6a1858950ae0e66c329152eeb
+SHA256: cbbe3b88881b6bc45d1a5e627161b6fbd87357cc65a19bf837dc5415d6a111ea
+SHA512: 6a1dc3b6713bb5d81ff61dd7323a0646d327b11b289be9497f1161304b0706a66b9c408c95d3db7de49fa7c1d6588c224c90c89d7d47995f30e0bb36f0c83c89
+Homepage: https://github.com/Pat-Carter/stream2chromecast
+Description: Python Chromecast media streamer for Linux
+ Stream2Chromecast casts audio and video files to a
+ Chromecast device from Linux. It can also transcode any
+ unsupported files in real time and play them on the
+ Chromecast.
+ .
+ It is written in Python 2.7 and uses either ffmpeg or
+ avconv for transcoding.
+ This copy modded by wiak (of murga-linux.com/puppy forum) 
+ to allow piping from stdin via transcoder ffmpeg or avconv.
+
 Package: conkyclock2
 Architecture: all
 Version: 1.0.2
@@ -1770,6 +1796,28 @@ Description: Reliable network manager
  - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
  - Updated Help screen
  - added multi-user support (fredx181)
+
+Package: cast2chrome
+Architecture: all
+Version: 0.0.2
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 52
+Depends: bash, gtkdialog, stream2chromecast
+Filename: ./Extra/cast2chrome_0.0.2_all.deb
+Size: 7842
+MD5sum: c40f2c7b7a2a135cdf98f080fda8484e
+SHA1: f219691b269dde270d6aaf32ca899b8ed1fa4d2e
+SHA256: 186db64cb972c3d08d791aeb0887737918acee1b06928a1983b6011c75305283
+SHA512: 9e98808cbd68a9652b6ced035520490bec4c96b8cdd0cabb74711f647fc6f0139b49b2292997344e99904d1680ff8e66d13c9541afa097beb856f5284ccddf67
+Homepage: https://github.com/wiake
+Description:
+ cast2chrome is a GUI frontend for stream2chromecast
+ Stream2Chromecast casts audio and video files to a
+ Chromecast device from Linux. It can also transcode any
+ unsupported files in real time and play them on the
+ Chromecast.
+ cast2chrome supports youtube urls and can save media.
+ It is written in bash/gtkdialog.
 
 Package: tzupdate
 Architecture: all
