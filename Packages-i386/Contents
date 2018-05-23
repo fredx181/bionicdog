@@ -484,6 +484,12 @@ opt/firefox/updater.ini					    firefox-apulse
 opt/firefox/updates.xml					    firefox-apulse
 opt/firefox/updates/backup-update.log			    firefox-apulse
 opt/firefox/updates/last-update.log			    firefox-apulse
+opt/stream2chromecast/LICENSE				    stream2chromecast
+opt/stream2chromecast/README.md				    stream2chromecast
+opt/stream2chromecast/cc_device_finder.py		    stream2chromecast
+opt/stream2chromecast/cc_media_controller.py		    stream2chromecast
+opt/stream2chromecast/cc_message.py			    stream2chromecast
+opt/stream2chromecast/stream2chromecast.py		    stream2chromecast
 opt/tmp/Create Savefile.desktop				    porteusbootscripts
 opt/tmp/initchanges.sh					    porteusbootscripts
 opt/tmp/jwm						    jwm-setup
@@ -665,6 +671,7 @@ usr/bin/roxterm-config					    roxterm-gtk2
 usr/bin/sessreg						    x11-xserver-utils
 usr/bin/showrgb						    x11-xserver-utils
 usr/bin/squashfuse					    squashfuse
+usr/bin/stream2chromecast				    stream2chromecast
 usr/bin/tint2						    tint2
 usr/bin/tint2conf					    tint2
 usr/bin/usleep						    pburn
@@ -1239,6 +1246,7 @@ usr/local/bin/batterup_tray				    batterup
 usr/local/bin/beep.wav					    batterup
 usr/local/bin/bionicdog-full-install			    bionicdoginstallscripts
 usr/local/bin/bionicdog-install				    bionicdoginstallscripts
+usr/local/bin/cast2chrome				    cast2chrome
 usr/local/bin/cdrecord					    pburn
 usr/local/bin/chpupsocket				    chpupsocket
 usr/local/bin/clear-changes				    quick-remaster
@@ -3405,6 +3413,7 @@ usr/share/applications/bionicdog-frugal-install.desktop	    bionicdoginstallscri
 usr/share/applications/bionicdog-full-install.desktop	    bionicdoginstallscripts
 usr/share/applications/cairo-dock-cairo.desktop		    cairo-dock-minimal
 usr/share/applications/cairo-dock.desktop		    cairo-dock-minimal
+usr/share/applications/cast2chrome.desktop		    cast2chrome
 usr/share/applications/ceni.desktop			    ceni
 usr/share/applications/clear-changes.desktop		    quick-remaster
 usr/share/applications/conv-sfs.desktop			    edit-sfs-pcmanfm,edit-sfs-rox
@@ -4198,6 +4207,8 @@ usr/share/doc/roxterm/uk/installation.html		    roxterm-common
 usr/share/doc/roxterm/uk/news.html			    roxterm-common
 usr/share/doc/scrox/scrot/README.scrox			    scrox
 usr/share/doc/scrox/scrot/copyright			    scrox
+usr/share/doc/stream2chromecast/changelog.Debian.gz	    stream2chromecast
+usr/share/doc/stream2chromecast/copyright		    stream2chromecast
 usr/share/doc/tint2/AUTHORS				    tint2
 usr/share/doc/tint2/README				    tint2
 usr/share/doc/tint2/changelog.Debian.gz			    tint2
