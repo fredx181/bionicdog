@@ -3074,6 +3074,26 @@ SHA256: de09028bdb680191fa3e67a913479fe0aaf45eb9971dd1c14fb8538e69746a8e
 SHA512: 94701acb644caca5499b02d89a4fe628b34d2def0adc7a4efd71682e8d9147a0b54249dbf24d23a87f96daf739fd164d671544745e2ab439ab52d510da20ca6b
 Description: Google-drive Filemanager v2
 
+Package: gtkwialog
+Architecture: i386
+Version: 0.8.4
+Priority: extra
+Maintainer: William McEwan (wiak) <https://github.com/wiake>
+Installed-Size: 316
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
+Filename: ./Extra/gtkwialog_0.8.4_i386.deb
+Size: 85764
+MD5sum: 573c59eb0db92d47cf4f26919da7a95a
+SHA1: f3311fc259391301c08fe770677bcc116296eab9
+SHA256: a76b1497c68ceabe08ecc0d0ca0ee7325c58d75eb06e7e540aa3493d1b5b9a77
+SHA512: 7d6d80d20dd56aab1f9d57dd6ec07678aca6b772b52c9c30813a60a79e2ab3c17f82471c5710a2115cebf4c35850edf623b297e755e7a3096f316ef4d9125669
+Description: 
+ Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
+ fast and easy GUI building
+ Gtkwialog uses various, more secure and flexible, glib calls than
+ legacy Gtkdialog to effect its action tag command spawning.
+ Gtkwialog fork by wiak.
+
 Package: cairo-dock-minimal
 Architecture: i386
 Version: 3.4.1
