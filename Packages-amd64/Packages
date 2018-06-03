@@ -3006,6 +3006,26 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Fix in v 1.0.6: skip symlinks while cleaning man and doc files
  Version 1.0.7, added option to quick-remaster GUI to make ISO
 
+Package: firefox-apulse
+Architecture: amd64
+Version: 1:60.0.1
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 153000
+Depends: libc6, libgtk-3-0
+Replaces: apulse
+Filename: ./Extra/firefox-apulse_60.0.1_amd64.deb
+Size: 43782404
+MD5sum: bb4d2c1ba6d56d619589df8549f8d8cb
+SHA1: 69785defcfd1c51cf374a7187360178cc411318d
+SHA256: 6502e1d885460c5d9f99678b6a020fd88e95555b6929082b777f88f96f2f19df
+SHA512: 657d4a5c8849cf86acd8c2a33adc234ef92174ac040f8a74277ca6f6ad77f8575c7b94d7191a3ec4902adb4fffe11391e4752d560b06040d650ff7387e2b3ce4
+Description: Firefox from the beta update channel
+ - Included apulse
+ - This to make sound work by running: apulse /opt/firefox/firefox
+ - No change required in about:config
+
 Package: libcdio-cdda1
 Architecture: amd64
 Version: 0.83-4.3+b1
