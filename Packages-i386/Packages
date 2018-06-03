@@ -2503,6 +2503,26 @@ SHA256: 3a9522321cbfd4a0280b8f2c2e251040b9d0a40c68268d47a9e9cf1f4d0cb950
 SHA512: 87291e1152454e9ddac3a5c9043235252d361827df4e240d9a8da28ba3c342eb51a15e8eb73de6c3d6d813dafdab6364049604ab424144eb994ce56cc052a3b3
 Description: Monitor color adjustment tool.
 
+Package: firefox-apulse
+Architecture: i386
+Version: 1:60.0.1
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 153000
+Depends: libc6, libgtk-3-0
+Replaces: apulse
+Filename: ./Extra/firefox-apulse_60.0.1_i386.deb
+Size: 45747808
+MD5sum: b4ae8f66672b898d1dfec20d9be5098b
+SHA1: af6f9038b9fda88a2f68537861b2416863825f66
+SHA256: aaf7a00bf9f746b5e799b03e2c1ae97acadbaa208512fd27c8dd8ec853e63d0f
+SHA512: e187fa27ff9515d3ee9bfa13a0286b64d229ee62a07de6ab7ba494fb5e7b0bde28e271c09fa988c2b09aaf4b3fff093556d026b667395877cefecf474e3793e4
+Description: Firefox from the beta update channel
+ - Included apulse
+ - This to make sound work by running: apulse /opt/firefox/firefox
+ - No change required in about:config
+
 Package: gifdance
 Architecture: i386
 Version: 1.0.0
