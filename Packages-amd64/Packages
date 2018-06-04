@@ -3390,6 +3390,20 @@ Description: Video Acceleration (VA) API for Linux -- DRM runtime
  .
  This package provides the libva-drm library.
 
+Package: sound-card-selector
+Architecture: all
+Version: 1.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/sound-card-selector_1.2.deb
+Size: 3964
+MD5sum: 650658b49d6984bbef2bb5f05a5bfde4
+SHA1: 6d80ab1ce8f6b04aaffe5d92db7e9861da3e3a58
+SHA256: ac76706f4ebdaf82d3b6a2d50aeb3fb566693be43b686ba26e8529e701629515
+SHA512: 706b45e73b54b4f05859364e02d8438222e67c0a4a2f4709966e851fbb1b70e4b868a84b2f99ee2798c7f69d0862095339f4be2a19b94e74f8aeb4400fa3d914
+Description: Select a sound card and set ALSA defaults
+
 Package: libjpeg62-turbo
 Architecture: amd64
 Version: 1:1.5.1-2
