@@ -1803,28 +1803,6 @@ SHA256: 3d8b4f46e89dfb4b26d401272f9bde53a2e1809205dc10b05894c2765646f98e
 SHA512: 7867f023e4f9182c29ca3e66436bc20d34544a4b49ddf9b194b1dbca37f5ac1cd3a605197df2b6bee867e551691986361122f37d893ceb7e3925d3e8cec097c2
 Description: Convert .pet to .deb
 
-Package: cast2chrome
-Architecture: all
-Version: 0.0.2
-Maintainer: wiak <https://github.com/wiake>
-Installed-Size: 52
-Depends: bash, gtkdialog, stream2chromecast
-Filename: ./Extra/cast2chrome_0.0.2_all.deb
-Size: 7842
-MD5sum: c40f2c7b7a2a135cdf98f080fda8484e
-SHA1: f219691b269dde270d6aaf32ca899b8ed1fa4d2e
-SHA256: 186db64cb972c3d08d791aeb0887737918acee1b06928a1983b6011c75305283
-SHA512: 9e98808cbd68a9652b6ced035520490bec4c96b8cdd0cabb74711f647fc6f0139b49b2292997344e99904d1680ff8e66d13c9541afa097beb856f5284ccddf67
-Homepage: https://github.com/wiake
-Description:
- cast2chrome is a GUI frontend for stream2chromecast
- Stream2Chromecast casts audio and video files to a
- Chromecast device from Linux. It can also transcode any
- unsupported files in real time and play them on the
- Chromecast.
- cast2chrome supports youtube urls and can save media.
- It is written in bash/gtkdialog.
-
 Package: tzupdate
 Architecture: all
 Version: 1.1.1
@@ -2091,6 +2069,28 @@ Description: PNG library - runtime
  .
  This package contains the runtime library files needed to run software
  using libpng.
+
+Package: cast2chrome
+Architecture: all
+Version: 0.0.3
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 56
+Depends: bash, gtkwialog, stream2chromecast
+Filename: ./Extra/cast2chrome_0.0.3_all.deb
+Size: 7876
+MD5sum: 63fd7ca295811b53d5b9fe0db3b69b34
+SHA1: f36928f01caf235a02de01d7a4bc00dc6b85ef3d
+SHA256: 70c27c9eb877929052eed5d75b679ffa141888d80dfef515a0e7656115da36d4
+SHA512: a35d649281181d1f5b4b8fccaad3cddd79e6d328e0213755ad08e0f6add656348fe2993a6912024b64d62d56b757156cb09f6c85604402bd534f1dd1bf2cfb62
+Homepage: https://github.com/wiake
+Description:
+ cast2chrome is a GUI frontend for stream2chromecast
+ Stream2Chromecast casts audio and video files to a
+ Chromecast device from Linux. It can also transcode any
+ unsupported files in real time and play them on the
+ Chromecast.
+ cast2chrome supports youtube urls and can save media.
+ It is written in bash/gtkdialog.
 
 Package: snappie
 Architecture: i386
