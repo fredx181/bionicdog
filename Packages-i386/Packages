@@ -690,6 +690,23 @@ Description: ffconvert for DebianDog.
  ffconvert by MakeDEBPackage-GUI.
  checks for Debian version and recommends libav-tools if it is 8 or higher.
 
+Package: precord
+Architecture: all
+Version: 9.0.5
+Priority: extra
+Section: audio
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 79
+Depends: libc6, gtkwialog, lame
+Filename: ./Included/precord_9.0.5_all.deb
+Size: 10318
+MD5sum: 6978817ac44a33d133a4c0dbeb268ba7
+SHA1: 7463b9cba0104c6b16f10a86eb8d47909e35c03c
+SHA256: 222720f4675e906827b49047dd509032cab7133ea3fe20978a75479a8d10b4b1
+SHA512: 665d65fb3d01fc1514a12713a9a5cbd176d32bfcc634da12503cacc139dd877a47f115faa1e7a993531faff110b7ebd6d6c8f3e76db3a6af12a397c5562f61cc
+Description: precord for DebianDog:
+ precord by mcewanw
+
 Package: squashfuse
 Architecture: i386
 Version: 0.1.0
