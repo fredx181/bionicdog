@@ -419,6 +419,7 @@ opt/tmp/Create Savefile.desktop				    porteusbootscripts
 opt/tmp/initchanges.sh					    porteusbootscripts
 opt/tmp/makepfile.sh					    porteusbootscripts
 opt/tmp/mk-save.gtkdlg					    porteusbootscripts
+opt/tmp/rc.local.shutdown				    porteusbootscripts
 opt/tmp/save2flash					    porteusbootscripts
 opt/tmp/snap-ex						    porteusbootscripts
 opt/tmp/snapexit					    porteusbootscripts
