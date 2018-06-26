@@ -497,6 +497,7 @@ opt/tmp/jwm						    jwm-setup
 opt/tmp/jwm-debdog					    jwm-setup
 opt/tmp/makepfile.sh					    porteusbootscripts
 opt/tmp/mk-save.gtkdlg					    porteusbootscripts
+opt/tmp/rc.local.shutdown				    porteusbootscripts
 opt/tmp/save2flash					    porteusbootscripts
 opt/tmp/snap-ex						    porteusbootscripts
 opt/tmp/snapexit					    porteusbootscripts

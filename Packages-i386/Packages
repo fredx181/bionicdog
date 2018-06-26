@@ -478,6 +478,26 @@ Description: Jwm custom setup for Xendog, includes:
  - jwm-obmenu script for the Jwm window manager. It provides
  a dynamic menu listing of installed applications.
 
+Package: porteusbootscripts
+Architecture: all
+Version: 0.0.5
+Section: checkinstall
+Maintainer: root@jessie
+Installed-Size: 56
+Depends: libc6
+Filename: ./Included/porteusbootscripts_0.0.5_all.deb
+Size: 11504
+MD5sum: 78eceb88baf69e1a3f67326d4c4816aa
+SHA1: a794e0e1c2479f3963bb2d5511af25f903c553fe
+SHA256: ccc7eeef2923062ec61b4d6981a95fdaee43d456bd370a9aab8a44744730537c
+SHA512: 346f2201bf7a80c238c4d805b1e0781d190ce628865a4d5053520bc9449497b5197b6e590757f9eb4c5fdaebe332833a8d1e8588a762a209eb8bc498a4627580
+Description: Porteus-boot helper-scripts (Note: works only on BionicDog)
+ This version has included the scripts for the new-save-setup
+ Note: Removing this package does not make any change.
+ This is on purpose because the scrips are essential for porteus-boot to work
+ Bug fix: set the correct permissions for /tmp (save2flash script)
+ Fix: when copy2ram is used, the boot partition will be cleanly unmounted.
+
 Package: obshutdown
 Architecture: i386
 Version: 1.0.0
