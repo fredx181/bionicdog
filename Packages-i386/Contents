@@ -5,6 +5,7 @@ etc/domycommand/cmd_lists/CMD1_combo			    domycommand
 etc/domycommand/domycommand_default.rc			    domycommand
 etc/domyfile/cmd_lists/CMD1_combo			    domyfile
 etc/domyfile/domyfile_default.rc			    domyfile
+etc/esound/esd.conf					    esound-common
 etc/frisbee/dhcpcd.conf					    frisbee
 etc/frisbee/frisbee.conf				    frisbee
 etc/frisbee/wpa_supplicant.conf				    frisbee
@@ -886,6 +887,8 @@ usr/lib/i386-linux-gnu/directfb-1.2-9/wm/libdirectfbwm_default.so libdirectfb-1.
 usr/lib/i386-linux-gnu/directfb-1.2-9/wm/libdirectfbwm_unique.so libdirectfb-1.2-9
 usr/lib/i386-linux-gnu/libass.so.5			    libass5
 usr/lib/i386-linux-gnu/libass.so.5.3.2			    libass5
+usr/lib/i386-linux-gnu/libaudiofile.so.1		    libaudiofile1
+usr/lib/i386-linux-gnu/libaudiofile.so.1.0.0		    libaudiofile1
 usr/lib/i386-linux-gnu/libbluray.so.1			    libbluray1
 usr/lib/i386-linux-gnu/libbluray.so.1.10.0		    libbluray1
 usr/lib/i386-linux-gnu/libcrypto.so.0.9.8		    libssl0.9.8
@@ -893,6 +896,8 @@ usr/lib/i386-linux-gnu/libdirect-1.2.so.9		    libdirectfb-1.2-9
 usr/lib/i386-linux-gnu/libdirect-1.2.so.9.0.1		    libdirectfb-1.2-9
 usr/lib/i386-linux-gnu/libdirectfb-1.2.so.9		    libdirectfb-1.2-9
 usr/lib/i386-linux-gnu/libdirectfb-1.2.so.9.0.1		    libdirectfb-1.2-9
+usr/lib/i386-linux-gnu/libesd.so.0			    libesd0
+usr/lib/i386-linux-gnu/libesd.so.0.2.39			    libesd0
 usr/lib/i386-linux-gnu/libfusion-1.2.so.9		    libdirectfb-1.2-9
 usr/lib/i386-linux-gnu/libfusion-1.2.so.9.0.1		    libdirectfb-1.2-9
 usr/lib/i386-linux-gnu/libgldi.so.3			    libgldi3
@@ -4074,6 +4079,15 @@ usr/share/doc/epdfview/README.Debian			    epdfview
 usr/share/doc/epdfview/THANKS				    epdfview
 usr/share/doc/epdfview/changelog.Debian.gz		    epdfview
 usr/share/doc/epdfview/copyright			    epdfview
+usr/share/doc/esound-common/AUTHORS			    esound-common
+usr/share/doc/esound-common/NEWS.gz			    esound-common
+usr/share/doc/esound-common/README			    esound-common
+usr/share/doc/esound-common/README.Debian		    esound-common
+usr/share/doc/esound-common/TIPS			    esound-common
+usr/share/doc/esound-common/TODO			    esound-common
+usr/share/doc/esound-common/changelog.Debian.gz		    esound-common
+usr/share/doc/esound-common/changelog.gz		    esound-common
+usr/share/doc/esound-common/copyright			    esound-common
 usr/share/doc/findnrun/CREDITS.md			    findnrun
 usr/share/doc/findnrun/LICENSE.md			    findnrun
 usr/share/doc/findnrun/LUBUNTU.md			    findnrun
@@ -4091,6 +4105,14 @@ usr/share/doc/help/images/gnibbles.png			    grub4dosconfig
 usr/share/doc/libass5/changelog.Debian.gz		    libass5
 usr/share/doc/libass5/changelog.gz			    libass5
 usr/share/doc/libass5/copyright				    libass5
+usr/share/doc/libaudiofile1/ACKNOWLEDGEMENTS		    libaudiofile1
+usr/share/doc/libaudiofile1/AUTHORS			    libaudiofile1
+usr/share/doc/libaudiofile1/NEWS.gz			    libaudiofile1
+usr/share/doc/libaudiofile1/NOTES			    libaudiofile1
+usr/share/doc/libaudiofile1/README			    libaudiofile1
+usr/share/doc/libaudiofile1/TODO			    libaudiofile1
+usr/share/doc/libaudiofile1/changelog.Debian.gz		    libaudiofile1
+usr/share/doc/libaudiofile1/copyright			    libaudiofile1
 usr/share/doc/libbluray1/changelog.Debian.gz		    libbluray1
 usr/share/doc/libbluray1/changelog.gz			    libbluray1
 usr/share/doc/libbluray1/copyright			    libbluray1
@@ -4108,6 +4130,7 @@ usr/share/doc/libdirectfb-1.2-9/README.screenshots	    libdirectfb-1.2-9
 usr/share/doc/libdirectfb-1.2-9/changelog.Debian.gz	    libdirectfb-1.2-9
 usr/share/doc/libdirectfb-1.2-9/changelog.gz		    libdirectfb-1.2-9
 usr/share/doc/libdirectfb-1.2-9/copyright		    libdirectfb-1.2-9
+usr/share/doc/libesd0					    libesd0
 usr/share/doc/libgldi3/changelog.Debian.gz		    libgldi3
 usr/share/doc/libgldi3/copyright			    libgldi3
 usr/share/doc/libical1a/ReadMe.txt			    libical1a

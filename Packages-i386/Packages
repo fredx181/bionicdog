@@ -2448,6 +2448,28 @@ SHA256: 76015eecff21165b171d20c180372140cc6d5abb81cb56171bdda11661d243da
 SHA512: c82d7ad5836b5abc7dcfc353437a9b65ab1ca3a26ef12be9dc17f442c766dd409b9c191cac8cf8c107f09e2f0c264aeb067eaffa72574ae8c09f83d46b1cac58
 Description: Text to SVG/PNG Fancy Text and Logo Generator
 
+Package: esound-common
+Architecture: all
+Version: 0.2.41-11
+Multi-Arch: foreign
+Priority: optional
+Section: sound
+Source: esound
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 79
+Conflicts: libesd-alsa0
+Filename: ./Extra/esound-common_0.2.41-11_all.deb
+Size: 45358
+MD5sum: b38240a58cb4808fdf8a30a553d2b0d7
+SHA1: 84b25d6f1606eadc1b4e7f4677a2c912c5e5c7ab
+SHA256: 62bc8808cef0d01fe5cf3b4a1d9283a37200b75a1843434c4fee14d9bc58cfcc
+SHA512: f5cb52f3a24793f6be3b162eb2ef4234698543a2add31a8b07ad650c6d0daa6771a2bfffa9083e2a2d4ce3d6c537a0f838ac8c2e9f8a571eeaae4a1fc9430cd0
+Description: Enlightened Sound Daemon - Common files
+ This program is designed to mix together several digitized
+ audio streams for playback by a single device.
+ .
+ This package contains the documentation and configuration files.
+
 Package: redshiftgui
 Architecture: i386
 Version: 0.2.1-ddstretch
@@ -3244,6 +3266,32 @@ SHA256: 93447dc19e935e637471a4b53e105956026d2f71df5dedbd572be55ad76904bc
 SHA512: 70301c1c493fbed46336165088b556f351af2fdd39c7771107e7da448512aa10d7f0328e3718656ed07f5ae8768b7be474d156df914a3551c64b88f483a82f11
 Description: Pulseaudio emulator using alsa
 
+Package: libaudiofile1
+Architecture: i386
+Version: 0.3.6-4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: audiofile
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 297
+Depends: libc6 (>= 2.4), libflac8 (>= 1.3.0), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./Extra/libaudiofile1_0.3.6-4_i386.deb
+Size: 104808
+MD5sum: 0d564750630398cd1cd670f82fe0c384
+SHA1: 4b88a93a8433cb2d5682d250988d7e7c46d62c4a
+SHA256: c9edda09730f919dba7a2b971986764bfaaeb6c3f1387b32f235b9fda6e7298d
+SHA512: 974bde8adfb80c4b9f47b43663c4dd4bc94b9751a0eb611ea894266d65ae03f0a92b1af6e4e1a07e168d8e7e52acac54bf6a1b5b64e16c76e67b81c45e314b3f
+Homepage: http://audiofile.68k.org/
+Description: Open-source version of SGI's audiofile library
+ The audiofile library allows the processing of audio data to and from audio
+ files of many common formats (currently AIFF, AIFF-C, WAVE, NeXT/Sun, BICS,
+ and raw data).
+ .
+ This package contains the library needed to run executables using
+ libaudiofile.
+
 Package: quick-remaster
 Architecture: all
 Version: 1.1.3
@@ -3448,6 +3496,30 @@ SHA1: bcc1a3244c05aadf4303414ad85e9fa8fd7907c1
 SHA256: f83254af0b2479ff0710e9356b5f16ac8305c3a34d5c4fce165f5951334f56ad
 SHA512: f34a3313c7e4e2a855a416dcb2605b04094abb801460678e75d053196348df49e4ef6310cd2287a0e1c6e73169915d5b3812c7cd48472910672c04b04c3ddf7d
 Description: Sets system date, time, zone
+
+Package: libesd0
+Architecture: i386
+Version: 0.2.41-11+b2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: esound (0.2.41-11)
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 58
+Depends: libasound2 (>= 1.0.16), libaudiofile1 (>= 0.3.6), libc6 (>= 2.15), esound-common (= 0.2.41-11)
+Suggests: pulseaudio-esound-compat
+Conflicts: libesd-alsa0
+Filename: ./Extra/libesd0_0.2.41-11+b2_i386.deb
+Size: 17970
+MD5sum: fa03e360b0fb6d72647376eb70759760
+SHA1: fa92eead519d8f198e2b5d58bbf3e732c6419f9d
+SHA256: 914412d9fc7beb606136c948a1a4d6ab1e1922546b52b434e4c494140d2f95bc
+SHA512: 4f5ea302559fb04a8e59a9ddce0c86aaf818087e9b649263391bdc362afb579ca1859e65e9e5a703c98ea39df395d9e17ca05f590800077d48a3722932c9b586
+Description: Enlightened Sound Daemon - Shared libraries
+ This program is designed to mix together several digitized
+ audio streams for playback by a single device.
+ .
+ This package contains the shared library.
 
 Package: isotools
 Architecture: all
