@@ -1998,6 +1998,31 @@ Description:  findnrun 1.10.6 (utility)
   icons, smaller English help (markdown), NLS .pot.
   https://github.com/step-/find-n-run/
 
+Package: libesd0
+Architecture: amd64
+Version: 0.2.41-11
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: esound
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 77
+Pre-Depends: multiarch-support
+Depends: libasound2 (>= 1.0.16), libaudiofile1 (>= 0.3.6), libc6 (>= 2.15), esound-common (= 0.2.41-11)
+Suggests: pulseaudio-esound-compat
+Conflicts: libesd-alsa0
+Filename: ./Extra/libesd0_0.2.41-11_amd64.deb
+Size: 16964
+MD5sum: 2f284f5235b1de9ba7acdd60a337284d
+SHA1: 1bc1ec88fc7da4e63f55cb8b05d6a74a8d5d3953
+SHA256: 152d531f7781108427073f8ad54819c82fec574dd819182af3d8c02bfeb269aa
+SHA512: 53e362902c919a7e66c48ea7679e0755eef4d129bccf2a506f0af4863fed957ceb540026edbbdf7455d1bf2f572abce8f04af9b209b3d332c88179bc6e811d37
+Description: Enlightened Sound Daemon - Shared libraries
+ This program is designed to mix together several digitized
+ audio streams for playback by a single device.
+ .
+ This package contains the shared library.
+
 Package: gtkdesklet
 Architecture: amd64
 Version: 1.0.1
@@ -2308,6 +2333,28 @@ Description:  findnrun 1.10.6 (documentation)
   for freedesktop.org desktop application files.
   Files in this add-on package: larger English help (HTML).
   https://github.com/step-/find-n-run/
+
+Package: esound-common
+Architecture: all
+Version: 0.2.41-11
+Multi-Arch: foreign
+Priority: optional
+Section: sound
+Source: esound
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 79
+Conflicts: libesd-alsa0
+Filename: ./Extra/esound-common_0.2.41-11_all.deb
+Size: 45358
+MD5sum: b38240a58cb4808fdf8a30a553d2b0d7
+SHA1: 84b25d6f1606eadc1b4e7f4677a2c912c5e5c7ab
+SHA256: 62bc8808cef0d01fe5cf3b4a1d9283a37200b75a1843434c4fee14d9bc58cfcc
+SHA512: f5cb52f3a24793f6be3b162eb2ef4234698543a2add31a8b07ad650c6d0daa6771a2bfffa9083e2a2d4ce3d6c537a0f838ac8c2e9f8a571eeaae4a1fc9430cd0
+Description: Enlightened Sound Daemon - Common files
+ This program is designed to mix together several digitized
+ audio streams for playback by a single device.
+ .
+ This package contains the documentation and configuration files.
 
 Package: sound-card-selector
 Architecture: all
@@ -2957,6 +3004,32 @@ SHA1: ac25eacad72be13af4c0e0260d01f765c0e5f6a1
 SHA256: d65c184474b634531d8573d6a2f05aa497f4c036fbbcd2acf5606883ab3bc0ee
 SHA512: e442abcded16543ce1ebfd930e0a5d6ede52759ba7b4284f2eab262d115badde9fcb145503da73bdde546fd61030ff82c4576556ffe6132289604610fcd2ad30
 Description: Information about drive partitions
+
+Package: libaudiofile1
+Architecture: amd64
+Version: 0.3.6-4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: audiofile
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 270
+Depends: libc6 (>= 2.14), libflac8 (>= 1.3.0), libstdc++6 (>= 5.2)
+Filename: ./Extra/libaudiofile1_0.3.6-4_amd64.deb
+Size: 93796
+MD5sum: fad4f92bf51d52c501114a66d95895dc
+SHA1: 75e3c9d7318c93f993061ce0f0c3bbeb453f98bd
+SHA256: ac0725cab826fef0fe73e3bf9a8fcbe16c2451a0343b39cb91de9c9967711c97
+SHA512: dcd77411363621dc01f298c3794f6d5bfb744419646882a9a0727aad83d286fabfd8d9c107fbc6a52f63157044bff2adbdd9f97b1fe43c8374582a15e4ac8798
+Homepage: http://audiofile.68k.org/
+Description: Open-source version of SGI's audiofile library
+ The audiofile library allows the processing of audio data to and from audio
+ files of many common formats (currently AIFF, AIFF-C, WAVE, NeXT/Sun, BICS,
+ and raw data).
+ .
+ This package contains the library needed to run executables using
+ libaudiofile.
 
 Package: PeasyWiFi
 Architecture: amd64
