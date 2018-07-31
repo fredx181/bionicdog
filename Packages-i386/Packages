@@ -171,6 +171,27 @@ SHA256: 1b0e213f86d4f73f5761b5642e7f34a63d51e01bd1e9881d41d20cf031df2874
 SHA512: de1fc5c4addd5a7b1bf15d62a413d485070bb572e491f81b06762986fe4abbf9beb29b22b250d7c10e612c319c8ed9a3347b119fdf1c39bbda26682501b8e43b
 Description: squashfs editor, converter
 
+Package: gtkdialog
+Architecture: i386
+Version: 0.8.5-wiak-B-1
+Priority: extra
+Maintainer: William McEwan (wiak) <https://github.com/wiake>
+Installed-Size: 332
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
+Replaces: gtkwialog
+Filename: ./Included/gtkdialog_0.8.5-wiak-B-1_i386.deb
+Size: 119454
+MD5sum: 7a2b0e40b563a3c7cf867fed913ed8ea
+SHA1: ccd99cc3d36029045a8492d2d70e980d2881ec14
+SHA256: 8debddc4f79f6487b812d57d1fae84284c9d224359560566470bb369c1ae11b0
+SHA512: 2e9cf23cc9ab97839aa7afac2bf1a6da852e8ef965fad4d0f7a7a928368688f61e627e67737000a44b40477bf2523afe20641c3650ada2ed477fc59d2b5325f7
+Description: 
+ Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
+ fast and easy GUI building
+ Gtkwialog uses various, more secure and flexible, glib calls than
+ legacy Gtkdialog to effect its action tag command spawning.
+ Gtkwialog fork by wiak. (package made as replacement for gtkdialog by fredx181)
+
 Package: libcdio13
 Architecture: i386
 Version: 0.83-4.2
@@ -1080,6 +1101,23 @@ Description: Dogradio is a GUI displaying icons for playing radio streams.
  - Using conky for 'conky ticker', showing metadata
  (can be enabled/disabled from tray icon menu + other settings)
 
+Package: precord
+Architecture: all
+Version: 9.0.6
+Priority: extra
+Section: audio
+Maintainer: mcewanw <Murga Puppy Linux Forum>
+Installed-Size: 104
+Depends: libc6, gtkdialog, lame
+Filename: ./Included/precord_9.0.6_all.deb
+Size: 10430
+MD5sum: 7d6cdcea635a338d81d8ed60350e1e70
+SHA1: 26317d1a1084a7fd5c4dcbdd1f14e2acdbb2af24
+SHA256: 1a83f72c8acb126c42064ca9b46fefa5a483056160ba53fb8eb1cedfa884ce47
+SHA512: e869ba268a6f63f79657adf1ab800312e9ed0cdeb35b8a4689fb75b1be82b3c2dcec7aa9c01d5de0f409aead94879afdf43a622a7f94e9f57bdc116c3ab29355
+Description: precord for DebianDog:
+ precord by mcewanw
+
 Package: porteusbootscripts
 Architecture: all
 Version: 0.0.3
@@ -1522,6 +1560,25 @@ Description: Video Acceleration (VA) API for Linux -- runtime
  can also freely use this API for hardware accelerated video decoding.
  .
  This package provides the main libva library.
+
+Package: wiagit
+Architecture: all
+Version: 0.0.1
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 126
+Depends: bash, gtkdialog, git, gitk
+Filename: ./Extra/wiagit_0.0.1_all.deb
+Size: 16912
+MD5sum: 0cc5e0f6513365b1e6c8ce5981f7d4a4
+SHA1: 42656f7b8f0002c629cbfc50736f05308a9ca249
+SHA256: 1be596cf3b0bd8645f353b41cb2c2a2438794f683ca2a9913e3405ab74ca0b36
+SHA512: a2dd9d87b4e023d3c6933bfc4dbe278c603d766bdd92699eb28d99a0a9321c69b0342599f7849f424a254f3899ed543e5e9c88c6449bc62c3b3d2b1a5311ebf2
+Homepage: https://github.com/wiake
+Description:
+ wiagit is a GUI frontend for git,
+ git documentation, and a general purpose
+ user-editable commandline storage program.
+ It is written in bash/gtkwialog v 0.8.5 and above.
 
 Package: conkyclock2
 Architecture: all
@@ -3059,6 +3116,28 @@ SHA256: 8fadc310292732e1222ded56e76f00403e640fdae9491d61f9b034e0cd7c6c01
 SHA512: baad058e2659070510fe6aeec136a76f4df54e15bce7ced8e2b2f9ab8d43dccc27498979570dbed2c0e9b9d2e47263c5e752a274fd1774a3950f340600a5c531
 Description: Internet Radio Player
 
+Package: cast2chrome
+Architecture: all
+Version: 0.0.4
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 55
+Depends: bash, gtkdialog, stream2chromecast
+Filename: ./Extra/cast2chrome_0.0.4_all.deb
+Size: 7878
+MD5sum: 68367128ca6f2d13ab56a9d4849dadfe
+SHA1: 9f4468f1d9185fd60403b3874f1f5cd6a16d9390
+SHA256: 6e00744370dd37087bcda67ae170b3791364708bc64055b0e0484a429991771b
+SHA512: 61741f83225cbcb96e18d7b307db998b9bbc949d50c1a47e323ad44f23bf7f4f9979d0434bc31860e6684780f4d199fe4d0d8a36b4eaad7f9f63847376e07361
+Homepage: https://github.com/wiake
+Description:
+ cast2chrome is a GUI frontend for stream2chromecast
+ Stream2Chromecast casts audio and video files to a
+ Chromecast device from Linux. It can also transcode any
+ unsupported files in real time and play them on the
+ Chromecast.
+ cast2chrome supports youtube urls and can save media.
+ It is written in bash/gtkwialog v 0.8.5 and above.
+
 Package: libdvdcss
 Architecture: i386
 Version: 1.4.0
@@ -3176,26 +3255,6 @@ SHA1: e5ed05d3979dd85d97ecf91f81c74d4f6d2ae21b
 SHA256: de09028bdb680191fa3e67a913479fe0aaf45eb9971dd1c14fb8538e69746a8e
 SHA512: 94701acb644caca5499b02d89a4fe628b34d2def0adc7a4efd71682e8d9147a0b54249dbf24d23a87f96daf739fd164d671544745e2ab439ab52d510da20ca6b
 Description: Google-drive Filemanager v2
-
-Package: gtkwialog
-Architecture: i386
-Version: 0.8.4
-Priority: extra
-Maintainer: William McEwan (wiak) <https://github.com/wiake>
-Installed-Size: 316
-Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
-Filename: ./Extra/gtkwialog_0.8.4_i386.deb
-Size: 85764
-MD5sum: 573c59eb0db92d47cf4f26919da7a95a
-SHA1: f3311fc259391301c08fe770677bcc116296eab9
-SHA256: a76b1497c68ceabe08ecc0d0ca0ee7325c58d75eb06e7e540aa3493d1b5b9a77
-SHA512: 7d6d80d20dd56aab1f9d57dd6ec07678aca6b772b52c9c30813a60a79e2ab3c17f82471c5710a2115cebf4c35850edf623b297e755e7a3096f316ef4d9125669
-Description: 
- Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
- fast and easy GUI building
- Gtkwialog uses various, more secure and flexible, glib calls than
- legacy Gtkdialog to effect its action tag command spawning.
- Gtkwialog fork by wiak.
 
 Package: cairo-dock-minimal
 Architecture: i386
