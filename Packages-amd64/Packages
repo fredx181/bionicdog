@@ -781,6 +781,27 @@ Description: Yet Another Dialog - dialogs for shell
  the long time, but many interesting ideas which are ignored by
  developers/maintainers were in GNOME Bugzilla.
 
+Package: gtkdialog
+Architecture: amd64
+Version:  0.8.5-wiak-B-1
+Priority: extra
+Maintainer: William McEwan (wiak) <https://github.com/mcewanw>
+Installed-Size: 295
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
+Replaces: gtkwialog
+Filename: ./Included/gtkdialog_0.8.5-wiak-B-1_amd64.deb
+Size: 115576
+MD5sum: e6f2987346d9b745d16a546185877820
+SHA1: 819571ed550481b59acc3875764855455ea1034e
+SHA256: 059bbbf73fe595d9ff2cec6c3ccdaa7ee54dffab865ec55f8e2cbaa0b8e41a8b
+SHA512: 260d81b9f001cd7953db2d717d32c9d6db78d822c2618ba7f617b7d5e774e8024e0d14d7863b698b250fb966fcd9f7510647a277d936646fd6741d10b7939d23
+Description: 
+ Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
+ fast and easy GUI building
+ Gtkwialog uses various, more secure and flexible, glib calls than
+ legacy Gtkdialog to effect its action and input tag command spawning.
+ Gtkwialog fork by wiak. (package made as replacement for gtkdialog by fredx181)
+
 Package: move-in-crypt
 Architecture: all
 Version: 1.0.1
@@ -1019,6 +1040,23 @@ SHA1: 27a60f37dc4f67dcb4affa604f46e6e231b5fd3f
 SHA256: 05e12ecfd6292af5166bcae796f8b81662deb3b6616fc302d6b5f164b7280e84
 SHA512: 460da72d1a75b4bd2a0b655821f765578f3894be5768504f881c87a98cbb29af60f157eec13b4be148bd8c5e289306d3662a230dc04d1a637de4935c1d8cb343
 Description: Mount images, savefile, modules
+
+Package: precord
+Architecture: all
+Version: 9.0.6
+Priority: extra
+Section: audio
+Maintainer: mcewanw <Murga Puppy Linux Forum>
+Installed-Size: 104
+Depends: libc6, gtkdialog, lame
+Filename: ./Included/precord_9.0.6_all.deb
+Size: 10430
+MD5sum: 7d6cdcea635a338d81d8ed60350e1e70
+SHA1: 26317d1a1084a7fd5c4dcbdd1f14e2acdbb2af24
+SHA256: 1a83f72c8acb126c42064ca9b46fefa5a483056160ba53fb8eb1cedfa884ce47
+SHA512: e869ba268a6f63f79657adf1ab800312e9ed0cdeb35b8a4689fb75b1be82b3c2dcec7aa9c01d5de0f409aead94879afdf43a622a7f94e9f57bdc116c3ab29355
+Description: precord for DebianDog:
+ precord by mcewanw
 
 Package: gnome-mplayer-1.0.7
 Architecture: amd64
@@ -1573,6 +1611,25 @@ Description: PNG library - runtime
  .
  This package contains the runtime library files needed to run software
  using libpng.
+
+Package: wiagit
+Architecture: all
+Version: 0.0.1
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 126
+Depends: bash, gtkdialog, git, gitk
+Filename: ./Extra/wiagit_0.0.1_all.deb
+Size: 16912
+MD5sum: 0cc5e0f6513365b1e6c8ce5981f7d4a4
+SHA1: 42656f7b8f0002c629cbfc50736f05308a9ca249
+SHA256: 1be596cf3b0bd8645f353b41cb2c2a2438794f683ca2a9913e3405ab74ca0b36
+SHA512: a2dd9d87b4e023d3c6933bfc4dbe278c603d766bdd92699eb28d99a0a9321c69b0342599f7849f424a254f3899ed543e5e9c88c6449bc62c3b3d2b1a5311ebf2
+Homepage: https://github.com/wiake
+Description:
+ wiagit is a GUI frontend for git,
+ git documentation, and a general purpose
+ user-editable commandline storage program.
+ It is written in bash/gtkwialog v 0.8.5 and above.
 
 Package: yradio
 Architecture: amd64
@@ -2409,26 +2466,6 @@ SHA256: 43cc9f5c1eede3b1589b58c1d5eb09948e4be9ad1defe203a25e31fdd455a0f1
 SHA512: 51c1d521dc4a7d97dd2340db775fe9fe7a39625521076a0ca53a8e56bcb8d731f3dbc9839686469ccbd1a8d04e99f16b2ca873e5248df4eec4b7dbd49c1e498d
 Description: Universal File Viewer by Mochimoppel
 
-Package: gtkwialog
-Architecture: amd64
-Version: 0.8.4
-Priority: extra
-Maintainer: William McEwan (wiak) <https://github.com/wiake>
-Installed-Size: 279
-Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
-Filename: ./Extra/gtkwialog_0.8.4_amd64.deb
-Size: 78974
-MD5sum: 655b6980c98b718865810f089effd849
-SHA1: 339a2bd6df3644b379756e52d2de75c7064b6b16
-SHA256: 78738bec95d894fcf285c4dd92415658f63e63df7c71e94b97bbcc41edbfdf83
-SHA512: 1ae460677916a524bf381b4ff369d9c642513e8886f5cdfd0f6ff1ff4d73c3e44623cbdd88eb64792a7df1779cc7118fece89ee85aeea5ac4241473fc46e37f5
-Description: 
- Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
- fast and easy GUI building
- Gtkwialog uses various, more secure and flexible, glib calls than
- legacy Gtkdialog to effect its action tag command spawning.
- Gtkwialog fork by wiak.
-
 Package: wex
 Architecture: all
 Version: 0.8.18
@@ -2786,6 +2823,28 @@ SHA1: 720a62c08f6035ddb00b8b7c475d7d3878ccea1f
 SHA256: a3cf47066a32316a55e2986e8772b46c5fe1979c88547681067af034ac6ade4b
 SHA512: 9232ab844d774a32e984e0c8ca84651c8df99ad707a835eca9f59e7b6f63a0f636afe41d385176f40d3e58c48ed21ac2aacf80defe85f0dd149f55e0c7bbff56
 Description: DropboxGUI, by mikeb
+
+Package: cast2chrome
+Architecture: all
+Version: 0.0.4
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 55
+Depends: bash, gtkdialog, stream2chromecast
+Filename: ./Extra/cast2chrome_0.0.4_all.deb
+Size: 7878
+MD5sum: 68367128ca6f2d13ab56a9d4849dadfe
+SHA1: 9f4468f1d9185fd60403b3874f1f5cd6a16d9390
+SHA256: 6e00744370dd37087bcda67ae170b3791364708bc64055b0e0484a429991771b
+SHA512: 61741f83225cbcb96e18d7b307db998b9bbc949d50c1a47e323ad44f23bf7f4f9979d0434bc31860e6684780f4d199fe4d0d8a36b4eaad7f9f63847376e07361
+Homepage: https://github.com/wiake
+Description:
+ cast2chrome is a GUI frontend for stream2chromecast
+ Stream2Chromecast casts audio and video files to a
+ Chromecast device from Linux. It can also transcode any
+ unsupported files in real time and play them on the
+ Chromecast.
+ cast2chrome supports youtube urls and can save media.
+ It is written in bash/gtkwialog v 0.8.5 and above.
 
 Package: unzipper
 Architecture: all
