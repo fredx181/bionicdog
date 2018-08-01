@@ -1616,14 +1616,14 @@ Package: wiagit
 Architecture: all
 Version: 0.0.1
 Maintainer: wiak <https://github.com/wiake>
-Installed-Size: 126
+Installed-Size: 127
 Depends: bash, gtkdialog, git, gitk
 Filename: ./Extra/wiagit_0.0.1_all.deb
-Size: 16912
-MD5sum: 0cc5e0f6513365b1e6c8ce5981f7d4a4
-SHA1: 42656f7b8f0002c629cbfc50736f05308a9ca249
-SHA256: 1be596cf3b0bd8645f353b41cb2c2a2438794f683ca2a9913e3405ab74ca0b36
-SHA512: a2dd9d87b4e023d3c6933bfc4dbe278c603d766bdd92699eb28d99a0a9321c69b0342599f7849f424a254f3899ed543e5e9c88c6449bc62c3b3d2b1a5311ebf2
+Size: 16938
+MD5sum: 0b7da05f2b67407774b7e7f86c33eac4
+SHA1: 4a1bc83e48d989d1fa9500bc19ba1dde79cb1fb8
+SHA256: 29b1664cfcbc30785d22e70219ecdba38749c1eebf9dc8c55d66802e4130ac5d
+SHA512: 282855b6214ec08ab761ec091659e3a298339155966a8d52e7f0ae4cfc6bf0f83c98d4600aa3372972d2504ef77691b2b0c83baed933e57116c1746974395d6e
 Homepage: https://github.com/wiake
 Description:
  wiagit is a GUI frontend for git,
