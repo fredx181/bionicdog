@@ -3630,6 +3630,25 @@ SHA256: b56ba209da97602884717399eb5b12bd070654268085194d477128b0cd258db9
 SHA512: 8549498c1310f5cb153df378b5498db171b74ae36b86c0e0662cfe3dfd4b77918d6eacef7c43c642db3a46579c0b734e90658c4ac8af77e73f3693c9f5a76d48
 Description: evince-converted-pet-to-deb
 
+Package: wiagit
+Architecture: all
+Version: 0.0.3
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 151
+Depends: bash, gtkdialog, git, gitk
+Filename: ./Extra/wiagit_0.0.3_all.deb
+Size: 13568
+MD5sum: 6467523de36389524b97894cdcdff98c
+SHA1: 70a672f7c38781868501a76460f7c0e739ad553a
+SHA256: 59234fbe8d702ea4b7ec1bd487b56d6f887a74549fa966e12875b331ad678953
+SHA512: 36203c905b3b5a1757e36086c46988558a03d0594d0a0d8fd6f5d6ee393b7e185b2cc7b002cf0abe03dee1b79c4f8469d76f7b2b74a6f886a9c91b866bcf94bb
+Homepage: https://github.com/wiake
+Description:
+ wiagit is a GUI frontend for git,
+ git documentation, and a general purpose
+ user-editable commandline storage program.
+ It is written in bash/gtkwialog v 0.8.5 and above.
+
 Package: deadbeef-static
 Architecture: i386
 Version: 0.7.2-2

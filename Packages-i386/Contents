@@ -80,6 +80,8 @@ etc/wiagit/cmd_lists/COMMIT1combo			    wiagit
 etc/wiagit/cmd_lists/CONFIG1combo			    wiagit
 etc/wiagit/cmd_lists/DIFF1combo				    wiagit
 etc/wiagit/cmd_lists/DOCScombo				    wiagit
+etc/wiagit/cmd_lists/GENERAL1combo			    wiagit
+etc/wiagit/cmd_lists/GITCMD1combo			    wiagit
 etc/wiagit/cmd_lists/HELP1combo				    wiagit
 etc/wiagit/cmd_lists/INITCOMMIT1combo			    wiagit
 etc/wiagit/cmd_lists/LOG1combo				    wiagit
@@ -102,6 +104,7 @@ etc/wiagit/cmd_lists/cCcombo				    wiagit
 etc/wiagit/cmd_lists/dDcombo				    wiagit
 etc/wiagit/cmd_lists/eEcombo				    wiagit
 etc/wiagit/cmd_lists/fFcombo				    wiagit
+etc/wiagit/cmd_lists/oOcombo				    wiagit
 etc/wiagit/wiagitrc					    wiagit
 etc/wiagit/wiagitrcBKUP					    wiagit
 etc/xdg/menus/dog-applications.menu			    jwm-setup
@@ -1426,6 +1429,9 @@ usr/local/bin/weav					    weav
 usr/local/bin/wee.mbr					    bionicdoginstallscripts
 usr/local/bin/wex					    wex
 usr/local/bin/wiagit					    wiagit
+usr/local/bin/wiagitm					    wiagit
+usr/local/bin/wiagitmt					    wiagit
+usr/local/bin/wiagitt					    wiagit
 usr/local/bin/xload					    jwm-setup
 usr/local/bin/xwd					    snappie
 usr/local/bin/yad-splash				    yad-splash
@@ -3383,6 +3389,8 @@ usr/local/share/pixmaps/wex/wex_utility09.png		    wex
 usr/local/share/pixmaps/wex/wex_utility10.png		    wex
 usr/local/share/pixmaps/wex/wex_utility11.png		    wex
 usr/local/share/pixmaps/wex/wex_www.png			    wex
+usr/local/wiagit/wiagit					    wiagit
+usr/local/wiagit/wiagitm				    wiagit
 usr/local/youtube-get2/1url.desktop			    youtube-get2
 usr/local/youtube-get2/2playlist.desktop		    youtube-get2
 usr/local/youtube-get2/3ytuser.desktop			    youtube-get2
@@ -3534,6 +3542,7 @@ usr/share/applications/upgrade-kernel.desktop		    upgrade-kernel
 usr/share/applications/weav.desktop			    weav
 usr/share/applications/wex.desktop			    wex
 usr/share/applications/wiagit.desktop			    wiagit
+usr/share/applications/wiagitm.desktop			    wiagit
 usr/share/applications/xvidcap.desktop			    xvidcap
 usr/share/applications/yassm.desktop			    yassm
 usr/share/apport/package-hooks/cairo-dock.py		    cairo-dock-minimal
@@ -4730,6 +4739,7 @@ usr/share/icons/hicolor/icon-theme.cache		    yad
 usr/share/icons/hicolor/scalable/actions/geany-build.svg    geany
 usr/share/icons/hicolor/scalable/actions/geany-close-all.svg geany
 usr/share/icons/hicolor/scalable/actions/geany-save-all.svg geany
+usr/share/icons/hicolor/scalable/apps/Git_icon.svg	    wiagit
 usr/share/icons/hicolor/scalable/apps/ceni.svg		    ceni
 usr/share/icons/hicolor/scalable/apps/deadbeef.svg	    deadbeef-static
 usr/share/icons/hicolor/scalable/apps/findnrun.svg	    findnrun
