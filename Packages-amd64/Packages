@@ -995,6 +995,27 @@ Description: Little CMS color management library
  LittleCMS implements a fast transformation between ICC profiles. The
  intention of it is to be portable across several platforms.
 
+Package: gtkdialog
+Architecture: amd64
+Version:  0.8.6-wiak-B
+Priority: extra
+Maintainer: William McEwan (wiak) <https://github.com/mcewanw>
+Installed-Size: 295
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
+Replaces: gtkwialog
+Filename: ./Included/gtkdialog_0.8.6-wiak-B_amd64.deb
+Size: 115468
+MD5sum: 78f9b791647818779b87a3abb930942a
+SHA1: d56c5d198467f337810b319c318bdcd7f42cf4dc
+SHA256: 7d53a79480e4aa7f6c8ecd292d0d3c27063cb1386fb2ee20de22c215a3a249fc
+SHA512: 9267ed75003a9ccddd00f52206df2406f1870d66c2612aea1cb19eefa033f09bfd5b5a6142d6733344d01fd17fb0ff084396d05a9bb3319f3587f4e9c1f98157
+Description: 
+ Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
+ fast and easy GUI building
+ Gtkwialog uses various, more secure and flexible, glib calls than
+ legacy Gtkdialog to effect its action and input tag command spawning.
+ Gtkwialog fork by wiak. (package made as replacement for gtkdialog by fredx181)
+
 Package: jwm
 Architecture: amd64
 Version: 2.1.0+svn579-2ubuntu1
