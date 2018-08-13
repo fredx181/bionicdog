@@ -412,6 +412,27 @@ SHA256: be68830a685ee894778998062c5547a3f0870a00cf7f8148f462cf930d3238e3
 SHA512: 1d960bcedc328a55b1c51e529d69a2cf8454278f736db468758d9e74edffc5dd54af688cbe56162651a8309ff5006925b3f3c22402e7fba7c18d60f8dfa446fb
 Description: Manage encrypted save file utility.
 
+Package: gtkdialog
+Architecture: i386
+Version: 0.8.6-wiak-B
+Priority: extra
+Maintainer: William McEwan (wiak) <https://github.com/wiake>
+Installed-Size: 332
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
+Replaces: gtkwialog
+Filename: ./Included/gtkdialog_0.8.6-wiak-B_i386.deb
+Size: 119900
+MD5sum: 8db2712ad021272ea09dc512ef9e842f
+SHA1: 87fc7a97e7fb80aee376fae7413752d46d9b75db
+SHA256: 077a68c6f58f7525557297849987a8a5f44416bc159094810e75d495c4168618
+SHA512: c645879741711c75666e3dbbbe2c80081f9b301963aa3163bdd911c20d71df8ebcaa55ac6f06583b8ee86e8f4abdd164df079882c788aa16bbf783feae8b3998
+Description: 
+ Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
+ fast and easy GUI building
+ Gtkwialog uses various, more secure and flexible, glib calls than
+ legacy Gtkdialog to effect its action tag command spawning.
+ Gtkwialog fork by wiak. (package made as replacement for gtkdialog by fredx181)
+
 Package: sfsload
 Architecture: i386
 Version: 1.0.4
