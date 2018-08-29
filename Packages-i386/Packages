@@ -111,25 +111,6 @@ Description: Load a *.squashfs or *.sfs module.
  Changes in v 1.0.5:
  - kill processes which are keeping from proper unmounting (might be needed in some cases for SFS-load mode)
 
-Package: jwm-setup
-Architecture: i386
-Version: 0.0.2
-Priority: optional
-Section: x11
-Maintainer: fredx181
-Installed-Size: 480
-Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libmenu-cache3, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, sed, jwm, rox-filer
-Filename: ./Included/jwm-setup_0.0.2_i386.deb
-Size: 112548
-MD5sum: 9836ca37b179c3f8195058d8519da98b
-SHA1: 46aa9c5f9032b5c978129e09ea5d5c00f89f7906
-SHA256: a5b03bcb00cda85cf7b10e8a3d822d6feaa1824478123c5913db4be54c59475a
-SHA512: b55fc3c874c884bc61af208bd2274cc8432e5e7c5a119ad29453c2821f100bfe571f405214d34bcdeacdb4e161fde63fcabb33133edee147963ea60d7ceb2a63
-Description: Jwm custom setup for Xendog, includes:
- - openbox-menu, pipe-menu setup for JWM (NOTE: menu-cached is not used) to display entries in *.desktop files
- - jwm-obmenu script for the Jwm window manager. It provides
- a dynamic menu listing of installed applications.
-
 Package: apt2sfs
 Architecture: i386
 Version: 1.1.1
@@ -500,25 +481,6 @@ SHA256: 0c9c5e338a12bba5981cd57ed8045ab4458bd212a3d5205077cb1f518e3bc965
 SHA512: 29b9d19a390dc434ade6515058b26f0b583b1e2022185ac1ad3ed401fbf1ba772c3f80642412b0beec0adf3aa3d43583141050225b967f75f9e302ccfb189947
 Description: Wireless Network manager
  Fixed refreshing network_tray icon, e.g. when plugging the cable in/out and when connecting to wireless
-
-Package: jwm-setup
-Architecture: i386
-Version: 0.0.1
-Priority: optional
-Section: x11
-Maintainer: fredx181
-Installed-Size: 480
-Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libmenu-cache3, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, sed, jwm
-Filename: ./Included/jwm-setup_0.0.1_i386.deb
-Size: 107930
-MD5sum: ebaf346a7601be8e60213ca977142a68
-SHA1: 8f18b3197e68044cce7aa7416efd89dcacfbf4ec
-SHA256: 25fcf20ecd8934265571c07cae7f4896ada4126ff979779219fe720707e71264
-SHA512: c8de8b1f49806e544e132417e4bdd7ecf46240598f3d0ca41d95d029513f164307a622cb30f98ca467d2366d77ce3fc5c6854809e54b6b8386c6d29b206d5570
-Description: Jwm custom setup for Xendog, includes:
- - openbox-menu, pipe-menu setup for JWM (NOTE: menu-cached is not used) to display entries in *.desktop files
- - jwm-obmenu script for the Jwm window manager. It provides
- a dynamic menu listing of installed applications.
 
 Package: porteusbootscripts
 Architecture: all
@@ -1427,6 +1389,25 @@ SHA1: 819dca2caad5fd22aeea4a486aff827d842bdad2
 SHA256: 62dafb79546520f7acaebc288202ac60fb7aa7289a13e9eb5677f3bc14989b76
 SHA512: 465d1b5af2a9e5cffd56aca963f2a313692b783ce1ed68071b66ef3a3bc100d044522095e0161b19fcd3e4adb8c872e60a2ae03d67f008d4a34c34e62f316d33
 Description: Show drive icons on desktop
+
+Package: jwm-setup
+Architecture: i386
+Version: 0.0.3
+Priority: optional
+Section: x11
+Maintainer: fredx181
+Installed-Size: 480
+Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libmenu-cache3, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, sed, jwm, rox-filer, wmctrl, hsetroot
+Filename: ./Included/jwm-setup_0.0.3_i386.deb
+Size: 699766
+MD5sum: c4335fb304f622df9f71c14ae4ff56d2
+SHA1: 997238849a8c087fc55749dc5f1e4c3f4c1a19ab
+SHA256: 9aff7b4b3688a2086d5c2aa9dc29a9b7c3ae25d804e86bd1892ce927eda0a232
+SHA512: db053ac06356d04c0b92d5c1e7a64826c1c685b8586593c079692e0c03edda98b030a6606f9dd8c59c88009f859fb909163125de8dfbdf7d883025f9e5b9b7ff
+Description: Jwm custom setup for Debiandog, includes:
+ - openbox-menu, pipe-menu setup for JWM to display entries in *.desktop files
+ - jwm-obmenu script for the Jwm window manager. It provides
+ a dynamic menu listing of installed applications.
 
 Package: filemnt-rox
 Architecture: i386
