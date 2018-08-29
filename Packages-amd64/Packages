@@ -431,6 +431,25 @@ SHA256: baed65111d1effa1631670e15ae32743946e493ebb2f8b98de1072465363308d
 SHA512: 4b09dc5a94ebac45649d5179dfac9031f1401d961706a997cd951687a1e0660250a6f5627fa5a45e4a58fe138a779167732d4b31f0c5cb89bbdee798c487cab0
 Description: Mozilla WebBrowser
 
+Package: jwm-setup
+Architecture: amd64
+Version: 0.0.3
+Priority: optional
+Section: x11
+Maintainer: fredx181
+Installed-Size: 480
+Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libmenu-cache3, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, sed, jwm, rox-filer, wmctrl, hsetroot
+Filename: ./Included/jwm-setup_0.0.3_amd64.deb
+Size: 699692
+MD5sum: ce22a8f3996c42457c67e21f1eb4161d
+SHA1: 1e9807bdcd9ae2f961a84b8725128597632c3e32
+SHA256: f7d0190c00c88130849079f1269c350848e93d49d6a6d6659bb2028568bae981
+SHA512: 53b89aaf2e94b6b90e6a13305b45b6663facaa08c126da46a2aed07682233ba77ad2a752c37b8b71e7b72895689eba3596fcb1af06d439dd3fde8f7b116dfad1
+Description: Jwm custom setup for Debiandog, includes:
+ - openbox-menu, pipe-menu setup for JWM to display entries in *.desktop files
+ - jwm-obmenu script for the Jwm window manager. It provides
+ a dynamic menu listing of installed applications.
+
 Package: mount-wizard
 Architecture: all
 Version: 1.0.2
