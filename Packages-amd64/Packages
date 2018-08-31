@@ -3366,12 +3366,13 @@ Maintainer: root
 Installed-Size: 88
 Depends: busybox-static, gxmessage
 Filename: ./Extra/pschedule_1.1.6_all.deb
-Size: 8250
-MD5sum: 960affc4cec268287712485ecf921d64
-SHA1: 40586a595c0e483df10cef14c3c6083a75511702
-SHA256: 31a416f5073f76bf8c8aeeb6a86ec1de7d08c0a166d47d6150ce1d2d64efc840
-SHA512: 307b091048ea827d6376cbd092b597774c3bc3e84b3d61977908aa9f834c7e11a7598b618f6e5eb0ef9fba7cd4365934db1a7d7f0b1f1f93b806569f6bfb3ebb
+Size: 8264
+MD5sum: 8f985f73956743b1d8687034eaa84e3c
+SHA1: c2b9458979e3daea4b3e4b434969f3634c04fb88
+SHA256: 2b6f67978c4dc5c6ae04e92b57422c06595867721714a01cee20d2e77f1e9e7e
+SHA512: 1404704ec3b8a09f847c5b1f7624f892d5bdbc0fd23b0ec3c90ab5f7bbf54e3502d74bba5df2388f096bbc677ddf96e54ddc3f70ca0d0e244ecb069ef7113449
 Description: pschedule-converted-pet-to-deb
+ Pschedule task on time
 
 Package: libvpx4
 Architecture: amd64
