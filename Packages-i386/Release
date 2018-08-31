@@ -6,24 +6,24 @@ Codename: bionic
 Architectures: i386
 Components: main
 Description: BionicDog repository
-Date: Wed, 29 Aug 2018 15:45:55 +0000
+Date: Fri, 31 Aug 2018 13:47:27 +0000
 MD5Sum:
- fa474674f981294092e6f3b3891d2aa2           174944 Packages
- b82e4ba183994d8997f1cdae2dd90d70            64399 Packages.gz
- adbc1783f2a46aac5fb30cf70009a1f6              186 Release
- b82e4ba183994d8997f1cdae2dd90d70            64399 Translation-en.gz
+ b75772aabf71a0327e0767eb1c85dc57           177233 Packages
+ b5d4c6f2cfec6cdbc7ea8f53e0821a8f            65506 Packages.gz
+ 28dd84fe27ead8989adde040b64b6987              186 Release
+ b5d4c6f2cfec6cdbc7ea8f53e0821a8f            65506 Translation-en.gz
 SHA1:
- 828b1b2a3732cfd9fc669fa793703b663431eec5           174944 Packages
- 81d9725284293bca8b11d83940f3b66f6d617ab1            64399 Packages.gz
- 534d7f98aa330b7c8f2b82ee66213e5ca8cc5a11              186 Release
- 81d9725284293bca8b11d83940f3b66f6d617ab1            64399 Translation-en.gz
+ 3a52f50d077e1b4f7a18e41e5b377ad642d5903a           177233 Packages
+ 79b20773f85beea37b969789a435a67d4b67f4e5            65506 Packages.gz
+ fec9771098fbf837da1b708aa7fd40118fad1477              186 Release
+ 79b20773f85beea37b969789a435a67d4b67f4e5            65506 Translation-en.gz
 SHA256:
- 90d8cbf476d6bfe2bf3b605cdec1b8ef1b6754babfeacefc9e262e0247f3e978           174944 Packages
- 75292fe2973f2d621c3bc6f5fca457a5965338b4157bbcf6b4bf85d6938ad01b            64399 Packages.gz
- 30094f663700156c09d8b927ec951fd668d3d1d258428636bba103fba4867258              186 Release
- 75292fe2973f2d621c3bc6f5fca457a5965338b4157bbcf6b4bf85d6938ad01b            64399 Translation-en.gz
+ 3280649ce1ec60f53602579c48cadbbfbf6c18f0227308f49bab687ff60bf10c           177233 Packages
+ 8c0415159f08ee440a63d0e83c932c5cfbae885b7c475a3cdf76e7bd9e5887b2            65506 Packages.gz
+ 786a5fbed2b6d50e063eb8f4f72eb399f60fd2e3238dc18bfee8030052e8bb3a              186 Release
+ 8c0415159f08ee440a63d0e83c932c5cfbae885b7c475a3cdf76e7bd9e5887b2            65506 Translation-en.gz
 SHA512:
- 54889a7ae2067638635b4d7e8cba2b459c654c5743721b9bdd88bd1cf4c5b0f8cb8d5681ae815a99be80b6ce5e8543bf6fe1cecb24f8d1251f028b2fbd9fc69f           174944 Packages
- a827fc7df7b24196705701bd9b5cb3911f59b3ebc8bc3825d322dbdf47744edf3b2d3797f3f9fc7cb9cb29d52bf6f00bf247b3d5f3285926f05cfc7937c588f1            64399 Packages.gz
- 70051890251a8eb490b7d0cdbb74cac593e345fcb3d12004d6f4dcdf9b3cc47bf2fc8ca7b9687a707711621a9052666b2d31807d12b74898031e31f14305c9a5              186 Release
- a827fc7df7b24196705701bd9b5cb3911f59b3ebc8bc3825d322dbdf47744edf3b2d3797f3f9fc7cb9cb29d52bf6f00bf247b3d5f3285926f05cfc7937c588f1            64399 Translation-en.gz
+ 41ac6448b17371fa1e266901458f233dd7fa4544216468f58bc7feca53bf6c55cf325030f6a66918916256d4b4b3ed515dfef0d5cea895f475fabfc8af86e464           177233 Packages
+ 6c20637e8446c81de3b09c2d9ff7973d5ec5946e0c36d03f992cd63bf34ad9e9314099f6eb3c866747c6d1f40693e2600bd71fb94a6cee30e43d6bfe0bdd8afa            65506 Packages.gz
+ a37e31c9fa4c2d3e1cc4d285fccd58c58e28967b660f1b27ab7c9e4e962014e6c86da7b68ffa39e65d6199bae9c31d6b835b9e9ec6575d1e6cdb49c25831a251              186 Release
+ 6c20637e8446c81de3b09c2d9ff7973d5ec5946e0c36d03f992cd63bf34ad9e9314099f6eb3c866747c6d1f40693e2600bd71fb94a6cee30e43d6bfe0bdd8afa            65506 Translation-en.gz
