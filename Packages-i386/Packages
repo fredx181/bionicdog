@@ -2142,42 +2142,6 @@ Description: file manager for X/gtk
  typing scheme, and a built-in command line for executing commands
  without opening an xterm.
 
-Package: busybox-static
-Architecture: i386
-Version: 2:1.27.2-2ubuntu3
-Built-Using: glibc (= 2.26-0ubuntu2)
-Priority: optional
-Section: shells
-Source: busybox
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
-Installed-Size: 1833
-Provides: busybox
-Conflicts: busybox
-Replaces: busybox
-Filename: ./Extra/busybox-static_1.27.2-2ubuntu3_i386.deb
-Size: 837822
-MD5sum: c352dcfcb2eedf87730b408e58c730ef
-SHA1: 76d5c0b5e2affd6f537d05ab7e59709579081f67
-SHA256: 66577ee6e47e54b04235264e72fafd8f5f8a4be09a3f3d7832bc9633712abc47
-SHA512: d7de42fb995df00340ed4be543f05fb881cfb57ea4089622c9367c861834332ed34d2a8c3cda7d876691bbb78ffb2268473b49ff146c7b40db53074a780dc833
-Homepage: http://www.busybox.net
-Description: Standalone rescue shell with tons of builtin utilities
- BusyBox combines tiny versions of many common UNIX utilities into a single
- small executable. It provides minimalist replacements for the most common
- utilities you would usually find on your desktop system (i.e., ls, cp, mv,
- mount, tar, etc.).  The utilities in BusyBox generally have fewer options than
- their full-featured GNU cousins; however, the options that are included
- provide the expected functionality and behave very much like their GNU
- counterparts.
- .
- busybox-static provides you with a statically linked simple stand alone shell
- that provides all the utilities available in BusyBox. This package is
- intended to be used as a rescue shell, in the event that you screw up your
- system. Invoke "busybox sh" and you have a standalone shell ready to save
- your system from certain destruction. Invoke "busybox", and it will list the
- available builtin commands.
-
 Package: debdog-advert-blocker
 Architecture: i386
 Version: 1.0.0-1

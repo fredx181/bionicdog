@@ -1,5 +1,3 @@
-bin/busybox						    busybox-static
-bin/static-sh						    busybox-static
 etc/X11/app-defaults/Xvidtune				    x11-xserver-utils
 etc/dhcpcd_dropwait_secs				    frisbee
 etc/dhcpcd_state_notify					    frisbee,ceni
@@ -4112,20 +4110,6 @@ usr/share/desktop-directories/dog-settings.directory	    jwm-setup
 usr/share/desktop-directories/dog-system.directory	    jwm-setup
 usr/share/directfb-1.2.10/cursor.dat			    libdirectfb-1.2-9
 usr/share/doc-base/roxterm				    roxterm-common
-usr/share/doc/busybox-static/changelog.Debian.gz	    busybox-static
-usr/share/doc/busybox-static/copyright			    busybox-static
-usr/share/doc/busybox-static/examples/mdev.conf		    busybox-static
-usr/share/doc/busybox-static/examples/mdev.conf.change_blockdev.sh busybox-static
-usr/share/doc/busybox-static/examples/mdev_fat.conf.gz	    busybox-static
-usr/share/doc/busybox-static/examples/udhcp/sample.bound    busybox-static
-usr/share/doc/busybox-static/examples/udhcp/sample.deconfig busybox-static
-usr/share/doc/busybox-static/examples/udhcp/sample.nak	    busybox-static
-usr/share/doc/busybox-static/examples/udhcp/sample.renew    busybox-static
-usr/share/doc/busybox-static/examples/udhcp/sample.script   busybox-static
-usr/share/doc/busybox-static/examples/udhcp/simple.script   busybox-static
-usr/share/doc/busybox-static/examples/udhcp/udhcpd.conf.gz  busybox-static
-usr/share/doc/busybox-static/mdev.txt.gz		    busybox-static
-usr/share/doc/busybox-static/syslog.conf.txt		    busybox-static
 usr/share/doc/cairo-dock-core/changelog.Debian.gz	    cairo-dock-minimal
 usr/share/doc/cairo-dock-core/copyright			    cairo-dock-minimal
 usr/share/doc/ceni/changelog.gz				    ceni
@@ -6208,7 +6192,6 @@ usr/share/man/fr/man1/roxterm-config.1.gz		    roxterm-common
 usr/share/man/fr/man1/roxterm.1.gz			    roxterm-common
 usr/share/man/it/man1/xvidcap.1.gz			    xvidcap
 usr/share/man/man1/Ceni.1p.gz				    ceni
-usr/share/man/man1/busybox.1.gz				    busybox-static
 usr/share/man/man1/cairo-dock.1.gz			    cairo-dock-minimal
 usr/share/man/man1/ceni.1p.gz				    ceni
 usr/share/man/man1/emelfm2.1				    emelfm2
