@@ -3880,6 +3880,25 @@ SHA256: 78b6564dcfc9a9cc91873a2073980da33ed0eac7baa034a3e127c6e800b12f9b
 SHA512: 0e372bdef529e897cca529ab515ac6d488a57297c04368da8deed5ecbfc79d825c1212a2c94222490d84356bbf1ce7018ea24d053447d121f21dc3d0a4916206
 Description: Screen snapshot
 
+Package: quick-remaster
+Architecture: amd64
+Version: 1.1.4
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso
+Filename: ./Extra/quick-remaster_1.1.4_amd64.deb
+Size: 158648
+MD5sum: eac7e33bd2f7a30a38144fadf691c5ae
+SHA1: 457b1632c4e7c37d2ec4c6f1ac130faaa92ac557
+SHA256: 550939cf19343b47fdc2ea1930907de0d0754300537cb543fbbcb794b9535f40
+SHA512: 1f5c0bbbf982cec0930ef495677a21fb4d2744940691be78c36c54cc51262113f3115074a12a911f1fdb5a5f9ceaab6a46074da54f1f3c49e473480ba30bb4cd
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
+
 Package: xvidcap
 Architecture: amd64
 Version: 1.1.7
