@@ -1087,6 +1087,27 @@ Description: very small lightweight pure X11 window manager with tray and menus
  Compared to other light WM, like Fvwm95, the Jwm consumes considerably
  less memory while providing the same functionality.
 
+Package: apt2sfs
+Architecture: amd64
+Version: 1.1.3
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 104
+Depends: libc6, x11-utils, x11-xserver-utils, findutils, yad, unionfs-fuse, coreutils, menu, mount, procps, sed, squashfs-tools, apt, xterm, gsu | gksu
+Filename: ./Included/apt2sfs_1.1.3_amd64.deb
+Size: 9680
+MD5sum: 25f31d20172eff83ffae46779e428447
+SHA1: 9db9f99567b5b39e9bd518ee2ae56857d67b7612
+SHA256: 194493dcf59f76cf3acdf443bb1b4c6e3ae711bda54d71a60a32db74188d3842
+SHA512: a1e1909937aaa1c008badd28750d209af901f1a36a4925d4531f25ea69aa96035e94cff78c54978df0ed874b3eed13c3cb93ea249fa82363be598e505e2e2c0d
+Description: Warning - This package works only in DebianDog! Fix: Force being user 'root' in chroot, otherwise installing might fail (for example when running with new created user).  
+ Fix: version 1.0.4 (and earlier) doesn't work well because of 'stable' entry in /etc/apt/sources.list after jessie became stable at 2015-04-25.
+ .
+ Fix after version 1.0.3: added option to choose location / or /tmp for working directory (in case you have only vfat or ntfs partitions available).
+ For creating a *.squashfs module from installing by apt-get
+ The installing takes place outside of the running system, in 'chroot'
+ - apt2sfs, GUI using yad
+ - apt2sfs-fullinst, GUI using yad, can be used on a full install
+
 Package: filemnt-pcmanfm
 Architecture: amd64
 Version: 1.0.0
