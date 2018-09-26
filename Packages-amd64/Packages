@@ -2178,22 +2178,6 @@ SHA256: f2f14a76a23627f789dead6d7688a9271c27bbf6577ac4f0cd2fa3713c0fc392
 SHA512: e4a838cdfc5e5b278229937f11690aad170b89ea4c0105841f24e47db469d1307fb785709a0da763c9bd2e0d5bb83f1a086667131dd1fda7195d6872a6e117bb
 Description: gtkdesklet-converted-pet-to-deb
 
-Package: evince
-Architecture: amd64
-Version: 1:2.32.0-1
-Priority: optional
-Section: utilities
-Maintainer: root
-Installed-Size: 1200
-Depends: libc6, libgail18, libpoppler-glib8
-Filename: ./Extra/evince_2.32.0-1_amd64.deb
-Size: 796118
-MD5sum: 40cc96b6d2fecabcbd885c2b7116fb98
-SHA1: c26df0c0bfb09b41eac400c2110226bbf6771e75
-SHA256: 5735539d239adb7f42aa9cb6cd6efd457ab5b067066fc901a9a5697fac8ff0b7
-SHA512: 7c8148afa18111e90c0abe3e4ca7c91f7573de02d347bc7f99db0add4e991b27d4d7c5bac9b83e4959ba7f56e85dff10126b84ea23516a5667f36a59ca7d8fe3
-Description: evince-converted-pet-to-deb
-
 Package: iupluacontrols-xenialdog64-gtk2
 Architecture: amd64
 Version: 3.24
@@ -2269,22 +2253,6 @@ Description: mplayer/mplayer2 based video player, minimal build
  .
  This package is not part of Debian. It was created by mpv-build scripts with
  statically linked ffmpeg (not libav) and libass from upstream.
-
-Package: evince
-Architecture: amd64
-Version: 1:2.32.0
-Priority: optional
-Section: utilities
-Maintainer: root
-Installed-Size: 1200
-Depends: libc6, libgail18
-Filename: ./Extra/evince_2.32.0_amd64.deb
-Size: 796292
-MD5sum: 27864cb12a9fa6f6d7ed6739dfbf414b
-SHA1: 80026c53f5c81f4e375424fe019de395fca19754
-SHA256: 93c1a158ae73efcbd59ade91be7c326d47403bd4757be61c41deb1f04999fa45
-SHA512: 36de0e6b17cd62849f7ca94a61567861ff37630ec588c2bb109c31d0f092a5d472472b9ecb50d42fe9beecb4fefc9a665cb7799d4be16a1473f564f5befae72b
-Description: evince-converted-pet-to-deb
 
 Package: emelfm2
 Architecture: amd64
