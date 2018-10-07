@@ -2239,6 +2239,24 @@ Description:
  cast2chrome supports youtube urls and can save media.
  It is written in bash/gtkdialog.
 
+Package: firewall-ng
+Architecture: amd64
+Version: 1.0.2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 163
+Depends: libc6, gtkdialog, iptables
+Conflicts: firewall-puppy, peasyfwmon
+Replaces: firewall-puppy, peasyfwmon
+Filename: ./Extra/firewall-ng_1.0.2_amd64.deb
+Size: 18012
+MD5sum: 9a8280c0257a39295da1c72e83f96fc6
+SHA1: 9a64fdfb453f4c5bc70248e5d9d5fd01bad59be1
+SHA256: e00581f14844b6bb9a011b488e0bb3b3fdb5b65a64f402f1385645d25414a136
+SHA512: cfd138e4832088ae80f92fdbba3e8787f8e7e3adb8b6010b0b30ec0bb50a425c2a0bbb8893ede2fc04ed901bff32f210abd130c3ad128ef7670d1f7d1774d7ed
+Description: Firewall-ng by 01micko, based on Alien Bob's Firewall
+
 Package: upgrade-kernel
 Architecture: all
 Version: 1.0.2

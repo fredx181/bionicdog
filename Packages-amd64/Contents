@@ -34,6 +34,7 @@ etc/pwf/interfaces					    PeasyWiFi
 etc/pwf/udhcpc/default.script				    PeasyWiFi
 etc/rc.d/rc.firewall.pfm				    peasyfwmon
 etc/rc.d/rc.network					    PeasyWiFi
+etc/skel/.config/autostart/firewallstatus.desktop	    firewall-ng
 etc/skel/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/convert-sfs edit-sfs-pcmanfm,edit-sfs-rox
 etc/skel/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/edit-sfs edit-sfs-pcmanfm,edit-sfs-rox
 etc/skel/.config/rox.sourceforge.net/OpenWith/convert-sfs   edit-sfs-pcmanfm,edit-sfs-rox
@@ -47,6 +48,7 @@ etc/skel/.jwmrc						    jwm-setup
 etc/skel/.xsession-jwm					    jwm-setup
 etc/skel/.xsession-openbox				    jwm-setup
 etc/skel/Startup/cron-check				    pschedule
+etc/skel/Startup/exec_fwstatus-autostart		    firewall-ng
 etc/skel/Startup/exec_lxinput-autostart			    lxinputsave
 etc/skel/Startup/firewall-puppy				    Firewall-Puppy
 etc/skel/Startup/killmenu-cached			    jwm-setup
@@ -55,6 +57,7 @@ etc/skel/Startup/peasyfwmon_tray			    peasyfwmon
 etc/skel/Startup/peasywifi_tray				    PeasyWiFi
 etc/skel/Startup/rshift-gui-lite			    redshift-gui-lite
 etc/skel/startup-jwm					    jwm-setup
+etc/sudoers.d/firewall_ng				    firewall-ng
 etc/sudoers.d/peasywifi					    PeasyWiFi
 etc/systemd/system/frisbee.service			    frisbee
 etc/systemd/system/multi-user.target.wants/frisbee.service  frisbee
@@ -114,6 +117,7 @@ etc/xdg/pup-volume-monitor/main.conf			    pup-volume-monitor
 etc/xdg/templates/jwm.head				    jwm-setup
 etc/xdg/templates/jwm.main				    jwm-setup
 etc/xlunch/logout.dsv					    xlunch
+home/puppy/.config/autostart/firewallstatus.desktop	    firewall-ng
 home/puppy/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/convert-sfs edit-sfs-pcmanfm,edit-sfs-rox
 home/puppy/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/edit-sfs edit-sfs-pcmanfm,edit-sfs-rox
 home/puppy/.config/rox.sourceforge.net/OpenWith/convert-sfs edit-sfs-pcmanfm,edit-sfs-rox
@@ -126,6 +130,7 @@ home/puppy/.jwm/jwm.tail				    jwm-setup
 home/puppy/.jwmrc					    jwm-setup
 home/puppy/.xsession-jwm				    jwm-setup
 home/puppy/Startup/cron-check				    pschedule
+home/puppy/Startup/exec_fwstatus-autostart		    firewall-ng
 home/puppy/Startup/exec_lxinput-autostart		    lxinputsave
 home/puppy/Startup/firewall-puppy			    Firewall-Puppy
 home/puppy/Startup/killmenu-cached			    jwm-setup
