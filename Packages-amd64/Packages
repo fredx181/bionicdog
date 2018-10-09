@@ -2555,6 +2555,27 @@ SHA256: 43cc9f5c1eede3b1589b58c1d5eb09948e4be9ad1defe203a25e31fdd455a0f1
 SHA512: 51c1d521dc4a7d97dd2340db775fe9fe7a39625521076a0ca53a8e56bcb8d731f3dbc9839686469ccbd1a8d04e99f16b2ca873e5248df4eec4b7dbd49c1e498d
 Description: Universal File Viewer by Mochimoppel
 
+Package: redshift-gui-lite
+Architecture: amd64
+Version: 0.0.2
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 389
+Depends: libc6, curl
+Conflicts: redshiftgui
+Replaces: redshiftgui
+Filename: ./Extra/redshift-gui-lite_0.0.2_amd64.deb
+Size: 102920
+MD5sum: caa3df578fa80be463604b3bc2b8ab46
+SHA1: 6edd5bfe794d7bc1cad1ffede25e43e4510cd579
+SHA256: 397d6d752488df0f73fcdb162e3e8639682f67eb0ced92c61edfc44bd15774c3
+SHA512: 6f8d9994917595a90c70485e24baa6bd9195eecfc3bd2a16b64caf951ed25bd9e08444e8cde6e3eabcf7fd51e8be92c1c9c46be0db8402f4690193337a489c2c
+Description: Monitor color adjustment tool
+ Redshift-gui light is using yad ("notification" icon)
+ and the redshift commandline utility (yad and redshift are builtin) 
+ Options are: Manual mode and Auto mode, see 'Redshift Help' (right-click on icon)
+
 Package: wex
 Architecture: all
 Version: 0.8.18
