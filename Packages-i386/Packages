@@ -3607,6 +3607,27 @@ Description: A simple YouTube Downloader
  - Gives choice which quality to download, e.g. 360p or 720p, etc...
  - Extra addition: m-play script + menu entry for playing YouTube url with mpv
 
+Package: redshift-gui-lite
+Architecture: i386
+Version: 0.0.2
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 389
+Depends: libc6, curl
+Conflicts: redshiftgui
+Replaces: redshiftgui
+Filename: ./Extra/redshift-gui-lite_0.0.2_i386.deb
+Size: 102182
+MD5sum: cfb17552f7457d2a0890aba4d1e37557
+SHA1: cde272c2bc265221be3b5b06114bbd084a7d88cb
+SHA256: fa98ae6d3ed8dd4c24a5eeebdeebc8ce595cfe22f912e614dd04ed3759755f0a
+SHA512: 40ae4aa166b95c75115e10f67c1a886efdfe8fac810c9cd64e3d49b4f316008a8c9aef9b84c2f883517988214aa6c6791b5b44eb6253194e4666f253272e828b
+Description: Monitor color adjustment tool
+ Redshift-gui light is using yad ("notification" icon)
+ and the redshift commandline utility (yad and redshift are builtin) 
+ Options are: Manual mode and Auto mode, see 'Redshift Help' (right-click on icon)
+
 Package: apulse
 Architecture: i386
 Version: 20150727-1
