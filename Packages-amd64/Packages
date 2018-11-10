@@ -2111,6 +2111,27 @@ SHA256: 246e11ce1050cd0f8ace0491679198341a0b6bf3c78d6cb88d44c82590c003c3
 SHA512: 029710e5956491180d9a680b1a6ae6f87dc894ff3d21fcb1e91c201ac93e8b5777d71e6f57a1687289017d42acac43d76805dfb1c6b03153dbe7fe67693ce4f0
 Description: Convert video (or portion of video) to Animated GIF
 
+Package: redshift-gui-lite
+Architecture: amd64
+Version: 0.0.3
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 389
+Depends: libc6, curl
+Conflicts: redshiftgui
+Replaces: redshiftgui
+Filename: ./Extra/redshift-gui-lite_0.0.3_amd64.deb
+Size: 175342
+MD5sum: 9e6b2ba9a503b7f37a9e16449a91c9db
+SHA1: dcf19a2bd8f502e65105f86b44d6badaa62c7f63
+SHA256: 59ea0141aa6248663bf4da247c8be6cec5cbb6c542659cfe048bbeab4d17f01b
+SHA512: eb773f57a080567d6ccc4d601e23dbd84c472a3ada37ba3a4f14f69074539b5a90d54a145255d6b36f4b604dd6436f3d1b76d8fa4f5b9ec09fcd2693ea5f950a
+Description: Monitor color adjustment tool
+ Redshift-gui light is using yad ("notification" icon)
+ and the redshift commandline utility (yad and redshift are builtin) 
+ Options are: Manual mode and Auto mode, see 'Redshift Help' (right-click on icon)
+
 Package: roxterm-common
 Architecture: all
 Version: 2.9.5-1
@@ -3850,6 +3871,27 @@ SHA1: db3fc6b5f875e2ca447f6c68d04d2b796adb6bf4
 SHA256: 402bd17e291349e3988ba177c637253d28612dfb1cbdc6414c96db253647e65a
 SHA512: 6525c922a5e1e90d0229ca30c10b88aceb230ddce3a78bf7cece8918cf85777d1048b8692cd22446069ef8361a5e4cd931cef1e46f443a96f79e17c095933e48
 Description: Make screenshot, by sklimkin
+
+Package: youtube-viewer
+Architecture: all
+Version: 3.5.1-0-bionic
+Priority: optional
+Section: perl
+Maintainer: fredx181
+Installed-Size: 1100
+Depends: perl, libjson-perl, libjson-xs-perl, libdata-dump-perl, libfile-sharedir-perl, libgtk2-perl, libwww-perl, libterm-readline-gnu-perl, mpv | vlc
+Recommends: youtube-get2
+Suggests: gcap, liblwp-protocol-https-perl, libtext-charwidth-perl, libterm-readkey-perl, libterm-ui-perl, wget
+Filename: ./Extra/youtube-viewer_3.5.1-0-bionic_all.deb
+Size: 418004
+MD5sum: 577e39ab7212d7ae8d140cb46dbadeec
+SHA1: 47c8b229e98f22c410245a2df027ab37065d0e17
+SHA256: e225a1ae12b663f83c1f3857ce538d42ab2fa9c01ee31461f82995f783c70258
+SHA512: 34b1a4216cf2a40b8df36692561d2caa828562e8d2b3de0ed6464d2f8a5b0452247ba5315deeafe21d7c9f85fe35f7dafb94e8587e92710a7bf9b82eb14097fa
+Homepage: https://github.com/trizen/youtube-viewer
+Description: A Gtk2 application for searching and streaming videos from YouTube.
+ WWW-YoutubeViewer - a very easy interface to YouTube.
+ Highly recommended: install mpv or vlc mediaplayer and youtube-get2 (includes youtube-dl) to be able to play all videos without exceptions.
 
 Package: libdvdcss
 Architecture: amd64
