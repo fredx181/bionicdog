@@ -688,6 +688,7 @@ usr/bin/frisbee-wifi-disconnect				    frisbee
 usr/bin/geany						    geany
 usr/bin/genentries					    xlunch
 usr/bin/gmplayer					    gmplayer
+usr/bin/gtk-youtube-update				    youtube-viewer
 usr/bin/gtk-youtube-viewer				    youtube-viewer
 usr/bin/gtkdialog					    gtkdialog
 usr/bin/gtkdialog-splash				    gtkdialog
@@ -976,6 +977,7 @@ usr/lib/i386-linux-gnu/libva.so.1.3904.0		    libva1
 usr/lib/i386-linux-gnu/libvpx.so.4			    libvpx4
 usr/lib/i386-linux-gnu/libvpx.so.4.1			    libvpx4
 usr/lib/i386-linux-gnu/libvpx.so.4.1.0			    libvpx4
+usr/lib/i386-linux-gnu/perl5/5.26/auto/WWW/YoutubeViewer/.packlist youtube-viewer
 usr/lib/i386-linux-gnu/ssl/engines/lib4758cca.so	    libssl0.9.8
 usr/lib/i386-linux-gnu/ssl/engines/libaep.so		    libssl0.9.8
 usr/lib/i386-linux-gnu/ssl/engines/libatalla.so		    libssl0.9.8
@@ -3302,12 +3304,15 @@ usr/local/r-shift/icons/info.png			    redshift-gui-lite
 usr/local/r-shift/icons/quit.png			    redshift-gui-lite
 usr/local/r-shift/icons/rshift.png			    redshift-gui-lite
 usr/local/r-shift/icons/stop.png			    redshift-gui-lite
+usr/local/r-shift/icons/tenor.gif			    redshift-gui-lite
 usr/local/r-shift/icons/un-checked.png			    redshift-gui-lite
 usr/local/r-shift/redshift.conf				    redshift-gui-lite
 usr/local/r-shift/rshift.desktop			    redshift-gui-lite
 usr/local/r-shift/rshift.png				    redshift-gui-lite
+usr/local/r-shift/usr/bin/box_splash			    redshift-gui-lite
 usr/local/r-shift/usr/bin/redshift			    redshift-gui-lite
 usr/local/r-shift/usr/bin/yad				    redshift-gui-lite
+usr/local/r-shift/usr/lib/gtkdialog/xml_button-icon	    redshift-gui-lite
 usr/local/r-shift/usr/lib/libxcb-randr.so.0		    redshift-gui-lite
 usr/local/r-shift/usr/lib/libxcb-randr.so.0.1.0		    redshift-gui-lite
 usr/local/r-shift/usr/share/pixmaps/rshift.png		    redshift-gui-lite
@@ -3493,6 +3498,7 @@ usr/share/applications/ConkyClock.desktop		    conkyclock
 usr/share/applications/ConkyClock2.desktop		    conkyclock2
 usr/share/applications/Dancing Letters to GIF.desktop	    gifdance
 usr/share/applications/DogRadio.desktop			    dogradio
+usr/share/applications/GTK-YouTube-Updater.desktop	    youtube-viewer
 usr/share/applications/GifenC (video to _gif).desktop	    gifenc
 usr/share/applications/Grub4DosConfig.desktop		    grub4dosconfig
 usr/share/applications/ISO-Tools.desktop		    isotools
@@ -6275,6 +6281,7 @@ usr/share/man/man3/WWW::YoutubeViewer.3pm		    youtube-viewer
 usr/share/man/man3/WWW::YoutubeViewer::Activities.3pm	    youtube-viewer
 usr/share/man/man3/WWW::YoutubeViewer::Authentication.3pm   youtube-viewer
 usr/share/man/man3/WWW::YoutubeViewer::Channels.3pm	    youtube-viewer
+usr/share/man/man3/WWW::YoutubeViewer::CommentThreads.3pm   youtube-viewer
 usr/share/man/man3/WWW::YoutubeViewer::ConfigData.3pm	    youtube-viewer
 usr/share/man/man3/WWW::YoutubeViewer::GetCaption.3pm	    youtube-viewer
 usr/share/man/man3/WWW::YoutubeViewer::GuideCategories.3pm  youtube-viewer
@@ -6417,6 +6424,7 @@ usr/share/perl5/WWW/YoutubeViewer.pm			    youtube-viewer
 usr/share/perl5/WWW/YoutubeViewer/Activities.pm		    youtube-viewer
 usr/share/perl5/WWW/YoutubeViewer/Authentication.pm	    youtube-viewer
 usr/share/perl5/WWW/YoutubeViewer/Channels.pm		    youtube-viewer
+usr/share/perl5/WWW/YoutubeViewer/CommentThreads.pm	    youtube-viewer
 usr/share/perl5/WWW/YoutubeViewer/ConfigData.pm		    youtube-viewer
 usr/share/perl5/WWW/YoutubeViewer/GetCaption.pm		    youtube-viewer
 usr/share/perl5/WWW/YoutubeViewer/GuideCategories.pm	    youtube-viewer
@@ -6461,6 +6469,12 @@ usr/share/pixmaps/dload.png				    youtube-get2
 usr/share/pixmaps/drive.png				    mount-wizard
 usr/share/pixmaps/drive24.png				    mount-wizard
 usr/share/pixmaps/dropbox.png				    dropboxgui
+usr/share/pixmaps/emblem-default.png			    youtube-viewer
+usr/share/pixmaps/emblem-documents.png			    youtube-viewer
+usr/share/pixmaps/emblem-downloads.png			    youtube-viewer
+usr/share/pixmaps/emblem-favorite.png			    youtube-viewer
+usr/share/pixmaps/emblem-important.png			    youtube-viewer
+usr/share/pixmaps/emblem-shared.png			    youtube-viewer
 usr/share/pixmaps/emelfm2.png				    emelfm2
 usr/share/pixmaps/emelfm2/add_mark_bottom_48.png	    emelfm2
 usr/share/pixmaps/emelfm2/add_mark_top_48.png		    emelfm2
@@ -6668,6 +6682,7 @@ usr/share/pixmaps/xfce4-backdrop.png			    scrotdlg
 usr/share/pixmaps/xlunch-logo.png			    xlunch
 usr/share/pixmaps/xvidcap.png				    xvidcap
 usr/share/pixmaps/yassm.png				    yassm
+usr/share/pixmaps/youtube.svg				    youtube-viewer
 usr/share/pixmaps/yt.png				    youtube-get2
 usr/share/pixmaps/ytb.png				    youtube-get
 usr/share/pixmaps/ytt.png				    youtube-get2
