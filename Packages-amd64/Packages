@@ -3115,6 +3115,23 @@ SHA256: 1f6535a33fe16e7efd68e82043c706339a31aaaa21d55cbb921fca963ae84aab
 SHA512: a463ce86ee4341b63b2a0dd76233927862583c47d4106a72befcea23caf1fd85a8ce6aebc98d599683b5c322ff9f9447b84f38a71c299bf76e1f05f00cceff78
 Description: Painting tool
 
+Package: wex
+Architecture: all
+Version: 0.8.18-2
+Maintainer: wiak <https://github.com/wiake>
+Installed-Size: 168
+Depends: libc6, gtkdialog, ffmpeg, weav, scrox
+Replaces: weav
+Filename: ./Extra/wex_0.8.18-2_all.deb
+Size: 32284
+MD5sum: c6edac9dba9912a0b7b2156744472c97
+SHA1: b19b7f0b6cc879c445f05af3a7c8464065fd14d6
+SHA256: 6598bd24217ae8a102c6ca759d8429d88c5dd58c5349bf41a923daa49547e9b6
+SHA512: a5bf9e003c72d404f9134d3774f72e8b41730387ac3adf244626ca88c42a3986c596523a9132966b2791d57572105e886ff4487c28531e80dda7e716e924bf7e
+Description:
+ weX is a media recorder for audio, screencast, or webcam
+ weX is by mcewanw.
+
 Package: cputemp
 Architecture: amd64
 Version: 3.1-1
