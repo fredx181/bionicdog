@@ -113,10 +113,14 @@ etc/wiagit/cmd_lists/oOcombo				    wiagit
 etc/wiagit/wiagitrc					    wiagit
 etc/wiagit/wiagitrcBKUP					    wiagit
 etc/xdg/menus/dog-applications.menu			    jwm-setup
+etc/xdg/menus/xlunch-applications.menu			    xlunch
 etc/xdg/pup-volume-monitor/main.conf			    pup-volume-monitor
 etc/xdg/templates/jwm.head				    jwm-setup
 etc/xdg/templates/jwm.main				    jwm-setup
 etc/xlunch/logout.dsv					    xlunch
+etc/xlunch/logout/xlunch.lua				    xlunch
+etc/xlunch/max.lua					    xlunch
+etc/xlunch/xlunch.lua					    xlunch
 home/puppy/.config/autostart/firewallstatus.desktop	    firewall-ng
 home/puppy/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/convert-sfs edit-sfs-pcmanfm,edit-sfs-rox
 home/puppy/.config/rox.sourceforge.net/OpenWith/.application_octet-stream/edit-sfs edit-sfs-pcmanfm,edit-sfs-rox
@@ -679,6 +683,7 @@ usr/bin/xcmsdb						    x11-xserver-utils
 usr/bin/xgamma						    x11-xserver-utils
 usr/bin/xhost						    x11-xserver-utils
 usr/bin/xkeystone					    x11-xserver-utils
+usr/bin/xml_button-icon					    gtkdialog
 usr/bin/xmodmap						    x11-xserver-utils
 usr/bin/xrandr						    x11-xserver-utils
 usr/bin/xrdb						    x11-xserver-utils
@@ -1078,6 +1083,30 @@ usr/local/.dogradio/playlist/playlist.default		    dogradio
 usr/local/.dogradio/v0.0.2				    dogradio
 usr/local/.dogradio/v0.0.4				    dogradio
 usr/local/.dogradio/v0.0.8				    dogradio
+usr/local/01-create-appimage64/.DirIcon			    create-portable
+usr/local/01-create-appimage64/AppImageAssistant.desktop    create-portable
+usr/local/01-create-appimage64/AppImageAssistant.png	    create-portable
+usr/local/01-create-appimage64/AppRun			    create-portable
+usr/local/01-create-appimage64/abs2rel			    create-portable
+usr/local/01-create-appimage64/etc/fakechroot/chroot.env    create-portable
+usr/local/01-create-appimage64/etc/fakechroot/debootstrap.env create-portable
+usr/local/01-create-appimage64/etc/fakechroot/rinse.env	    create-portable
+usr/local/01-create-appimage64/linux-user-chroot	    create-portable
+usr/local/01-create-appimage64/makeself-header.sh	    create-portable
+usr/local/01-create-appimage64/makeself.sh		    create-portable
+usr/local/01-create-appimage64/opt/docs/.DirIcon	    create-portable
+usr/local/01-create-appimage64/opt/docs/AppRun.template	    create-portable
+usr/local/01-create-appimage64/opt/docs/AppRun_chroot.template create-portable
+usr/local/01-create-appimage64/package			    create-portable
+usr/local/01-create-appimage64/package.png		    create-portable
+usr/local/01-create-appimage64/package1			    create-portable
+usr/local/01-create-appimage64/runtime			    create-portable
+usr/local/01-create-appimage64/usr/bin/ReadMe-AppImage	    create-portable
+usr/local/01-create-appimage64/usr/bin/gsu-mod		    create-portable
+usr/local/01-create-appimage64/usr/bin/gsu-xterm	    create-portable
+usr/local/01-create-appimage64/usr/bin/testappimage	    create-portable
+usr/local/01-create-appimage64/usr/bin/yad		    create-portable
+usr/local/01-create-appimage64/usr/share/pixmaps/package.png create-portable
 usr/local/Frisbee/connect				    frisbee
 usr/local/Frisbee/disconnect				    frisbee
 usr/local/Frisbee/interface				    frisbee
@@ -1219,6 +1248,7 @@ usr/local/bin/clear-changes-start			    quick-remaster
 usr/local/bin/conkyclock				    conkyclock
 usr/local/bin/conkyclock-2				    conkyclock2
 usr/local/bin/conv-sfs					    edit-sfs-pcmanfm,edit-sfs-rox
+usr/local/bin/create-portable				    create-portable
 usr/local/bin/debdog-advert-blocker			    debdog-advert-blocker
 usr/local/bin/defaultfilemanager			    pfind
 usr/local/bin/defaulttexteditor				    mm-view
@@ -1367,6 +1397,9 @@ usr/local/bin/wiagitt					    wiagit
 usr/local/bin/xload					    jwm-setup
 usr/local/bin/xlunch					    xlunch
 usr/local/bin/xlunch-logout				    xlunch
+usr/local/bin/xlunch-menu				    xlunch
+usr/local/bin/xlunch-menu-gen				    xlunch
+usr/local/bin/xlunch-menu-update			    xlunch
 usr/local/bin/xlunch_gentries				    xlunch
 usr/local/bin/xlunch_help				    xlunch
 usr/local/bin/xlunch_quickgentries			    xlunch
@@ -3517,6 +3550,7 @@ usr/share/applications/ Text to SVG_PNG Fancy Text and Logo Generator.desktop tx
 usr/share/applications/Animated Gif on Desktop.desktop	    gifondesktop
 usr/share/applications/ConkyClock.desktop		    conkyclock
 usr/share/applications/ConkyClock2.desktop		    conkyclock2
+usr/share/applications/Create Portable-Appimage.desktop	    create-portable
 usr/share/applications/DogRadio.desktop			    dogradio
 usr/share/applications/GTK-YouTube-Updater.desktop	    youtube-viewer
 usr/share/applications/GifenC (video to _gif).desktop	    gifenc
@@ -3621,6 +3655,7 @@ usr/share/applications/touchpad.desktop			    touchpad
 usr/share/applications/transmission.desktop		    transmission-2.60
 usr/share/applications/tzupdate.desktop			    tzupdate
 usr/share/applications/unzipper.desktop			    unzipper
+usr/share/applications/update-entries.desktop		    xlunch
 usr/share/applications/upgrade-kernel.desktop		    upgrade-kernel
 usr/share/applications/weav.desktop			    weav
 usr/share/applications/wex.desktop			    wex
@@ -6315,6 +6350,7 @@ usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/icons/feed_icon.png youtube-vi
 usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/icons/gtk-youtube-viewer.png youtube-viewer
 usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/icons/spinner.gif youtube-viewer
 usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/icons/user.png youtube-viewer
+usr/share/pixmaps/AppImageAssistant.png			    create-portable
 usr/share/pixmaps/BaCon.png				    bacon
 usr/share/pixmaps/BaCon24.png				    bacon
 usr/share/pixmaps/MPlayer.png				    gmplayer

@@ -1405,6 +1405,28 @@ SHA512: c3bec2821b0658eaa11e31c3fbd34e7e516b168c2bada81602c5b302c397d8a733df1486
 Description: domyfile for DebianDog:
  domyfile by mcewanw
 
+Package: gtkdialog
+Architecture: amd64
+Version:  0.8.7-wiak-B-2
+Priority: extra
+Maintainer: William McEwan (wiak) <https://github.com/mcewanw>
+Installed-Size: 295
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
+Conflicts: gtkwialog
+Replaces: gtkwialog
+Filename: ./Included/gtkdialog_0.8.7-wiak-B-2_amd64.deb
+Size: 117326
+MD5sum: 5cc5c2faca491396caeb909840ccac90
+SHA1: 9dca19b6cf20f2efd209e993a91817ba28063b0f
+SHA256: 9d44b3b0d981c9a9aed72ca688b962d86fffb8ff17e9687bce6c6b0000b8495e
+SHA512: d8533cff2070e86e8efffb912d30b4c727f31e5ca15a6b56cd5f0f0a0ac8ec358d16a8a9a8f9bed1bdd8613e89e66d47272a73a78e64716c763b6156e3b53df1
+Description: 
+ Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
+ fast and easy GUI building
+ Gtkwialog uses various, more secure and flexible, glib calls than
+ legacy Gtkdialog to effect its action and input tag command spawning.
+ Gtkwialog fork by wiak. (package made as replacement for gtkdialog by fredx181)
+
 Package: remaster-scripts
 Architecture: amd64
 Version: 1.0.2
@@ -1650,6 +1672,27 @@ SHA1: cfd4df8f5fabdae1f8b203132184702a2c9ded17
 SHA256: 45d40e5565d2c982dca2c33f90cedbacca39fa2924555656129cdcef4e49a152
 SHA512: 665e6769b545eb3c732df62f7df843e1f227d62557627b61882a1a332f8365f54a2beb403a5a74ddd59e42afd13f11592601741aa6f26cccdb3f3c1b1b16bfd8
 Description: Screen snapshot
+
+Package: redshift-gui-lite
+Architecture: amd64
+Version: 0.0.4
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 389
+Depends: libc6, curl
+Conflicts: redshiftgui
+Replaces: redshiftgui
+Filename: ./Extra/redshift-gui-lite_0.0.4_amd64.deb
+Size: 175114
+MD5sum: 8e073a55a0cf854323cf115f03d3c18e
+SHA1: 3c32a06927e76ccd8bf3d04650c3da5a0a4b62d2
+SHA256: ae7a9432f62b78579543c7977ecdee27f64e9e073ff64c7c61483d566d8030ee
+SHA512: 3fecf2d6003b6459bc4bcc5bcc0909dbde7fef852999d063249b6b23adb3c93d2b081bbe7edf70d99eb377db95c90580ca13b5aab12ca65e9e292e4fc7177804
+Description: Monitor color adjustment tool
+ Redshift-gui light is using yad (notification icon)
+ and the redshift commandline utility (yad and redshift are builtin) 
+ Options are: Manual mode and Auto mode, see 'Redshift Help' (right-click on icon)
 
 Package: peasyscale
 Architecture: amd64
@@ -2516,6 +2559,23 @@ Description:  findnrun 1.10.6 (documentation)
   Files in this add-on package: larger English help (HTML).
   https://github.com/step-/find-n-run/
 
+Package: xlunch
+Architecture: amd64
+Version: 4.1.1-3
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 1600
+Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libmenu-cache3, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libimlib2, libpng16-16, xterm, librsvg2-bin, devilspie2
+Filename: ./Extra/xlunch_4.1.1-3_amd64.deb
+Size: 1319378
+MD5sum: daac11fc8ddeb7858be89f21478c15df
+SHA1: f8c37ad84ac784be8d705b7d096877ab1d7674fb
+SHA256: ed0ee9c175ae8e57deb10e720c5522803f63c6f2648b393a57109ea15b129860
+SHA512: c9252cc1c5479c049f309b75118fc6264c4bc5ba694641b9a548ffad78e22e9cc6b8f7f1cc73c60c797266495d663d69d07c18cb11dc21cb34bd6d9b9ea48c25
+Description: xlunch by Tomas M
+ Graphical app launcher
+
 Package: esound-common
 Architecture: all
 Version: 0.2.41-11
@@ -3276,6 +3336,22 @@ Description: Reliable network manager
  - Updated Help screen
  - added multi-user support (fredx181)
  - changed bcrypt to ccrypt
+
+Package: create-portable
+Architecture: amd64
+Version: 1.0.3
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 900
+Depends: libc6, unionfs-fuse, xorriso, yad, linux-user-chroot
+Filename: ./Extra/create-portable_1.0.3_amd64.deb
+Size: 86032
+MD5sum: cd1c544c95316856e9e2bddeb9bec109
+SHA1: 6429e454e822f9c2f24bef6895c8fbc3a8bd8a36
+SHA256: 8997091d236577e8b2f93d294d54db942c6c918141e307741fc8f3bc4c8bb6cd
+SHA512: 7eb6c544a74ca79a2ed41c529e122aefde6c2135b7c8dbb9d596f8c282b45c2bb92f35b4ec12f826a0d7a47e41e1366a920fb5c29a2ae1dcd14f8610c8a56741
+Description: Create portable AppImage
 
 Package: libevent-2.0-5
 Architecture: amd64
