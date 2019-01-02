@@ -87,6 +87,25 @@ SHA256: 70f7e9b6c6c1cb0335c8a2d235b03f56d065f79a5e3f5affccd6c691224fff24
 SHA512: 2e435ea5e5fead75be2237e787a43909143d958ea013fa2ce3d3437adb19a3cfc44f6afbd17226e2d6a4fd3429fb0b384a8abe64c3fc1aebfb7210bf0272699d
 Description: pBurn - Burning gui
 
+Package: dogradio
+Architecture: i386
+Version: 0.0.9
+Maintainer: fredx181
+Installed-Size: 3100
+Depends: libc6, gtk2-engines-murrine, yad, sed, conky, gnome-mplayer-1.0.7 | gmplayer | mplayer, file, streamripper
+Filename: ./Included/dogradio_0.0.9_i386.deb
+Size: 903156
+MD5sum: 1affead4b16b420e90e774c3d8ef437c
+SHA1: 4656133c5efcd4bbf29c03dea49c28059d02799a
+SHA256: fc2e871fa0845aff88934b4fd7d19e34566d9dcffe8e2e205c6e7953f1e383dd
+SHA512: 148d1044cd2e87569c7fa0d6f5478bbad77e768d05e90bcc462f1180b66b22d319dbc11213b580d3a86414abbdf8b5ad5fa1cb418c89fdc6fc50cc0131e35720
+Description: Dogradio is a GUI displaying icons for playing radio streams.
+ - Change in v 0.0.5: added option to rip streams (from right-click on tray-icon) 
+ - Using yad for the icons GUI
+ - Easy add/remove radio stream items
+ - Using conky for 'conky ticker', showing metadata
+ (can be enabled/disabled from tray icon menu + other settings)
+
 Package: gtkdialog
 Architecture: i386
 Version: 0.8.7-wiak-B-2
@@ -2956,6 +2975,22 @@ Description: Light and eye-candy dock to launch your programs (lib package)
  .
  This package contains the library created and used by the Cairo-Dock project.
 
+Package: yradio
+Architecture: i386
+Version: 0.0.7-1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.36.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
+Filename: ./Extra/yradio_0.0.7-1_i386.deb
+Size: 190186
+MD5sum: fd2a32ef4681784cee5e90b9e5a0ec88
+SHA1: afaed9f52d287fe524827f7754e998d356978784
+SHA256: 690cc6f0d1dd06c589e1979e2af9006f5a979edc6b322d5345be2b4d605e977b
+SHA512: d94080b91c01180314118a1c28da187e79536eb3b57457ed3ae3fd0a4682b03d9ece8a36d6abcfbcaff0dc78f47142c4aea8e6ce575becc188f3f812300b8939
+Description: Internet Radio Player
+
 Package: x11-xserver-utils
 Architecture: i386
 Version: 1:7.7+7build1
@@ -3041,6 +3076,25 @@ SHA256: 8bb416cbdfec449ddb193f6a146e597fb3da28aab6da0d8f02736681268c3f0d
 SHA512: 2db6501c80d985a9d8be7ce35a6b086820b43674bf3cf0fb05f2bdb8ae11c29d645fd7f80eda54c0c0cdde2024fa349976fd099a6f67b1dd159c0cb132d96764
 Description: Warning - This package works only in BionicDog!
  bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
+
+Package: dogradio
+Architecture: i386
+Version: 0.0.9-1
+Maintainer: fredx181
+Installed-Size: 3100
+Depends: libc6, gtk2-engines-murrine, yad, sed, conky, gnome-mplayer-1.0.7 | gmplayer | mplayer, file, streamripper
+Filename: ./Extra/dogradio_0.0.9-1_i386.deb
+Size: 903020
+MD5sum: 315714c3f7ca42c8c4fd32cf1b6d3f8c
+SHA1: 9633704680a401f540bb6a4163514f6e87db749a
+SHA256: 4576ca78d57e244128e559e8e59a86c47abb9073fdc2992abb0877deeea9fa53
+SHA512: 0fafecb764a9b1453f3f4ce246d1f9011130a21f0633684c86ce1e2cb5ecfbc42a8cad51a80b32eb7053eb151c603b915e3007df95e259fd1b0eb3520a7f72dc
+Description: Dogradio is a GUI displaying icons for playing radio streams.
+ - Change in v 0.0.5: added option to rip streams (from right-click on tray-icon) 
+ - Using yad for the icons GUI
+ - Easy add/remove radio stream items
+ - Using conky for 'conky ticker', showing metadata
+ (can be enabled/disabled from tray icon menu + other settings)
 
 Package: upgrade-kernel
 Architecture: all
@@ -3396,6 +3450,22 @@ SHA256: e07739313194faf06c92efaf8a5ff98b71c0a247abc1ef3e10c4619d338e67f0
 SHA512: 082c221fa593e9254289ada212c206d08c6040b99022149e17ef28827112ecaa6991250ee5a7ff703f6f70fcd716b55f434c4aed355a40d0d406a645b539043e
 Description: xlunch by Tomas M
  Graphical app launcher
+
+Package: yradio
+Architecture: i386
+Version: 0.0.7-0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.36.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
+Filename: ./Extra/yradio_0.0.7-0_i386.deb
+Size: 190068
+MD5sum: f3fb7229a8caeab4272d6b47a6d504a9
+SHA1: ce96d3eafbbf578aaa99b22ba8aad1db8f7dc0fe
+SHA256: 9e7cedd96fc8f2dd4dd37534f438403701bc5fc927910ee17a95b45287adf799
+SHA512: 2762c7114f932f95ec01a494ee90d097a4e6b001c50ad3443518e4a52b1af2fb000d354fee44cc1bc14be149840ff128d4da9c4503ff6f47411f86bdebab27bf
+Description: Internet Radio Player
 
 Package: wex
 Architecture: all
