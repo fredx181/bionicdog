@@ -19,6 +19,25 @@ Description: A Gtk2 application for searching and streaming videos from YouTube.
  WWW-YoutubeViewer - a very easy interface to YouTube.
  Highly recommended: install mpv or vlc mediaplayer and youtube-get2 (includes youtube-dl) to be able to play all videos without exceptions.
 
+Package: dogradio
+Architecture: amd64
+Version: 0.0.9-1
+Maintainer: fredx181
+Installed-Size: 3100
+Depends: libc6, gtk2-engines-murrine, yad, sed, conky, gnome-mplayer-1.0.7 | gmplayer | mplayer, file, streamripper
+Filename: ./Included/dogradio_0.0.9-1_amd64.deb
+Size: 902968
+MD5sum: 99842fff526112572043e288bb936cbc
+SHA1: 94eb139b15cb685acb6b02efb58e6da3e938f838
+SHA256: 40d834e6561e0a7e9d313dfe486293c0919aa23fd16caa0a6f56eb3e3c296678
+SHA512: bf28290a8276bf3547328afa607ad009f02776637d2f173bd7448abe6d4d113281447353c4fbc80edd59147636a713c1af82ca30b3833f05e8270a4f74fe027e
+Description: Dogradio is a GUI displaying icons for playing radio streams.
+ - Change in v 0.0.5: added option to rip streams (from right-click on tray-icon) 
+ - Using yad for the icons GUI
+ - Easy add/remove radio stream items
+ - Using conky for 'conky ticker', showing metadata
+ (can be enabled/disabled from tray icon menu + other settings)
+
 Package: bionicdogmountscripts
 Architecture: all
 Version: 1.0.3
@@ -72,6 +91,25 @@ Description: GNU TLS library - main runtime library
     Camellia (RFC 4132)).
  .
  This package contains the main runtime library.
+
+Package: dogradio
+Architecture: amd64
+Version: 0.0.9
+Maintainer: fredx181
+Installed-Size: 3100
+Depends: libc6, gtk2-engines-murrine, yad, sed, conky, gnome-mplayer-1.0.7 | gmplayer | mplayer, file, streamripper
+Filename: ./Included/dogradio_0.0.9_amd64.deb
+Size: 903148
+MD5sum: f9295b4b5bfb99642202393ecfd0ed38
+SHA1: f16abb37cfbce872e24bea7eeea43780b3e49319
+SHA256: 017f148d0fecc5ec289f40301ed869416a8375f6e2487568421c5b6ed3416250
+SHA512: e002f586999fb714e7a103ad6e102afad23bb2d11c774924d325eab7bbe2cf6a008b55957cf97cdd91b58bbd021d58af392d91f56ff71459db4f464d12918f43
+Description: Dogradio is a GUI displaying icons for playing radio streams.
+ - Change in v 0.0.5: added option to rip streams (from right-click on tray-icon) 
+ - Using yad for the icons GUI
+ - Easy add/remove radio stream items
+ - Using conky for 'conky ticker', showing metadata
+ (can be enabled/disabled from tray icon menu + other settings)
 
 Package: domycommand
 Architecture: all
@@ -1933,6 +1971,22 @@ Description: Python Chromecast media streamer for Linux
  This copy modded by wiak (of murga-linux.com/puppy forum) 
  to allow piping from stdin via transcoder ffmpeg or avconv.
 
+Package: yradio
+Architecture: amd64
+Version: 0.0.7-1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.36.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
+Filename: ./Extra/yradio_0.0.7-1_amd64.deb
+Size: 190192
+MD5sum: 77b44a976a3c8f1aad31d1d09c745d12
+SHA1: 13ed807460c4ff87929d8dd5f9cd9b806102e6b7
+SHA256: 887ef9580eee18671d6a18f670c63171c17a47cd75168af653e0f7bfc56654d4
+SHA512: 05157e53716c89c1dc407e0a7f9eee71a49910ea04744d55499a0cbd4436adf212667d44eae3324fe1eb47099301ef6e1ece221768681c169a625a955c196003
+Description: Internet Radio Player
+
 Package: conkyclock2
 Architecture: all
 Version: 1.0.2
@@ -2997,6 +3051,22 @@ SHA1: 7eb565f532a2d0cad1835d30364cb53f3eaa88b0
 SHA256: 13e5cbe62ccfd8633c29c0e9a4af33cb0988830fdd7a0b20d1e7c28a7cedeed3
 SHA512: c4dfd6e119b2b4c129c794efb161acfc630585426650882d41eb0357a56e7ae49174d201521865cd672cbb4bc32cfb0f30a578a615aa528f2ff2689182432f43
 Description: Volume control for system tray
+
+Package: yradio
+Architecture: amd64
+Version: 0.0.7-0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.36.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
+Filename: ./Extra/yradio_0.0.7-0_amd64.deb
+Size: 190060
+MD5sum: 74e7bd4b846939ab0f796d3e52823960
+SHA1: 29821064784948ecc468180beff661d26e7789f8
+SHA256: 591d1ccb645ef994703c81191b4a8078fc94a226a63690130fedb656f2f3cf40
+SHA512: 10a450af8f77fd3d9eda59781400b0d183fa6c2aad1e7548a8c612901c5a9bc072891db1ba151a0e2609159d2e4f68f6d1ab389db14b03410e2479b14facecdf
+Description: Internet Radio Player
 
 Package: redshiftgui
 Architecture: amd64
