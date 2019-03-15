@@ -3224,6 +3224,20 @@ Description: scrox is a fork of the scrot command line screen capture utility
  including identical functionality plus can output coordinate information for
  full screen or the selected rectangular area.
 
+Package: apulse
+Architecture: i386
+Version: 20171016-2
+Priority: extra
+Maintainer: rcrsn51
+Depends: libc6, alsa-utils
+Filename: ./Extra/apulse_20171016-2_i386.deb
+Size: 33906
+MD5sum: 3c698f972949f19832880d0d196de7a6
+SHA1: f361a501265ea64f21a2f52e03408f6117fc5adf
+SHA256: d3256a742a99c787c0e0e9b263e9b4796dcb32eeead5ba310205e792cc2e3775
+SHA512: c7d11429ebc18652d5bbdc84ffee5b32d92948078678318cbf5bd2a51f60c51beaa41dfa93ad0b1de67cf6ad5be582127a6d7f9f53d4e248f217991304ee736f
+Description: Pulseaudio emulator using alsa
+
 Package: xvidcap
 Architecture: i386
 Version: 1.1.7
