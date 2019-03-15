@@ -1837,6 +1837,24 @@ SHA256: a13d76449ed052af40b6da0711e79f4117f5ea880265274b6d972b0c402fea72
 SHA512: 6b93ab3d7a8b39195d6c8a3457015508785517f366ef31ddce5b797029510e5a92d9c5c87fb193d3e3e533ec24eeab7dfc6c0cbe37460d4e96556c9ce2be05d0
 Description: Grub4DosConfig GUI script from Shinobar written for Puppy linux.
 
+Package: firefox-apulse
+Architecture: i386
+Version: 1:65.0.2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 153000
+Depends: libc6, libgtk-3-0, libatomic1, apulse
+Filename: ./Extra/firefox-apulse_65.0.2_i386.deb
+Size: 51618148
+MD5sum: 19a06d4e0d505c68f92c3fbb9cd9b018
+SHA1: 8b71c1c77d208a078605d875c0720669d41ec1a4
+SHA256: 4d0f114b25a89eac08cf297e58465103995426cbc72b48de08cb8de77d81e3b5
+SHA512: df7062de3f5f28b00f0f1e79376d494e211f33da0037fe3fa0a1637be9594dc3f3851d0ca3c4700c0caebe24af1d732698b8d30fcecce9ffb2eb8a33f1983891
+Description: Firefox Quantum
+ - This to make sound work by running: apulse /opt/firefox/firefox
+ - No change required in about:config
+
 Package: conkyclock2
 Architecture: all
 Version: 1.0.2
