@@ -1851,6 +1851,20 @@ Description: library to read and control CD-ROM
  so applications that use this library also have the ability to read
  disc images as though they were CD's.
 
+Package: apulse
+Architecture: amd64
+Version: 20171016-2
+Priority: extra
+Maintainer: rcrsn51
+Depends: libc6, alsa-utils
+Filename: ./Extra/apulse_20171016-2_amd64.deb
+Size: 32808
+MD5sum: 5699efc8919825c2670ea5317942f67b
+SHA1: 56a05ab0c0c330b2ca45eb430155cdf0e733f6c9
+SHA256: bdff026e9109fe5f385e36d077c93b681786643684ce8af1ac8c41b9f87dfb43
+SHA512: 263657bf16ea11624eb11553fba0df0786b42ce615b506eaae459bc869b43ad0db6018a83f4e94d2ff8a4687c192929cd7ebae2a620aa9c9517e33965e94548b
+Description: Pulseaudio emulator using alsa
+
 Package: conkyclock2
 Architecture: all
 Version: 1.0.1
