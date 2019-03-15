@@ -3782,6 +3782,25 @@ SHA256: f83254af0b2479ff0710e9356b5f16ac8305c3a34d5c4fce165f5951334f56ad
 SHA512: f34a3313c7e4e2a855a416dcb2605b04094abb801460678e75d053196348df49e4ef6310cd2287a0e1c6e73169915d5b3812c7cd48472910672c04b04c3ddf7d
 Description: Sets system date, time, zone
 
+Package: firefox-apulse
+Architecture: amd64
+Version: 1:65.0.2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 153000
+Depends: libc6, libgtk-3-0, libatomic1, apulse
+Replaces: apulse
+Filename: ./Extra/firefox-apulse_65.0.2_amd64.deb
+Size: 49492564
+MD5sum: b6456698d1ac807d45fc71b466aa750d
+SHA1: 76a80236ff51791ab2a793c5366f320d0e567992
+SHA256: 2109f9e8287f8b074ab66ba0b7c11a84054d8d1c7bf91565c4c0d81c0da2e171
+SHA512: 08efadabe2c56013fc39b5801f2113ff4cf5942c0b517baacabeaf5450c1398b61a1702b1bab2cd9570179d36dde84783f42dbcb0e4506ea26f5a91ef75274fc
+Description: Firefox from the beta update channel
+ - This to make sound work by running: apulse /opt/firefox/firefox
+ - No change required in about:config
+
 Package: googledrivegui2
 Architecture: amd64
 Version: 2.1.0

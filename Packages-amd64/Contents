@@ -427,6 +427,7 @@ opt/firefox/browser/features/formautofill@mozilla.org.xpi   firefox-apulse
 opt/firefox/browser/features/onboarding@mozilla.org.xpi	    firefox-apulse
 opt/firefox/browser/features/screenshots@mozilla.org.xpi    firefox-apulse
 opt/firefox/browser/features/shield-recipe-client@mozilla.org.xpi firefox-apulse
+opt/firefox/browser/features/webcompat-reporter@mozilla.org.xpi firefox-apulse
 opt/firefox/browser/features/webcompat@mozilla.org.xpi	    firefox-apulse
 opt/firefox/browser/icons/mozicon128.png		    firefox-apulse
 opt/firefox/browser/omni.ja				    firefox-apulse
@@ -443,7 +444,9 @@ opt/firefox/firefox					    firefox-apulse
 opt/firefox/firefox-bin					    firefox-apulse
 opt/firefox/firefox-bin.sig				    firefox-apulse
 opt/firefox/firefox.sig					    firefox-apulse
+opt/firefox/fonts/.uuid					    firefox-apulse
 opt/firefox/fonts/EmojiOneMozilla.ttf			    firefox-apulse
+opt/firefox/fonts/TwemojiMozilla.ttf			    firefox-apulse
 opt/firefox/gmp-clearkey/0.1/libclearkey.so		    firefox-apulse
 opt/firefox/gmp-clearkey/0.1/libclearkey.so.sig		    firefox-apulse
 opt/firefox/gmp-clearkey/0.1/manifest.json		    firefox-apulse
@@ -459,6 +462,7 @@ opt/firefox/libmozavutil.so				    firefox-apulse
 opt/firefox/libmozgtk.so				    firefox-apulse
 opt/firefox/libmozsandbox.so				    firefox-apulse
 opt/firefox/libmozsqlite3.so				    firefox-apulse
+opt/firefox/libmozwayland.so				    firefox-apulse
 opt/firefox/libnspr4.so					    firefox-apulse
 opt/firefox/libnss3.so					    firefox-apulse
 opt/firefox/libnssckbi.so				    firefox-apulse
