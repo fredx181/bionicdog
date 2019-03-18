@@ -3314,6 +3314,22 @@ Description:
  cast2chrome supports youtube urls and can save media.
  It is written in bash/gtkwialog v 0.8.5 and above.
 
+Package: dropboxgui
+Architecture: all
+Version: 1.0.8
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 87
+Depends: libc6, gtkdialog, gxmessage
+Filename: ./Extra/dropboxgui_1.0.8_all.deb
+Size: 17296
+MD5sum: 9488a8d10478357544ed8fe4d55db0be
+SHA1: 4c11f53e6c50c3a4c7e414b0fc45c01a0c8f6796
+SHA256: 1f744a4ea944c84762af38a7eb3310dab2ae840b665e4cb2e89427841b3d9680
+SHA512: 5efd4899f33661a3f3030b61e07489400452ef708bd28aa362ffcde33edec51bba7c4c2cb05fcafb545ca6491248b570e28b035618ad296336fedc26021f4a59
+Description: DropboxGUI, by mikeb
+
 Package: libdvdcss
 Architecture: i386
 Version: 1.4.0
@@ -3550,6 +3566,23 @@ SHA1: 4302e91f6eeadc0eeb39a6816e8e37fa66d41490
 SHA256: 93447dc19e935e637471a4b53e105956026d2f71df5dedbd572be55ad76904bc
 SHA512: 70301c1c493fbed46336165088b556f351af2fdd39c7771107e7da448512aa10d7f0328e3718656ed07f5ae8768b7be474d156df914a3551c64b88f483a82f11
 Description: Pulseaudio emulator using alsa
+
+Package: googledrivegui2
+Architecture: i386
+Version: 2.1.1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 6000
+Depends: gtkdialog, yad
+Replaces: googledrivegui
+Filename: ./Extra/googledrivegui2_2.1.1_i386.deb
+Size: 1925672
+MD5sum: f6f18ae6781e1ac5b94e13c4e7126f8e
+SHA1: bbdf5035f08faae1f803e3776d71d7b2915e8c9e
+SHA256: a5b6e567b12a78b1a02b1d80f4b89209f423bb66b7adb0a89bda622bd384f505
+SHA512: 85829f9081ce18bba81e15da37416c867ddf1cccf1b699e56cf726c39c1a91c27a7cbd5692f314530c395cf9850d8be7d637a7ae68860f98883005fe20fb49e0
+Description: Google-drive Filemanager v2
 
 Package: libaudiofile1
 Architecture: i386
