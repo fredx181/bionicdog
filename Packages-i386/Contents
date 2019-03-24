@@ -3575,6 +3575,7 @@ usr/share/applications/desktop_view_edit.desktop	    desktop-editor
 usr/share/applications/domycommand.desktop		    domycommand
 usr/share/applications/domyfile.desktop			    domyfile
 usr/share/applications/dropbox.desktop			    dropboxgui
+usr/share/applications/dropboxGUI.desktop		    dropboxgui
 usr/share/applications/edit-sfs.desktop			    edit-sfs-pcmanfm,edit-sfs-rox
 usr/share/applications/emelfm2.desktop			    emelfm2
 usr/share/applications/epdfview.desktop			    epdfview
