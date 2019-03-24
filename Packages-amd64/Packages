@@ -3083,6 +3083,22 @@ SHA256: 13e5cbe62ccfd8633c29c0e9a4af33cb0988830fdd7a0b20d1e7c28a7cedeed3
 SHA512: c4dfd6e119b2b4c129c794efb161acfc630585426650882d41eb0357a56e7ae49174d201521865cd672cbb4bc32cfb0f30a578a615aa528f2ff2689182432f43
 Description: Volume control for system tray
 
+Package: dropboxgui
+Architecture: all
+Version: 1.0.9
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 87
+Depends: libc6, gtkdialog, gxmessage
+Filename: ./Extra/dropboxgui_1.0.9_all.deb
+Size: 17310
+MD5sum: fdd682943aa3cd7c40ffe839109e43f0
+SHA1: e3ec03165bce0c47fd8d9009253b75a6c995dd44
+SHA256: 464139b416a2fda7c5e83e06e1c48c56b347494145683b079f12b9b9eb94d058
+SHA512: 717b6ef2090ddcc68b87eb789edf8f8dcdeeb0718d9b68255f68ac1e9e6381e10909a57eac773f5dd407535b07ccb9f092bf8ce94355819f83e54374c0e64cb6
+Description: DropboxGUI, by mikeb
+
 Package: yradio
 Architecture: amd64
 Version: 0.0.7-0
