@@ -1668,6 +1668,22 @@ Description:
  user-editable commandline storage program.
  It is written in bash/gtkwialog v 0.8.5 and above.
 
+Package: create-portable
+Architecture: i386
+Version: 2.0.1
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 900
+Depends: libc6, unionfs-fuse, squashfs-tools, yad, linux-user-chroot, squashfuse
+Filename: ./Extra/create-portable_2.0.1_i386.deb
+Size: 314530
+MD5sum: 0b581503195065054bc0da1f33ac4bf5
+SHA1: ff35c1f28d5204c9cdb3f93d3101675d5c8b8b94
+SHA256: 9059b61f53495fa513e29802f632f8d957ac547b11d259e03865cfc9b2d853ab
+SHA512: a6d68eba96f0eef73a10c9d76b01b468e87f132dfd73fa825552d06033d6373f995d9b4508f76c8e5c8e7bd94a67808e8ac991c76fec4e299fa399181859ed8d
+Description: Create portable AppImage v2.0
+
 Package: conkyclock2
 Architecture: all
 Version: 1.0.1
@@ -3392,6 +3408,22 @@ SHA1: 12b373eafa273bcaba6f1e859b89a808f69a290c
 SHA256: d6220096d94dbf7371cee559697a56e20e82f29f50aca2693865aaef321ebb5c
 SHA512: a6b4ed69737403c5b1541e184a9452931111b44a62115e7cbcc2784c0d956069e512e7c6a4222dae6b753bc6d4a784267a083623e4c225e2bcc9d61a6423e301
 Description: graphic-utility
+
+Package: create-portable
+Architecture: i386
+Version: 2.0.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 900
+Depends: libc6, unionfs-fuse, squashfs-tools, yad, linux-user-chroot, squashfuse
+Filename: ./Extra/create-portable_2.0.0_i386.deb
+Size: 175600
+MD5sum: ec740dc2947c5889b759b25d1fdcc6bd
+SHA1: e60a85ea0c2d2ded0efeb9d04539e2afb0d2dad6
+SHA256: 7f333f5d3c1374821b1cabb1b1a4c909e00578532b2b74e2d55817cd6c5ce5d1
+SHA512: 73668b4cb9790fd65d6fd2dd2a029f5dbf890555b2082b45bebd6ad7fcbd4a11f36cb32c496057eb01427c429232b779f18c298873b59c0b03d3bab9c35c6d86
+Description: Create portable AppImage v2.0
 
 Package: PeasyWiFi
 Architecture: i386

@@ -1151,12 +1151,16 @@ usr/local/01-create-appimage32/package			    create-portable
 usr/local/01-create-appimage32/package.png		    create-portable
 usr/local/01-create-appimage32/package1			    create-portable
 usr/local/01-create-appimage32/runtime			    create-portable
+usr/local/01-create-appimage32/runtime-new		    create-portable
 usr/local/01-create-appimage32/usr/bin/ReadMe-AppImage	    create-portable
+usr/local/01-create-appimage32/usr/bin/appimagetool	    create-portable
 usr/local/01-create-appimage32/usr/bin/gsu-mod		    create-portable
 usr/local/01-create-appimage32/usr/bin/gsu-xterm	    create-portable
 usr/local/01-create-appimage32/usr/bin/testappimage	    create-portable
 usr/local/01-create-appimage32/usr/bin/unionfs-fuse	    create-portable
 usr/local/01-create-appimage32/usr/bin/yad		    create-portable
+usr/local/01-create-appimage32/usr/lib/appimagekit/mksquashfs create-portable
+usr/local/01-create-appimage32/usr/share/pixmaps/d.png	    create-portable
 usr/local/01-create-appimage32/usr/share/pixmaps/package.png create-portable
 usr/local/Frisbee/connect				    frisbee
 usr/local/Frisbee/disconnect				    frisbee
