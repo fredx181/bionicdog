@@ -1439,6 +1439,21 @@ Description: Load a *.squashfs or *.sfs module.
  - kill processes which are keeping from proper unmounting (might be needed in some cases for SFS-load mode)
  version 1.0.8: second argument for loadsfs-fuse now supported, e.g. loadsfs-fuse /path/modules.squashfs <app-name>
 
+Package: bionicdoginstallscripts
+Architecture: i386
+Version: 1.1.3
+Maintainer: root
+Installed-Size: 863
+Depends: libc6, bionicdogmountscripts, gtkdialog, yad
+Filename: ./Included/bionicdoginstallscripts_1.1.3_i386.deb
+Size: 430164
+MD5sum: 9e6e4bb73a203412a04ed54bc41c5994
+SHA1: 104848c06514d3e32e8413904a5679988f3425d4
+SHA256: cd9053dc6e0c447a4867e076f72c92ec18701c9fedba5f321221d977de71f9cc
+SHA512: 1779f372d4fb7d9f4e82d267a22dccba315c648161be461cf53baf814145c3813c47315f0a0c6ee91d65685e9adb4d9172d81c0f3ababc12af87ba442b1a32be
+Description: Special BionicDog frugal and full install scripts taken from DebianDog.
+ Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
+
 Package: desktop-drive-icons
 Architecture: i386
 Version: 0.0.6
