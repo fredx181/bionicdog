@@ -661,6 +661,7 @@ root/Startup/killmenu-cached				    jwm-setup
 root/Startup/network_tray				    ceni
 root/Startup/network_tray.sh				    frisbee
 root/Startup/peasyfwmon_tray				    peasyfwmon
+root/Startup/peasymp3_tray				    peasymp3
 root/Startup/peasywifi_tray				    PeasyWiFi
 root/Startup/rshift-gui-lite				    redshift-gui-lite
 root/startup-jwm					    jwm-setup
@@ -6694,6 +6695,7 @@ usr/share/pixmaps/peasyclock.png			    peasyclock
 usr/share/pixmaps/peasydvd.png				    peasy-dvd-player
 usr/share/pixmaps/peasyglue48.png			    peasyglue
 usr/share/pixmaps/peasymount-48.png			    peasymount
+usr/share/pixmaps/peasymp3-24.png			    peasymp3
 usr/share/pixmaps/peasymp3.png				    peasymp3
 usr/share/pixmaps/peasyscale.png			    peasyscale
 usr/share/pixmaps/peasywifi-24.png			    PeasyWiFi

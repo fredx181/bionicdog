@@ -1960,6 +1960,42 @@ Description: The iupluacontrols-xenialdog32-gtk2:
  functionality such as matrix drawing.
  iupluacontrols-xenialdog32-gtk2 by tecgraf-pkg-wiak.
 
+Package: gtkdialog
+Architecture: i386
+Version: 0.8.5-wiak-B-1
+Priority: extra
+Maintainer: William McEwan (wiak) <https://github.com/wiake>
+Installed-Size: 332
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
+Replaces: gtkwialog
+Filename: ./Extra/gtkdialog_0.8.5-wiak-B-1_i386.deb
+Size: 119454
+MD5sum: 7a2b0e40b563a3c7cf867fed913ed8ea
+SHA1: ccd99cc3d36029045a8492d2d70e980d2881ec14
+SHA256: 8debddc4f79f6487b812d57d1fae84284c9d224359560566470bb369c1ae11b0
+SHA512: 2e9cf23cc9ab97839aa7afac2bf1a6da852e8ef965fad4d0f7a7a928368688f61e627e67737000a44b40477bf2523afe20641c3650ada2ed477fc59d2b5325f7
+Description: 
+ Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
+ fast and easy GUI building
+ Gtkwialog uses various, more secure and flexible, glib calls than
+ legacy Gtkdialog to effect its action tag command spawning.
+ Gtkwialog fork by wiak. (package made as replacement for gtkdialog by fredx181)
+
+Package: filefinder
+Architecture: all
+Version: 2.5
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gtkdialog
+Filename: ./Extra/filefinder_2.5_all.deb
+Size: 7206
+MD5sum: 258fb8062847a50d14e3567f896d53e1
+SHA1: eb9b2656defe2cd9e908c1afa580d01c5f58b8e0
+SHA256: 437a0f38dab91cfd5e9b93009978dafedbac9426a233161c2be173e42352cbb7
+SHA512: c5354f1fb27457530c834cfd09d67759616b5437bbc7da590d8f09a764646510778a5f36fea7917a89a9beb9c735d47c7a6933f6740c2251522eecfb456d8f35
+Description: File searching tool
+
 Package: wex
 Architecture: all
 Version: 0.8.18-1
@@ -2041,6 +2077,24 @@ Description: libjpeg-turbo JPEG runtime library
  .
  This package contains the shared runtime library.
 
+Package: peasyfwmon
+Architecture: i386
+Version: 1.0.2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 163
+Depends: libc6, gtkdialog, iptables
+Conflicts: firewall-puppy
+Replaces: firewall-puppy
+Filename: ./Extra/peasyfwmon_1.0.2_i386.deb
+Size: 22654
+MD5sum: a79bf1eb612d157b93417d6485f0a8b1
+SHA1: aad5bf5c7dfc1d2232f303a33fc78e5997a78f46
+SHA256: dfe2763181b80adeeec09d3690ebaae90cf81a4665bc38e8e8d88ed27f56ad34
+SHA512: 58b71f9aeb51e73e30d54ed20349922d1ef07c123348dd90da1c6429c00491c28812a028b74ea97f2821a8b9f375e5fe1b8c565a344cfb739e76d6e57c53aea9
+Description: Peasy Firewall Monitor
+
 Package: petconvert2deb
 Architecture: i386
 Version: 1.0.0
@@ -2056,6 +2110,23 @@ SHA1: f83326bfdc1d6fe96489943567054580cd655b00
 SHA256: 3d8b4f46e89dfb4b26d401272f9bde53a2e1809205dc10b05894c2765646f98e
 SHA512: 7867f023e4f9182c29ca3e66436bc20d34544a4b49ddf9b194b1dbca37f5ac1cd3a605197df2b6bee867e551691986361122f37d893ceb7e3925d3e8cec097c2
 Description: Convert .pet to .deb
+
+Package: gtkdialog
+Architecture: i386
+Version: 0.8.3-1
+Priority: extra
+Section: system
+Maintainer: root@wheezy
+Installed-Size: 264
+Provides: gtkdialog
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2
+Filename: ./Extra/gtkdialog_0.8.3-1_i386.deb
+Size: 183852
+MD5sum: 042468d52d00bcb30082eccaf0b83a70
+SHA1: 1256b13aa56101e3c4ec364f31a2d05fd756196b
+SHA256: 6827fa728443a05e07c497961a42e05e1b22797936e95ca77a716e833fc05b63
+SHA512: 882f1d5ab67f7b637f48f0e52fcb26142b992d6f7034ac811fcfdc53661e4d729e424499d19454c81370ff35d6ec279df1840973c0f19502be7268819231a859
+Description: gtkdialog
 
 Package: redshift-gui-lite
 Architecture: i386
@@ -2125,6 +2196,45 @@ SHA1: 7da7f6eca0f8e94b3557b95c2d8e2d49e6a95b4b
 SHA256: abfb7caf1f40adb1c7deec77416125b13fe2a16d90984656201a2d7b1e15899b
 SHA512: 67938b6c9f26a229d3b5bd96ab88ae4f6eaed62b288b81fa7c493907a7f5ecbc2f744529ae166325346daf71949fb0cef98808dc7d6055cba723c22eab045580
 Description: Display Animated Gif on Desktop
+
+Package: yassm
+Architecture: all
+Version: 4.2-1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: cifs-utils, smbclient, arp-scan, gtkdialog
+Filename: ./Extra/yassm_4.2-1_all.deb
+Size: 7068
+MD5sum: 33aa852e6daf1713cc48699ed1bab186
+SHA1: c5225e9fe95b5c2e4bc336c13a98d4cfa7e9affb
+SHA256: ef554d84ff1983fbad0366faaaaf8301d9dfe0d2fbcd0c5f1cccaf32dae8226f
+SHA512: 5112517b4943947b802bea9edebda449d307ff87accd12516bd26e47329bc495ed046c70c12fe8079c61c4ed1a47bf0d248e6fd555a2edb9ad59dbfb9b131e99
+Description: Samba share mounter
+
+Package: PeasyWiFi
+Architecture: i386
+Version: 4.6-3
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: libc6, gtkdialog, gettext-base, net-tools, wpasupplicant, wireless-tools, x11-utils, ccrypt
+Conflicts: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Replaces: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Filename: ./Extra/peasywifi_4.6-3_i386.deb
+Size: 16728
+MD5sum: aa0bee3f495cdb4dd359433333ac1f3f
+SHA1: 68f018fd8d957bdd504d59e4e4e736a3efb8efc7
+SHA256: 4e6e2c57e8ef9a760e514a7751882c1f496cca9490e1480ab78e165d1de4ddd9
+SHA512: b4f3e3cc6bc79b2c35ee5d03f0e28ad2e85a7a1a1bd8766b9d16441d2583d60716ed2ff92752bd2a94d9d060bfefb7643fa11dc15a6bcbb0dc99f443d85ef844
+Description: Reliable network manager
+ -changes in v4.4-0 in peasywifi script by rcrsn51:
+ - added option (Ethernet tab) to bring the interface down
+ - added Names button (to select interface names)
+ - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
+ - Updated Help screen
+ - added multi-user support (fredx181)
+ - changed bcrypt to ccrypt
 
 Package: conkyclock
 Architecture: all
@@ -2276,6 +2386,21 @@ SHA256: 86a0ba10e48ba0e7d2b98d28f0d7af83392ceff3c22ce0441dd174bb3aa1aa04
 SHA512: 5c3e7696b348626c77f6257e39167bf23f95a41f91a96bea7422be4f3f59ed524c7d16713e81c9ba6e04acbc7cec1d74cffd9ff07a12cc535f380c24d4a902af
 Description: Batterup battery monitor
 
+Package: peasymount
+Architecture: all
+Version: 1.4-2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gtkdialog
+Filename: ./Extra/peasymount_1.4-2_all.deb
+Size: 3830
+MD5sum: cc33997e0ce1b5e86c3c95f3e0976d2c
+SHA1: 279b9cbca14eb2a8209316f428fb0d60abd2a30f
+SHA256: 6f20c2e3b961f4073713257e50cd95c5513c3be87199dd87c826c7a6301da220
+SHA512: 4baa464339dc6d928373a20ab55580e812f7248d05060d67a576ec7154a1b6ae88646b3a8943bbe029e0df1a25adde6d5ba734468e6acdde443a484b2ffd9556
+Description: Mounts ISO/SFS files
+
 Package: emelfm2
 Architecture: i386
 Version: 0.9.1-1~trusty~ppa1
@@ -2300,6 +2425,20 @@ Description: file manager for X/gtk
  typing scheme, and a built-in command line for executing commands
  without opening an xterm.
 
+Package: peasyclock
+Architecture: all
+Version: 1.4-1
+Priority: optional
+Maintainer: rcrsn51
+Depends: tzdata, ntpdate, gsu, gtkdialog
+Filename: ./Extra/peasyclock_1.4-1_all.deb
+Size: 4884
+MD5sum: 68edcc9cdc0e4ffdcc042bfa56ed79b8
+SHA1: a4158b301797d7670cbff5066a610be51e7f652c
+SHA256: c1b34f14cbd4b395dea78ace5e350ac188bfb7bca2b6b207dbe5bca1c43149a7
+SHA512: ac43f8da079724b59bcaa2f33fee500963d5508e2520878f66c34304003473c2a57d2e073a2db82b3392aae13bc47244319366989372b34c7b127b0a3ee71f47
+Description: Sets system date, time, zone
+
 Package: debdog-advert-blocker
 Architecture: i386
 Version: 1.0.0-1
@@ -2317,6 +2456,22 @@ SHA512: 1e465cd8a01e377f5e0e05600e94c0a47696e18b453f38e81fa457db72629877d5574ca1
 Description: gethosts script from SteveRiley: https://www.kubuntuforums.net/showthread.php?56419-Script-to-automate-building-an-adblocking-hosts-file
   Thanks to jockjunior: http://www.murga-linux.com/puppy/viewtopic.php?p=899122#899122
  .
+
+Package: tzupdate
+Architecture: all
+Version: 1.1.2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 47
+Depends: libc6, python-requests, ntpdate, gtkdialog, curl
+Filename: ./Extra/tzupdate_1.1.2_all.deb
+Size: 10496
+MD5sum: c0a9d4b88e2d8e53a923b2538d72e37e
+SHA1: 66be44f477d3a0df7e979500d91623e1dad6c32a
+SHA256: b6fb1f526f33270e90fbebcf22fe89e881eb93bf50f1472e47af6d88557c1ce7
+SHA512: 48ab6a01a3ac7ae37b989fad28475184a281f1e578c9cd37993a0ce451b903cbf1e81eab692a8a126c0fb7c2e5527705db2d5825cb196c1632a04dec391285ac
+Description: Automatically detect timezone
 
 Package: libpng12-0
 Architecture: i386
@@ -2501,6 +2656,23 @@ SHA1: c1a2e538c69fdd32f740d264310c7626c52dc850
 SHA256: ac292b32f3e1f246969692b10ea1af713f3a1ab04097b09092caf3d41c9d1cb7
 SHA512: 28c97846c850cb4ad849688ad7066b9c7e6706cf9010d805025210d499834e304c55157d541b86c3e91c84d1caab61518fa1d664f3a57ccc24001b9170d15120
 Description: system-firewall
+
+Package: peasyglue
+Architecture: all
+Version: 2.2
+Priority: optional
+Section: Graphics;
+Maintainer: root
+Installed-Size: 268
+Provides: pictures-joiner
+Depends: libc6, gtkdialog, netpbm, libnetpbm10, bc, poppler-utils
+Filename: ./Extra/peasyglue_2.2_all.deb
+Size: 6142
+MD5sum: 2e658043b338b371dc8d26b642243508
+SHA1: 5447ccb2081f1653a7e5ba3c558f2afc20d2680f
+SHA256: a85f617aae83c2903bea6b7c811e915ed2eb7bd5a1a8fa095dbb8c5d401340bd
+SHA512: 12785dbd777215b3c14efba50222cfd94c1cd5ece14cf51261ec91c33be3844f8aa949fce250bfefd9b8e18aa7bc407086fe6f5a22dbf1fb3e737f83d9976c97
+Description: graphic-utility
 
 Package: PeasyWiFi
 Architecture: i386
@@ -2823,6 +2995,32 @@ SHA1: 0f3543146e56c6cdffc32ae341f91894ebe61bbb
 SHA256: 3a9522321cbfd4a0280b8f2c2e251040b9d0a40c68268d47a9e9cf1f4d0cb950
 SHA512: 87291e1152454e9ddac3a5c9043235252d361827df4e240d9a8da28ba3c342eb51a15e8eb73de6c3d6d813dafdab6364049604ab424144eb994ce56cc052a3b3
 Description: Monitor color adjustment tool.
+
+Package: stream2chromecast
+Architecture: all
+Version: 0+git20180507-0~webupd8~0
+Priority: extra
+Section: net
+Maintainer: Alin Andrei <andrew@webupd8.org>
+Installed-Size: 110
+Depends: python, ffmpeg | libav-tools
+Filename: ./Extra/stream2chromecast_0+git20180507-0~webupd8~0_all.deb
+Size: 26734
+MD5sum: 53bda6fed8c2b7d455c7f462d9b9b94e
+SHA1: e35456510ad342ff54402b8e1793f442b43c985f
+SHA256: c6ac18f8929298e042fad10ae6ea6b87519a2be50de05f7123004391bc57a539
+SHA512: c2eda0a9c730b684c48506eb23bba369fec359d172df83cf7d3e7e485b831ecb718db9e2bd77ad9eeb74703a6b19f9e8b842d59bf1ee048f3af643215631cb8d
+Homepage: https://github.com/Pat-Carter/stream2chromecast
+Description: Python Chromecast media streamer for Linux
+ Stream2Chromecast casts audio and video files to a
+ Chromecast device from Linux. It can also transcode any
+ unsupported files in real time and play them on the
+ Chromecast.
+ .
+ It is written in Python 2.7 and uses either ffmpeg or
+ avconv for transcoding.
+ This copy modded by wiak (of murga-linux.com/puppy forum) 
+ to allow piping from stdin via transcoder ffmpeg or avconv.
 
 Package: firefox-apulse
 Architecture: i386
@@ -3384,6 +3582,21 @@ Description:
  cast2chrome supports youtube urls and can save media.
  It is written in bash/gtkwialog v 0.8.5 and above.
 
+Package: cputemp
+Architecture: i386
+Version: 3.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lm-sensors, cpufrequtils, gtkdialog
+Filename: ./Extra/cputemp_3.2_i386.deb
+Size: 4956
+MD5sum: 68454c4f31e61d7cff5c2086082df7d8
+SHA1: dd2736b67df72b40ca034fb682662cc68db6f90c
+SHA256: 4d6765f00dba5a5276fe394254771eb223963f321491882d1a31fb8499f02949
+SHA512: 21917ee91f355183293422e93ef323d4999d4d9bc32a430a2a73f7f366547e78b0f7809c3fd8eb971c10fc9124a4dd7b74bf8a03980a97fc09b883b614683564
+Description: CPU temperature monitor
+
 Package: dropboxgui
 Architecture: all
 Version: 1.0.8
@@ -3517,6 +3730,23 @@ SHA256: 89e5cafa794e0f82487649cee12ddcf4a4e06740781b462ed74fdbf20d424ff6
 SHA512: a12958cdbc0c5c2983b9d3fbfd6719a9b252c1b03a012d2badccab0d5201cad8ee429d1e169b1018f5ec40b8e2277d8b166f0678e5a936ad41478f1fec1c7e77
 Description: gtkdesklet
 
+Package: Firewall-Puppy
+Architecture: i386
+Version: 1.0.0-2
+Priority: extra
+Section: system
+Maintainer: root@wheezy
+Installed-Size: 200
+Provides: Firewall
+Depends: libc6, dialog, iptables
+Filename: ./Extra/firewall-puppy_1.0.0-2_i386.deb
+Size: 19638
+MD5sum: f0348a2235768e35555c0a64f1e4b07a
+SHA1: cfff002e30bd65faeb3dc77c5629b5a5e702dec9
+SHA256: a6bccbcd872ac4494ef4a05ab0d79f6c2886fc6a556578d4e645d91e8d764513
+SHA512: 990bff6d1b86dd1986386ae3f08aec12685c35db484abf21f7de41e2fd885b7142770f348c8fb224eae4a5c293363cc3877f44a2ef7ba89696d945bf8710ff31
+Description: system-firewall
+
 Package: googledrivegui2
 Architecture: i386
 Version: 2.1.0
@@ -3533,6 +3763,21 @@ SHA1: e5ed05d3979dd85d97ecf91f81c74d4f6d2ae21b
 SHA256: de09028bdb680191fa3e67a913479fe0aaf45eb9971dd1c14fb8538e69746a8e
 SHA512: 94701acb644caca5499b02d89a4fe628b34d2def0adc7a4efd71682e8d9147a0b54249dbf24d23a87f96daf739fd164d671544745e2ab439ab52d510da20ca6b
 Description: Google-drive Filemanager v2
+
+Package: peasymp3
+Architecture: i386
+Version: 4.1-3
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gmplayer | gnome-mplayer-1.0.7, icedax, eject, xterm, libasound2-plugin-equal, gtkdialog
+Filename: ./Extra/peasymp3_4.1-3_i386.deb
+Size: 10824
+MD5sum: 171b235dd9afa1757bf29ab89e265747
+SHA1: fb6c6993b632194d64e37e2ab0fc29823cd7ccaf
+SHA256: 8d2c9089396834df566522dfcdac351aa6395010e2789c0b4c869d05966e44a3
+SHA512: b90d73f62fe55ab38cb3d6aff52f3150d15e7224056448714efc321d897ae1e61e9bf6aa1f36c57163cf787bfaaed1c381e0504fa9ddbb938c8f43144189272d
+Description: Media player, CD player, Carousel
 
 Package: cairo-dock-minimal
 Architecture: i386
@@ -3618,6 +3863,22 @@ Description:
  weX is a media recorder for audio, screencast, or webcam
  weX is by mcewanw.
 
+Package: gtkdesklet
+Architecture: i386
+Version: 1.0.2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 56
+Depends: libc6, gtkdialog
+Filename: ./Extra/gtkdesklet_1.0.2_i386.deb
+Size: 13980
+MD5sum: 612610f04cd3b889932d0fbdea3f8a46
+SHA1: df863da8813456bb12d3ed819ef1ead249adbb97
+SHA256: 8b8ccc98c25ea8696819d9ef511b6babee8e1320c148bd913c69ffc19ee3b45d
+SHA512: 54ca8c90d7ff08678fe1b0416572b2a679d9c4d89c7de2f81e7220b95f604b227833b9cfdab0ebbe69593db83266fe735fe156b25d2f6df79b0312deebe37e9e
+Description: gtkdesklet
+
 Package: youtube-get2
 Architecture: i386
 Version: 0.1.7
@@ -3638,6 +3899,21 @@ Description: YouTube Downloader, frontend for youtube-dl
  - Options to enter url(s), playlist, username and to do a search:
  - Gives choice which quality to download, e.g. 360p or 720p, Audio streams, etc...
  - Extra addition: m-play script + menu entry for playing YouTube url with mplayer or mpv
+
+Package: peasyxorburn
+Architecture: all
+Version: 1.1-1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gtkdialog, xorriso, growisofs, cdrskin, eject, xterm
+Filename: ./Extra/peasyxorburn_1.1-1_all.deb
+Size: 9434
+MD5sum: 89501bb8024e7f07448bed2c6825ad78
+SHA1: e6e2bc53a2fc2a40beb4dbad09ff1c136929ed3a
+SHA256: ceb0f6ba447c76976d5623d6a274b0bdd42a4c4f7d28938d486a01fa2dbedada
+SHA512: adcab3719406adb24df7c9411cebbcf0d84c9adbff08555c156b2dc9938ab873bfe0e47867a8084a43b9ef77a08215a67dc8b6807cd236335fcf4c667aa5695d
+Description: Simple burning tool
 
 Package: apulse
 Architecture: i386
@@ -3714,6 +3990,21 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Bug fix: set the correct permissions for /tmp 
  Fix in v 1.0.6: skip symlinks while cleaning man and doc files
  Version 1.0.7, added option to quick-remaster GUI to make ISO
+
+Package: peasy-dvd-player
+Architecture: i386
+Version: 1.6-1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xterm, eject, gmplayer | gnome-mplayer-1.0.7, libdvdcss, gtkdialog
+Filename: ./Extra/peasy-dvd-player_1.6-1_i386.deb
+Size: 5882
+MD5sum: 98f275c6da248053558c62eaa245bd15
+SHA1: 52485bd93b0b29dde3c25a6d867b7d6807044936
+SHA256: 1d049e23af9a47db7838f30621ac843096c9aa1daefde4f7f06764f923cb2431
+SHA512: 307bfb4e6c09352a4fb1e75f0512ad0be5dd1790da00dd66b995a8ef212a2cacb29c05442c6b7a92b994c8e4cb84d7492fa969e8f47b1c69f92693be4f98551b
+Description: DVD movie player
 
 Package: pschedule
 Architecture: all
@@ -4172,6 +4463,21 @@ SHA256: 857c5acc720cf64fcc8e3f63112bcf5ad9f51ec4638503cbcbe3dec8e1b94fe1
 SHA512: 01d7e372942ab5b514c08d713e68f3817c914c54b2d2997b0e7257d910591567c39a8f084cc83a1bcd42eef0d955b4bb7aec458d30a825a184c9b8d9fda4659c
 Description: Automatically detect timezone
 
+Package: f3-flash-check
+Architecture: all
+Version: 6.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: f3, gtkdialog
+Filename: ./Extra/f3-flash-check_6.2_all.deb
+Size: 3474
+MD5sum: 7a9cce0217c09db34cd3daa6b5ea5b0c
+SHA1: af9602bb2a4e841e302c1d6a83674ec1016e2728
+SHA256: e40279281766091fab94ec8660de2ea3932c9e48a6d05f9f02194a3a2385f02d
+SHA512: 1e610597663ea0e7f41ab23222ea3ca173806ef281fd2f34771653a30ed5fae7cbc4d0f18be728591d3adfb4076b76ef366141ad70eb448f5eef717a22670637
+Description: Test health of flash media
+
 Package: PeasyWiFi
 Architecture: i386
 Version: 4.6
@@ -4359,6 +4665,21 @@ SHA1: b4f7961128bd66b668a6f5a56f162df92a12722d
 SHA256: 7208c8bd31be977ac881129a5dce38ae1196e56c63245c9d213ad316962d22a0
 SHA512: 71f2b003798f1edafcbe7d8fb262d8fe6f4dd2e5505c1dfa0bb6ac70bcda6c4af1862e0ef8126991a99db1b5e088ce90eccc2e73869a91393b236d5cfee3e676
 Description: Picdrop, resize images, by Terry (sunburnt)
+
+Package: sound-card-selector
+Architecture: all
+Version: 1.3
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gtkdialog
+Filename: ./Extra/sound-card-selector_1.3_all.deb
+Size: 3770
+MD5sum: ef3712d58a7d18c2f15d789855ffc535
+SHA1: b0dff2087a3765c9b7e4a494d11b03215dacdafd
+SHA256: 038eedbc844b65dc509604d019e7c00fb684c902e2ea49319045094b091600e8
+SHA512: f6bb710beec8f773701d47260dd13e5f4b8b430f247b550036b5b67d0c7136c54a76254516ade8f1855ae88751d59be33e5dd396071b79cb98b0ff78517b2e40
+Description: Select a sound card and set ALSA defaults
 
 Package: filefinder
 Architecture: all
