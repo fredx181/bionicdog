@@ -4472,3 +4472,23 @@ Description: library for SSA/ASS subtitles rendering
  .
  This package contains the shared library for libass.
 
+Package: quick-remaster
+Architecture: amd64
+Version: 1.1.5
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso
+Filename: ./Extra/quick-remaster_1.1.5_amd64.deb
+Size: 158718
+MD5sum: 736872542ed02db0c2325c915e8aea5a
+SHA1: c6dca62b3de4a86c36562c2229412b76c6fe1703
+SHA256: b11019e72e8a69d3c769dac3273f13bea8ba767060a14c3d91c35de57994f4fc
+SHA512: 4c6979fe4900c9cc087909b5a74848d437d92a2f2a49fff12ea730192939921ec5cc7f2b5e1ad9590b2dcc986f106fb90cdcb999c2f89b1774ecbdf34b169c8b
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
+ Version 1.1.5, major bugfix, previously worked properly only when used EXIT: parameter
+
