@@ -3173,6 +3173,26 @@ SHA256: 7d517b48207661c020e07ffad449ed48f5b2ca4b8f61059b30561f93622ea7fb
 SHA512: def0c69707b4a6a01f957da2ba931e21139c0ea596c60f7c40c509f986fd04ddb93ad545af4993f2cb558f2f5748cebf5b9ff3da7e3b4288c23c93812bf89cd8
 Description: DVD movie player
 
+Package: quick-remaster
+Architecture: all
+Version: 1.1.4
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso
+Filename: ./Extra/quick-remaster_1.1.4_all.deb
+Size: 158788
+MD5sum: 50fc36b0304dacea58f384c6913e8ff7
+SHA1: 0b852723d5a595285efb5f06253750bc31f551a7
+SHA256: b6436ee2b515ae333686716233a5682e91fdca84d4cf821b36677d61504deff6
+SHA512: d7af255dfec4b4da2da90c5b302801e1e4af5693773dbc49c0abea8a0e9d78ba1108bbb58f0ad2d169d9d492890f5abaade9cedc1ae50cd6f8fccd440025b418
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
+ Version 1.1.4, major bugfix, previously worked properly only when used EXIT: parameter
+
 Package: firewall-ng
 Architecture: i386
 Version: 1.0.1
