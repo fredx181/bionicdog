@@ -752,6 +752,26 @@ SHA256: 59ac945ae58830570bf98e460ca8e7b944813034563e09f31f088e5e46f6b81e
 SHA512: d9b1b5bf601e3f08a6d78affc084dfb1be976c8b0e1e51630f2c2d03a011b8171b7f8a8d83e44ebc9abc46ca2d88b12e8ac072f078f8fee03c9f730c0115f6cc
 Description: Openbox keybind configuration GUI
 
+Package: porteusbootscripts
+Architecture: all
+Version: 0.0.6
+Section: checkinstall
+Maintainer: root@jessie
+Installed-Size: 56
+Depends: libc6
+Filename: ./Included/porteusbootscripts_0.0.6_all.deb
+Size: 11510
+MD5sum: 1f153d35e34670e5e3b7ef281d294f07
+SHA1: 749959a18cad6b5ded34f654eae5f094c2f4b501
+SHA256: c483d3f3b861f26f5b9280f780923c913782f59ec87ee28a478021a3d02b319d
+SHA512: a0fbde9721899d2a6ecac498f87264f6c2f50f909cc0b0be01aa8484f4ef116498c46931ead01cca35b8a60c3b3d49a323089e1a9639a26235a5e7624e456948
+Description: Porteus-boot helper-scripts (Note: works only on BionicDog)
+ This version has included the scripts for the new-save-setup
+ Note: Removing this package does not make any change.
+ This is on purpose because the scrips are essential for porteus-boot to work
+ Bug fix: set the correct permissions for /tmp (save2flash script)
+ Fix: when copy2ram is used, the boot partition will be cleanly unmounted.
+
 Package: zenity-portable
 Architecture: i386
 Version: 2.30.0
