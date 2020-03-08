@@ -2355,6 +2355,28 @@ Description:  findnrun 1.10.6 (utility)
   icons, smaller English help (markdown), NLS .pot.
   https://github.com/step-/find-n-run/
 
+Package: gtkdialog
+Architecture: i386
+Version: 0.8.8-wiak-B-2
+Priority: extra
+Maintainer: William McEwan (wiak) <https://github.com/wiake>
+Installed-Size: 332
+Depends: libc6, libgtk2.0-0, libglade2-0, procps, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango1.0-0, libcairo2, libfreetype6, libfontconfig1, libxml2, libvte9
+Conflicts: gtkwialog
+Replaces: gtkwialog
+Filename: ./Extra/gtkdialog_0.8.8-wiak-B-2_i386.deb
+Size: 122102
+MD5sum: 52f6eb12179b7c2602a3d87736588ab7
+SHA1: 2b7d324893fae7e5adba84fa76f388ff26e94b29
+SHA256: 3a1cb3429068bc1fba4eef988a29ea5a91d7e3da72ca3b918e3fa6a7420e881b
+SHA512: 90c546a64c7f9a0a5e2f921a81d64abba8d299e2716e136e75c1092b3e317abaeae698ca7880c08b8d1c6a91d3a3559af5c8cf11955e4ed7a4a971b33c3ef3e7
+Description:
+ Gtkwialog is a fork of Pere László's Gtkdialog, a small utility for
+ fast and easy GUI building
+ Gtkwialog uses various, more secure and flexible, glib calls than
+ legacy Gtkdialog to effect its action tag command spawning.
+ Gtkwialog fork by wiak. (package made as replacement for gtkdialog by fredx181)
+
 Package: xvidcap
 Architecture: i386
 Version: 1.1.7a
