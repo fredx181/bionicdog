@@ -4053,6 +4053,27 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Fix in v 1.0.6: skip symlinks while cleaning man and doc files
  Version 1.0.7, added option to quick-remaster GUI to make ISO
 
+Package: quick-remaster
+Architecture: all
+Version: 1.2.1
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso
+Filename: ./Extra/quick-remaster_1.2.1_all.deb
+Size: 158292
+MD5sum: a192413dad35da39d1958f510e96eb1b
+SHA1: 56f0c386f8d98e7490e55bfdfe515cce1d7731d9
+SHA256: 2566932efafbc75ff6afda7f98f96b6e4d43731608807fbe942a9f91c981358a
+SHA512: b0af7f30aa8aa813595d8942bc0076fed4416860839648e60ae30324fc8b3474acfeec84283cd6593d6c6df8b2bc71853718153b41007dc11d92b53c1e5e3f8c
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
+ Version 1.1.5, major bugfix, previously worked properly only when used EXIT: parameter
+ Version 1.2.1, very different method, using the -exclude option of mksquashfs
+
 Package: peasy-dvd-player
 Architecture: i386
 Version: 1.6-1

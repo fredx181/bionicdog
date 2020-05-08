@@ -9,35 +9,35 @@ Codename: bionic
 Architectures: i386
 Components: main
 Description: BionicDog repository
-Date: Sun, 08 Mar 2020 12:19:32 +0000
+Date: Fri, 08 May 2020 13:16:32 +0000
 MD5Sum:
- d981af598b838845f6c6d1c64a5760dd           210116 Packages
- 3d73d784d22843d024f235c680a11f75            77682 Packages.gz
- a8ac416465c6615c3613902f3583e325              186 Release
- 3d73d784d22843d024f235c680a11f75            77682 Translation-en.gz
+ 3ef7fe190fd2c9a04fbf163b1a829d7d           211266 Packages
+ 0d5b1a20f01d1ced46a6627f42a7950f            77976 Packages.gz
+ b0da00257b801755f82c2fb6a1969888              186 Release
+ 0d5b1a20f01d1ced46a6627f42a7950f            77976 Translation-en.gz
 SHA1:
- 4451723b905448be4e2131daf03e164411de05d8           210116 Packages
- b29ad257fb9a7ec28c4d46b04bdcd85e00065c30            77682 Packages.gz
- 147f8184af3f58f4f611cda5090d2072d71abb5d              186 Release
- b29ad257fb9a7ec28c4d46b04bdcd85e00065c30            77682 Translation-en.gz
+ f87bf48ba336b8b7ae7f7dd866b7a5d62cd9cbf0           211266 Packages
+ bb71907464f2b3053fa1464380e28fc0d1d627b4            77976 Packages.gz
+ a435cb359a483d3bea0f5f9773f1d13d429d6d00              186 Release
+ bb71907464f2b3053fa1464380e28fc0d1d627b4            77976 Translation-en.gz
 SHA256:
- 15232fc75aa3820d6d345395ba416e117f1173500c95d773ec337eaccde4a765           210116 Packages
- d08ec0864be8b7ae2fb173019b38d6255f8de34b032f768712c1f50367558d74            77682 Packages.gz
- 7cff8e8c4fb34572a602a7a117d2e9bf2723c44afaa026327c96e578d2900dc8              186 Release
- d08ec0864be8b7ae2fb173019b38d6255f8de34b032f768712c1f50367558d74            77682 Translation-en.gz
+ 0eac6b17826b896a3fb3bc357acf16116ec349cd4b4bf6ce8589bcbec9b9c95d           211266 Packages
+ 3ee50c81ebc9de9c7296736592dd0ac3a913863547498383123512def60d519b            77976 Packages.gz
+ 03b0067d6b43bc7f1a3e87854bf753c3d889e8960b33a108756f0e61a94dc266              186 Release
+ 3ee50c81ebc9de9c7296736592dd0ac3a913863547498383123512def60d519b            77976 Translation-en.gz
 SHA512:
- 5e043dcca9e695ca9a94291ae3d32b0e180227f4f10d8f8dd075fb459f615413ef62fdcf6bd6aa1521635616361ff60fc3317beae6fbd5f246df172b1a252399           210116 Packages
- ea3fda59cfb3f0380695cefc579a49231edb720d8b7536befabfb7509fb6c44a33026eb5e46af719b1892d2ba57213580cd4c96660ebb746d40d14f5b717aeab            77682 Packages.gz
- 92fa247c34372425fd07d6e2d8b7184d51b8fc9206f96fd3eb47b219e7e193b44db59b8bb92caf6a8bf27f1af6cbd3a829439483f2826937229ae8f95f2a8266              186 Release
- ea3fda59cfb3f0380695cefc579a49231edb720d8b7536befabfb7509fb6c44a33026eb5e46af719b1892d2ba57213580cd4c96660ebb746d40d14f5b717aeab            77682 Translation-en.gz
+ 4b1cb98eb8f6fe8fc0d9e05561d1dd7f4073c7e646d6f14af582bdac8516b0de1ebff7151f624886d36382a8badb4afb8e7b9e03bf6721f1bfa5a7d777b16993           211266 Packages
+ 12b085df5df51405c9dff29c01399ee557619f493317a60e7f690b6df1357b223f260787dce4ea2b2e08154c58b9fef1582e5e6f93722fc61dff6b6651550e6d            77976 Packages.gz
+ 3c29269ed08cf05634d6a4e024fb18b6c3dbe5877c9df5ba32ef948815e210e82d38770169cb1abfe46ea9b9af0ae662f820fa0d719c4f52cab52de76bb53238              186 Release
+ 12b085df5df51405c9dff29c01399ee557619f493317a60e7f690b6df1357b223f260787dce4ea2b2e08154c58b9fef1582e5e6f93722fc61dff6b6651550e6d            77976 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAl5k4tUACgkQrYe8en1z
-CB261wf/ddk37BztDM70nbrSHBsCqPIoBm0+pB1Z1NWS3reyTcYF2RVMOnWEyOKR
-NJa5bflQVnnqEs44tbffsIFIH97r484fJEVW7Nuo38MXEwibi6NOU1ib1IyKXk/2
-QP3gv8uknHFF8FucavKzRcKOSl4A8nY4fTqbiE0giwM3AhhaWIQGnUa3HDW+VpYf
-yp6k5YP/tFtmfNVAtsTT4oTGG4R53pnyyDNNjM5eFu3nGPAbqCpA87m0OfY64Iwh
-R5OMZkt+AYe5i987m0VA+6gb/hZv2CJ3cLs1YmtdFZeeezL5CBRXWQs8h2c4+CKy
-DxkPKLV7BQXqCEvRzHhvOBD+WP+/Fg==
-=Cnaa
+iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAl61W7IACgkQrYe8en1z
+CB3CJAgAjEreO3ZKvk/NOU7a45G9o4KYlA8lty2GhFqBwThU8avozoZtk4lI+/Wh
+DeLTo5RYKKzisZ1wZEPtVO2Y7mXgp2VSbfMD1PestQGKcUVMwByNST54zEQjWfbx
+LNr0sPlOspnZLVHXhGn8DjKIwEHO5Yp7I4183pdSJhGgXLXhXRYuGgPHwLc9HvTu
+RKK1ceIeAOf9EET82jQFQxYr+hHC+iJzKc33JFsu5mNIDqNHAlfy1iJEBhGClEcZ
+JWGNNmHFVuqSLewgtlOFv3wSfvR83bwhDBThO1LviVt17NMbDqwcE/Q8Wr1ldezz
+yg4K6VLNo7wmV6dg36ITTBOV3HDRIA==
+=aleC
 -----END PGP SIGNATURE-----
