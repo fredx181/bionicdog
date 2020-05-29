@@ -639,6 +639,7 @@ root/.config/rox.sourceforge.net/SendTo/.inode_mount-point/Search with pFind pfi
 root/.config/xfe/scripts/edit-sfs			    edit-sfs-pcmanfm,edit-sfs-rox
 root/.config/xfe/scripts/install-deb-and-dependencies	    fixdepinstall
 root/.config/xfe/scripts/install-dir-debs-and-dependencies  fixdepinstall
+root/.config/youtube-viewer/api.json			    youtube-viewer
 root/.config/youtube-viewer/categories-US-en_US.json	    youtube-viewer
 root/.config/youtube-viewer/categories-us.json		    youtube-viewer
 root/.config/youtube-viewer/gtk-youtube-viewer.conf	    youtube-viewer
@@ -698,6 +699,7 @@ usr/bin/genentries					    xlunch
 usr/bin/gmplayer					    gmplayer
 usr/bin/gtk-youtube-update				    youtube-viewer
 usr/bin/gtk-youtube-viewer				    youtube-viewer
+usr/bin/gtk2-youtube-viewer				    youtube-viewer
 usr/bin/gtkdialog					    gtkdialog
 usr/bin/gtkdialog-splash				    gtkdialog
 usr/bin/gtkdialog3					    gtkdialog
@@ -6490,7 +6492,11 @@ usr/share/perl5/WWW/YoutubeViewer/VideoCategories.pm	    youtube-viewer
 usr/share/perl5/WWW/YoutubeViewer/Videos.pm		    youtube-viewer
 usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/gtk-youtube-viewer.desktop youtube-viewer
 usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/gtk-youtube-viewer.glade youtube-viewer
+usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/gtk2-youtube-viewer.glade youtube-viewer
+usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/gtk3-youtube-viewer.glade youtube-viewer
 usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/icons/default_thumb.jpg youtube-viewer
+usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/icons/feed.png youtube-viewer
+usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/icons/feed_gray.png youtube-viewer
 usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/icons/feed_icon.png youtube-viewer
 usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/icons/gtk-youtube-viewer.png youtube-viewer
 usr/share/perl5/auto/share/dist/WWW-YoutubeViewer/icons/spinner.gif youtube-viewer
