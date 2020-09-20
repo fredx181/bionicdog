@@ -1868,6 +1868,28 @@ SHA256: f997447c8cd88ef9858a6c8f352ed3af1ddf3bcfe04bca9d661538d2c9d1cf30
 SHA512: 8f6b66a86ab8e91b6aaa8e8155641e10f9609148c95eccf58772bfb78b9cbd8ac4288e08811cd49f896471e4d0e303d89d957393dc72865443ec7d25306adedf
 Description: Sets system date, time, zone
 
+Package: quick-remaster
+Architecture: all
+Version: 1.2.4
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso
+Filename: ./Extra/quick-remaster_1.2.4_all.deb
+Size: 158464
+MD5sum: 699f7dd684949dcf6aafdc63e0172a25
+SHA1: ccdc2398009b3d10b602aab9173ce0cda4f999b4
+SHA256: b9bdb36d091b0e2bb5a77e985955744746c69f279c3a95ce52eb66e294dceb8b
+SHA512: 286d228759301f8535a2ab702f9ac0cb68ff2f3016fe98da40e5f334a95b1d08c7c1cedffe458064c4e688dd360093f3d93d8f760946b037f180e41380cf1564
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
+ Version 1.1.5, major bugfix, previously worked properly only when used EXIT: parameter
+ Version 1.2.1, very different method, using the -exclude option of mksquashfs
+ Version 1.2.4, choice to merge extra loaded squashfs modules or not.
+
 Package: stream2chromecast
 Architecture: all
 Version: 0+git20180507-0~webupd8~0
@@ -3244,6 +3266,27 @@ Description: Curses interface to /etc/network/interfaces
  A Curses user interface for configuring network interfaces with ifupdown.
  Ceni can manage basic network interface ifupdown configuration stanzas for
  ethernet and wireless devices.
+
+Package: quick-remaster
+Architecture: all
+Version: 1.2.3
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso
+Filename: ./Extra/quick-remaster_1.2.3_all.deb
+Size: 157992
+MD5sum: 9f2b0189f00f3b803406e582904a0bb0
+SHA1: 7fcf6d28bdc1ecd8707bac8dc465a42a18cffc0f
+SHA256: 1fa6f0159c394aa9c73ecb29f2d373ca969d1ebb3c9667e6dff36c8d0a86d0cf
+SHA512: 2b54a191b7ce04aa679a5c6d19ac1c7c28dff6da929305e115b10ad93b8df2f9c2be7611e3bc3d9c332076800732ecee23b7e20008dc3d05c192cb66d8be440c
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
+ Version 1.1.5, major bugfix, previously worked properly only when used EXIT: parameter
+ Version 1.2.1, very different method, using the -exclude option of mksquashfs
 
 Package: peasy-dvd-player
 Architecture: all
